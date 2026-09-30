@@ -1,0 +1,514 @@
+﻿Code,Label,Level,Parent_1,Parent_1 level,Parent_2,Parent_2 level
+11001,"Socio-economic models, economic aspects",2,SOCIAL AND ECONOMICS CONCERNS,1,,
+11002,Education and Training,2,SOCIAL AND ECONOMICS CONCERNS,1,,
+11003,"Information and media, society",2,SOCIAL AND ECONOMICS CONCERNS,1,,
+11004,"Technology, Society and Employment",2,SOCIAL AND ECONOMICS CONCERNS,1,,
+11005,Infrastructures for social sciences and humanities,2,SOCIAL AND ECONOMICS CONCERNS,1,,
+11006,Citizens participation,2,SOCIAL AND ECONOMICS CONCERNS,1,,
+11007,Sports and Leisure,2,SOCIAL AND ECONOMICS CONCERNS,1,,
+011007,Foresight tools,2,SOCIAL AND ECONOMICS CONCERNS,1,,
+11008,Creative services,2,SOCIAL AND ECONOMICS CONCERNS,1,,
+11009,Creative products,2,SOCIAL AND ECONOMICS CONCERNS,1,,
+005001,Astronomy,2,PHYSICAL AND EXACT SCIENCES,1,,
+05005,Micro- and Nanotechnology,2,PHYSICAL AND EXACT SCIENCES,1,,
+005008,Hydraulics,2,PHYSICAL AND EXACT SCIENCES,1,,
+005010,Micro- and Nanotechnology related to physical sciences,2,PHYSICAL AND EXACT SCIENCES,1,,
+03002,Process Plant Engineering,2,OTHER INDUSTRIAL TECHNOLOGIES,1,,
+03003,Apparatus Engineering,2,OTHER INDUSTRIAL TECHNOLOGIES,1,,
+03007,Sound Engineering/Technology,2,OTHER INDUSTRIAL TECHNOLOGIES,1,,
+03008,Mining Technologies,2,OTHER INDUSTRIAL TECHNOLOGIES,1,,
+03010,Household Goods & Appliances,2,OTHER INDUSTRIAL TECHNOLOGIES,1,,
+09002,"Amplifier, A/D Transducer",2,MEASUREMENTS AND STANDARDS,1,,
+09003,Electronic measurement systems,2,MEASUREMENTS AND STANDARDS,1,,
+09004,Recording Devices,2,MEASUREMENTS AND STANDARDS,1,,
+09005,Reference Materials,2,MEASUREMENTS AND STANDARDS,1,,
+02004,Plant Design and Maintenance,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1,,
+04004,Nuclear Fission / Nuclear Fusion,2,ENERGY,1,,
+04006,Biogas and anaerobic digestion (AD),2,ENERGY,1,,
+04009,Carbon capture and energy,2,ENERGY,1,,
+06004,Micro- and Nanotechnology related to Biological sciences,2,BIOLOGICAL SCIENCES,1,,
+008003,Nutrition and Health,2,AGROFOOD INDUSTRY,1,,
+08003,Micro- and Nanotechnology related to agrofood,2,AGROFOOD INDUSTRY,1,,
+10004001,Industrial Water Treatment,3,Water Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10004002,Municipal Water Treatment,3,Water Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10004003,Wastewater Recycling,3,Water Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10004004,Drinking Water,3,Water Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10004005,Rain Water,3,Water Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10004006,Sludge Treatment / Disposal,3,Water Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10004007,Desalination,3,Water Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10004008,Water Resources Management,3,Water Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10004009,Marine Environment,3,Water Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10004010,Hydrology,3,Water Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10004011,Flood Management,3,Water Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10004012,Water in Buildings,3,Water Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10004013,Underground infrastructure,3,Water Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10003001,Biotreatment / Compost / Bioconversion,3,Waste Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10003002,Incineration and Pyrolysis,3,Waste Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10003003,Land and Sea Disposal,3,Waste Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10003004,"Recycling, Recovery",3,Waste Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10003005,Radioactive Waste,3,Waste Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10003006,Waste disinfection / detoxification,3,Waste Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10003007,Waste to Energy /Resource,3,Waste Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10003008,Landfill mining,3,Waste Management,2,PROTECTING MAN AND ENVIRONMENT,1
+10003009,Rare Earths Metals Treatment,3,Waste Management,2,PROTECTING MAN AND ENVIRONMENT,1
+02008001,Air Transport,3,Transport Infrastructure,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02008002,Intermodal Transport,3,Transport Infrastructure,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02008003,Logistics,3,Transport Infrastructure,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02008004,Railway Transport,3,Transport Infrastructure,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02008005,Road Transport,3,Transport Infrastructure,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02008006,Traffic Engineering / Control Systems,3,Transport Infrastructure,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02008007,Transhipment Systems,3,Transport Infrastructure,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02008008,Water Transport,3,Transport Infrastructure,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009001,Design of Vehicles,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009002,Hybrid and Electric Vehicles,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009003,Railway Vehicles,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009004,Road Vehicles,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009005,Shipbuilding,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009006,Traction/Propulsion Systems,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009007,Artificial intelligence applications for cars and transport,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009008,Navigation and embedded systems,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009009,Sensors for cars and transport,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009010,Lightweight construction,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009011,Air pollution control for cars and transport,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009012,Automotive engineering,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009013,Body and main parts,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009014,Automotive electrical and electronics,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009015,Audio / video,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009016,Charging system,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009017,Electrical supply system,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009018,Measurement devices,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009019,Ignition system,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009020,Lighting and signalling system,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009021,Switches and wiring,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009022,Security systems,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009023,Interior equipment,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009024,Powertrain and chassis,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009025,Braking system,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009026,Energy supply system,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02009027,Transmission systems,3,Transport and Shipping Technologies,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02010001,Planning and security,3,"Traffic, mobility",2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02010002,Engineering,3,"Traffic, mobility",2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02010003,System and transportation,3,"Traffic, mobility",2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+03005001,Component adhesives for strengthening of seam,3,Textiles Technology,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03005002,Dry filling related to Textiles Technology,3,Textiles Technology,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03005003,Dyeing related to Textiles Technology,3,Textiles Technology,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03005004,Finisher related to Textiles Technology,3,Textiles Technology,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03005005,Non weaving related to Textiles Technology,3,Textiles Technology,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03005006,Solvent based glues for strengthening of edges and seam,3,Textiles Technology,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+003005007,Thermoplastic  textile fibres,3,Textiles Technology,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03005007,Textile fibres,3,Textiles Technology,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03005008,Weaving related to Textiles Technology,3,Textiles Technology,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03005009,Woven technical textiles for industrial applications,3,Textiles Technology,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+01006001,Audiovisual Equipment and Communication,3,"Telecommunications, Networking",2,"ELECTRONICS, IT AND TELECOMMS",1
+01006002,Broadband Technologies,3,"Telecommunications, Networking",2,"ELECTRONICS, IT AND TELECOMMS",1
+01006003,Mobile Communications,3,"Telecommunications, Networking",2,"ELECTRONICS, IT AND TELECOMMS",1
+01006004,Narrow Band Technologies,3,"Telecommunications, Networking",2,"ELECTRONICS, IT AND TELECOMMS",1
+01006005,"Network Technology, Network Security",3,"Telecommunications, Networking",2,"ELECTRONICS, IT AND TELECOMMS",1
+01006006,Radar,3,"Telecommunications, Networking",2,"ELECTRONICS, IT AND TELECOMMS",1
+01006007,"Research Networking, GRID",3,"Telecommunications, Networking",2,"ELECTRONICS, IT AND TELECOMMS",1
+01006008,Satellite Technology/Positioning/Communication in GPS,3,"Telecommunications, Networking",2,"ELECTRONICS, IT AND TELECOMMS",1
+01006009,Signal Processing,3,"Telecommunications, Networking",2,"ELECTRONICS, IT AND TELECOMMS",1
+01006010,Hi-Fi,3,"Telecommunications, Networking",2,"ELECTRONICS, IT AND TELECOMMS",1
+01006011,Description to Sound and Music Computing,3,"Telecommunications, Networking",2,"ELECTRONICS, IT AND TELECOMMS",1
+01006012,Description Image/Video Computing,3,"Telecommunications, Networking",2,"ELECTRONICS, IT AND TELECOMMS",1
+01006013,"Communications Protocols, Interoperability",3,"Telecommunications, Networking",2,"ELECTRONICS, IT AND TELECOMMS",1
+01006014,Residential Gateway,3,"Telecommunications, Networking",2,"ELECTRONICS, IT AND TELECOMMS",1
+01006015,"VoIP telephony, remote access",3,"Telecommunications, Networking",2,"ELECTRONICS, IT AND TELECOMMS",1
+08001001,Drink Technology,3,Technologies for the food industry,2,AGROFOOD INDUSTRY,1
+08001002,Food Additives/Ingredients/Functional Food,3,Technologies for the food industry,2,AGROFOOD INDUSTRY,1
+08001003,Food Packaging / Handling,3,Technologies for the food industry,2,AGROFOOD INDUSTRY,1
+08001004,Food Processing,3,Technologies for the food industry,2,AGROFOOD INDUSTRY,1
+08001005,Food Technology,3,Technologies for the food industry,2,AGROFOOD INDUSTRY,1
+09006001,Quality Standards,3,Standards,2,MEASUREMENTS AND STANDARDS,1
+09006002,Technical Standards,3,Standards,2,MEASUREMENTS AND STANDARDS,1
+07002001,Forest technology,3,"Silviculture, Forestry, Forest technology",2,AGRICULTURE AND MARINE RESOURCES,1
+07002002,Paper Technology,3,"Silviculture, Forestry, Forest technology",2,AGRICULTURE AND MARINE RESOURCES,1
+07002003,Pulp Technology,3,"Silviculture, Forestry, Forest technology",2,AGRICULTURE AND MARINE RESOURCES,1
+07002004,"Silviculture, Forestry",3,"Silviculture, Forestry, Forest technology",2,AGRICULTURE AND MARINE RESOURCES,1
+07002005,Wood Products,3,"Silviculture, Forestry, Forest technology",2,AGRICULTURE AND MARINE RESOURCES,1
+05004001,Filtration and Membrane Processes,3,Separation Technologies,2,PHYSICAL AND EXACT SCIENCES,1
+05004002,Extraction,3,Separation Technologies,2,PHYSICAL AND EXACT SCIENCES,1
+05004003,Adsorption,3,Separation Technologies,2,PHYSICAL AND EXACT SCIENCES,1
+05004004,Distillation,3,Separation Technologies,2,PHYSICAL AND EXACT SCIENCES,1
+05004005,Sublimation,3,Separation Technologies,2,PHYSICAL AND EXACT SCIENCES,1
+05004006,Other Processes,3,Separation Technologies,2,PHYSICAL AND EXACT SCIENCES,1
+10001001,Acoustic safety,3,Safety,2,PROTECTING MAN AND ENVIRONMENT,1
+010001002,Assessment of Risk,3,Safety,2,PROTECTING MAN AND ENVIRONMENT,1
+10001002,Assessment of Environmental Risk and Impact,3,Safety,2,PROTECTING MAN AND ENVIRONMENT,1
+10001003,Fire Safety Technology,3,Safety,2,PROTECTING MAN AND ENVIRONMENT,1
+10001004,Hazardous Materials,3,Safety,2,PROTECTING MAN AND ENVIRONMENT,1
+10001005,Radiation Protection,3,Safety,2,PROTECTING MAN AND ENVIRONMENT,1
+10001006,Protection against intoxication,3,Safety,2,PROTECTING MAN AND ENVIRONMENT,1
+07003001,Aquaculture,3,"Resources of the Sea, Fisheries",2,AGRICULTURE AND MARINE RESOURCES,1
+07003002,Fish / Fisheries / Fishing Technology,3,"Resources of the Sea, Fisheries",2,AGRICULTURE AND MARINE RESOURCES,1
+07003003,Marine Science,3,"Resources of the Sea, Fisheries",2,AGRICULTURE AND MARINE RESOURCES,1
+07003004,Micro- and Nanotechnology related to marine resources,3,"Resources of the Sea, Fisheries",2,AGRICULTURE AND MARINE RESOURCES,1
+007003004,Micro- and Nanotechnology to related agriculture and marine resources,3,"Resources of the Sea, Fisheries",2,AGRICULTURE AND MARINE RESOURCES,1
+04005001,Geothermal energy,3,Renewable Sources of Energy,2,ENERGY,1
+004005001,Gaseous biomass,3,Renewable Sources of Energy,2,ENERGY,1
+04005002,Hydropower,3,Renewable Sources of Energy,2,ENERGY,1
+04005003,Liquid biofuels,3,Renewable Sources of Energy,2,ENERGY,1
+04005004,Photovoltaics,3,Renewable Sources of Energy,2,ENERGY,1
+004005004,Liquid biomass,3,Renewable Sources of Energy,2,ENERGY,1
+04005005,Solar/Thermal energy,3,Renewable Sources of Energy,2,ENERGY,1
+04005006,Solid biomass,3,Renewable Sources of Energy,2,ENERGY,1
+04005007,Waste incineration,3,Renewable Sources of Energy,2,ENERGY,1
+004005008,Unconventional and Alternative Energies,3,Renewable Sources of Energy,2,ENERGY,1
+04005008,Wind energy,3,Renewable Sources of Energy,2,ENERGY,1
+04005009,Energy from wastewater,3,Renewable Sources of Energy,2,ENERGY,1
+04005010,Integrated waste-energy processes,3,Renewable Sources of Energy,2,ENERGY,1
+04005011,Bio-refineries for energy,3,Renewable Sources of Energy,2,ENERGY,1
+04005012,Waste to energy - other,3,Renewable Sources of Energy,2,ENERGY,1
+02003001,Process automation,3,Process control and logistics,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02003002,Manufacturing plants networks,3,Process control and logistics,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02003003,Component integration,3,Process control and logistics,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02003004,Supply chain,3,Process control and logistics,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02003005,"Information processing & Systems, Workflow",3,Process control and logistics,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02003006,"Prototypes, trials and pilot schemes",3,Process control and logistics,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+03009001,Flexography,3,Printing,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03009002,Printed Reel Material,3,Printing,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+05003001,Vibration and  Acoustic engineering,3,Physics,2,PHYSICAL AND EXACT SCIENCES,1
+05003002,Optics,3,Physics,2,PHYSICAL AND EXACT SCIENCES,1
+05003003,Vacuum,3,Physics,2,PHYSICAL AND EXACT SCIENCES,1
+005006001,Acoustics,3,Physics,2,PHYSICAL AND EXACT SCIENCES,1
+005006002,Astrophysics / Cosmology,3,Physics,2,PHYSICAL AND EXACT SCIENCES,1
+005006003,Laser Technology,3,Physics,2,PHYSICAL AND EXACT SCIENCES,1
+005006004,Nuclear Physics,3,Physics,2,PHYSICAL AND EXACT SCIENCES,1
+005006005,Physics of Fluids,3,Physics,2,PHYSICAL AND EXACT SCIENCES,1
+005006006,"Sensors/Multisensor Technology, Instrumentation",3,Physics,2,PHYSICAL AND EXACT SCIENCES,1
+005006007,Solid state physics,3,Physics,2,PHYSICAL AND EXACT SCIENCES,1
+005006008,Thermodynamics,3,Physics,2,PHYSICAL AND EXACT SCIENCES,1
+02005001,"Foil, fils",3,Packaging / Handling,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02005002,Laminate,3,Packaging / Handling,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02005003,Packaging for machines,3,Packaging / Handling,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02005004,Packaging for materials,3,Packaging / Handling,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02005005,Plastic bags,3,Packaging / Handling,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+03001001,Cleaning Technology,3,Other Industrial Technologies,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+004007002,Fuel Technology,3,Other Energy Topics,2,ENERGY,1
+04008001,"Combustion, Flames",3,Other Energy Topics,2,ENERGY,1
+04008002,Fuels and engine technologies,3,Other Energy Topics,2,ENERGY,1
+04008003,Micro- and Nanotechnology related to energy,3,Other Energy Topics,2,ENERGY,1
+01005001,Cultural Heritage,3,Multimedia,2,"ELECTRONICS, IT AND TELECOMMS",1
+01005002,E-Learning,3,Multimedia,2,"ELECTRONICS, IT AND TELECOMMS",1
+01005003,"E-Publishing, Digital Content",3,Multimedia,2,"ELECTRONICS, IT AND TELECOMMS",1
+01005004,Human Language Technologies,3,Multimedia,2,"ELECTRONICS, IT AND TELECOMMS",1
+01005005,"Information Filtering, Semantics, Statistics",3,Multimedia,2,"ELECTRONICS, IT AND TELECOMMS",1
+01005006,"Visualisation, Virtual Reality",3,Multimedia,2,"ELECTRONICS, IT AND TELECOMMS",1
+05002001,Biosensor,3,Meteorology / Climatology,2,PHYSICAL AND EXACT SCIENCES,1
+005005002,Moisture sensors,3,Meteorology / Climatology,2,PHYSICAL AND EXACT SCIENCES,1
+005005003,Temperature monitoring,3,Meteorology / Climatology,2,PHYSICAL AND EXACT SCIENCES,1
+06001001,"Biostatistics, Epidemiology",3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+006001002,Care and Health Services,3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001002,"Clinical Research, Trials",3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001003,"Cytology, Cancerology, Oncology",3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001004,"Dentistry / Odontology, Stomatology",3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001005,"Diagnostics, Diagnosis",3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001006,Human vaccines,3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+006001007,Diseases,3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001007,Emergency medicine,3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001008,"Environmental Medicine, Social Medicine, Sports Medicine",3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001009,Gene - DNA Therapy,3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001010,Gerontology and Geriatrics,3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001011,Heart and blood circulation illnesses,3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001012,Medical Research,3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+006001012,Electromedical and Medical Equipment,3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001013,Medical Technology / Biomedical Engineering,3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001014,"Neurology, Brain Research",3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001015,Pharmaceutical Products / Drugs,3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001016,Physiology,3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001017,Surgery,3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001018,"Virus, Virology/Antibiotics/Bacteriology",3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001019,Stem cell Technologies,3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001020,"Physiotherapy, Orthopaedic Technology",3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+006001020,Laboratory Equipment,3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001021,Single Use Products and Consumer Goods,3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+006001021,Rescue and Emergency Equipment,3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001022,Medical Textiles,3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001023,Medical Furniture,3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+06001024,Medical Biomaterials,3,"Medicine, Human Health",2,BIOLOGICAL SCIENCES,1
+005007001,Micro-Mechanics,3,Mechanical Engineering,2,PHYSICAL AND EXACT SCIENCES,1
+09001001,Acoustic Technology related to measurements,3,Measurement Tools,2,MEASUREMENTS AND STANDARDS,1
+09001002,Analyses / Test Facilities and Methods,3,Measurement Tools,2,MEASUREMENTS AND STANDARDS,1
+09001003,Chemical material testing,3,Measurement Tools,2,MEASUREMENTS AND STANDARDS,1
+09001004,Electrical Technology related to measurements,3,Measurement Tools,2,MEASUREMENTS AND STANDARDS,1
+09001005,Mechanical Technology related to measurements,3,Measurement Tools,2,MEASUREMENTS AND STANDARDS,1
+09001006,Optical material testing,3,Measurement Tools,2,MEASUREMENTS AND STANDARDS,1
+09001007,Optical Technology related to measurements,3,Measurement Tools,2,MEASUREMENTS AND STANDARDS,1
+09001008,Other Non Destructive Testing,3,Measurement Tools,2,MEASUREMENTS AND STANDARDS,1
+09001009,Sensor Technology related to measurements,3,Measurement Tools,2,MEASUREMENTS AND STANDARDS,1
+09001010,Thermal material testing,3,Measurement Tools,2,MEASUREMENTS AND STANDARDS,1
+005004001,Algorithms and Complexity,3,"Mathematics, Statistics",2,PHYSICAL AND EXACT SCIENCES,1
+005004002,Mathematical modelling,3,"Mathematics, Statistics",2,PHYSICAL AND EXACT SCIENCES,1
+005004003,Statistical Analysis,3,"Mathematics, Statistics",2,PHYSICAL AND EXACT SCIENCES,1
+02007001,Adhesives,3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007002,Building materials,3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007003,Ceramic Materials and Powders,3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007004,Colours and varnish,3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007005,Composite materials,3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007006,"Fine Chemicals, Dyes and Inks",3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007007,Glass,3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007008,"Iron and Steel, Steelworks",3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007009,"Materials Handling Technology (solids, fluids, gases)",3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007010,Metals and Alloys,3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007011,Non-ferrous Metals,3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007012,Optical Materials,3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007013,Paper technology,3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007014,"Plastics, Polymers",3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007015,"Properties of Materials, Corrosion/Degradation",3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007016,Rubber,3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007017,Stone,3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007018,Advanced Textile Materials,3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007019,Lightweight materials,3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007020,Biobased materials,3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007021,Carbon nanotubes,3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007022,Conductive materials,3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007023,Hybrid materials,3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02007024,Nanomaterials,3,Materials Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+01004001,Applications for Health,3,IT and Telematics Applications,2,"ELECTRONICS, IT AND TELECOMMS",1
+01004002,Applications for Tourism,3,IT and Telematics Applications,2,"ELECTRONICS, IT AND TELECOMMS",1
+01004003,Applications for Transport and Logistics,3,IT and Telematics Applications,2,"ELECTRONICS, IT AND TELECOMMS",1
+01004004,ASP Application Service Providing,3,IT and Telematics Applications,2,"ELECTRONICS, IT AND TELECOMMS",1
+01004005,e-Government,3,IT and Telematics Applications,2,"ELECTRONICS, IT AND TELECOMMS",1
+01004006,Environment Management Systems,3,IT and Telematics Applications,2,"ELECTRONICS, IT AND TELECOMMS",1
+01004007,GIS Geographical Information Systems,3,IT and Telematics Applications,2,"ELECTRONICS, IT AND TELECOMMS",1
+01004008,ERP - Electronic Resources Planning,3,IT and Telematics Applications,2,"ELECTRONICS, IT AND TELECOMMS",1
+01004009,CRM - Customer relationship Management,3,IT and Telematics Applications,2,"ELECTRONICS, IT AND TELECOMMS",1
+01004010,Quality Management System,3,IT and Telematics Applications,2,"ELECTRONICS, IT AND TELECOMMS",1
+01004011,Maintenance Management System,3,IT and Telematics Applications,2,"ELECTRONICS, IT AND TELECOMMS",1
+01004012,Operation Planning and Scheduler System,3,IT and Telematics Applications,2,"ELECTRONICS, IT AND TELECOMMS",1
+01004013,Didactic System,3,IT and Telematics Applications,2,"ELECTRONICS, IT AND TELECOMMS",1
+01004014,Serious Games,3,IT and Telematics Applications,2,"ELECTRONICS, IT AND TELECOMMS",1
+01004015,ICM – Internet Content Management,3,IT and Telematics Applications,2,"ELECTRONICS, IT AND TELECOMMS",1
+01004016,Analysis Risk Management,3,IT and Telematics Applications,2,"ELECTRONICS, IT AND TELECOMMS",1
+01004017,Work Hygiene and Safety Management,3,IT and Telematics Applications,2,"ELECTRONICS, IT AND TELECOMMS",1
+01003001,Advanced Systems Architecture,3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003002,Archivistics/Documentation/Technical Documentation,3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003003,Artificial Intelligence (AI),3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003004,Computer Games,3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003005,Computer Hardware,3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003006,Computer Software,3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003007,"Computer Technology/Graphics, Meta Computing",3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003008,"Data Processing / Data Interchange, Middleware",3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003009,"Data Protection, Storage, Cryptography, Security",3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003010,"Databases, Database Management, Data Mining",3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003011,"Electronic Commerce, Electronic Payment & Signature",3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003012,"Imaging, Image Processing, Pattern Recognition",3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003013,Information Technology/Informatics,3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003014,"Internet Technologies/Communication (Wireless, Bluetooth)",3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003015,"Knowledge Management, Process Management",3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003016,Simulation,3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003017,Speech Processing/Technology,3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003018,"User Interfaces, Usability",3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003019,Electronic Signature,3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003020,Building Automation Software,3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003021,Remote Control,3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003022,Smart Appliances,3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003023,"Environmental and Biometrics Sensors, Actuators",3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003024,Cloud Technologies,3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+01003025,Internet of Things,3,"Information Processing & Systems, Workflow",2,"ELECTRONICS, IT AND TELECOMMS",1
+02002001,"Cleaning (sandblasting, brushing)",3,Industrial Manufacture,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02002002,Coatings,3,Industrial Manufacture,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02002003,Drying,3,Industrial Manufacture,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02002004,"Erosion, Removal (spark erosion, flame cutting, laser, ..)",3,Industrial Manufacture,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02002005,"Forming (rolling, forging, pressing, drawing)",3,Industrial Manufacture,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02002006,"Hardening, heat treatment",3,Industrial Manufacture,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02002007,"Joining techniques (riveting, screw driving, gluing)",3,Industrial Manufacture,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02002008,"Jointing (soldering, welding, sticking)",3,Industrial Manufacture,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02002009,Machine Tools,3,Industrial Manufacture,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02002010,"Machining (turning, drilling, moulding, planing, cutting)",3,Industrial Manufacture,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02002011,"Machining, fine (grinding, lapping)",3,Industrial Manufacture,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02002012,"Mixing (powder, etc.), separation (sorting, filtering)",3,Industrial Manufacture,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02002013,"Moulding, injection moulding, sintering",3,Industrial Manufacture,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+002002013,"Moulding, injection moulding, extrusion, sintering",3,Industrial Manufacture,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02002014,Extrusion,3,Industrial Manufacture,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02002015,"Surface treatment (painting, galvano, polishing, CVD, ..)",3,Industrial Manufacture,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02002016,Microengineering and nanoengineering,3,Industrial Manufacture,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02002017,"Micromachining, nanomachining",3,Industrial Manufacture,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02002018,"Microassembly, nanoassembly",3,Industrial Manufacture,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02002019,"Micropositioning, nanopositioning",3,Industrial Manufacture,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+06006001,Biobased Materials,3,Industrial Biotechnology,2,BIOLOGICAL SCIENCES,1
+06006002,Bioplastics,3,Industrial Biotechnology,2,BIOLOGICAL SCIENCES,1
+06006003,Biobased chemical building blocks,3,Industrial Biotechnology,2,BIOLOGICAL SCIENCES,1
+06006004,Biopolymers,3,Industrial Biotechnology,2,BIOLOGICAL SCIENCES,1
+06006005,Biobased high-performance materials,3,Industrial Biotechnology,2,BIOLOGICAL SCIENCES,1
+06006006,Biological Nanomaterials,3,Industrial Biotechnology,2,BIOLOGICAL SCIENCES,1
+06006007,Biolubricants,3,Industrial Biotechnology,2,BIOLOGICAL SCIENCES,1
+06006008,Biotensides,3,Industrial Biotechnology,2,BIOLOGICAL SCIENCES,1
+06006009,Ionic Liquids,3,Industrial Biotechnology,2,BIOLOGICAL SCIENCES,1
+06006010,Bio- Composites,3,Industrial Biotechnology,2,BIOLOGICAL SCIENCES,1
+06006011,Fermentation,3,Industrial Biotechnology,2,BIOLOGICAL SCIENCES,1
+06006012,Bioprocesses,3,Industrial Biotechnology,2,BIOLOGICAL SCIENCES,1
+06006013,Downstream Processing,3,Industrial Biotechnology,2,BIOLOGICAL SCIENCES,1
+06003001,Bioinformatics,3,Genome Research,2,BIOLOGICAL SCIENCES,1
+06003002,"Gene Expression, Proteome Research",3,Genome Research,2,BIOLOGICAL SCIENCES,1
+06003003,Population genetics,3,Genome Research,2,BIOLOGICAL SCIENCES,1
+04003001,Gaseous fossil fuel,3,Fossil Energy Sources,2,ENERGY,1
+004003001,Coal and Hydrocarbons,3,Fossil Energy Sources,2,ENERGY,1
+04003002,Solid fossil fuel,3,Fossil Energy Sources,2,ENERGY,1
+04003003,Liquid fossil fuel,3,Fossil Energy Sources,2,ENERGY,1
+04003004,Mining and extraction,3,Fossil Energy Sources,2,ENERGY,1
+03006001,Dry filling related to Footwear / Leather Technology,3,Footwear / Leather Technology,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03006002,Dyes related to Footwear / Leather Technology,3,Footwear / Leather Technology,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03006003,Tanned leather process/ Leather Technology,3,Footwear / Leather Technology,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+08002001,Detection and Analysis methods,3,Food quality and safety,2,AGROFOOD INDUSTRY,1
+08002002,Food Microbiology / Toxicology / Quality Control,3,Food quality and safety,2,AGROFOOD INDUSTRY,1
+08002003,Safe production methods,3,Food quality and safety,2,AGROFOOD INDUSTRY,1
+08002004,Traceability of food,3,Food quality and safety,2,AGROFOOD INDUSTRY,1
+10002001,Indoor Air Pollution/Treatment,3,Environment,2,PROTECTING MAN AND ENVIRONMENT,1
+010002001,Air Pollution/Treatment,3,Environment,2,PROTECTING MAN AND ENVIRONMENT,1
+10002002,Outdoor Air Pollution/Treatment,3,Environment,2,PROTECTING MAN AND ENVIRONMENT,1
+010002002,Biodiversity,3,Environment,2,PROTECTING MAN AND ENVIRONMENT,1
+10002003,Capture and Storage of CO2,3,Environment,2,PROTECTING MAN AND ENVIRONMENT,1
+10002004,Climate Change mitigation,3,Environment,2,PROTECTING MAN AND ENVIRONMENT,1
+10002005,Biodiversity / Natural Heritage,3,Environment,2,PROTECTING MAN AND ENVIRONMENT,1
+10002006,Ecology,3,Environment,2,PROTECTING MAN AND ENVIRONMENT,1
+10002007,Environmental Engineering / Technology,3,Environment,2,PROTECTING MAN AND ENVIRONMENT,1
+10002008,Measurement and Detection of Pollution,3,Environment,2,PROTECTING MAN AND ENVIRONMENT,1
+010002008,Soil Pollution,3,Environment,2,PROTECTING MAN AND ENVIRONMENT,1
+10002009,Natural Disasters,3,Environment,2,PROTECTING MAN AND ENVIRONMENT,1
+010002009,Water Pollution / Treatment,3,Environment,2,PROTECTING MAN AND ENVIRONMENT,1
+10002010,Remote sensing technology,3,Environment,2,PROTECTING MAN AND ENVIRONMENT,1
+10002011,Soil and Groundwater Pollution,3,Environment,2,PROTECTING MAN AND ENVIRONMENT,1
+10002012,Remediation of Contaminated Sites,3,Environment,2,PROTECTING MAN AND ENVIRONMENT,1
+10002013,Clean Production / Green Technologies,3,Environment,2,PROTECTING MAN AND ENVIRONMENT,1
+10002014,Noise Pollution,3,Environment,2,PROTECTING MAN AND ENVIRONMENT,1
+10002015,Life Cycle Assessment,3,Environment,2,PROTECTING MAN AND ENVIRONMENT,1
+04001001,Heat storage,3,Energy storage and transport,2,ENERGY,1
+04001002,"Heat transport and supply, district heating",3,Energy storage and transport,2,ENERGY,1
+04001003,"Storage of electricity, batteries",3,Energy storage and transport,2,ENERGY,1
+04001004,Transmission of electricity,3,Energy storage and transport,2,ENERGY,1
+04001005,Transport and storage of gas and liquid fuels,3,Energy storage and transport,2,ENERGY,1
+04001006,Transport and storage of hydrogen,3,Energy storage and transport,2,ENERGY,1
+04001007,Power to gas technology,3,Energy storage and transport,2,ENERGY,1
+04002001,Fuel cells,3,"Energy production, transmission and conversion",2,ENERGY,1
+004002001,"Fuel cell, hydrogen production",3,"Energy production, transmission and conversion",2,ENERGY,1
+004002002,"Fuel liquefaction, gasification",3,"Energy production, transmission and conversion",2,ENERGY,1
+04002002,Hydrogen production,3,"Energy production, transmission and conversion",2,ENERGY,1
+04002003,Compression and liquefaction of gases,3,"Energy production, transmission and conversion",2,ENERGY,1
+004002003,"Furnace technology, construction of heating boilers",3,"Energy production, transmission and conversion",2,ENERGY,1
+04002004,Furnace and boiler technologies,3,"Energy production, transmission and conversion",2,ENERGY,1
+04002005,"Generators, electric engines and power converters",3,"Energy production, transmission and conversion",2,ENERGY,1
+004002006,"Heat pump, cooling technologies",3,"Energy production, transmission and conversion",2,ENERGY,1
+04002006,Heat exchangers,3,"Energy production, transmission and conversion",2,ENERGY,1
+004002007,"Heating, ventilation",3,"Energy production, transmission and conversion",2,ENERGY,1
+04002007,Heat pump,3,"Energy production, transmission and conversion",2,ENERGY,1
+04002008,Cooling technologies,3,"Energy production, transmission and conversion",2,ENERGY,1
+004002008,"Turbines, fluid machinery, combined heat and power",3,"Energy production, transmission and conversion",2,ENERGY,1
+04002009,Turbines,3,"Energy production, transmission and conversion",2,ENERGY,1
+04002010,Combined heat and power (CHP) engines,3,"Energy production, transmission and conversion",2,ENERGY,1
+04002011,Micro-generation and grid connection,3,"Energy production, transmission and conversion",2,ENERGY,1
+04002012,Other energy related machinery,3,"Energy production, transmission and conversion",2,ENERGY,1
+04002013,Smart grids,3,"Energy production, transmission and conversion",2,ENERGY,1
+004006001,Energy management,3,Energy efficiency,2,ENERGY,1
+004006002,"Lighting, illumination",3,Energy efficiency,2,ENERGY,1
+004006003,"Process optimisation, waste heat utilisation",3,Energy efficiency,2,ENERGY,1
+004006004,"Thermal insulation, energy efficiency in buildings",3,Energy efficiency,2,ENERGY,1
+04007001,Energy management,3,Energy efficiency,2,ENERGY,1
+04007002,"Lighting, illumination",3,Energy efficiency,2,ENERGY,1
+04007003,"Process optimisation, waste heat utilisation",3,Energy efficiency,2,ENERGY,1
+04007004,Thermal insulation,3,Energy efficiency,2,ENERGY,1
+04007005,Heat pipes,3,Energy efficiency,2,ENERGY,1
+04007006,"Low, zero and plus energy rating",3,Energy efficiency,2,ENERGY,1
+01001001,"Automation, Robotics Control Systems",3,"Electronics, Microelectronics",2,"ELECTRONICS, IT AND TELECOMMS",1
+01001002,"Digital Systems, Digital Representation",3,"Electronics, Microelectronics",2,"ELECTRONICS, IT AND TELECOMMS",1
+001001003,"Electronic circuits, components and equipment",3,"Electronics, Microelectronics",2,"ELECTRONICS, IT AND TELECOMMS",1
+001001004,Electronic engineering,3,"Electronics, Microelectronics",2,"ELECTRONICS, IT AND TELECOMMS",1
+001001005,Embedded Systems and Real Time Systems,3,"Electronics, Microelectronics",2,"ELECTRONICS, IT AND TELECOMMS",1
+001001006,"High Frequency Technology, Microwaves",3,"Electronics, Microelectronics",2,"ELECTRONICS, IT AND TELECOMMS",1
+001001007,Magnetic and superconductor materials/devices,3,"Electronics, Microelectronics",2,"ELECTRONICS, IT AND TELECOMMS",1
+001001008,"Microengineering,",3,"Electronics, Microelectronics",2,"ELECTRONICS, IT AND TELECOMMS",1
+001001009,Micromachining,3,"Electronics, Microelectronics",2,"ELECTRONICS, IT AND TELECOMMS",1
+001001010,Nanotechnologies related to electronics & microelectronics,3,"Electronics, Microelectronics",2,"ELECTRONICS, IT AND TELECOMMS",1
+001001011,Optical Networks and Systems,3,"Electronics, Microelectronics",2,"ELECTRONICS, IT AND TELECOMMS",1
+001001012,"Peripherals Technologies (Mass Data Storage, Displays)",3,"Electronics, Microelectronics",2,"ELECTRONICS, IT AND TELECOMMS",1
+001001013,Printed circuits and integrated circuits,3,"Electronics, Microelectronics",2,"ELECTRONICS, IT AND TELECOMMS",1
+001001014,Quantum Informatics,3,"Electronics, Microelectronics",2,"ELECTRONICS, IT AND TELECOMMS",1
+001001015,Semiconductors,3,"Electronics, Microelectronics",2,"ELECTRONICS, IT AND TELECOMMS",1
+001001016,Smart cards and access systems,3,"Electronics, Microelectronics",2,"ELECTRONICS, IT AND TELECOMMS",1
+001001017,"Environmental and Biometrics Sensors, Actuators",3,"Electronics, Microelectronics",2,"ELECTRONICS, IT AND TELECOMMS",1
+01002001,Micro and Nanotechnology related to Electronics and Microelectronics,3,"Electronic circuits, components and equipment",2,"ELECTRONICS, IT AND TELECOMMS",1
+01002002,3D printing,3,"Electronic circuits, components and equipment",2,"ELECTRONICS, IT AND TELECOMMS",1
+01002003,Electronic engineering,3,"Electronic circuits, components and equipment",2,"ELECTRONICS, IT AND TELECOMMS",1
+01002004,Embedded Systems and Real Time Systems,3,"Electronic circuits, components and equipment",2,"ELECTRONICS, IT AND TELECOMMS",1
+01002005,"High Frequency Technology, Microwaves",3,"Electronic circuits, components and equipment",2,"ELECTRONICS, IT AND TELECOMMS",1
+01002006,Magnetic and superconductor materials/devices,3,"Electronic circuits, components and equipment",2,"ELECTRONICS, IT AND TELECOMMS",1
+01002007,Nanotechnologies related to electronics & microelectronics,3,"Electronic circuits, components and equipment",2,"ELECTRONICS, IT AND TELECOMMS",1
+01002008,Optical Networks and Systems,3,"Electronic circuits, components and equipment",2,"ELECTRONICS, IT AND TELECOMMS",1
+01002009,"Peripherals Technologies (Mass Data Storage, Displays)",3,"Electronic circuits, components and equipment",2,"ELECTRONICS, IT AND TELECOMMS",1
+01002010,Printed circuits and integrated circuits,3,"Electronic circuits, components and equipment",2,"ELECTRONICS, IT AND TELECOMMS",1
+01002011,Quantum Informatics,3,"Electronic circuits, components and equipment",2,"ELECTRONICS, IT AND TELECOMMS",1
+01002012,Semiconductors,3,"Electronic circuits, components and equipment",2,"ELECTRONICS, IT AND TELECOMMS",1
+01002013,Smart cards and access systems,3,"Electronic circuits, components and equipment",2,"ELECTRONICS, IT AND TELECOMMS",1
+06005001,Safety & systems,3,E-Health,2,BIOLOGICAL SCIENCES,1
+06005002,Sensors & Wireless products,3,E-Health,2,BIOLOGICAL SCIENCES,1
+06005003,Health information management,3,E-Health,2,BIOLOGICAL SCIENCES,1
+06005004,Remote diagnostics,3,E-Health,2,BIOLOGICAL SCIENCES,1
+005003001,"Geology, Geological Engineering, Geotechnics",3,Earth Sciences,2,PHYSICAL AND EXACT SCIENCES,1
+005003002,Oceanography,3,Earth Sciences,2,PHYSICAL AND EXACT SCIENCES,1
+005003003,"Tectonics, Seismology",3,Earth Sciences,2,PHYSICAL AND EXACT SCIENCES,1
+02001001,3D printing,3,Design and Modelling / Prototypes,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+002006001,"Building Materials, Components and Methods",3,Construction Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02006001,"Materials, components and systems for construction",3,Construction Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02006002,Construction methods and equipment,3,Construction Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+002006002,Civil engineering,3,Construction Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+002006003,Construction Equipment,3,Construction Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02006003,Fire Resistance/Safety,3,Construction Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02006004,"Installations related to construction (energy, lighting, …)",3,Construction Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+002006005,"Mechanical Engineering, Hydraulics, Vibration, ...",3,Construction Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02006005,Construction maintenance and monitoring methods & equipment,3,Construction Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+002006006,Pipeline Technology,3,Construction Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02006006,"Construction engineering (design, simulation)",3,Construction Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+002006007,Pulp Technology related to construction technology,3,Construction Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02006007,Management of construction process & life,3,Construction Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+002006008,"Sensory/Multisensory Technology, Instrumentation",3,Construction Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+002006009,"Simulation, Simulation Engineering",3,Construction Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+002006010,Sound Insulation,3,Construction Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+002006011,Vacuum/ High Vacuum Technology,3,Construction Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+002006012,Gas Safety,3,Construction Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+002006013,Security,3,Construction Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+05001001,Analytical Chemistry,3,Chemistry,2,PHYSICAL AND EXACT SCIENCES,1
+05001002,Computational Chemistry and Modelling,3,Chemistry,2,PHYSICAL AND EXACT SCIENCES,1
+05001003,Inorganic Chemistry,3,Chemistry,2,PHYSICAL AND EXACT SCIENCES,1
+05001004,Organic Chemistry,3,Chemistry,2,PHYSICAL AND EXACT SCIENCES,1
+05001005,"Petrochemistry, Petroleum Engineering",3,Chemistry,2,PHYSICAL AND EXACT SCIENCES,1
+03004001,Agro chemicals,3,Chemical Technology and Engineering,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03004002,Inorganic Substances,3,Chemical Technology and Engineering,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03004003,"Colours, dyes  related to Chemical Technology",3,Chemical Technology and Engineering,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03004004,Electrical Engineering/ Electrical Equipment,3,Chemical Technology and Engineering,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03004005,Man-made fibres,3,Chemical Technology and Engineering,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03004006,Organic Substances,3,Chemical Technology and Engineering,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03004007,Pharmaceutics,3,Chemical Technology and Engineering,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03004008,Plastics and Rubber related to Chemical Technology,3,Chemical Technology and Engineering,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03004009,"Soaps, detergents",3,Chemical Technology and Engineering,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03004010,"Special chemicals, intermediates",3,Chemical Technology and Engineering,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+03004011,"Care, Hygiene, Beauty",3,Chemical Technology and Engineering,2,OTHER INDUSTRIAL TECHNOLOGIES,1
+06002001,Biochemistry / Biophysics,3,Biology / Biotechnology,2,BIOLOGICAL SCIENCES,1
+06002002,Cellular and Molecular Biology,3,Biology / Biotechnology,2,BIOLOGICAL SCIENCES,1
+006002003,Enzymology/Protein Engineering/Fermentation,3,Biology / Biotechnology,2,BIOLOGICAL SCIENCES,1
+06002003,Enzyme Technology,3,Biology / Biotechnology,2,BIOLOGICAL SCIENCES,1
+06002004,Protein Engineering,3,Biology / Biotechnology,2,BIOLOGICAL SCIENCES,1
+06002005,Genetic Engineering,3,Biology / Biotechnology,2,BIOLOGICAL SCIENCES,1
+06002006,Synthetic Biology,3,Biology / Biotechnology,2,BIOLOGICAL SCIENCES,1
+06002007,"In vitro Testing, Trials",3,Biology / Biotechnology,2,BIOLOGICAL SCIENCES,1
+06002008,Microbiology,3,Biology / Biotechnology,2,BIOLOGICAL SCIENCES,1
+06002009,Molecular design,3,Biology / Biotechnology,2,BIOLOGICAL SCIENCES,1
+06002010,Toxicology,3,Biology / Biotechnology,2,BIOLOGICAL SCIENCES,1
+06002011,Bionics,3,Biology / Biotechnology,2,BIOLOGICAL SCIENCES,1
+07001001,Agriculture Machinery / Technology,3,Agriculture,2,AGRICULTURE AND MARINE RESOURCES,1
+07001002,Animal Production / Husbandry,3,Agriculture,2,AGRICULTURE AND MARINE RESOURCES,1
+07001003,Biocontrol,3,Agriculture,2,AGRICULTURE AND MARINE RESOURCES,1
+07001004,Crop Production,3,Agriculture,2,AGRICULTURE AND MARINE RESOURCES,1
+07001005,Horticulture,3,Agriculture,2,AGRICULTURE AND MARINE RESOURCES,1
+07001006,Pesticides,3,Agriculture,2,AGRICULTURE AND MARINE RESOURCES,1
+07001007,Precision agriculture,3,Agriculture,2,AGRICULTURE AND MARINE RESOURCES,1
+07001008,Seed coating,3,Agriculture,2,AGRICULTURE AND MARINE RESOURCES,1
+07001009,Veterinary Medicine,3,Agriculture,2,AGRICULTURE AND MARINE RESOURCES,1
+07001010,Micro- and Nanotechnology related to agriculture,3,Agriculture,2,AGRICULTURE AND MARINE RESOURCES,1
+02011001,Aeronautical technology / Avionics,3,Aerospace Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02011002,Aircraft,3,Aerospace Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02011003,Helicopter,3,Aerospace Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02011004,Satellite Navigation Systems,3,Aerospace Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02011005,Space Exploration and Technology,3,Aerospace Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02011006,Propulsion,3,Aerospace Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02011007,Guidance and control,3,Aerospace Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1
+02011008,Thermal insulation for space applications,3,Aerospace Technology,2,"INDUSTRIAL MANUFACTURING, MATERIAL AND TRANSPORT",1

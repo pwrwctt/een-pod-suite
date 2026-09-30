@@ -1,0 +1,3 @@
+interface:
+  display_name: "EEN POD Suite"
+  short_description: "Drafts, classifies and quality-checks EEN POD profiles."

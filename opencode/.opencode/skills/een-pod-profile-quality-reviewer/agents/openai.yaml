@@ -1,0 +1,3 @@
+interface:
+  display_name: "EEN POD Quality Reviewer"
+  short_description: "Independent pre-publication quality reviewer for EEN POD profiles. Use to audit BO/BR/TO/T"

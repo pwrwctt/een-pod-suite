@@ -1,0 +1,3 @@
+interface:
+  display_name: "EEN POD Keywords Classifier"
+  short_description: "Classify and audit EEN POD Technology keywords, Market keywords, SDGs and optional NACE en"

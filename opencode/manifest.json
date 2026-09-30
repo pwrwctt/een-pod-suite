@@ -1,0 +1,37 @@
+{
+  "suite": "EEN POD Suite",
+  "version": "2.1",
+  "platform": "OpenCode",
+  "generated": "2026-08-31",
+  "skills": [
+    "een-pod-dissemination-queries",
+    "een-pod-intake",
+    "een-pod-keywords-classifier",
+    "een-pod-profile-drafter",
+    "een-pod-profile-lookup",
+    "een-pod-profile-quality-reviewer",
+    "een-pod-suite",
+    "een-pod-title-summary-optimizer"
+  ],
+  "taxonomy_snapshot": {
+    "technology": {
+      "rows_total": 575,
+      "selectable_by_guideline_rule": 513
+    },
+    "market": {
+      "rows_total": 448,
+      "selectable_by_guideline_rule": 387
+    },
+    "nace": {
+      "rows_total": 996
+    },
+    "sdg": {
+      "rows_total": 18
+    }
+  },
+  "changes_v2_1": [
+    "Exact public profile lookup by POD Reference",
+    "Lookup-to-quality-review workflow",
+    "Suite version self-reporting"
+  ]
+}
