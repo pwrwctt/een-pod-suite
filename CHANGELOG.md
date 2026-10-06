@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.3 maintenance — Reader & Audit Agent
+
+- Added the read-only EEN POD Reader & Audit Agent contract and OpenCode agent definition.
+- Added a standard-library MCP server with public profile, authorised API, live label and form-limit tools.
+- Added local stdio and authenticated stateless HTTP transports, plus connection instructions.
+- Added transport and tool regression tests; hosting and live EEN access require separate configuration.
+
 ## v2.3 maintenance — public profile retrieval
 
 - Added public HTML retrieval and exact displayed-reference verification to the lookup helper.

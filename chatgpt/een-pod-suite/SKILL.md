@@ -11,6 +11,8 @@ Use **Partnering Profile Quality Guidelines v1.2 (September 2024)** as the prima
 
 Read `references/source-policy.md` whenever currency/version matters.
 
+For the read-only Reader & Audit Agent, read `references/reader-agent.md`. Connected MCP tools retrieve data; the skill supplies audit rules. Installation alone does not establish a working MCP connection.
+
 ## Route the task
 
 - For a POD Reference lookup, published-profile extraction or lookup-to-quality-review request: read `references/profile-lookup.md`; use `scripts/pod_reference.py` when helpful.

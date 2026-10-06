@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "een_pod_reader": {
+      "command": "python",
+      "args": ["/absolute/path/to/een-pod-suite/chatgpt/een-pod-suite/scripts/reader_mcp.py"]
+    }
+  }
+}

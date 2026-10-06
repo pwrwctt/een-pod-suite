@@ -82,6 +82,12 @@ VERSION                     Authoritative suite version
 CHANGELOG.md                Release history
 ```
 
+## Reader & Audit Agent
+
+The suite includes an agent contract and a runnable MCP server exposing four read-only tools: public profile retrieval, authorised API lookup, live Market/Technology labels and field-limit checks. The skill supplies the audit rules; the host model uses those tools to collect evidence. See the [agent setup guide](agents/README.md) for local OpenCode/Codex configuration and remote ChatGPT requirements.
+
+The updated skill archive contains the agent instructions and server code. It does not create a live MCP connection: ChatGPT requires a hosted HTTPS endpoint and supported authentication. No tool modifies or publishes POD records.
+
 ## Installation
 
 ### Obtain the repository

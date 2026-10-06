@@ -41,3 +41,7 @@ Adds exact public profile lookup by POD Reference and suite-version self-reporti
 ## v2.3
 
 Adds Partner Web Service integration for Cooperation Profiles and live Market/Technology reference data, API visibility-aware QA, status/openForEOI/publicURL handling, and incremental synchronisation guidance. Event API is intentionally excluded.
+
+## Read-only audit agent
+
+The distribution now includes `.opencode/agents/een-pod-auditor.md`. Copy the `agents/` directory alongside the skills and connect the `een_pod_reader` MCP server. The runnable server resides in the repository at `chatgpt/een-pod-suite/scripts/reader_mcp.py`; the OpenCode ZIP does not install or host that process. See `agents/README.md` in the repository for configuration.
