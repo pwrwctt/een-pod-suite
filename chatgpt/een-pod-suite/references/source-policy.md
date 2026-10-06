@@ -4,7 +4,7 @@ Use the following source hierarchy.
 
 1. **Partnering Profile Quality Guidelines v1.2 — September 2024**: primary source for profile eligibility, profile type, mandatory content, drafting quality, partnership types and quality checks.
 2. **Partner Webservices user guide (b2b) — 19 May 2026**: primary source for current documented Partner Web Service behaviour for Cooperation Profiles and Market/Technology reference data.
-3. **Official public EEN partnering-opportunities website**: primary public source for exact public-profile lookup by POD Reference and public-page verification.
+3. **Official public EEN partnering-opportunities website**: primary public source for operator-supplied profile detail URLs and public-page verification.
 4. **Enterprise Europe Network Glossary 2024 v3**: source for EEN terminology and definitions.
 5. **Managing Queries for Widgets and Ticker — 13 December 2024**: source for saved queries, Email vs Widget/Ticker queries and role permissions.
 6. **Bundled EEN Community POD SDG / Market / Technology / NACE taxonomy workbook**: offline taxonomy snapshot.
@@ -15,7 +15,7 @@ Treat the bundled taxonomy workbook and 2024 UI instructions as snapshots, not a
 
 For current structured profile data, profile statuses and live Market/Technology labels, prefer the authenticated Partner Web Service when available and when the record is fully visible.
 
-For exact public profile discovery by POD Reference, keep the official public EEN search as the preferred route because the 19 May 2026 Partner Web Service guide does not document a direct `reference` filter for `/profiles`.
+For individual profile audits, use only the exact detail URL supplied by the operator. Reference/name search and API identifier scanning are not supported.
 
 For Market/Technology classification:
 1. live Partner Web Service reference data;

@@ -213,18 +213,6 @@ def profile_summary(item: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def find_profile_by_reference(reference: str, **kwargs: Any) -> dict[str, Any] | None:
-    """Scan authorised results for exact reference.
-
-    No undocumented API filter is used.
-    """
-    target = reference.strip().upper()
-    for item in iter_profiles(**kwargs):
-        if str(item.get("reference") or "").strip().upper() == target:
-            return item
-    return None
-
-
 def build_label_descriptor(
     data_type: str,
     from_date: str | None = None,
@@ -334,18 +322,6 @@ def parser() -> argparse.ArgumentParser:
     pp.add_argument("--to-date")
     pp.add_argument("--dry-run", action="store_true")
 
-    pf = sub.add_parser("find", help="Scan authorised profiles for an exact POD reference")
-    pf.add_argument("reference")
-    pf.add_argument("--page-size", type=int, default=200)
-    pf.add_argument("--profile-type", action="append", default=[])
-    pf.add_argument("--status", action="append", default=[])
-    pf.add_argument("--country", action="append", default=[])
-    pf.add_argument("--comparison-date", default="Created")
-    pf.add_argument("--sort-order", default="ASC")
-    pf.add_argument("--from-date")
-    pf.add_argument("--to-date")
-    pf.add_argument("--max-pages", type=int)
-
     lp = sub.add_parser("labels", help="Fetch Market/Technology reference labels")
     lp.add_argument("data_type", choices=sorted(LABEL_TYPES))
     lp.add_argument("--page", type=int, default=0)
@@ -379,28 +355,6 @@ def main() -> int:
                 print(urlencode(build_profiles_params(**kwargs), doseq=True))
                 return 0
             print(json.dumps(fetch_profiles_page(**kwargs), ensure_ascii=False, indent=2))
-            return 0
-
-        if args.command == "find":
-            item = find_profile_by_reference(
-                args.reference,
-                page_size=args.page_size,
-                max_pages=args.max_pages,
-                profile_types=args.profile_type,
-                statuses=args.status,
-                countries=args.country,
-                comparison_date=args.comparison_date,
-                sort_order=args.sort_order,
-                from_date=args.from_date,
-                to_date=args.to_date,
-            )
-            if item is None:
-                print("NOT FOUND", file=sys.stderr)
-                return 2
-            print(json.dumps({
-                "summary": profile_summary(item),
-                "profile": item,
-            }, ensure_ascii=False, indent=2))
             return 0
 
         if args.command == "labels":

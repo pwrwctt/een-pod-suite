@@ -1,4 +1,4 @@
-# EEN POD Suite v2.3 for OpenCode
+# EEN POD Suite v2.4 for OpenCode
 
 This project contains 9 modular Agent Skills under `.opencode/skills/`.
 
@@ -34,13 +34,9 @@ Use dissemination/query guidance when required.
 
 The UI and taxonomy data are treated as 2024 snapshots. Current live POD data takes precedence when verified.
 
-## v2.1
+## v2.4 audit input
 
-Adds exact public profile lookup by POD Reference and suite-version self-reporting.
-
-## v2.3
-
-Adds Partner Web Service integration for Cooperation Profiles and live Market/Technology reference data, API visibility-aware QA, status/openForEOI/publicURL handling, and incremental synchronisation guidance. Event API is intentionally excluded.
+Existing-profile audits require an exact official profile detail URL supplied by the operator. Number/name discovery and API identifier scanning were removed. The `een-pod-profile-lookup` module retains its directory name for compatibility but only reads supplied detail URLs.
 
 ## Read-only audit agent
 

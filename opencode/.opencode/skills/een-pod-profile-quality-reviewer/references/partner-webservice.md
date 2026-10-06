@@ -77,13 +77,9 @@ Use `PageSize=200` for bulk synchronisation unless there is a reason to use a sm
 
 Do not invent an undocumented `reference` query parameter.
 
-## Exact-reference strategy
+## Individual profile audits
 
-For a user request such as `zweryfikuj jakość profilu BOCL20240903021`, the public EEN partnering-opportunities search remains the preferred exact-reference discovery route because the 19 May 2026 guide does not document a `reference` filter for `/profiles`.
-
-If an authenticated API workflow already has the target record or intentionally scans the authorised profile dataset, compare `item.reference` exactly.
-
-When an API item has a usable `publicURL`, prefer that URL instead of constructing or guessing a slug.
+Require the operator-supplied exact official profile detail URL. Do not discover a profile by reference or name, scan API results for an identifier, or construct a slug. Already supplied API content may still be reviewed with its visibility and provenance recorded.
 
 ## Profile response fields
 

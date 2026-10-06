@@ -4,7 +4,7 @@
 
 EEN POD Suite helps Enterprise Europe Network (EEN) advisers turn client information into structured cooperation profiles for the Partnering Opportunities Database (POD). It combines profile-writing guidance, eligibility checks, taxonomy references, deterministic field-limit checks and authenticated profile retrieval in a reusable workflow.
 
-**Current version: 2.3** · [Changelog](CHANGELOG.md) · [Source policy](chatgpt/een-pod-suite/references/source-policy.md) · [Validation report](opencode/VALIDATION.md)
+**Current version: 2.4** · [Changelog](CHANGELOG.md) · [Source policy](chatgpt/een-pod-suite/references/source-policy.md) · [Validation report](opencode/VALIDATION.md)
 
 The repository provides a unified skill for a compatible ChatGPT skills environment and nine modular skills for OpenCode. Its Python helpers can also be run independently. The skills guide an AI assistant; the scripts perform specific lookup, validation and retrieval tasks. Final editorial review and submission remain with the adviser.
 
@@ -51,16 +51,15 @@ The [form-readiness helper](chatgpt/een-pod-suite/scripts/form_readiness.py) che
 
 ### Profile discovery and API retrieval
 
-- Normalise a POD Reference and generate an official EEN search URL.
-- Guide exact-reference verification on the public profile page before quality review.
+- Read the exact official profile detail URL supplied by the operator.
+- Verify the displayed POD Reference on that supplied page before quality review.
 - Retrieve authorised Cooperation Profiles using documented type, status, country and date filters.
 - Iterate profile and reference-data pages through Python functions.
-- Find an exact POD Reference by scanning authorised API results, without inventing an undocumented reference filter.
 - Classify API content visibility as `FULL`, `LIMITED` or `UNKNOWN` before assessing completeness.
 - Interpret available lifecycle metadata, including status, publication and expiry dates, `openForEOI` and `publicURL`.
 - Support review of attachment and Video Pitch metadata when returned.
 
-The public lookup helper generates a search URL by default. With `--fetch`, it retrieves public HTML and verifies the displayed POD Reference; `--url` reads a known official detail URL directly. Public HTTP access or a browsing tool must be available in the host environment. Authenticated API access separately depends on credentials and the organisation's access rights.
+The URL reader requires an operator-supplied exact detail URL and verifies the displayed POD Reference. It does not discover profiles by number or name. If the operator provides only an identifier or name, request the exact detail URL.
 
 ### Portfolio and dissemination workflows
 
@@ -84,7 +83,7 @@ CHANGELOG.md                Release history
 
 ## Reader & Audit Agent
 
-The suite includes an agent contract and a runnable MCP server exposing four read-only tools: public profile retrieval, authorised API lookup, live Market/Technology labels and field-limit checks. The skill supplies the audit rules; the host model uses those tools to collect evidence. See the [agent setup guide](agents/README.md) for local OpenCode/Codex configuration and remote ChatGPT requirements.
+The suite includes an agent contract and a runnable MCP server exposing three read-only tools: direct profile URL reading, live Market/Technology labels and field-limit checks. The skill supplies the audit rules; the host model uses those tools to collect evidence. See the [agent setup guide](agents/README.md) for local OpenCode/Codex configuration and remote ChatGPT requirements.
 
 The updated skill archive contains the agent instructions and server code. It does not create a live MCP connection: ChatGPT requires a hosted HTTPS endpoint and supported authentication. No tool modifies or publishes POD records.
 
@@ -103,7 +102,7 @@ If the repository is private, authenticate with a GitHub account authorised to a
 
 Use [dist/chatgpt/skill.zip](dist/chatgpt/skill.zip) with a ChatGPT environment that supports installing skills. Follow that environment's skill installation process; if it accepts unpacked skills, install the complete `chatgpt/een-pod-suite/` directory, preserving its `SKILL.md`, `references/`, `scripts/` and `agents/` contents.
 
-After installation, ask: **“Which version of EEN POD Suite is installed?”** The expected answer for this release is `EEN POD Suite v2.3`.
+After installation, ask: **“Which version of EEN POD Suite is installed?”** The expected answer for this release is `EEN POD Suite v2.4`.
 
 Script execution, browsing and authenticated API retrieval require the corresponding capabilities in the host environment. Availability of a skill installation interface depends on that environment.
 
@@ -111,7 +110,7 @@ Script execution, browsing and authenticated API retrieval require the correspon
 
 Copy the contents of `opencode/.opencode/skills/` into your project's `.opencode/skills/` directory. Preserve each module's directory structure. If the project already has skills, merge the directories and review any name conflicts.
 
-Alternatively, extract [een-pod-suite-opencode-v2.3.zip](dist/opencode/een-pod-suite-opencode-v2.3.zip) and copy its `.opencode/` contents into the project.
+Alternatively, extract [een-pod-suite-opencode-v2.4.zip](dist/opencode/een-pod-suite-opencode-v2.4.zip) and copy its `.opencode/` contents into the project.
 
 | Skill | Responsibility |
 | --- | --- |
@@ -121,7 +120,7 @@ Alternatively, extract [een-pod-suite-opencode-v2.3.zip](dist/opencode/een-pod-s
 | `een-pod-title-summary-optimizer` | Improve titles and short summaries. |
 | `een-pod-keywords-classifier` | Select and verify taxonomy entries. |
 | `een-pod-profile-quality-reviewer` | Perform an independent quality review. |
-| `een-pod-profile-lookup` | Guide exact-reference public profile lookup. |
+| `een-pod-profile-lookup` | Read an operator-supplied exact profile detail URL. |
 | `een-pod-dissemination-queries` | Explain dissemination and saved-query workflows. |
 | `een-pod-api` | Retrieve authorised profiles and live Market/Technology labels. |
 
@@ -145,9 +144,11 @@ The recommended sequence is **intake → drafting → title and summary → taxo
 
 ### Review an existing published profile
 
-> Find the official EEN profile with POD Reference BOCL20240903021, verify the exact reference on the page and review its visible content against the suite's quality guidance. Identify the source and any retrieval limitations.
+Supply the exact official profile detail URL:
 
-The reference is an example; it does not establish that a profile is currently published or available. The workflow starts with discovery and identity verification rather than drafting replacement content.
+> Audit the profile at https://een.ec.europa.eu/partnering-opportunities/albanian-tour-operator-and-dmc-seeking-international-partnerships. Verify the displayed POD Reference and review only retrieved content against the suite's quality guidance.
+
+A number or profile name alone is insufficient: the skill asks for the exact URL and does not search for it. If that URL cannot be read, provide an authorised text/HTML export of the same profile.
 
 ### Review API data
 
@@ -157,21 +158,14 @@ The reference is an example; it does not establish that a profile is currently p
 
 ## Command-line examples
 
-### Generate an official public lookup URL
+### Read the supplied profile detail URL
 
 ```bash
-python chatgpt/een-pod-suite/scripts/pod_reference.py BOCL20240903021
+python chatgpt/een-pod-suite/scripts/profile_url.py \
+  https://een.ec.europa.eu/partnering-opportunities/albanian-tour-operator-and-dmc-seeking-international-partnerships
 ```
 
-The command prints the normalised reference, format indicators and official filtered search URL. Open the URL and verify the exact reference on the resulting profile page.
-
-### Retrieve a public profile or use its direct URL
-
-```bash
-python chatgpt/een-pod-suite/scripts/pod_reference.py BOAL20261006010 --fetch
-```
-
-If you already have the official profile detail URL, pass it with `--url` to avoid dependence on search indexing. The helper returns JSON with visible page text only after verifying the displayed reference. Public retrieval does not require `EEN_API_KEY`. An HTTP 403, a network error or an unresolved search describes a retrieval failure; it does not prove that the profile is unpublished or unavailable. See the [lookup recovery workflow](chatgpt/een-pod-suite/references/profile-lookup.md).
+The optional `--expected-reference` checks identity on this page only. The reader does not search by reference or name and does not follow search-result cards. A failed read is reported without triggering discovery. See the [URL audit workflow](chatgpt/een-pod-suite/references/profile-lookup.md).
 
 ### Search an offline taxonomy snapshot
 
@@ -216,16 +210,12 @@ python chatgpt/een-pod-suite/scripts/een_b2b_api.py profiles \
 python chatgpt/een-pod-suite/scripts/een_b2b_api.py labels \
   market_keyword --page 0 --page-size 200
 
-python chatgpt/een-pod-suite/scripts/een_b2b_api.py find \
-  BOCL20240903021 --status PUBLISHED --max-pages 5
-
 python chatgpt/een-pod-suite/scripts/een_b2b_api.py visibility profile.json
 ```
 
 The default base URL is `https://b2b.een.ec.europa.eu/v1`. `EEN_B2B_BASE_URL` can select a trusted test endpoint; it receives the configured API key, so use it deliberately.
 
 - `profiles` and `labels` retrieve a single page. Profiles pagination starts at **1**; label pagination starts at **0**.
-- `find` scans authorised pages for an exact reference. With `--max-pages`, an unsuccessful result only means that the reference was not found within that scan.
 - `visibility` classifies a saved profile JSON object locally and requires no API credentials.
 - For application integrations, use `iter_profiles()` and `iter_labels()` to traverse pages. See the [API helper](chatgpt/een-pod-suite/scripts/een_b2b_api.py).
 - HTTP 401/403 indicates an access problem requiring credential or IP-whitelisting checks.
@@ -240,7 +230,7 @@ The suite's references use the following source hierarchy:
 | --- | --- |
 | Partnering Profile Quality Guidelines v1.2, September 2024 | Primary baseline for eligibility, mandatory content and profile quality. |
 | Partner Webservices user guide, 19 May 2026 | Basis cited by the integration references for Cooperation Profiles and Market/Technology API behaviour. |
-| Official public EEN partnering-opportunities website | Public discovery and exact-reference profile verification. |
+| Official public EEN partnering-opportunities website | Operator-supplied detail-page reading and identity verification. |
 | EEN Glossary 2024 v3 | Terminology. |
 | Managing Queries for Widgets and Ticker, 13 December 2024 | Dissemination and saved-query guidance. |
 | Bundled EEN taxonomy workbook and CSVs | Offline 2024 taxonomy snapshot. |
@@ -264,12 +254,12 @@ python -m unittest discover -s tests -v
 python scripts/build.py
 ```
 
-The tests cover API filter validation, pagination, exact-reference matching, visibility classification, error handling and consistency of the distributed API helpers. Public lookup regression tests also cover direct URLs, displayed-reference verification and access/network failure classification. Tests use mocked responses and do not establish live website or Partner Web Service compatibility or verify all editorial rules.
+The tests cover API filter validation, pagination, visibility classification, error handling and consistency of the distributed API helpers. URL-reader tests verify that discovery is absent, identifiers alone are rejected, and reading is limited to the supplied page. Tests use mocked responses and do not establish live website or Partner Web Service compatibility or verify all editorial rules.
 
 The build script checks skill front matter, referenced files, version consistency and the OpenCode module inventory before creating:
 
 - `dist/chatgpt/skill.zip`
-- `dist/opencode/een-pod-suite-opencode-v2.3.zip`
+- `dist/opencode/een-pod-suite-opencode-v2.4.zip`
 
 For additional editorial regression scenarios, see [docs/TEST-CASES.md](docs/TEST-CASES.md). The [validation report](opencode/VALIDATION.md) records which checks were actually performed.
 

@@ -1,6 +1,6 @@
 ---
 name: een-pod-suite
-description: Orchestrate complete EEN Partnering Opportunities Database workflows across eligibility, drafting, Title/Summary, keywords, quality review, public profile lookup, Partner Web Service profile/taxonomy access, dissemination and profile management. Use for BO/BR/TO/TR/RDR tasks spanning multiple modules, live Market/Technology reference data, API-aware review, profile status/openForEOI handling and suite-version reporting. Excludes Event API integration.
+description: Orchestrate complete EEN Partnering Opportunities Database workflows across eligibility, drafting, Title/Summary, keywords, quality review, auditing operator-supplied profile URLs, Partner Web Service profile/taxonomy access, dissemination and profile management. Use for BO/BR/TO/TR/RDR tasks spanning multiple modules, live Market/Technology reference data, API-aware review, profile status/openForEOI handling and suite-version reporting. Excludes Event API integration.
 ---
 
 For suite-version questions, read `references/version.md`.
@@ -36,4 +36,4 @@ Do not let a later stage invent facts to resolve an earlier gap.
 ## Existing published profile by reference
 
 For requests such as `zweryfikuj jakość profilu BOCL20240903021`, route:
-`een-pod-profile-lookup` → exact-reference verification/extraction → `een-pod-profile-quality-reviewer`.
+Operator-supplied exact detail URL → `een-pod-profile-lookup` → displayed-reference verification/extraction → `een-pod-profile-quality-reviewer`.

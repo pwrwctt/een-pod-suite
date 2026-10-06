@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.4 — 2026-10-06
+
+- Removed profile discovery and retrieval by POD Reference or profile name, including API identifier scanning.
+- Individual profile audits now require the exact official profile detail URL supplied by the operator.
+- Replaced the discovery helper with a URL-only reader and narrowed the MCP tool schema.
+
 ## v2.3 maintenance — exact EEN search-card parsing
 
 - Follow the detail anchor inside `div.ecl-content-block__title` using both ECL anchor classes.

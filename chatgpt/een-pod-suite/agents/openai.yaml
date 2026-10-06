@@ -1,4 +1,4 @@
 interface:
   display_name: "EEN POD Suite"
   short_description: "Drafts, classifies and quality-checks EEN POD profiles."
-  default_prompt: "Use EEN POD Suite to retrieve the exact requested profile through available read-only MCP tools and perform an evidence-based audit. Read references/reader-agent.md; preserve the supplied reference and URL and report retrieval limitations precisely."
+  default_prompt: "Use EEN POD Suite to read the operator-supplied exact profile detail URL through available read-only MCP tools and perform an evidence-based audit. Read references/reader-agent.md; preserve the supplied reference and URL and report retrieval limitations precisely."

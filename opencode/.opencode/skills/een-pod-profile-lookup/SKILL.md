@@ -1,24 +1,12 @@
 ---
 name: een-pod-profile-lookup
-description: Find and extract a published Enterprise Europe Network POD profile by exact POD Reference, such as BOCL20240903021, using the official EEN partnering-opportunities search. Use when the user asks to find, show, inspect, verify, audit or quality-check a profile by BO/BR/TO/TR/RDR reference; verify the full-page POD Reference before extracting content and hand the exact public profile to the quality reviewer when requested.
+description: Retrieve and extract an EEN profile only from the exact official profile detail URL supplied by the operator, verify its displayed POD Reference and hand visible content to quality review. No reference or name discovery.
 ---
 
-# EEN POD profile lookup
+# EEN POD profile URL reader
 
-For suite-version questions, read `references/version.md`.
+Read `references/version.md` for version questions and `references/profile-lookup.md` for the URL-only workflow.
 
-Read `references/profile-lookup.md` for the complete lookup workflow and failure handling.
+Require the operator's exact profile detail URL. Use `scripts/profile_url.py` when direct public retrieval is available. Verify the displayed POD Reference before extracting content. Hand the profile to `een-pod-profile-quality-reviewer` for an audit.
 
-Use `scripts/pod_reference.py` to normalise a supplied POD Reference and generate the official filtered EEN lookup URL when useful. With `--fetch`, it can retrieve a verified public profile; with `--url`, it reads a supplied official detail URL directly. Public retrieval does not require an API key. Follow the recovery workflow before reporting a retrieval limitation.
-
-If quality verification is requested:
-1. find the exact official profile;
-2. verify the full-page POD Reference;
-3. extract only public fields actually present;
-4. hand the extracted profile to `een-pod-profile-quality-reviewer`.
-
-Never guess a profile slug or review a merely similar search result.
-
-If authenticated Partner Web Service data is available, use `een-pod-api` for structured profile fields. Do not assume an undocumented reference filter; keep public exact-reference lookup as the default discovery route. Apply FULL/LIMITED/UNKNOWN visibility before QA.
-
-On retrieval failure, retain the supplied reference and URL and include the actual failed URL. Do not request an identifier already provided or discuss unrelated search results.
+If only a number or name is supplied, ask for the exact detail URL. Do not build search URLs, search the public site, guess a slug, scan API results or substitute another profile. If reading fails, request a text/HTML export of the same page.

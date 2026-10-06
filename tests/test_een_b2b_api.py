@@ -27,14 +27,12 @@ class ApiTests(unittest.TestCase):
         for kw in [{'page_index':0},{'page_size':201},{'profile_types':['XX']},{'statuses':['XX']}]:
             with self.assertRaises(ValueError): api.build_profiles_params(**kw)
 
-    def test_profile_pagination_and_exact_reference(self):
-        pages = [
-            {'data': {'items':[{'reference':'BO1234-extra'}], 'pagingInfo':{'hasNext':True}}},
-            {'data': {'items':[{'reference':'BO1234'}], 'pagingInfo':{'hasNext':False}}},
-        ]
-        with patch.object(api, 'fetch_profiles_page', side_effect=pages) as fetch:
-            self.assertEqual(api.find_profile_by_reference(' bo1234 ')['reference'], 'BO1234')
-            self.assertEqual([c.kwargs['page_index'] for c in fetch.call_args_list], [1,2])
+    def test_profile_pagination(self):
+        pages=[{'data':{'items':[{'reference':'A'}],'pagingInfo':{'hasNext':True}}},{'data':{'items':[{'reference':'B'}],'pagingInfo':{'hasNext':False}}}]
+        with patch.object(api,'fetch_profiles_page',side_effect=pages) as fetch:
+            self.assertEqual([x['reference'] for x in api.iter_profiles()],['A','B'])
+            self.assertEqual([c.kwargs['page_index'] for c in fetch.call_args_list],[1,2])
+        self.assertFalse(hasattr(api,'find_profile_by_reference'))
 
     def test_label_pagination_and_active_filter(self):
         pages = [

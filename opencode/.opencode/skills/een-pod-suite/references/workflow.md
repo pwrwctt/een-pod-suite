@@ -13,5 +13,7 @@ Intake → Draft → Title/Summary → Keywords → Independent Review.
 
 The reviewer must be last for a final/submission-ready request.
 
-## Published profile by POD Reference
-Exact official EEN lookup → verify POD Reference → extract public fields → independent quality review when requested.
+## Published profile by operator-supplied detail URL
+Read the operator-supplied exact detail URL → verify the displayed POD Reference → extract public fields → independent quality review when requested.
+
+If only a number or name is supplied, request the exact detail URL. Do not search or scan API records for the profile.

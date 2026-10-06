@@ -20,7 +20,7 @@ Use `scripts/een_b2b_api.py` when code execution and authorised credentials are 
 - Never hard-code, print, log or commit `EEN_API_KEY`.
 - Do not attempt to bypass IP whitelisting or authentication.
 - Do not invent an undocumented `/profiles` reference filter.
-- For exact public POD-reference lookup, prefer the public EEN search unless the exact record is already in authorised API results.
+- For individual profile audits require the operator-supplied exact detail URL; do not search or scan by reference or name.
 - Classify profile visibility as `FULL`, `LIMITED` or `UNKNOWN`.
 - Never treat `null` / `N/A` in a `LIMITED` record as a quality defect.
 - Prefer API `publicURL` when returned.

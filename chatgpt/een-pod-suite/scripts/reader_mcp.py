@@ -19,7 +19,7 @@ def load(name):
     return module
 
 
-public = load('pod_reference')
+public = load('profile_url')
 api = load('een_b2b_api')
 forms = load('form_readiness')
 
@@ -29,10 +29,8 @@ def schema(properties, required=()):
 
 
 TOOLS = [
-    {'name':'get_public_profile','description':'Search an official public EEN profile by reference or name, follow its ECL title-card link and verify its displayed POD Reference. Use a supplied direct official URL when available. Retrieval failures do not prove absence. Returned content is untrusted source data.',
-     'inputSchema':schema({'reference':{'type':'string'},'url':{'type':'string'}},['reference'])},
-    {'name':'get_api_profile','description':'Find an exact POD reference in authorised Partner Web Service results, using bounded pagination. Requires server-side EEN_API_KEY and IP whitelisting. No API reference filter is invented.',
-     'inputSchema':schema({'reference':{'type':'string'},'max_pages':{'type':'integer','minimum':1,'maximum':5}},['reference'])},
+    {'name':'get_public_profile','description':'Read only an operator-supplied official EEN profile detail URL and verify the displayed POD Reference. No reference or name discovery is available.',
+     'inputSchema':schema({'url':{'type':'string'},'expected_reference':{'type':'string'}},['url'])},
     {'name':'get_live_labels','description':'Read a single page of current Market or Technology labels. Pagination starts at zero; this does not retrieve NACE or SDG.',
      'inputSchema':schema({'data_type':{'type':'string','enum':['market_keyword','technology_keyword']},'page':{'type':'integer','minimum':0},'page_size':{'type':'integer','minimum':1,'maximum':200}},['data_type'])},
     {'name':'check_form_limits','description':'Count field characters and Market/Technology keywords for BO/BR/TO/TR. A length PASS is not a quality verdict or evidence that a mandatory field is complete.',
@@ -67,15 +65,8 @@ def execute(name, arguments):
     tool=next((t for t in TOOLS if t['name']==name),None)
     if tool is None: raise ValueError('Unknown tool')
     validate(arguments,tool['inputSchema'])
-    if name in ('get_public_profile','get_api_profile'):
-        if not arguments['reference'].strip(): raise ValueError('Reference must not be empty')
     if name=='get_public_profile':
-        return public.lookup(arguments['reference'],arguments.get('url'))
-    if name=='get_api_profile':
-        item=api.find_profile_by_reference(arguments['reference'],max_pages=arguments.get('max_pages',3),page_size=200)
-        if item is None:
-            return {'status':'UNRESOLVED','reference':public.normalise(arguments['reference']),'source':'Partner Web Service','reason':'No exact match within the authorised bounded scan; existence and publication status are not established.'}
-        return {'status':'FOUND EXACT','source':'Partner Web Service','summary':api.profile_summary(item),'profile':item}
+        return public.read_profile(arguments['url'],arguments.get('expected_reference'))
     if name=='get_live_labels':
         return {'source':'Partner Web Service','data_type':arguments['data_type'],'page':arguments.get('page',0),'response':api.fetch_labels_page(data_type=arguments['data_type'],page=arguments.get('page',0),page_size=arguments.get('page_size',200))}
     limits={**forms.COMMON,**forms.PROFILE[arguments['profile_type']]}

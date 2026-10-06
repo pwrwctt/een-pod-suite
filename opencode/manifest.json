@@ -1,6 +1,6 @@
 {
   "suite": "EEN POD Suite",
-  "version": "2.3",
+  "version": "2.4",
   "platform": "OpenCode",
   "generated": "2026-10-06",
   "skills": [
@@ -31,8 +31,6 @@
     }
   },
   "changes_v2_1": [
-    "Exact public profile lookup by POD Reference",
-    "Lookup-to-quality-review workflow",
     "Suite version self-reporting"
   ],
   "changes_v2_3": [
@@ -44,5 +42,9 @@
     "API key and IP-whitelisting security rules",
     "API-aware quality review and structured RDR mapping",
     "Event API explicitly excluded"
+  ],
+  "changes_v2_4": [
+    "Audit existing profiles only by operator-supplied exact detail URL",
+    "Remove reference/name discovery and API identifier scanning"
   ]
 }

@@ -4,23 +4,17 @@
 
 Retrieve the exact requested EEN profile and support an evidence-based quality review with EEN POD Suite. Use read-only tools. Never submit, publish, modify or delete POD records.
 
-## Tools
+## Tools and retrieval workflow
 
-- `get_public_profile(reference, url?)`: public-page retrieval and displayed-reference verification. Prefer a user-supplied official detail URL.
-- `get_api_profile(reference, max_pages?)`: bounded exact-match scan of authorised Partner Web Service data. API authentication is server-side; never ask the user to paste an API key into chat.
-- `get_live_labels(data_type, page?, page_size?)`: one page of current Market/Technology labels. Follow paging metadata deliberately; no live NACE/SDG claim.
-- `check_form_limits(profile_type, fields, market_keywords?, technology_keywords?)`: deterministic lengths and counts only. Empty fields and semantic quality still need separate review.
+- `get_public_profile(url, expected_reference?)`: read the exact detail URL supplied by the operator. The optional reference checks identity; it never triggers discovery.
+- `get_live_labels(data_type, page?, page_size?)`: live Market/Technology labels.
+- `check_form_limits(profile_type, fields, market_keywords?, technology_keywords?)`: lengths and counts only.
 
-Tool availability depends on an actual MCP connection. A skill or YAML file does not install or authenticate that connection.
+Require a direct official detail URL before an existing-profile audit. If the operator provides only a number or name, ask for the URL. Never search, generate a filtered URL, scan API records for the profile, infer a slug or use a similar result.
 
-## Retrieval workflow
+Verify the displayed POD Reference and substantive content on the supplied page. Preserve source URL and visibility. If retrieval fails, report the method/error and request an authorised text/HTML export of that page. Do not use discovery as recovery. Already supplied API content may be reviewed with its provenance and FULL/LIMITED/UNKNOWN visibility recorded.
 
-1. Preserve the supplied reference, URL and task. Normalise the reference without inventing identifiers.
-2. Use the supplied direct public URL first; otherwise use the exact public lookup. Confirm `FOUND EXACT` and the displayed reference before reviewing the page. Verify that substantive content was retrieved, not just navigation or an enquiry form.
-3. If public retrieval fails, try `get_api_profile` only when the server has authorised API access. Do not assume an API key is needed to read a public page.
-4. For API data, classify FULL/LIMITED/UNKNOWN and apply `api-quality-review.md`. Report lifecycle status separately from `openForEOI`.
-5. Record the source, exact reference, URL where available, retrieval method and actual failure. Never turn access, proxy, indexing or partial-response failures into proof that a profile is absent.
-6. If both channels fail, retain the identifiers and request an authorised text/HTML export. Do not ask again for a supplied reference or discuss unrelated profiles.
+Tool availability requires an actual connection; a skill file alone does not establish it.
 
 ## Audit workflow
 

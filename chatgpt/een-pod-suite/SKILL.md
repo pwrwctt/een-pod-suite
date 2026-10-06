@@ -1,11 +1,11 @@
 ---
 name: een-pod-suite
-description: End-to-end Enterprise Europe Network Partnering Opportunities Database (POD) skill for EEN advisers. Use for eligibility, BO/BR/TO/TR/RDR classification, drafting, field/form readiness, Technology/Market/SDG taxonomy, public profile lookup, Partner Web Service profile retrieval, API-aware quality review, live Market/Technology reference-data lookup and synchronisation, profile status/openForEOI management, dissemination queries, and installed-suite version reporting. Excludes Event API integration.
+description: End-to-end Enterprise Europe Network Partnering Opportunities Database (POD) skill for EEN advisers. Use for eligibility, BO/BR/TO/TR/RDR classification, drafting, field/form readiness, Technology/Market/SDG taxonomy, auditing operator-supplied profile URLs, Partner Web Service profile retrieval, API-aware quality review, live Market/Technology reference-data lookup and synchronisation, profile status/openForEOI management, dissemination queries, and installed-suite version reporting. Excludes Event API integration.
 ---
 
 # EEN POD Suite
 
-**Installed suite version: v2.3.** For any version question, read `references/version.md` and report that value.
+**Installed suite version: v2.4.** For any version question, read `references/version.md` and report that value.
 
 Use **Partnering Profile Quality Guidelines v1.2 (September 2024)** as the primary profile-quality source. Use the **Partner Webservices user guide (19 May 2026)** for documented Cooperation Profile and Market/Technology API behaviour, the **EEN Glossary 2024 v3** for terminology, the **Queries User Guide (13 December 2024)** for query workflows, and the supplied EEN taxonomy workbook as an offline 2024 snapshot.
 
@@ -15,7 +15,7 @@ For the read-only Reader & Audit Agent, read `references/reader-agent.md`. Conne
 
 ## Route the task
 
-- For a POD Reference lookup, published-profile extraction or lookup-to-quality-review request: read `references/profile-lookup.md`; use `scripts/pod_reference.py` when helpful.
+- For auditing an existing profile: require the operator's exact official detail URL and read `references/profile-lookup.md`; use `scripts/profile_url.py` for direct retrieval when available.
 - For authenticated Partner Web Service profile retrieval, lifecycle/status data or portfolio synchronisation: read `references/partner-webservice.md` and `references/api-security.md`; use `scripts/een_b2b_api.py` when execution and credentials are available.
 - For live Market/Technology labels or incremental taxonomy sync: read `references/taxonomy-api.md`; use the Partner Web Service first and bundled CSVs only as fallback.
 - For quality review of API-originated profile data: read `references/api-quality-review.md` before the normal reviewer.
@@ -29,9 +29,9 @@ For the read-only Reader & Audit Agent, read `references/reader-agent.md`. Conne
 - For profile lifetime/renewal/EoI management: read `references/profile-management.md`.
 - For EEN terminology: read `references/terminology.md`.
 
-## Reference-first workflow
+## Operator-supplied URL workflow
 
-If the user supplies a POD Reference and asks to verify an existing published profile, perform **exact official EEN lookup → full-page POD Reference verification → public-field extraction → quality review**. Never draft a substitute profile before lookup. Prefer a supplied official detail URL over search discovery. If browsing fails, follow the recovery workflow in `references/profile-lookup.md`; preserve the supplied reference and URL, do not ask for the same identifier again, and ignore unrelated results.
+For an existing-profile audit, require the exact detail URL supplied by the operator, retrieve that page, verify its displayed POD Reference, extract visible fields and review. If only a number or name is supplied, ask for the exact URL. Never discover a profile by reference or name or use API scanning as a fallback.
 
 ## End-to-end workflow
 
@@ -58,7 +58,7 @@ If the user supplies a POD Reference and asks to verify an existing published pr
 - Treat the bundled 2024 UI/taxonomy files as snapshots. Verify current live data when currency matters.
 - Never store or expose `EEN_API_KEY`; authenticated API access also requires IP whitelisting.
 - Never treat `null` / `N/A` in an API visibility-limited record as a quality defect.
-- Do not invent an undocumented `/profiles` reference filter; use exact public EEN lookup or exact matching within authorised API results.
+- Do not discover profiles by reference or name. Audit only the operator-supplied exact detail URL or supplied profile content.
 - Keep `PUBLISHED` separate from `openForEOI`.
 - Do not use the Partner Web Service Events API in this suite version.
 - Use British English for profile text unless asked otherwise; explain in the user's language when helpful.

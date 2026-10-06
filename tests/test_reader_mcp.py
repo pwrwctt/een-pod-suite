@@ -21,30 +21,26 @@ class ReaderTests(unittest.TestCase):
     def test_initialization_and_read_only_discovery(self):
         response=reader.rpc({'jsonrpc':'2.0','id':1,'method':'initialize','params':{'protocolVersion':'2025-03-26'}})
         self.assertEqual(response['result']['protocolVersion'],'2025-03-26')
-        self.assertEqual(len(reader.TOOLS),4)
+        self.assertEqual(len(reader.TOOLS),3)
         for tool in reader.TOOLS:
             self.assertTrue(tool['annotations']['readOnlyHint'])
             self.assertFalse(tool['annotations']['destructiveHint'])
 
     def test_direct_profile_url_and_reference_are_forwarded(self):
         url='https://een.ec.europa.eu/partnering-opportunities/example'
-        with patch.object(reader.public,'lookup',return_value={'status':'FOUND EXACT','reference':'BOAL20261006010'}) as lookup:
-            result=call('get_public_profile',{'reference':'BOAL20261006010','url':url})
-            lookup.assert_called_once_with('BOAL20261006010',url)
+        with patch.object(reader.public,'read_profile',return_value={'status':'FOUND EXACT','reference':'BOAL20261006010'}) as lookup:
+            result=call('get_public_profile',{'url':url})
+            lookup.assert_called_once_with(url,None)
             self.assertFalse(result['isError'])
 
     def test_access_failure_is_an_error_not_a_successful_audit(self):
-        with patch.object(reader.public,'lookup',return_value={'status':'ACCESS BLOCKED','reference':'BOAL20261006010'}):
-            self.assertTrue(call('get_public_profile',{'reference':'BOAL20261006010'})['isError'])
+        with patch.object(reader.public,'read_profile',return_value={'status':'ACCESS BLOCKED','reference':'BOAL20261006010'}):
+            self.assertTrue(call('get_public_profile',{'url':'https://een.ec.europa.eu/partnering-opportunities/example'})['isError'])
 
-    def test_api_scan_is_bounded_and_absence_is_unresolved(self):
-        with patch.object(reader.api,'find_profile_by_reference',return_value=None) as scan:
-            result=call('get_api_profile',{'reference':'BOAL20261006010','max_pages':2})
-            self.assertEqual(result['structuredContent']['status'],'UNRESOLVED')
-            self.assertEqual(scan.call_args.kwargs['max_pages'],2)
-        with patch.object(reader.api,'find_profile_by_reference') as scan:
-            self.assertTrue(call('get_api_profile',{'reference':'BOAL20261006010','max_pages':6})['isError'])
-            scan.assert_not_called()
+    def test_reference_or_name_discovery_is_rejected(self):
+        self.assertTrue(call('get_public_profile',{'reference':'BOAL20261006010'})['isError'])
+        self.assertTrue(call('get_public_profile',{'name':'Tour operator'})['isError'])
+        self.assertTrue(call('get_api_profile',{'reference':'BOAL20261006010'})['isError'])
 
     def test_arguments_cannot_supply_credentials_or_arbitrary_endpoints(self):
         self.assertTrue(call('get_live_labels',{'data_type':'market_keyword','api_key':'secret'})['isError'])
@@ -52,8 +48,8 @@ class ReaderTests(unittest.TestCase):
         self.assertTrue(call('delete_profile',{'reference':'x'})['isError'])
 
     def test_exception_redaction(self):
-        with patch.dict(reader.os.environ,{'EEN_API_KEY':'test-sensitive','EEN_AGENT_TOKEN':'test-auth'}), patch.object(reader.api,'find_profile_by_reference',side_effect=RuntimeError('test-sensitive test-auth')):
-            result=call('get_api_profile',{'reference':'BOAL20261006010'})
+        with patch.dict(reader.os.environ,{'EEN_API_KEY':'test-sensitive','EEN_AGENT_TOKEN':'test-auth'}), patch.object(reader.public,'read_profile',side_effect=RuntimeError('test-sensitive test-auth')):
+            result=call('get_public_profile',{'url':'https://een.ec.europa.eu/partnering-opportunities/example'})
             self.assertNotIn('test-sensitive',json.dumps(result))
             self.assertNotIn('test-auth',json.dumps(result))
 
@@ -69,7 +65,7 @@ class ReaderTests(unittest.TestCase):
         self.assertEqual(result.returncode,0,result.stderr)
         responses=[json.loads(line) for line in result.stdout.splitlines()]
         self.assertEqual([r['id'] for r in responses],[1,2,3])
-        self.assertEqual(len(responses[1]['result']['tools']),4)
+        self.assertEqual(len(responses[1]['result']['tools']),3)
         self.assertEqual(responses[2]['result']['structuredContent']['fields']['technical']['status'],'OVER LIMIT by 1')
 
     def test_http_requires_authentication_secret(self):
