@@ -55,6 +55,19 @@ When code execution is available, `scripts/pod_reference.py` can normalise a ref
 
 ## 3. Find the exact result
 
+Parse the retrieved HTML of the filtered EEN search page. Select:
+
+```css
+div.ecl-content-block__title a.ecl-link.ecl-link--standalone[href]
+```
+
+Follow that anchor's actual `href`, resolving a relative path against the official search URL. Class names are tokens: their order and extra classes do not change the selection. Ignore navigation links, enquiry forms and links outside these title blocks. The full profile content is on the linked detail page, not on the result card.
+
+Do not require the requested POD Reference to appear in the result card before opening its detail link. Verify the displayed reference on the full page instead.
+
+The Keywords query can also contain a profile name. Preserve spaces and URL-encode the complete name. A name search with multiple candidates requires selection or an unambiguous exact title match before audit; never assume the first result is the intended profile.
+
+
 Open/search the official filtered page.
 
 Possible outcomes:

@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.3 maintenance — exact EEN search-card parsing
+
+- Follow the detail anchor inside `div.ecl-content-block__title` using both ECL anchor classes.
+- Verify the reference on the full detail page without requiring it on the search card.
+- Preserve profile-name queries and report ambiguous name results without selecting the first profile.
+- Add regressions for nested title markup, class ordering, navigation exclusion and name lookup.
+
 ## v2.3 maintenance — Reader & Audit Agent
 
 - Added the read-only EEN POD Reader & Audit Agent contract and OpenCode agent definition.

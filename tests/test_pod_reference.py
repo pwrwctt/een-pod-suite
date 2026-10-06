@@ -53,11 +53,37 @@ class LookupTests(unittest.TestCase):
             self.assertEqual(pod.lookup(REF)['status'], 'UNRESOLVED')
 
     def test_discovered_href_is_used_not_guessed(self):
-        search = page('<article><p>'+REF+'</p><a href="/partnering-opportunities/example-profile">Details</a></article>')
+        search = page('<article><p>'+REF+'</p><div class="ecl-content-block__title"><a class="ecl-link ecl-link--standalone" href="/partnering-opportunities/example-profile">Details</a></div></article>')
         detail = page('<p>POD Reference '+REF+'</p>')
         with patch.object(pod,'read_page',side_effect=[(pod.build_url(REF),search),(URL,detail)]) as read:
             self.assertEqual(pod.lookup(REF)['status'], 'FOUND EXACT')
             self.assertEqual(read.call_args_list[1].args,(URL,))
+
+    def test_card_selector_ignores_navigation_and_preserves_nested_title(self):
+        html = '<a class="ecl-link ecl-link--standalone" href="/partnering-opportunities/wrong">Navigation</a><div class="ecl-content-block__title extra"><div><a class="extra ecl-link--standalone ecl-link" href="/partnering-opportunities/example-profile"><span>Tour</span> operator</a></div></div><div><a class="ecl-link ecl-link--standalone" href="/partnering-opportunities/wrong">Other</a></div>'
+        parsed=page(html)
+        self.assertEqual(parsed.profile_links,[{'href':'/partnering-opportunities/example-profile','text':'Tour operator'}])
+
+    def test_reference_need_not_be_displayed_in_search_card(self):
+        search=page('<div class="ecl-content-block__title"><a class="ecl-link ecl-link--standalone" href="/partnering-opportunities/example-profile">Tour operator</a></div>')
+        with patch.object(pod,'read_page',side_effect=[(pod.build_url(REF),search),(URL,page('<p>POD Reference '+REF+'</p>'))]):
+            self.assertEqual(pod.lookup(REF)['status'],'FOUND EXACT')
+
+    def test_title_query_keeps_spaces_and_extracts_verified_reference(self):
+        from urllib.parse import parse_qs,urlsplit
+        title='Albanian tour operator'
+        self.assertEqual(parse_qs(urlsplit(pod.build_url(title)).query)['f[0]'],['k:'+title])
+        search=page('<div class="ecl-content-block__title"><a class="ecl-link ecl-link--standalone" href="/partnering-opportunities/example-profile">'+title+'</a></div>')
+        with patch.object(pod,'read_page',side_effect=[(pod.build_url(title),search),(URL,page('<h1>'+title+'</h1><p>POD Reference '+REF+'</p>'))]):
+            result=pod.lookup(title)
+            self.assertEqual(result['status'],'FOUND EXACT')
+            self.assertEqual(result['reference'],REF)
+
+    def test_ambiguous_name_does_not_choose_first_result(self):
+        search=page(''.join('<div class="ecl-content-block__title"><a class="ecl-link ecl-link--standalone" href="/partnering-opportunities/p'+str(i)+'">Tour '+str(i)+'</a></div>' for i in range(2)))
+        with patch.object(pod,'read_page',return_value=(pod.build_url('Tour'),search)) as read:
+            self.assertEqual(pod.lookup('Tour')['status'],'AMBIGUOUS')
+            self.assertEqual(read.call_count,1)
 
     def test_external_or_credential_urls_are_rejected(self):
         for url in ['http://een.ec.europa.eu/partnering-opportunities/x','https://example.com/partnering-opportunities/x','https://user:pass@een.ec.europa.eu/partnering-opportunities/x']:

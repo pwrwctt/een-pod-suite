@@ -21,8 +21,13 @@ def normalise(value):
     return re.sub(r'\s+', '', value).upper()
 
 
+def search_term(value):
+    value = value.strip()
+    return normalise(value) if TYPICAL_RE.fullmatch(normalise(value)) else re.sub(r'\s+', ' ', value)
+
+
 def build_url(reference):
-    return BASE + '/partnering-opportunities?' + urlencode({'f[0]': 'k:' + normalise(reference)})
+    return BASE + '/partnering-opportunities?' + urlencode({'f[0]': 'k:' + search_term(reference)})
 
 
 def official_url(url):
@@ -46,11 +51,24 @@ class PublicPage(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.text = []
         self.links = []
+        self.profile_links = []
+        self.div_depth = 0
+        self.title_divs = []
+        self.active_profile_link = None
         self.hidden = 0
         self.title = []
         self.in_title = False
 
     def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        classes = set(attrs.get('class', '').split())
+        if tag == 'div':
+            self.div_depth += 1
+            if 'ecl-content-block__title' in classes:
+                self.title_divs.append(self.div_depth)
+        if tag == 'a' and not self.hidden and self.title_divs and {'ecl-link', 'ecl-link--standalone'} <= classes and attrs.get('href'):
+            self.active_profile_link = {'href': attrs['href'], 'text': ''}
+            self.profile_links.append(self.active_profile_link)
         if tag in ('script', 'style'):
             self.hidden += 1
         if tag == 'title':
@@ -63,6 +81,12 @@ class PublicPage(HTMLParser):
             self.text.append('\n')
 
     def handle_endtag(self, tag):
+        if tag == 'a':
+            self.active_profile_link = None
+        if tag == 'div':
+            if self.title_divs and self.title_divs[-1] == self.div_depth:
+                self.title_divs.pop()
+            self.div_depth = max(0, self.div_depth - 1)
         if tag in ('script', 'style'):
             self.hidden = max(0, self.hidden - 1)
         if tag == 'title':
@@ -73,6 +97,8 @@ class PublicPage(HTMLParser):
     def handle_data(self, data):
         if self.hidden:
             return
+        if self.active_profile_link is not None:
+            self.active_profile_link['text'] += data
         if self.in_title:
             self.title.append(data)
         else:
@@ -103,8 +129,9 @@ def verify_profile(reference, url, page):
     text = page.visible_text()
     refs = re.findall(r'\bPOD\s+Reference\s*:?\s*((?:BO|BR|TO|TR|RDR)[A-Z]{2}\d{8,14})\b', text, re.I)
     refs = {normalise(r) for r in refs}
-    if refs == {normalise(reference)}:
-        return {'status': 'FOUND EXACT', 'reference': normalise(reference), 'url': url,
+    by_reference = bool(TYPICAL_RE.fullmatch(normalise(reference)))
+    if refs == {normalise(reference)} or (not by_reference and len(refs) == 1 and search_term(reference).casefold() in re.sub(r'\s+', ' ', text).casefold()):
+        return {'status': 'FOUND EXACT', 'reference': next(iter(refs)), 'query': search_term(reference), 'url': url,
                 'title': ' '.join(page.title).strip(), 'public_text': text,
                 'source': 'Official public EEN website'}
     if refs:
@@ -114,7 +141,10 @@ def verify_profile(reference, url, page):
 
 
 def lookup(reference, direct_url=None):
-    reference = normalise(reference)
+    reference = search_term(reference)
+    if not reference:
+        raise ValueError("Search term must not be empty.")
+    by_reference = bool(TYPICAL_RE.fullmatch(reference))
     attempts = []
 
     def retrieve(url):
@@ -142,25 +172,30 @@ def lookup(reference, direct_url=None):
         result = retrieve(build_url(reference))
         if result:
             url, page = result
-            if re.search(r'(?<![A-Z0-9])' + re.escape(reference) + r'(?![A-Z0-9])', page.visible_text(), re.I):
-                candidates = []
-                for href in page.links:
-                    target = urljoin(url, href)
-                    try:
-                        official_url(target)
-                    except ValueError:
-                        continue
-                    path = urlsplit(target).path.rstrip('/')
-                    if (path != '/partnering-opportunities' and not path.endswith('/partnership-contact')
-                            and target not in candidates):
-                        candidates.append(target)
-                for target in candidates[:10]:
-                    candidate = retrieve(target)
-                    if candidate:
-                        data = verify_profile(reference, *candidate)
-                        if data['status'] == 'FOUND EXACT':
-                            data['attempts'] = attempts
-                            return data
+            candidates = []
+            for link in page.profile_links:
+                target = urljoin(url, link['href'])
+                try:
+                    official_url(target)
+                except ValueError:
+                    continue
+                path = urlsplit(target).path.rstrip('/')
+                if path != '/partnering-opportunities' and not path.endswith('/partnership-contact') and target not in [c['url'] for c in candidates]:
+                    candidates.append({'url': target, 'title': re.sub(r'\s+', ' ', link['text']).strip()})
+            if not by_reference:
+                exact_titles = [c for c in candidates if c['title'].casefold() == re.sub(r'\s+', ' ', reference).casefold()]
+                if len(exact_titles) == 1:
+                    candidates = exact_titles
+                elif len(candidates) > 1:
+                    return {'status': 'AMBIGUOUS', 'query': reference, 'candidates': candidates, 'reason': 'Multiple matching search cards; select a profile before auditing.'}
+            for target in candidates[:10]:
+                candidate = retrieve(target['url'])
+                if candidate:
+                    data = verify_profile(reference, *candidate)
+                    if data['status'] == 'FOUND EXACT':
+                        data['search_url'] = url
+                        data['attempts'] = attempts
+                        return data
             attempts.append({'url': url, 'status': 'UNRESOLVED', 'reason': 'No exact detail page verified from this search response. Search or indexing may be incomplete.'})
     states = {item['status'] for item in attempts}
     status = 'UNRESOLVED'
@@ -178,7 +213,7 @@ def main():
     parser.add_argument('--fetch', action='store_true', help='Retrieve and verify the public profile as JSON')
     parser.add_argument('--url', help='Known official profile detail URL; implies --fetch')
     args = parser.parse_args()
-    reference = normalise(args.reference)
+    reference = search_term(args.reference)
     if args.fetch or args.url:
         try:
             data = lookup(reference, args.url)
