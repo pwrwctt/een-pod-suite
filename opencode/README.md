@@ -1,8 +1,10 @@
-# EEN POD Suite v2.1 for OpenCode
+# EEN POD Suite v2.3 for OpenCode
 
-This project contains seven modular Agent Skills under `.opencode/skills/`.
+This project contains 9 modular Agent Skills under `.opencode/skills/`.
 
 ## Skills
+
+- `een-pod-api` — Partner Web Service profiles and live Market/Technology reference data
 
 - `een-pod-suite` — orchestrator
 - `een-pod-intake`
@@ -35,3 +37,7 @@ The UI and taxonomy data are treated as 2024 snapshots. Current live POD data ta
 ## v2.1
 
 Adds exact public profile lookup by POD Reference and suite-version self-reporting.
+
+## v2.3
+
+Adds Partner Web Service integration for Cooperation Profiles and live Market/Technology reference data, API visibility-aware QA, status/openForEOI/publicURL handling, and incremental synchronisation guidance. Event API is intentionally excluded.

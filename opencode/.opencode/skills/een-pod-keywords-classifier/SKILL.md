@@ -17,3 +17,5 @@ Use NACE only when requested or required by the live workflow; do not call it ma
 Use `scripts/taxonomy_lookup.py` when convenient.
 
 Return exact verified bundled-snapshot codes/labels and explicitly state that the snapshot is 2024 unless current live data has been checked.
+
+For Market/Technology keywords, prefer live Partner Web Service reference data when authorised and available. Read `references/taxonomy-api.md`; identify labels by `uuid` and parents by `parentUuid`. Use bundled CSV taxonomy only as fallback. NACE/SDG remain on existing suite sources.

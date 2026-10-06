@@ -109,6 +109,21 @@ Label fields not shown publicly as:
 
 Do **not** automatically conclude that an internal POD field is missing merely because the public page does not expose it.
 
+
+## Partner Web Service integration
+
+If authenticated Partner Web Service access is available, read `partner-webservice.md`.
+
+Important:
+- the 19 May 2026 guide does **not** document a direct `/profiles` filter by POD Reference;
+- therefore keep the official public EEN search as the preferred exact-reference discovery route for a published profile;
+- if the target profile is already present in an authorised API dataset or an intentional API scan is appropriate, match `item.reference` exactly;
+- when an API record exposes `publicURL`, prefer that URL over constructing a slug;
+- classify the API response as `FULL`, `LIMITED` or `UNKNOWN` before quality review;
+- never convert `null` / `"N/A"` from a `LIMITED` record into missing-field blockers.
+
+Use `scripts/een_b2b_api.py` for authenticated profile retrieval/scanning when code execution and `EEN_API_KEY` are available.
+
 ## 6. Handoff to quality review
 
 If the user asks to `verify`, `review`, `audit`, `check quality`, `oceń`, `zweryfikuj jakość`, or equivalent:

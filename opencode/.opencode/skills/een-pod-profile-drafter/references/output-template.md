@@ -4,26 +4,26 @@
 
 Use the fields relevant to the chosen profile type:
 
-**Profile type:** BO / BR / TO / TR / RDR  
+**Profile type:** BO / BR / TO / TR / RDR\
 **Classification confidence:** High / Medium / Low
 
 **Title**
 
-**Short Summary**  
+**Short Summary**\
 `Character count: N/500`
 
 **Full Description**
 
-**Advantages & Innovations**  
+**Advantages & Innovations**\
 Only when required/relevant.
 
-**Technical specification / expertise sought**  
+**Technical specification / expertise sought**\
 Only when required/relevant.
 
-**Stage of development**  
+**Stage of development**\
 TO mandatory; TR optional when useful.
 
-**IPR status / IPR notes**  
+**IPR status / IPR notes**\
 TO mandatory; TR optional when useful.
 
 **Sustainable Development Goal(s)**
@@ -34,15 +34,15 @@ TO mandatory; TR optional when useful.
 
 **Type of Partnership**
 
-**Market keywords**  
+**Market keywords**\
 Up to 5 exact codes/labels when verified against the bundled/current taxonomy.
 
-**Technology keywords**  
+**Technology keywords**\
 When required/relevant; up to 5 exact codes/labels.
 
 **Target countries**
 
-**RDR call details**  
+**RDR call details**\
 Only for RDR.
 
 **Open items before submission**

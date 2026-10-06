@@ -1,6 +1,6 @@
 # EEN POD Suite
 
-Current version: **2.2**
+Current version: **2.3**
 
 Repository for maintaining the Enterprise Europe Network Partnering Opportunities Database skill suite.
 
@@ -18,12 +18,15 @@ Repository for maintaining the Enterprise Europe Network Partnering Opportunitie
 - dissemination/query guidance
 - BO/BR/TO/TR form-readiness checks
 - installed-version reporting
+- Partner Web Service profiles and live Market/Technology reference data
+- API visibility, lifecycle metadata and incremental synchronisation
 
 ## Versioning
 `VERSION` is the source of truth. Release tags use `vX.Y`.
 
 ## Build
-Run `python scripts/build.py`.
+Run `python scripts/build.py` (Python standard library only).
+Run API regression tests with `python -m unittest discover -s tests -v`.
 
 ## Confidentiality
 Before making the repository public, review redistribution rights for bundled EEN Community documents, templates and taxonomy files.

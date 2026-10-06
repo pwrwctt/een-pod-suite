@@ -1,0 +1,3 @@
+interface:
+  display_name: "EEN POD API"
+  short_description: "Uses the Partner Web Service for POD profiles and live Market/Technology labels."

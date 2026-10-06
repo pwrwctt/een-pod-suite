@@ -1,5 +1,28 @@
 # Changelog
 
+## v2.3 — 2026-10-06
+
+## Added
+- Partner Web Service integration for Cooperation Profiles.
+- Live Market/Technology reference-data retrieval.
+- Incremental taxonomy/profile synchronisation guidance.
+- FULL / LIMITED / UNKNOWN API visibility gate.
+- Profile status, `openForEOI`, `publicURL`, attachment and Video Pitch metadata handling.
+- API-aware RDR structured-field review.
+- `een-pod-api` OpenCode module.
+- Secure `EEN_API_KEY` runtime handling and IP-whitelisting error handling.
+
+## Changed
+- Live Market/Technology reference data now has priority over the bundled 2024 taxonomy snapshot.
+- Public EEN search remains the preferred exact-reference discovery route because the 19 May 2026 guide does not document a `/profiles` reference filter.
+- API `null` / `N/A` values are not treated as missing-field defects when visibility is LIMITED.
+
+- Classify incomplete or blank API records conservatively as UNKNOWN.
+- Build release archives without a machine-specific packaging tool.
+
+## Excluded
+- Event API integration.
+
 ## v2.2 — 2026-09-30
 - Added BO/BR/TO/TR operational form limits.
 - Added deterministic field-length and keyword-count checks.

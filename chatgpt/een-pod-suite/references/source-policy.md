@@ -1,23 +1,47 @@
 # Source policy
 
-Use the bundled source snapshots as the baseline for this skill:
+Use the following source hierarchy.
 
-1. **Partnering Profile Quality Guidelines v1.2 — September 2024**: primary operational source for profile eligibility, profile type, fields, drafting, partnership types, dissemination and quality checks.
-2. **Enterprise Europe Network Glossary 2024 v3**: source for EEN terminology and definitions.
-3. **Managing Queries for Widgets and Ticker — 13 December 2024**: source for saved queries, Email vs Widget/Ticker queries and role permissions.
-4. **EEN Community POD SDG / Market / Technology / NACE taxonomy workbook**: source snapshot for keyword/code lookup.
+1. **Partnering Profile Quality Guidelines v1.2 — September 2024**: primary source for profile eligibility, profile type, mandatory content, drafting quality, partnership types and quality checks.
+2. **Partner Webservices user guide (b2b) — 19 May 2026**: primary source for current documented Partner Web Service behaviour for Cooperation Profiles and Market/Technology reference data.
+3. **Official public EEN partnering-opportunities website**: primary public source for exact public-profile lookup by POD Reference and public-page verification.
+4. **Enterprise Europe Network Glossary 2024 v3**: source for EEN terminology and definitions.
+5. **Managing Queries for Widgets and Ticker — 13 December 2024**: source for saved queries, Email vs Widget/Ticker queries and role permissions.
+6. **Bundled EEN Community POD SDG / Market / Technology / NACE taxonomy workbook**: offline taxonomy snapshot.
 
-## Version rule
+## Version and freshness rule
 
-Treat all bundled taxonomies and UI instructions as **2024 snapshots**, not automatically as current 2026 platform truth.
+Treat the bundled taxonomy workbook and 2024 UI instructions as snapshots, not automatically as current platform truth.
 
-When the user asks for "current", "latest", live POD fields/codes, current call data, or current role permissions:
-- verify against an authoritative current EEN/EISMEA/European Commission source or the user's live POD data when tools permit;
-- state clearly when only the bundled 2024 snapshot is available;
-- never fabricate an updated code, label, field or UI step.
+For current structured profile data, profile statuses and live Market/Technology labels, prefer the authenticated Partner Web Service when available and when the record is fully visible.
+
+For exact public profile discovery by POD Reference, keep the official public EEN search as the preferred route because the 19 May 2026 Partner Web Service guide does not document a direct `reference` filter for `/profiles`.
+
+For Market/Technology classification:
+1. live Partner Web Service reference data;
+2. bundled taxonomy snapshot if live API data is unavailable;
+3. explicitly label fallback output as snapshot-based.
+
+The 2026 Partner Web Service guide does not establish the reference-data endpoint as a source for NACE or SDG.
+
+## Visibility rule
+
+Partner Web Service items can be visibility-limited. A record containing only identifying/status information while substantive fields are `null` or `"N/A"` must not be treated as a poor-quality or incomplete profile.
+
+Read `partner-webservice.md` and `api-quality-review.md` for the visibility gate.
+
+## Security rule
+
+Never expose or store an organisation API key. Use `EEN_API_KEY` at runtime only.
+
+Read `api-security.md` before authenticated API use.
 
 ## Conflict rule
 
-If a live/current authoritative source differs from the bundled snapshot, prefer the current source and explain the change.
+If a verified current authoritative source differs from a bundled snapshot, prefer the current source and explain the change.
 
-Do not silently replace or "correct" the bundled guidance with general knowledge.
+Do not silently replace or "correct" an authoritative source with general knowledge.
+
+## Excluded scope
+
+The Partner Web Service **Events API is intentionally outside this POD Suite version**.

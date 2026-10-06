@@ -1,12 +1,13 @@
-# Validation report — EEN POD Suite v2.1
+# Validation report — EEN POD Suite v2.3
 
-- `een-pod-dissemination-queries`: PASS
-- `een-pod-intake`: PASS
-- `een-pod-keywords-classifier`: PASS
-- `een-pod-profile-drafter`: PASS
-- `een-pod-profile-lookup`: PASS
-- `een-pod-profile-quality-reviewer`: PASS
-- `een-pod-suite`: PASS
-- `een-pod-title-summary-optimizer`: PASS
+Validated locally on 2026-10-06:
 
-All eight modules passed the skill-creator packaging validator.
+- All nine OpenCode modules and the ChatGPT skill: front matter, referenced files and version checks passed by `python scripts/build.py`.
+- OpenCode manifest version and module list match the source tree.
+- Seven automated API regression tests passed (`python -m unittest discover -s tests -v`).
+- Python and JSON syntax and release ZIP integrity passed.
+- Distributed API helpers are identical.
+
+The supplied archive reported skill-creator validation for all nine modules. That external validator is unavailable here; the checks above are the checks actually rerun locally.
+
+Live Partner Web Service behaviour has not been verified: no EEN API key was supplied.

@@ -1,6 +1,6 @@
 # Regression test cases
 
-1. Version query -> `EEN POD Suite v2.2`.
+1. Version query -> `EEN POD Suite v2.3`.
 2. `Zweryfikuj jakość profilu BOCL20240903021` -> exact official lookup before QA.
 3. BO title 257 chars -> OVER LIMIT by 1.
 4. Short Summary 501 chars -> OVER LIMIT by 1.

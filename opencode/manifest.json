@@ -1,9 +1,10 @@
 {
   "suite": "EEN POD Suite",
-  "version": "2.1",
+  "version": "2.3",
   "platform": "OpenCode",
-  "generated": "2026-08-31",
+  "generated": "2026-10-06",
   "skills": [
+    "een-pod-api",
     "een-pod-dissemination-queries",
     "een-pod-intake",
     "een-pod-keywords-classifier",
@@ -33,5 +34,15 @@
     "Exact public profile lookup by POD Reference",
     "Lookup-to-quality-review workflow",
     "Suite version self-reporting"
+  ],
+  "changes_v2_3": [
+    "Partner Web Service profile integration",
+    "Live Market/Technology reference-data integration",
+    "FULL/LIMITED/UNKNOWN API visibility gate",
+    "Profile status, openForEOI and publicURL handling",
+    "Incremental profile/taxonomy synchronisation guidance",
+    "API key and IP-whitelisting security rules",
+    "API-aware quality review and structured RDR mapping",
+    "Event API explicitly excluded"
   ]
 }

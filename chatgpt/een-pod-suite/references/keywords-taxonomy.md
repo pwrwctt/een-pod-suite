@@ -2,7 +2,8 @@
 
 Source basis:
 - Partnering Profile Quality Guidelines v1.2, section 6.2.2;
-- user-supplied EEN Community taxonomy workbook (2024 snapshot).
+- Partner Webservices user guide (b2b), 19 May 2026, for live Market/Technology labels;
+- user-supplied EEN Community taxonomy workbook as an offline 2024 snapshot.
 
 ## Market keywords
 
@@ -22,6 +23,14 @@ The v1.2 Guidelines say:
 - where a branch has only two levels, select the **Level 2** keyword.
 
 Search may be conducted using keywords alone, so prefer a small set of discriminating terms.
+
+## Live taxonomy first
+
+When authenticated Partner Web Service access is available, read `taxonomy-api.md` and prefer live `market_keyword` / `technology_keyword` labels from `/refdrupal/label`.
+
+Use `uuid` as the label identifier and `parentUuid` for hierarchy. Ignore the legacy numeric `id` / `parentId` for persistent identity. Prefer active labels (`isActive == "True"`).
+
+When live access is unavailable, fall back to the bundled taxonomy files.
 
 ## Bundled taxonomy files
 
@@ -65,4 +74,6 @@ If none applies, use `Not relevant`.
 
 ## Version warning
 
-The workbook metadata indicates a 2024-era snapshot. Exact current live POD taxonomy must be verified when currency matters.
+The workbook metadata indicates a 2024-era snapshot. Do not let the bundled CSVs override verified live Partner Web Service labels.
+
+The 19 May 2026 web-service guide documents Market and Technology reference labels only. Continue to treat NACE and SDG through their existing suite sources unless a newer authoritative source is verified.

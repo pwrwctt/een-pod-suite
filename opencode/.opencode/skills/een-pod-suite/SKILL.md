@@ -1,6 +1,6 @@
 ---
 name: een-pod-suite
-description: Orchestrate complete EEN Partnering Opportunities Database workflows. Use when a task spans eligibility/intake, BO/BR/TO/TR/RDR classification, drafting, Title and 500-character Summary optimisation, partnership-type selection, Technology/Market/SDG taxonomy, independent quality review, dissemination queries or profile management, public profile lookup by exact POD Reference, and installed-suite version reporting.
+description: Orchestrate complete EEN Partnering Opportunities Database workflows across eligibility, drafting, Title/Summary, keywords, quality review, public profile lookup, Partner Web Service profile/taxonomy access, dissemination and profile management. Use for BO/BR/TO/TR/RDR tasks spanning multiple modules, live Market/Technology reference data, API-aware review, profile status/openForEOI handling and suite-version reporting. Excludes Event API integration.
 ---
 
 For suite-version questions, read `references/version.md`.
@@ -10,6 +10,7 @@ For suite-version questions, read `references/version.md`.
 Use the smallest specialised chain that fits the task.
 
 Specialised skills:
+- `een-pod-api`
 - `een-pod-profile-lookup`
 - `een-pod-intake`
 - `een-pod-profile-drafter`

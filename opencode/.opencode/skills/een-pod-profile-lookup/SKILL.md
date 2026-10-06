@@ -18,3 +18,5 @@ If quality verification is requested:
 4. hand the extracted profile to `een-pod-profile-quality-reviewer`.
 
 Never guess a profile slug or review a merely similar search result.
+
+If authenticated Partner Web Service data is available, use `een-pod-api` for structured profile fields. Do not assume an undocumented reference filter; keep public exact-reference lookup as the default discovery route. Apply FULL/LIMITED/UNKNOWN visibility before QA.
