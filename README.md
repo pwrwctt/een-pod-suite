@@ -60,7 +60,7 @@ The [form-readiness helper](chatgpt/een-pod-suite/scripts/form_readiness.py) che
 - Interpret available lifecycle metadata, including status, publication and expiry dates, `openForEOI` and `publicURL`.
 - Support review of attachment and Video Pitch metadata when returned.
 
-The public lookup helper generates a search URL; it does not download or verify the profile page itself. Public lookup requires browsing in the host environment. API access depends on credentials and the organisation's access rights.
+The public lookup helper generates a search URL by default. With `--fetch`, it retrieves public HTML and verifies the displayed POD Reference; `--url` reads a known official detail URL directly. Public HTTP access or a browsing tool must be available in the host environment. Authenticated API access separately depends on credentials and the organisation's access rights.
 
 ### Portfolio and dissemination workflows
 
@@ -159,6 +159,14 @@ python chatgpt/een-pod-suite/scripts/pod_reference.py BOCL20240903021
 
 The command prints the normalised reference, format indicators and official filtered search URL. Open the URL and verify the exact reference on the resulting profile page.
 
+### Retrieve a public profile or use its direct URL
+
+```bash
+python chatgpt/een-pod-suite/scripts/pod_reference.py BOAL20261006010 --fetch
+```
+
+If you already have the official profile detail URL, pass it with `--url` to avoid dependence on search indexing. The helper returns JSON with visible page text only after verifying the displayed reference. Public retrieval does not require `EEN_API_KEY`. An HTTP 403, a network error or an unresolved search describes a retrieval failure; it does not prove that the profile is unpublished or unavailable. See the [lookup recovery workflow](chatgpt/een-pod-suite/references/profile-lookup.md).
+
 ### Search an offline taxonomy snapshot
 
 ```bash
@@ -250,7 +258,7 @@ python -m unittest discover -s tests -v
 python scripts/build.py
 ```
 
-The tests cover API filter validation, pagination, exact-reference matching, visibility classification, error handling and consistency of the distributed API helpers. They use mocked responses and do not establish live Partner Web Service compatibility or verify all editorial rules.
+The tests cover API filter validation, pagination, exact-reference matching, visibility classification, error handling and consistency of the distributed API helpers. Public lookup regression tests also cover direct URLs, displayed-reference verification and access/network failure classification. Tests use mocked responses and do not establish live website or Partner Web Service compatibility or verify all editorial rules.
 
 The build script checks skill front matter, referenced files, version consistency and the OpenCode module inventory before creating:
 

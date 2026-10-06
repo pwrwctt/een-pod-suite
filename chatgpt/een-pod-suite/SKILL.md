@@ -29,7 +29,7 @@ Read `references/source-policy.md` whenever currency/version matters.
 
 ## Reference-first workflow
 
-If the user supplies a POD Reference and asks to verify an existing published profile, perform **exact official EEN lookup → full-page POD Reference verification → public-field extraction → quality review**. Never draft a substitute profile before lookup.
+If the user supplies a POD Reference and asks to verify an existing published profile, perform **exact official EEN lookup → full-page POD Reference verification → public-field extraction → quality review**. Never draft a substitute profile before lookup. Prefer a supplied official detail URL over search discovery. If browsing fails, follow the recovery workflow in `references/profile-lookup.md`; preserve the supplied reference and URL, do not ask for the same identifier again, and ignore unrelated results.
 
 ## End-to-end workflow
 

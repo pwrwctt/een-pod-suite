@@ -9,7 +9,7 @@ For suite-version questions, read `references/version.md`.
 
 Read `references/profile-lookup.md` for the complete lookup workflow and failure handling.
 
-Use `scripts/pod_reference.py` to normalise a supplied POD Reference and generate the official filtered EEN lookup URL when useful.
+Use `scripts/pod_reference.py` to normalise a supplied POD Reference and generate the official filtered EEN lookup URL when useful. With `--fetch`, it can retrieve a verified public profile; with `--url`, it reads a supplied official detail URL directly. Public retrieval does not require an API key. Follow the recovery workflow before reporting a retrieval limitation.
 
 If quality verification is requested:
 1. find the exact official profile;
@@ -20,3 +20,5 @@ If quality verification is requested:
 Never guess a profile slug or review a merely similar search result.
 
 If authenticated Partner Web Service data is available, use `een-pod-api` for structured profile fields. Do not assume an undocumented reference filter; keep public exact-reference lookup as the default discovery route. Apply FULL/LIMITED/UNKNOWN visibility before QA.
+
+On retrieval failure, retain the supplied reference and URL and include the actual failed URL. Do not request an identifier already provided or discuss unrelated search results.

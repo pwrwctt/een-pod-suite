@@ -1,5 +1,13 @@
 # Changelog
 
+## v2.3 maintenance — public profile retrieval
+
+- Added public HTML retrieval and exact displayed-reference verification to the lookup helper.
+- Added direct official URL support to avoid dependence on search indexing.
+- Preserve supplied reference/URL on access failures and ignore unrelated search results.
+- Distinguish HTTP access, network and unresolved lookup failures from profile absence.
+- Added regression coverage for the BOAL20261006010 lookup scenario using synthetic fixtures; live profile retrieval remains environment-dependent.
+
 ## v2.3 — 2026-10-06
 
 ## Added
