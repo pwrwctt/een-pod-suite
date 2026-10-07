@@ -1,6 +1,6 @@
 {
   "suite": "EEN POD Suite",
-  "version": "2.5",
+  "version": "2.6",
   "platform": "OpenCode",
   "generated": "2026-10-07",
   "skills": [
@@ -32,5 +32,9 @@
   "changes_v2_5": [
     "Remove restricted service integration and related instructions",
     "Retain exact public URL audits and bundled taxonomy"
+  ],
+  "changes_v2_6": [
+    "Add Claude unified skill distribution",
+    "Synchronise and validate ChatGPT, OpenCode and Claude on every release"
   ]
 }

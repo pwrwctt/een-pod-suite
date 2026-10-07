@@ -4,9 +4,9 @@
 
 EEN POD Suite helps Enterprise Europe Network (EEN) advisers turn client information into structured cooperation profiles for the Partnering Opportunities Database (POD). It combines profile-writing guidance, eligibility checks, taxonomy references and deterministic field-limit checks in a reusable workflow.
 
-**Current version: 2.5** · [Changelog](CHANGELOG.md) · [Source policy](chatgpt/een-pod-suite/references/source-policy.md) · [Validation report](opencode/VALIDATION.md)
+**Current version: 2.6** · [Changelog](CHANGELOG.md) · [Source policy](chatgpt/een-pod-suite/references/source-policy.md) · [Validation report](opencode/VALIDATION.md)
 
-The repository provides a unified skill for a compatible ChatGPT skills environment and eight modular skills for OpenCode. Its Python helpers can also be run independently. The skills guide an AI assistant; the scripts perform supplied-URL reading, validation and offline taxonomy tasks. Final editorial review and submission remain with the adviser.
+The repository provides unified skills for compatible ChatGPT and Claude environments and eight modular skills for OpenCode. Its Python helpers can also be run independently. The skills guide an AI assistant; the scripts perform supplied-URL reading, validation and offline taxonomy tasks. Final editorial review and submission remain with the adviser.
 
 ## Who it is for
 
@@ -57,6 +57,7 @@ Use bundled 2024 Technology, Market, NACE and SDG CSVs for taxonomy recommendati
 
 ```text
 chatgpt/een-pod-suite/        Unified skill, references and Python helpers
+claude/een-pod-suite/         Claude skill, references and Python helpers
 opencode/.opencode/skills/   Eight specialised OpenCode skills
 opencode/manifest.json      Suite version and module inventory
 shared/                     Shared references and utilities
@@ -64,6 +65,7 @@ scripts/build.py            Release archive builder
 tests/                      URL-reader, scope and MCP regression tests
 docs/TEST-CASES.md          Manual regression scenarios
 dist/chatgpt/skill.zip      Packaged ChatGPT skill
+dist/claude/                 Versioned Claude skill archive
 dist/opencode/              Versioned OpenCode archives
 VERSION                     Authoritative suite version
 CHANGELOG.md                Release history
@@ -90,13 +92,21 @@ If the repository is private, authenticate with a GitHub account authorised to a
 
 Use [dist/chatgpt/skill.zip](dist/chatgpt/skill.zip) with a ChatGPT environment that supports installing skills. Follow that environment's skill installation process; if it accepts unpacked skills, install the complete `chatgpt/een-pod-suite/` directory, preserving its `SKILL.md`, `references/`, `scripts/` and `agents/` contents.
 
-After installation, ask: **“Which version of EEN POD Suite is installed?”** The expected answer for this release is `EEN POD Suite v2.5`.
+After installation, ask: **“Which version of EEN POD Suite is installed?”** The expected answer for this release is `EEN POD Suite v2.6`.
+
+### Claude skill
+
+Download [een-pod-suite-claude-v2.6.zip](dist/claude/een-pod-suite-claude-v2.6.zip). In Claude, enable **Code execution and file creation**, then open **Customize → Skills → + Create skill → Upload a skill** and upload this ZIP. Enable the skill and ask: **“Which version of EEN POD Suite is installed?”** The expected answer is `EEN POD Suite v2.6`. Organisation settings may control skill availability.
+
+For Claude Code, copy `claude/een-pod-suite/` into the project's `.claude/skills/een-pod-suite/` directory or your personal `~/.claude/skills/een-pod-suite/` directory. See [Claude installation and verification](claude/README.md).
+
+The Claude package contains the same audit rules, source documents, taxonomy and Python helpers as the unified ChatGPT skill, with Claude-specific instructions. Available browsing, network access and connected tools depend on the host environment. A skill installation does not establish an MCP connection.
 
 ### Modular OpenCode skills
 
 Copy the contents of `opencode/.opencode/skills/` into your project's `.opencode/skills/` directory. Preserve each module's directory structure. If the project already has skills, merge the directories and review any name conflicts.
 
-Alternatively, extract [een-pod-suite-opencode-v2.5.zip](dist/opencode/een-pod-suite-opencode-v2.5.zip) and copy its `.opencode/` contents into the project.
+Alternatively, extract [een-pod-suite-opencode-v2.6.zip](dist/opencode/een-pod-suite-opencode-v2.6.zip) and copy its `.opencode/` contents into the project.
 
 | Skill | Responsibility |
 | --- | --- |
@@ -186,6 +196,7 @@ Taxonomy recommendations use the bundled 2024 CSVs. An authoritative newer sourc
 ## Development and validation
 
 ```bash
+python scripts/sync_claude.py
 python -m unittest discover -s tests -v
 python scripts/build.py
 ```
@@ -193,8 +204,13 @@ python scripts/build.py
 The build script checks skill front matter, referenced files, version consistency and the OpenCode module inventory before creating:
 
 - `dist/chatgpt/skill.zip`
-- `dist/opencode/een-pod-suite-opencode-v2.5.zip`
+- `dist/claude/een-pod-suite-claude-v2.6.zip`
+- `dist/opencode/een-pod-suite-opencode-v2.6.zip`
 
 For additional editorial regression scenarios, see [docs/TEST-CASES.md](docs/TEST-CASES.md). The [validation report](opencode/VALIDATION.md) records which checks were actually performed.
 
 Use [VERSION](VERSION) as the version source of truth and [CHANGELOG.md](CHANGELOG.md) for release changes. Release tags follow the `vX.Y` naming convention. Maintainers should keep shared and distributed helper copies consistent, update the changelog for release-impacting changes, and validate and build before tagging a release.
+
+### Three-platform release policy
+
+Every future release must update **ChatGPT, OpenCode and Claude together** using the version in `VERSION`. The canonical unified instructions and resources live in `chatgpt/een-pod-suite/`; `scripts/sync_claude.py` generates the Claude variant. Apply relevant changes to every affected OpenCode module as well. Update all version references, the OpenCode manifest, documentation and changelog, then synchronise, test and build all three archives. The build rejects stale Claude content or mismatched platform versions. This policy is recorded in `AGENTS.md`.

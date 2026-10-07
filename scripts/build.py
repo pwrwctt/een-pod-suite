@@ -4,6 +4,7 @@ from pathlib import Path
 import json
 import re
 import zipfile
+from sync_claude import validate_claude
 
 ROOT = Path(__file__).resolve().parents[1]
 VERSION = (ROOT / 'VERSION').read_text().strip()
@@ -36,6 +37,9 @@ def archive(source, output, prefix=''):
 def main():
     chat = ROOT / 'chatgpt/een-pod-suite'
     validate_skill(chat)
+    claude = ROOT / 'claude/een-pod-suite'
+    validate_claude()
+    validate_skill(claude)
     manifest = json.loads((ROOT / 'opencode/manifest.json').read_text())
     modules = ROOT / 'opencode/.opencode/skills'
     if manifest['version'] != VERSION or set(manifest['skills']) != {p.name for p in modules.iterdir() if p.is_dir()}:
@@ -43,6 +47,7 @@ def main():
     for name in manifest['skills']:
         validate_skill(modules / name)
     archive(chat, ROOT / 'dist/chatgpt/skill.zip', 'een-pod-suite/')
+    archive(claude, ROOT / f'dist/claude/een-pod-suite-claude-v{VERSION}.zip', 'een-pod-suite/')
     archive(ROOT / 'opencode', ROOT / f'dist/opencode/een-pod-suite-opencode-v{VERSION}.zip')
 
 

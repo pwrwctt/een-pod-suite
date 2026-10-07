@@ -1,6 +1,6 @@
 ---
 name: een-pod-suite
-description: Enterprise Europe Network POD assistance for eligibility, BO/BR/TO/TR/RDR classification, drafting, title and summary optimisation, form readiness, bundled taxonomy, independent quality review of operator-supplied exact profile URLs or text, dissemination and version reporting.
+description: Prepare and audit EEN partnering profiles: eligibility, drafting, taxonomy, field limits and quality review. Audit only an operator-supplied exact profile URL or supplied text.
 ---
 
 # EEN POD Suite
@@ -10,6 +10,18 @@ description: Enterprise Europe Network POD assistance for eligibility, BO/BR/TO/
 Read `references/source-policy.md` whenever currency/version matters.
 
 For the read-only Reader & Audit Agent, read `references/reader-agent.md`. Connected MCP tools retrieve data; the skill supplies audit rules. Installation alone does not establish a working MCP connection.
+
+
+## Claude execution
+
+Use this skill in Claude when preparing or reviewing EEN partnering profiles.
+Resolve references and scripts relative to this installed skill directory.
+Use available browsing, code execution or explicitly connected read-only MCP tools
+to read only the operator-supplied official detail URL. Run the bundled Python
+helpers only when code execution is available. Network access depends on the
+Claude environment; installing this skill does not enable browsing or connect MCP.
+If reading is unavailable or fails, request the same profile's text/HTML export
+and state which content could not be verified. Never substitute another profile.
 
 ## Route the task
 

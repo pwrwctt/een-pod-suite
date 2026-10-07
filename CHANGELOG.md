@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.6 — 2026-10-07
+
+- Added a Claude unified skill and installation guidance for Claude and Claude Code.
+- Released ChatGPT, OpenCode and Claude together at v2.6.
+- Added deterministic Claude generation, stale-content checks and cross-platform version regressions.
+- Recorded the mandatory three-platform release policy in AGENTS.md and repository documentation.
+
 ## v2.5 — 2026-10-07
 
 - Removed Partner Web Service integration, code, references, credentials guidance and live taxonomy retrieval.
