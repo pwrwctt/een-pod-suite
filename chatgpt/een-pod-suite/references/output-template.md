@@ -63,26 +63,6 @@ Then:
 5. Minimal corrections
 6. Questions needed to resolve remaining issues
 
+## Source provenance
 
-## API-backed profile review header
-
-When reviewing data from the Partner Web Service, prepend:
-
-**Data source:** Partner Web Service\
-**POD Reference:** ...\
-**Profile type:** ...\
-**API visibility:** FULL / LIMITED / UNKNOWN\
-**Profile status:** ...\
-**Last modified:** ...\
-**Open for EOI:** true / false / not returned\
-**Public URL:** ... / not returned
-
-If visibility is `LIMITED`, do not issue completeness blockers based on hidden `null` / `N/A` values.
-
-## Taxonomy provenance
-
-When recommending Market/Technology keywords, state one:
-- `Live Partner Web Service reference data`
-- `Bundled 2024 taxonomy snapshot fallback`
-
-For live labels, use UUID-based identity/hierarchy.
+For an existing-profile audit, record the supplied detail URL, displayed POD Reference and which fields were visible. Identify taxonomy recommendations as based on the bundled 2024 snapshot or an authoritative newer source supplied by the operator.

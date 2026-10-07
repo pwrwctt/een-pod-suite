@@ -1,23 +1,9 @@
 # Source policy
 
-Use the bundled source snapshots as the baseline for this skill:
+Use Partnering Profile Quality Guidelines v1.2 (September 2024) as the primary baseline for eligibility, mandatory content and profile quality. Use the EEN Glossary 2024 v3 for terminology and Managing Queries for Widgets and Ticker (13 December 2024) for dissemination guidance.
 
-1. **Partnering Profile Quality Guidelines v1.2 — September 2024**: primary operational source for profile eligibility, profile type, fields, drafting, partnership types, dissemination and quality checks.
-2. **Enterprise Europe Network Glossary 2024 v3**: source for EEN terminology and definitions.
-3. **Managing Queries for Widgets and Ticker — 13 December 2024**: source for saved queries, Email vs Widget/Ticker queries and role permissions.
-4. **EEN Community POD SDG / Market / Technology / NACE taxonomy workbook**: source snapshot for keyword/code lookup.
+For an existing-profile audit, require the operator-supplied exact official profile detail URL or supplied profile text. Verify the displayed POD Reference on that page. Do not discover profiles by number or name. If reading fails, request a text/HTML export of the same page.
 
-## Version rule
+Use the bundled Technology, Market, NACE and SDG CSVs and taxonomy workbook as a 2024 snapshot. Identify snapshot-based keyword recommendations explicitly. Never present these files as automatically current, or invent a code or label. If the operator supplies a verified newer authoritative source, record its provenance and apply it where relevant.
 
-Treat all bundled taxonomies and UI instructions as **2024 snapshots**, not automatically as current 2026 platform truth.
-
-When the user asks for "current", "latest", live POD fields/codes, current call data, or current role permissions:
-- verify against an authoritative current EEN/EISMEA/European Commission source or the user's live POD data when tools permit;
-- state clearly when only the bundled 2024 snapshot is available;
-- never fabricate an updated code, label, field or UI step.
-
-## Conflict rule
-
-If a live/current authoritative source differs from the bundled snapshot, prefer the current source and explain the change.
-
-Do not silently replace or "correct" the bundled guidance with general knowledge.
+Do not infer that an internal field is missing because the public page does not show it. Review only retrieved or supplied evidence and state limitations. Keep client information within the authorised task.

@@ -63,7 +63,7 @@ class PublicPage(HTMLParser):
 
 def read_page(url):
     official_url(url)
-    request = Request(url, headers={'User-Agent': 'EEN-POD-Suite/2.4 (public profile lookup)', 'Accept': 'text/html'})
+    request = Request(url, headers={'User-Agent': 'EEN-POD-Suite/2.5 (public profile lookup)', 'Accept': 'text/html'})
     with build_opener(OfficialRedirects()).open(request, timeout=30) as response:
         final = official_url(response.geturl())
         content_type = response.headers.get_content_type()

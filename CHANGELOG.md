@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.5 — 2026-10-07
+
+- Removed Partner Web Service integration, code, references, credentials guidance and live taxonomy retrieval.
+- Removed the dedicated OpenCode API module and narrowed the reader tools to public URL reading and local form checks.
+- Audits use the operator-supplied exact public profile URL or supplied text; taxonomy uses the bundled 2024 snapshot.
+
 ## v2.4 — 2026-10-06
 
 - Removed profile discovery and retrieval by POD Reference or profile name, including API identifier scanning.

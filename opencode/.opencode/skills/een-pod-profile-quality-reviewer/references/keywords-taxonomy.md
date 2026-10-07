@@ -2,7 +2,7 @@
 
 Source basis:
 - Partnering Profile Quality Guidelines v1.2, section 6.2.2;
-- user-supplied EEN Community taxonomy workbook (2024 snapshot).
+- user-supplied EEN Community taxonomy workbook as an offline 2024 snapshot.
 
 ## Market keywords
 
@@ -65,4 +65,4 @@ If none applies, use `Not relevant`.
 
 ## Version warning
 
-The workbook metadata indicates a 2024-era snapshot. Exact current live POD taxonomy must be verified when currency matters.
+The bundled workbook and CSVs are 2024 snapshots. State this provenance and verify current values against an authoritative source supplied by the operator when currency matters.

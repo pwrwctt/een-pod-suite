@@ -1,10 +1,8 @@
-# EEN POD Suite v2.4 for OpenCode
+# EEN POD Suite v2.5 for OpenCode
 
-This project contains 9 modular Agent Skills under `.opencode/skills/`.
+This project contains 8 modular Agent Skills under `.opencode/skills/`.
 
 ## Skills
-
-- `een-pod-api` — Partner Web Service profiles and live Market/Technology reference data
 
 - `een-pod-suite` — orchestrator
 - `een-pod-intake`
@@ -34,10 +32,14 @@ Use dissemination/query guidance when required.
 
 The UI and taxonomy data are treated as 2024 snapshots. Current live POD data takes precedence when verified.
 
-## v2.4 audit input
+## v2.5 audit input
 
-Existing-profile audits require an exact official profile detail URL supplied by the operator. Number/name discovery and API identifier scanning were removed. The `een-pod-profile-lookup` module retains its directory name for compatibility but only reads supplied detail URLs.
+Existing-profile audits require an exact official profile detail URL supplied by the operator. Number/name discovery and identifier scanning were removed. The `een-pod-profile-lookup` module retains its directory name for compatibility but only reads supplied detail URLs.
 
 ## Read-only audit agent
 
 The distribution now includes `.opencode/agents/een-pod-auditor.md`. Copy the `agents/` directory alongside the skills and connect the `een_pod_reader` MCP server. The runnable server resides in the repository at `chatgpt/een-pod-suite/scripts/reader_mcp.py`; the OpenCode ZIP does not install or host that process. See `agents/README.md` in the repository for configuration.
+
+## Current audit input
+
+Use only the exact official profile detail URL supplied by the operator or supplied profile text. Taxonomy recommendations use the bundled 2024 snapshot.

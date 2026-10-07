@@ -62,3 +62,7 @@ Then:
 4. Field-by-field status
 5. Minimal corrections
 6. Questions needed to resolve remaining issues
+
+## Source provenance
+
+For an existing-profile audit, record the supplied detail URL, displayed POD Reference and which fields were visible. Identify taxonomy recommendations as based on the bundled 2024 snapshot or an authoritative newer source supplied by the operator.

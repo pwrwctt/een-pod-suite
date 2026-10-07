@@ -1,9 +1,8 @@
-# Validation report — EEN POD Suite v2.4
+# Validation report — EEN POD Suite v2.5
 
-- 22 automated API, URL-reader and MCP tests passed.
-- Number/name inputs and search-page URLs are rejected by the URL reader.
-- Public discovery helpers and API reference scanning were removed.
-- MCP discovery exposes three read-only tools; public profile reading requires `url`.
-- Skill packaging checks and archive builds passed.
+- 16 automated URL-reader, packaging-scope and MCP tests passed.
+- Reader tools are limited to supplied public profile URLs and local form checks.
+- Packaged instructions and scripts contain no restricted service integration or credential guidance.
+- Eight OpenCode modules and the ChatGPT skill passed packaging checks.
 
-Tests use synthetic/mocked responses and local stdio execution. Live EEN access and a remote ChatGPT connection remain unverified.
+Tests use synthetic/mocked responses and local stdio execution. Live public-page reading and remote ChatGPT connection remain unverified.

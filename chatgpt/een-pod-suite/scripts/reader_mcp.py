@@ -20,7 +20,6 @@ def load(name):
 
 
 public = load('profile_url')
-api = load('een_b2b_api')
 forms = load('form_readiness')
 
 
@@ -31,8 +30,6 @@ def schema(properties, required=()):
 TOOLS = [
     {'name':'get_public_profile','description':'Read only an operator-supplied official EEN profile detail URL and verify the displayed POD Reference. No reference or name discovery is available.',
      'inputSchema':schema({'url':{'type':'string'},'expected_reference':{'type':'string'}},['url'])},
-    {'name':'get_live_labels','description':'Read a single page of current Market or Technology labels. Pagination starts at zero; this does not retrieve NACE or SDG.',
-     'inputSchema':schema({'data_type':{'type':'string','enum':['market_keyword','technology_keyword']},'page':{'type':'integer','minimum':0},'page_size':{'type':'integer','minimum':1,'maximum':200}},['data_type'])},
     {'name':'check_form_limits','description':'Count field characters and Market/Technology keywords for BO/BR/TO/TR. A length PASS is not a quality verdict or evidence that a mandatory field is complete.',
      'inputSchema':schema({'profile_type':{'type':'string','enum':['BO','BR','TO','TR']},'fields':{'type':'object','properties':{k:{'type':'string'} for k in ['title','summary','description','partner_role','advantages','technical']},'additionalProperties':False},'market_keywords':{'type':'array','items':{'type':'string'}},'technology_keywords':{'type':'array','items':{'type':'string'}}},['profile_type','fields'])}
 ]
@@ -67,8 +64,6 @@ def execute(name, arguments):
     validate(arguments,tool['inputSchema'])
     if name=='get_public_profile':
         return public.read_profile(arguments['url'],arguments.get('expected_reference'))
-    if name=='get_live_labels':
-        return {'source':'Partner Web Service','data_type':arguments['data_type'],'page':arguments.get('page',0),'response':api.fetch_labels_page(data_type=arguments['data_type'],page=arguments.get('page',0),page_size=arguments.get('page_size',200))}
     limits={**forms.COMMON,**forms.PROFILE[arguments['profile_type']]}
     fields=arguments['fields']
     return {'profile_type':arguments['profile_type'],'fields':{key:{**forms.check(fields.get(key,''),limit),'populated':bool(fields.get(key,''))} for key,limit in limits.items()},'keywords':{kind:{'count':len(arguments.get(kind+'_keywords',[])),'limit':5,'status':'PASS' if len(arguments.get(kind+'_keywords',[]))<=5 else 'OVER LIMIT'} for kind in ('market','technology')},'scope':'Lengths and counts only; mandatory content and semantic quality require review.'}
@@ -76,7 +71,7 @@ def execute(name, arguments):
 
 def safe_error(exc):
     message=str(exc)
-    for key in ('EEN_API_KEY','EEN_AGENT_TOKEN'):
+    for key in ('EEN_AGENT_TOKEN',):
         secret=os.environ.get(key)
         if secret: message=message.replace(secret,'[REDACTED]')
     return message

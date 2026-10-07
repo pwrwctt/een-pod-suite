@@ -21,7 +21,7 @@ class ReaderTests(unittest.TestCase):
     def test_initialization_and_read_only_discovery(self):
         response=reader.rpc({'jsonrpc':'2.0','id':1,'method':'initialize','params':{'protocolVersion':'2025-03-26'}})
         self.assertEqual(response['result']['protocolVersion'],'2025-03-26')
-        self.assertEqual(len(reader.TOOLS),3)
+        self.assertEqual(len(reader.TOOLS),2)
         for tool in reader.TOOLS:
             self.assertTrue(tool['annotations']['readOnlyHint'])
             self.assertFalse(tool['annotations']['destructiveHint'])
@@ -40,17 +40,15 @@ class ReaderTests(unittest.TestCase):
     def test_reference_or_name_discovery_is_rejected(self):
         self.assertTrue(call('get_public_profile',{'reference':'BOAL20261006010'})['isError'])
         self.assertTrue(call('get_public_profile',{'name':'Tour operator'})['isError'])
-        self.assertTrue(call('get_api_profile',{'reference':'BOAL20261006010'})['isError'])
 
     def test_arguments_cannot_supply_credentials_or_arbitrary_endpoints(self):
-        self.assertTrue(call('get_live_labels',{'data_type':'market_keyword','api_key':'secret'})['isError'])
+        self.assertEqual({tool['name'] for tool in reader.TOOLS},{'get_public_profile','check_form_limits'})
         self.assertTrue(call('get_public_profile',{'reference':'x','base_url':'https://example.com'})['isError'])
         self.assertTrue(call('delete_profile',{'reference':'x'})['isError'])
 
     def test_exception_redaction(self):
-        with patch.dict(reader.os.environ,{'EEN_API_KEY':'test-sensitive','EEN_AGENT_TOKEN':'test-auth'}), patch.object(reader.public,'read_profile',side_effect=RuntimeError('test-sensitive test-auth')):
+        with patch.dict(reader.os.environ,{'EEN_AGENT_TOKEN':'test-auth'}), patch.object(reader.public,'read_profile',side_effect=RuntimeError('test-auth')):
             result=call('get_public_profile',{'url':'https://een.ec.europa.eu/partnering-opportunities/example'})
-            self.assertNotIn('test-sensitive',json.dumps(result))
             self.assertNotIn('test-auth',json.dumps(result))
 
     def test_form_count_does_not_claim_completeness(self):
@@ -65,7 +63,7 @@ class ReaderTests(unittest.TestCase):
         self.assertEqual(result.returncode,0,result.stderr)
         responses=[json.loads(line) for line in result.stdout.splitlines()]
         self.assertEqual([r['id'] for r in responses],[1,2,3])
-        self.assertEqual(len(responses[1]['result']['tools']),3)
+        self.assertEqual(len(responses[1]['result']['tools']),2)
         self.assertEqual(responses[2]['result']['structuredContent']['fields']['technical']['status'],'OVER LIMIT by 1')
 
     def test_http_requires_authentication_secret(self):

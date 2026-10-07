@@ -1,12 +1,13 @@
 # EEN POD Suite version
 
-**Current suite version:** v2.4
-**Release date:** 6 October 2026
+**Current suite version:** v2.5
+**Release date:** 7 October 2026
 
-Report `EEN POD Suite v2.4` for installed-version questions.
+Report `EEN POD Suite v2.5` for installed-version questions.
 
-## v2.4
+## Current capabilities
 
-- Existing-profile audits require the exact official detail URL supplied by the operator.
-- Removed public discovery by POD Reference or profile name and API reference scanning.
-- Retained direct URL reading, drafting, quality review, form checks, taxonomy and portfolio API capabilities.
+- Eligibility, drafting and independent quality review using PPQG v1.2.
+- Existing-profile audits from operator-supplied exact public detail URLs or supplied text.
+- Local form-limit checks and bundled 2024 Technology/Market/SDG/NACE taxonomy.
+- Dissemination guidance and version reporting.

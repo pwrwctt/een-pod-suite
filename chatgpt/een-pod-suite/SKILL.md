@@ -1,13 +1,11 @@
 ---
 name: een-pod-suite
-description: End-to-end Enterprise Europe Network Partnering Opportunities Database (POD) skill for EEN advisers. Use for eligibility, BO/BR/TO/TR/RDR classification, drafting, field/form readiness, Technology/Market/SDG taxonomy, auditing operator-supplied profile URLs, Partner Web Service profile retrieval, API-aware quality review, live Market/Technology reference-data lookup and synchronisation, profile status/openForEOI management, dissemination queries, and installed-suite version reporting. Excludes Event API integration.
+description: Enterprise Europe Network POD assistance for eligibility, BO/BR/TO/TR/RDR classification, drafting, title and summary optimisation, form readiness, bundled taxonomy, independent quality review of operator-supplied exact profile URLs or text, dissemination and version reporting.
 ---
 
 # EEN POD Suite
 
-**Installed suite version: v2.4.** For any version question, read `references/version.md` and report that value.
-
-Use **Partnering Profile Quality Guidelines v1.2 (September 2024)** as the primary profile-quality source. Use the **Partner Webservices user guide (19 May 2026)** for documented Cooperation Profile and Market/Technology API behaviour, the **EEN Glossary 2024 v3** for terminology, the **Queries User Guide (13 December 2024)** for query workflows, and the supplied EEN taxonomy workbook as an offline 2024 snapshot.
+**Installed suite version: v2.5.** For any version question, read `references/version.md` and report that value.
 
 Read `references/source-policy.md` whenever currency/version matters.
 
@@ -16,14 +14,11 @@ For the read-only Reader & Audit Agent, read `references/reader-agent.md`. Conne
 ## Route the task
 
 - For auditing an existing profile: require the operator's exact official detail URL and read `references/profile-lookup.md`; use `scripts/profile_url.py` for direct retrieval when available.
-- For authenticated Partner Web Service profile retrieval, lifecycle/status data or portfolio synchronisation: read `references/partner-webservice.md` and `references/api-security.md`; use `scripts/een_b2b_api.py` when execution and credentials are available.
-- For live Market/Technology labels or incremental taxonomy sync: read `references/taxonomy-api.md`; use the Partner Web Service first and bundled CSVs only as fallback.
-- For quality review of API-originated profile data: read `references/api-quality-review.md` before the normal reviewer.
 - For raw client notes, eligibility or profile-type uncertainty: read `references/intake-eligibility.md` and `references/profile-types.md`.
 - For BO/BR/TO/TR operational field limits and field availability: read `references/form-schema.md`; use `scripts/form_readiness.py` when useful.
 - For field requirements or a full draft: read `references/field-matrix.md`, `references/drafting-rules.md`, `references/partnership-types.md` and `references/output-template.md`.
 - For Title or Short Summary: read `references/title-summary.md`.
-- For Technology, Market, SDG or NACE classification: read `references/keywords-taxonomy.md`; prefer live Market/Technology API labels when available and use bundled CSVs as fallback.
+- For Technology, Market, SDG or NACE classification: read `references/keywords-taxonomy.md` and use the bundled CSVs, identified as a 2024 snapshot.
 - For final quality assurance: read `references/quality-review.md`.
 - For dissemination queries: read `references/dissemination-queries.md`.
 - For profile lifetime/renewal/EoI management: read `references/profile-management.md`.
@@ -31,7 +26,7 @@ For the read-only Reader & Audit Agent, read `references/reader-agent.md`. Conne
 
 ## Operator-supplied URL workflow
 
-For an existing-profile audit, require the exact detail URL supplied by the operator, retrieve that page, verify its displayed POD Reference, extract visible fields and review. If only a number or name is supplied, ask for the exact URL. Never discover a profile by reference or name or use API scanning as a fallback.
+Require the exact official detail URL supplied by the operator or supplied profile text. Read that page, verify its displayed POD Reference, extract visible fields and review. If only a number/name is supplied, request the exact URL. If reading fails, request a text/HTML export of the same profile and report the limitation.
 
 ## End-to-end workflow
 
@@ -42,10 +37,9 @@ For an existing-profile audit, require the exact detail URL supplied by the oper
 5. Explain WHY and HOW the selected cooperation type works.
 6. Optimise Title and Short Summary; enforce the 500-character Summary limit.
 7. Select partnership type(s), normally no more than 1–3.
-8. Select SDG and relevant Technology/Market taxonomy entries; prefer verified live Partner Web Service labels when available and never invent codes.
-9. If input originates from the Partner Web Service, classify API visibility as FULL / LIMITED / UNKNOWN before completeness review.
-10. Run an independent pre-publication quality review.
-11. Add dissemination/query guidance only when requested.
+8. Select applicable keywords from the bundled 2024 taxonomy; never invent codes.
+9. Run an independent pre-publication quality review.
+10. Add dissemination/query guidance only when requested.
 
 ## Hard rules
 
@@ -56,16 +50,12 @@ For an existing-profile audit, require the exact detail URL supplied by the oper
 - Preserve the user's anonymity decision; screen text and media metadata accordingly.
 - Keep partnership type, partner role, Title, Summary and Description coherent.
 - Treat the bundled 2024 UI/taxonomy files as snapshots. Verify current live data when currency matters.
-- Never store or expose `EEN_API_KEY`; authenticated API access also requires IP whitelisting.
-- Never treat `null` / `N/A` in an API visibility-limited record as a quality defect.
 - Do not discover profiles by reference or name. Audit only the operator-supplied exact detail URL or supplied profile content.
-- Keep `PUBLISHED` separate from `openForEOI`.
-- Do not use the Partner Web Service Events API in this suite version.
 - Use British English for profile text unless asked otherwise; explain in the user's language when helpful.
 
 ## Taxonomy helper
 
-When code execution and authorised API access are available, `scripts/een_b2b_api.py` can retrieve Cooperation Profiles and live Market/Technology reference labels. Use `scripts/taxonomy_lookup.py` only for bundled snapshot fallback and NACE/SDG support. For live Market/Technology labels, UUID-based API identity takes precedence over bundled snapshot codes when verified.
+Use `scripts/taxonomy_lookup.py` to search bundled Technology, Market, NACE and SDG CSVs when execution is available. These are 2024 snapshots, not an automatic current-data source.
 
 ## Final gate
 

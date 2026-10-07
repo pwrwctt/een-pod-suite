@@ -1,10 +1,5 @@
 # Independent quality review
 
-## API-aware review gate
-
-If the input comes from the Partner Web Service, read `api-quality-review.md` first. Determine `FULL`, `LIMITED` or `UNKNOWN` visibility before applying field-completeness findings. Never treat `null` or `N/A` in a visibility-limited record as a quality defect.
-
-
 Source basis: Partnering Profile Quality Guidelines v1.2, especially section 3.1 quality-check note and sections 4–6.
 
 There is no central quality review before publication in the workflow described by v1.2. Consortia should therefore establish a pre-publication quality-check and have drafts checked by an experienced colleague.
@@ -42,9 +37,6 @@ Use for:
 - grammar, concision, local repetition, readability, formatting.
 
 ## Field checks
-
-When API data is available, also report profile status, lastModified, `openForEOI` and `publicURL` as operational context. Keep `PUBLISHED` separate from `openForEOI`.
-
 
 Check:
 - eligibility / groundwork flags;

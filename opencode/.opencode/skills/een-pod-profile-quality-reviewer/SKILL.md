@@ -19,5 +19,3 @@ Return:
 - questions required to resolve remaining blockers.
 
 Do not use an official-sounding numeric threshold.
-
-For Partner Web Service input, read `references/api-quality-review.md` and classify API visibility before field-completeness findings. LIMITED `null`/`N/A` values are not quality defects. Report status, lastModified, openForEOI and publicURL as operational context when returned.

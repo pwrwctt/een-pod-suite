@@ -1,10 +1,9 @@
 {
   "suite": "EEN POD Suite",
-  "version": "2.4",
+  "version": "2.5",
   "platform": "OpenCode",
-  "generated": "2026-10-06",
+  "generated": "2026-10-07",
   "skills": [
-    "een-pod-api",
     "een-pod-dissemination-queries",
     "een-pod-intake",
     "een-pod-keywords-classifier",
@@ -30,21 +29,8 @@
       "rows_total": 18
     }
   },
-  "changes_v2_1": [
-    "Suite version self-reporting"
-  ],
-  "changes_v2_3": [
-    "Partner Web Service profile integration",
-    "Live Market/Technology reference-data integration",
-    "FULL/LIMITED/UNKNOWN API visibility gate",
-    "Profile status, openForEOI and publicURL handling",
-    "Incremental profile/taxonomy synchronisation guidance",
-    "API key and IP-whitelisting security rules",
-    "API-aware quality review and structured RDR mapping",
-    "Event API explicitly excluded"
-  ],
-  "changes_v2_4": [
-    "Audit existing profiles only by operator-supplied exact detail URL",
-    "Remove reference/name discovery and API identifier scanning"
+  "changes_v2_5": [
+    "Remove restricted service integration and related instructions",
+    "Retain exact public URL audits and bundled taxonomy"
   ]
 }
