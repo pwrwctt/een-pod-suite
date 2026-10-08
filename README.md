@@ -6,6 +6,8 @@ EEN POD Suite helps Enterprise Europe Network (EEN) advisers turn client informa
 
 **Current version: 2.7** · [Changelog](CHANGELOG.md) · [Source policy](chatgpt/een-pod-suite/references/source-policy.md) · [Validation report](opencode/VALIDATION.md)
 
+**New to the suite?** Read the [quick start guide in Polish](QUICKSTART-PL.md) for capabilities, required input and example requests.
+
 The repository provides unified skills for compatible ChatGPT and Claude environments and eight modular skills for OpenCode. Its Python helpers can also be run independently. The skills guide an AI assistant; the scripts perform supplied-URL reading, validation and offline taxonomy tasks. Final editorial review and submission remain with the adviser.
 
 ## Who it is for
