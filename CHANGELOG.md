@@ -1,5 +1,15 @@
 # Changelog
 
+## v2.7 — 2026-10-08
+
+- Fixed Claude YAML generation and added real YAML, nested-reference and common-content release validation.
+- Fixed retrieval error flags; added conservative labelled fields, identity/content separation, visibility and timestamps.
+- Added field completeness, partnership/country/date/taxonomy checks and evidence-based review gates.
+- Added interviews, version comparison, EoI drafting and partner-fit support.
+- Added offline bilingual concept-based semantic taxonomy ranking and exact-code lookup, exposed through read-only MCP tools.
+- Completed missing PPQG guidance and recorded unavailable template sources explicitly.
+- Synchronised ChatGPT, Claude and all eight OpenCode modules; added five-type fixtures and platform evaluation scenarios.
+
 ## v2.6 — 2026-10-07
 
 - Added a Claude unified skill and installation guidance for Claude and Claude Code.

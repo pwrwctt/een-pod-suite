@@ -1,0 +1,732 @@
+[
+  {
+    "id": "BO-confirmed-checklist",
+    "input": {
+      "profile_type": "BO",
+      "fields": {
+        "title": "Synthetic cooperation opportunity",
+        "summary": "A synthetic organisation seeks a partner for documented cooperation.",
+        "description": "Synthetic facts for presence tests; semantic quality is not inferred.",
+        "partner_role": "Perform documented partner tasks.",
+        "partner_size": "SME 11-49",
+        "market_keywords": [
+          "01003"
+        ],
+        "sdg": [
+          "GOAL 1: No Poverty"
+        ],
+        "partnership_types": [
+          "Commercial agreement"
+        ],
+        "advantages": "Synthetic substantiated advantage."
+      },
+      "semantic_review_complete": true,
+      "operational_confirmed": true,
+      "form_limits_confirmed": true,
+      "independent_review": true
+    },
+    "expected_verdict": "READY",
+    "note": "Synthetic flags represent adviser confirmation; the helper did not establish semantic facts."
+  },
+  {
+    "id": "BO-BLOCKER",
+    "input": {
+      "profile_type": "BO",
+      "fields": {
+        "title": "Synthetic cooperation opportunity",
+        "summary": "A synthetic organisation seeks a partner for documented cooperation.",
+        "description": "Synthetic facts for presence tests; semantic quality is not inferred.",
+        "partner_role": "Perform documented partner tasks.",
+        "partner_size": "SME 11-49",
+        "market_keywords": [
+          "01003"
+        ],
+        "sdg": [
+          "GOAL 1: No Poverty"
+        ],
+        "partnership_types": [
+          "Commercial agreement"
+        ],
+        "advantages": "Synthetic substantiated advantage."
+      },
+      "semantic_review_complete": true,
+      "operational_confirmed": true,
+      "form_limits_confirmed": true,
+      "independent_review": true,
+      "reviewer_issues": [
+        {
+          "severity": "BLOCKER",
+          "rule": "Synthetic finding",
+          "evidence": "Synthetic quoted passage"
+        }
+      ]
+    },
+    "expected_verdict": "RETURN FOR REVISION"
+  },
+  {
+    "id": "BO-MAJOR",
+    "input": {
+      "profile_type": "BO",
+      "fields": {
+        "title": "Synthetic cooperation opportunity",
+        "summary": "A synthetic organisation seeks a partner for documented cooperation.",
+        "description": "Synthetic facts for presence tests; semantic quality is not inferred.",
+        "partner_role": "Perform documented partner tasks.",
+        "partner_size": "SME 11-49",
+        "market_keywords": [
+          "01003"
+        ],
+        "sdg": [
+          "GOAL 1: No Poverty"
+        ],
+        "partnership_types": [
+          "Commercial agreement"
+        ],
+        "advantages": "Synthetic substantiated advantage."
+      },
+      "semantic_review_complete": true,
+      "operational_confirmed": true,
+      "form_limits_confirmed": true,
+      "independent_review": true,
+      "reviewer_issues": [
+        {
+          "severity": "MAJOR",
+          "rule": "Synthetic finding",
+          "evidence": "Synthetic quoted passage"
+        }
+      ]
+    },
+    "expected_verdict": "RETURN FOR REVISION"
+  },
+  {
+    "id": "BO-MINOR",
+    "input": {
+      "profile_type": "BO",
+      "fields": {
+        "title": "Synthetic cooperation opportunity",
+        "summary": "A synthetic organisation seeks a partner for documented cooperation.",
+        "description": "Synthetic facts for presence tests; semantic quality is not inferred.",
+        "partner_role": "Perform documented partner tasks.",
+        "partner_size": "SME 11-49",
+        "market_keywords": [
+          "01003"
+        ],
+        "sdg": [
+          "GOAL 1: No Poverty"
+        ],
+        "partnership_types": [
+          "Commercial agreement"
+        ],
+        "advantages": "Synthetic substantiated advantage."
+      },
+      "semantic_review_complete": true,
+      "operational_confirmed": true,
+      "form_limits_confirmed": true,
+      "independent_review": true,
+      "reviewer_issues": [
+        {
+          "severity": "MINOR",
+          "rule": "Synthetic finding",
+          "evidence": "Synthetic quoted passage"
+        }
+      ]
+    },
+    "expected_verdict": "READY AFTER MINOR EDITS"
+  },
+  {
+    "id": "BR-confirmed-checklist",
+    "input": {
+      "profile_type": "BR",
+      "fields": {
+        "title": "Synthetic cooperation opportunity",
+        "summary": "A synthetic organisation seeks a partner for documented cooperation.",
+        "description": "Synthetic facts for presence tests; semantic quality is not inferred.",
+        "partner_role": "Perform documented partner tasks.",
+        "partner_size": "SME 11-49",
+        "market_keywords": [
+          "01003"
+        ],
+        "sdg": [
+          "GOAL 1: No Poverty"
+        ],
+        "partnership_types": [
+          "Commercial agreement"
+        ],
+        "technical": "Synthetic acceptance criteria."
+      },
+      "semantic_review_complete": true,
+      "operational_confirmed": true,
+      "form_limits_confirmed": true,
+      "independent_review": true
+    },
+    "expected_verdict": "READY",
+    "note": "Synthetic flags represent adviser confirmation; the helper did not establish semantic facts."
+  },
+  {
+    "id": "BR-BLOCKER",
+    "input": {
+      "profile_type": "BR",
+      "fields": {
+        "title": "Synthetic cooperation opportunity",
+        "summary": "A synthetic organisation seeks a partner for documented cooperation.",
+        "description": "Synthetic facts for presence tests; semantic quality is not inferred.",
+        "partner_role": "Perform documented partner tasks.",
+        "partner_size": "SME 11-49",
+        "market_keywords": [
+          "01003"
+        ],
+        "sdg": [
+          "GOAL 1: No Poverty"
+        ],
+        "partnership_types": [
+          "Commercial agreement"
+        ],
+        "technical": "Synthetic acceptance criteria."
+      },
+      "semantic_review_complete": true,
+      "operational_confirmed": true,
+      "form_limits_confirmed": true,
+      "independent_review": true,
+      "reviewer_issues": [
+        {
+          "severity": "BLOCKER",
+          "rule": "Synthetic finding",
+          "evidence": "Synthetic quoted passage"
+        }
+      ]
+    },
+    "expected_verdict": "RETURN FOR REVISION"
+  },
+  {
+    "id": "BR-MAJOR",
+    "input": {
+      "profile_type": "BR",
+      "fields": {
+        "title": "Synthetic cooperation opportunity",
+        "summary": "A synthetic organisation seeks a partner for documented cooperation.",
+        "description": "Synthetic facts for presence tests; semantic quality is not inferred.",
+        "partner_role": "Perform documented partner tasks.",
+        "partner_size": "SME 11-49",
+        "market_keywords": [
+          "01003"
+        ],
+        "sdg": [
+          "GOAL 1: No Poverty"
+        ],
+        "partnership_types": [
+          "Commercial agreement"
+        ],
+        "technical": "Synthetic acceptance criteria."
+      },
+      "semantic_review_complete": true,
+      "operational_confirmed": true,
+      "form_limits_confirmed": true,
+      "independent_review": true,
+      "reviewer_issues": [
+        {
+          "severity": "MAJOR",
+          "rule": "Synthetic finding",
+          "evidence": "Synthetic quoted passage"
+        }
+      ]
+    },
+    "expected_verdict": "RETURN FOR REVISION"
+  },
+  {
+    "id": "BR-MINOR",
+    "input": {
+      "profile_type": "BR",
+      "fields": {
+        "title": "Synthetic cooperation opportunity",
+        "summary": "A synthetic organisation seeks a partner for documented cooperation.",
+        "description": "Synthetic facts for presence tests; semantic quality is not inferred.",
+        "partner_role": "Perform documented partner tasks.",
+        "partner_size": "SME 11-49",
+        "market_keywords": [
+          "01003"
+        ],
+        "sdg": [
+          "GOAL 1: No Poverty"
+        ],
+        "partnership_types": [
+          "Commercial agreement"
+        ],
+        "technical": "Synthetic acceptance criteria."
+      },
+      "semantic_review_complete": true,
+      "operational_confirmed": true,
+      "form_limits_confirmed": true,
+      "independent_review": true,
+      "reviewer_issues": [
+        {
+          "severity": "MINOR",
+          "rule": "Synthetic finding",
+          "evidence": "Synthetic quoted passage"
+        }
+      ]
+    },
+    "expected_verdict": "READY AFTER MINOR EDITS"
+  },
+  {
+    "id": "TO-confirmed-checklist",
+    "input": {
+      "profile_type": "TO",
+      "fields": {
+        "title": "Synthetic cooperation opportunity",
+        "summary": "A synthetic organisation seeks a partner for documented cooperation.",
+        "description": "Synthetic facts for presence tests; semantic quality is not inferred.",
+        "partner_role": "Perform documented partner tasks.",
+        "partner_size": "SME 11-49",
+        "market_keywords": [
+          "01003"
+        ],
+        "sdg": [
+          "GOAL 1: No Poverty"
+        ],
+        "partnership_types": [
+          "Research & development cooperation agreement"
+        ],
+        "advantages": "Synthetic substantiated advantage.",
+        "technology_keywords": [
+          "11001"
+        ],
+        "stage": "Lab tested",
+        "ipr": "No IPR applied"
+      },
+      "semantic_review_complete": true,
+      "operational_confirmed": true,
+      "form_limits_confirmed": true,
+      "independent_review": true
+    },
+    "expected_verdict": "READY",
+    "note": "Synthetic flags represent adviser confirmation; the helper did not establish semantic facts."
+  },
+  {
+    "id": "TO-BLOCKER",
+    "input": {
+      "profile_type": "TO",
+      "fields": {
+        "title": "Synthetic cooperation opportunity",
+        "summary": "A synthetic organisation seeks a partner for documented cooperation.",
+        "description": "Synthetic facts for presence tests; semantic quality is not inferred.",
+        "partner_role": "Perform documented partner tasks.",
+        "partner_size": "SME 11-49",
+        "market_keywords": [
+          "01003"
+        ],
+        "sdg": [
+          "GOAL 1: No Poverty"
+        ],
+        "partnership_types": [
+          "Research & development cooperation agreement"
+        ],
+        "advantages": "Synthetic substantiated advantage.",
+        "technology_keywords": [
+          "11001"
+        ],
+        "stage": "Lab tested",
+        "ipr": "No IPR applied"
+      },
+      "semantic_review_complete": true,
+      "operational_confirmed": true,
+      "form_limits_confirmed": true,
+      "independent_review": true,
+      "reviewer_issues": [
+        {
+          "severity": "BLOCKER",
+          "rule": "Synthetic finding",
+          "evidence": "Synthetic quoted passage"
+        }
+      ]
+    },
+    "expected_verdict": "RETURN FOR REVISION"
+  },
+  {
+    "id": "TO-MAJOR",
+    "input": {
+      "profile_type": "TO",
+      "fields": {
+        "title": "Synthetic cooperation opportunity",
+        "summary": "A synthetic organisation seeks a partner for documented cooperation.",
+        "description": "Synthetic facts for presence tests; semantic quality is not inferred.",
+        "partner_role": "Perform documented partner tasks.",
+        "partner_size": "SME 11-49",
+        "market_keywords": [
+          "01003"
+        ],
+        "sdg": [
+          "GOAL 1: No Poverty"
+        ],
+        "partnership_types": [
+          "Research & development cooperation agreement"
+        ],
+        "advantages": "Synthetic substantiated advantage.",
+        "technology_keywords": [
+          "11001"
+        ],
+        "stage": "Lab tested",
+        "ipr": "No IPR applied"
+      },
+      "semantic_review_complete": true,
+      "operational_confirmed": true,
+      "form_limits_confirmed": true,
+      "independent_review": true,
+      "reviewer_issues": [
+        {
+          "severity": "MAJOR",
+          "rule": "Synthetic finding",
+          "evidence": "Synthetic quoted passage"
+        }
+      ]
+    },
+    "expected_verdict": "RETURN FOR REVISION"
+  },
+  {
+    "id": "TO-MINOR",
+    "input": {
+      "profile_type": "TO",
+      "fields": {
+        "title": "Synthetic cooperation opportunity",
+        "summary": "A synthetic organisation seeks a partner for documented cooperation.",
+        "description": "Synthetic facts for presence tests; semantic quality is not inferred.",
+        "partner_role": "Perform documented partner tasks.",
+        "partner_size": "SME 11-49",
+        "market_keywords": [
+          "01003"
+        ],
+        "sdg": [
+          "GOAL 1: No Poverty"
+        ],
+        "partnership_types": [
+          "Research & development cooperation agreement"
+        ],
+        "advantages": "Synthetic substantiated advantage.",
+        "technology_keywords": [
+          "11001"
+        ],
+        "stage": "Lab tested",
+        "ipr": "No IPR applied"
+      },
+      "semantic_review_complete": true,
+      "operational_confirmed": true,
+      "form_limits_confirmed": true,
+      "independent_review": true,
+      "reviewer_issues": [
+        {
+          "severity": "MINOR",
+          "rule": "Synthetic finding",
+          "evidence": "Synthetic quoted passage"
+        }
+      ]
+    },
+    "expected_verdict": "READY AFTER MINOR EDITS"
+  },
+  {
+    "id": "TR-confirmed-checklist",
+    "input": {
+      "profile_type": "TR",
+      "fields": {
+        "title": "Synthetic cooperation opportunity",
+        "summary": "A synthetic organisation seeks a partner for documented cooperation.",
+        "description": "Synthetic facts for presence tests; semantic quality is not inferred.",
+        "partner_role": "Perform documented partner tasks.",
+        "partner_size": "SME 11-49",
+        "market_keywords": [
+          "01003"
+        ],
+        "sdg": [
+          "GOAL 1: No Poverty"
+        ],
+        "partnership_types": [
+          "Research & development cooperation agreement"
+        ],
+        "technical": "Synthetic acceptance criteria.",
+        "technology_keywords": [
+          "11001"
+        ]
+      },
+      "semantic_review_complete": true,
+      "operational_confirmed": true,
+      "form_limits_confirmed": true,
+      "independent_review": true
+    },
+    "expected_verdict": "READY",
+    "note": "Synthetic flags represent adviser confirmation; the helper did not establish semantic facts."
+  },
+  {
+    "id": "TR-BLOCKER",
+    "input": {
+      "profile_type": "TR",
+      "fields": {
+        "title": "Synthetic cooperation opportunity",
+        "summary": "A synthetic organisation seeks a partner for documented cooperation.",
+        "description": "Synthetic facts for presence tests; semantic quality is not inferred.",
+        "partner_role": "Perform documented partner tasks.",
+        "partner_size": "SME 11-49",
+        "market_keywords": [
+          "01003"
+        ],
+        "sdg": [
+          "GOAL 1: No Poverty"
+        ],
+        "partnership_types": [
+          "Research & development cooperation agreement"
+        ],
+        "technical": "Synthetic acceptance criteria.",
+        "technology_keywords": [
+          "11001"
+        ]
+      },
+      "semantic_review_complete": true,
+      "operational_confirmed": true,
+      "form_limits_confirmed": true,
+      "independent_review": true,
+      "reviewer_issues": [
+        {
+          "severity": "BLOCKER",
+          "rule": "Synthetic finding",
+          "evidence": "Synthetic quoted passage"
+        }
+      ]
+    },
+    "expected_verdict": "RETURN FOR REVISION"
+  },
+  {
+    "id": "TR-MAJOR",
+    "input": {
+      "profile_type": "TR",
+      "fields": {
+        "title": "Synthetic cooperation opportunity",
+        "summary": "A synthetic organisation seeks a partner for documented cooperation.",
+        "description": "Synthetic facts for presence tests; semantic quality is not inferred.",
+        "partner_role": "Perform documented partner tasks.",
+        "partner_size": "SME 11-49",
+        "market_keywords": [
+          "01003"
+        ],
+        "sdg": [
+          "GOAL 1: No Poverty"
+        ],
+        "partnership_types": [
+          "Research & development cooperation agreement"
+        ],
+        "technical": "Synthetic acceptance criteria.",
+        "technology_keywords": [
+          "11001"
+        ]
+      },
+      "semantic_review_complete": true,
+      "operational_confirmed": true,
+      "form_limits_confirmed": true,
+      "independent_review": true,
+      "reviewer_issues": [
+        {
+          "severity": "MAJOR",
+          "rule": "Synthetic finding",
+          "evidence": "Synthetic quoted passage"
+        }
+      ]
+    },
+    "expected_verdict": "RETURN FOR REVISION"
+  },
+  {
+    "id": "TR-MINOR",
+    "input": {
+      "profile_type": "TR",
+      "fields": {
+        "title": "Synthetic cooperation opportunity",
+        "summary": "A synthetic organisation seeks a partner for documented cooperation.",
+        "description": "Synthetic facts for presence tests; semantic quality is not inferred.",
+        "partner_role": "Perform documented partner tasks.",
+        "partner_size": "SME 11-49",
+        "market_keywords": [
+          "01003"
+        ],
+        "sdg": [
+          "GOAL 1: No Poverty"
+        ],
+        "partnership_types": [
+          "Research & development cooperation agreement"
+        ],
+        "technical": "Synthetic acceptance criteria.",
+        "technology_keywords": [
+          "11001"
+        ]
+      },
+      "semantic_review_complete": true,
+      "operational_confirmed": true,
+      "form_limits_confirmed": true,
+      "independent_review": true,
+      "reviewer_issues": [
+        {
+          "severity": "MINOR",
+          "rule": "Synthetic finding",
+          "evidence": "Synthetic quoted passage"
+        }
+      ]
+    },
+    "expected_verdict": "READY AFTER MINOR EDITS"
+  },
+  {
+    "id": "RDR-confirmed-checklist",
+    "input": {
+      "profile_type": "RDR",
+      "fields": {
+        "title": "Synthetic cooperation opportunity",
+        "summary": "A synthetic organisation seeks a partner for documented cooperation.",
+        "description": "Synthetic facts for presence tests; semantic quality is not inferred.",
+        "partner_role": "Perform documented partner tasks.",
+        "partner_size": "SME 11-49",
+        "market_keywords": [
+          "01003"
+        ],
+        "sdg": [
+          "GOAL 1: No Poverty"
+        ],
+        "partnership_types": [
+          "Research & development cooperation agreement"
+        ],
+        "technology_keywords": [
+          "11001"
+        ],
+        "framework_program": "Synthetic programme",
+        "call_identifier": "SYNTHETIC-CALL",
+        "coordinator_required": false,
+        "eoi_deadline": "2026-11-01",
+        "call_deadline": "2026-12-01"
+      },
+      "semantic_review_complete": true,
+      "operational_confirmed": true,
+      "form_limits_confirmed": true,
+      "independent_review": true
+    },
+    "expected_verdict": "READY",
+    "note": "Synthetic flags represent adviser confirmation; the helper did not establish semantic facts."
+  },
+  {
+    "id": "RDR-BLOCKER",
+    "input": {
+      "profile_type": "RDR",
+      "fields": {
+        "title": "Synthetic cooperation opportunity",
+        "summary": "A synthetic organisation seeks a partner for documented cooperation.",
+        "description": "Synthetic facts for presence tests; semantic quality is not inferred.",
+        "partner_role": "Perform documented partner tasks.",
+        "partner_size": "SME 11-49",
+        "market_keywords": [
+          "01003"
+        ],
+        "sdg": [
+          "GOAL 1: No Poverty"
+        ],
+        "partnership_types": [
+          "Research & development cooperation agreement"
+        ],
+        "technology_keywords": [
+          "11001"
+        ],
+        "framework_program": "Synthetic programme",
+        "call_identifier": "SYNTHETIC-CALL",
+        "coordinator_required": false,
+        "eoi_deadline": "2026-11-01",
+        "call_deadline": "2026-12-01"
+      },
+      "semantic_review_complete": true,
+      "operational_confirmed": true,
+      "form_limits_confirmed": true,
+      "independent_review": true,
+      "reviewer_issues": [
+        {
+          "severity": "BLOCKER",
+          "rule": "Synthetic finding",
+          "evidence": "Synthetic quoted passage"
+        }
+      ]
+    },
+    "expected_verdict": "RETURN FOR REVISION"
+  },
+  {
+    "id": "RDR-MAJOR",
+    "input": {
+      "profile_type": "RDR",
+      "fields": {
+        "title": "Synthetic cooperation opportunity",
+        "summary": "A synthetic organisation seeks a partner for documented cooperation.",
+        "description": "Synthetic facts for presence tests; semantic quality is not inferred.",
+        "partner_role": "Perform documented partner tasks.",
+        "partner_size": "SME 11-49",
+        "market_keywords": [
+          "01003"
+        ],
+        "sdg": [
+          "GOAL 1: No Poverty"
+        ],
+        "partnership_types": [
+          "Research & development cooperation agreement"
+        ],
+        "technology_keywords": [
+          "11001"
+        ],
+        "framework_program": "Synthetic programme",
+        "call_identifier": "SYNTHETIC-CALL",
+        "coordinator_required": false,
+        "eoi_deadline": "2026-11-01",
+        "call_deadline": "2026-12-01"
+      },
+      "semantic_review_complete": true,
+      "operational_confirmed": true,
+      "form_limits_confirmed": true,
+      "independent_review": true,
+      "reviewer_issues": [
+        {
+          "severity": "MAJOR",
+          "rule": "Synthetic finding",
+          "evidence": "Synthetic quoted passage"
+        }
+      ]
+    },
+    "expected_verdict": "RETURN FOR REVISION"
+  },
+  {
+    "id": "RDR-MINOR",
+    "input": {
+      "profile_type": "RDR",
+      "fields": {
+        "title": "Synthetic cooperation opportunity",
+        "summary": "A synthetic organisation seeks a partner for documented cooperation.",
+        "description": "Synthetic facts for presence tests; semantic quality is not inferred.",
+        "partner_role": "Perform documented partner tasks.",
+        "partner_size": "SME 11-49",
+        "market_keywords": [
+          "01003"
+        ],
+        "sdg": [
+          "GOAL 1: No Poverty"
+        ],
+        "partnership_types": [
+          "Research & development cooperation agreement"
+        ],
+        "technology_keywords": [
+          "11001"
+        ],
+        "framework_program": "Synthetic programme",
+        "call_identifier": "SYNTHETIC-CALL",
+        "coordinator_required": false,
+        "eoi_deadline": "2026-11-01",
+        "call_deadline": "2026-12-01"
+      },
+      "semantic_review_complete": true,
+      "operational_confirmed": true,
+      "form_limits_confirmed": true,
+      "independent_review": true,
+      "reviewer_issues": [
+        {
+          "severity": "MINOR",
+          "rule": "Synthetic finding",
+          "evidence": "Synthetic quoted passage"
+        }
+      ]
+    },
+    "expected_verdict": "READY AFTER MINOR EDITS"
+  }
+]

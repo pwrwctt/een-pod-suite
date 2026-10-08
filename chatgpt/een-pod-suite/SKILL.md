@@ -5,13 +5,16 @@ description: Enterprise Europe Network POD assistance for eligibility, BO/BR/TO/
 
 # EEN POD Suite
 
-**Installed suite version: v2.6.** For any version question, read `references/version.md` and report that value.
+**Installed suite version: v2.7.** For any version question, read `references/version.md` and report that value.
 
 Read `references/source-policy.md` whenever currency/version matters.
 
 For the read-only Reader & Audit Agent, read `references/reader-agent.md`. Connected MCP tools retrieve data; the skill supplies audit rules. Installation alone does not establish a working MCP connection.
 
 ## Route the task
+
+- For evidence-led audits, completeness, consistency, client interviews, version comparison, partner-fit assessment or EoI drafts: read `references/process-extensions.md` and `references/source-provenance.md`. Use `scripts/profile_checks.py` and `scripts/profile_diff.py` when applicable.
+- For taxonomy queries, use `scripts/taxonomy_lookup.py` in semantic mode for curated English/Polish concept expansion; inspect reasons and verify codes.
 
 - For auditing an existing profile: require the operator's exact official detail URL and read `references/profile-lookup.md`; use `scripts/profile_url.py` for direct retrieval when available.
 - For raw client notes, eligibility or profile-type uncertainty: read `references/intake-eligibility.md` and `references/profile-types.md`.
@@ -38,7 +41,7 @@ Require the exact official detail URL supplied by the operator or supplied profi
 6. Optimise Title and Short Summary; enforce the 500-character Summary limit.
 7. Select partnership type(s), normally no more than 1–3.
 8. Select applicable keywords from the bundled 2024 taxonomy; never invent codes.
-9. Run an independent pre-publication quality review.
+9. Run a separate pre-publication review, record its actual method and apply the verdict gates in `references/process-extensions.md`. Same-context self-review does not establish independence; approval remains with the adviser.
 10. Add dissemination/query guidance only when requested.
 
 ## Hard rules
@@ -68,4 +71,7 @@ Do not call a profile submission-ready merely because the writing is polished. R
 - field-specific completeness;
 - anonymity/IP safety;
 - keyword discipline;
-- no BLOCKER in the independent review.
+- no BLOCKER or unresolved MAJOR; only MINOR permits READY AFTER MINOR EDITS;
+- sufficient evidence, confirmed form limits/operational work and actual review method.
+
+Explicit user instructions take priority over workflow preferences; never invent facts or source verification. Exclude the client’s own country from restricted target lists. Preserve uncertainty about provisional form limits and incomplete public evidence.

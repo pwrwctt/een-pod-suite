@@ -1,9 +1,11 @@
-# EEN POD Reader & Audit Agent — v2.5
+# EEN POD Reader & Audit Agent — v2.7
 
 ## Tools
 
 - `get_public_profile(url, expected_reference?)`: read the supplied detail page and verify its displayed POD Reference. The optional reference is an identity check only.
 - `check_form_limits(profile_type, fields, market_keywords?, technology_keywords?)`: local character/count checks.
+- `review_profile_input(profile, as_of?)`: advisory completeness, supplied taxonomy and date checks with explicit reviewer gates.
+- `search_taxonomy(kind, query, mode?, limit?)`: offline exact-code or curated bilingual semantic candidates, with reasons. Scores are diagnostic, not official assessments.
 
 The skill provides audit rules. If only a profile number or name is supplied, ask for the exact URL. If reading the page fails, request a text/HTML export of that page; never perform discovery as fallback.
 
@@ -36,4 +38,6 @@ python scripts/build.py
 
 See [the agent contract](../chatgpt/een-pod-suite/references/reader-agent.md) and [the URL-only audit workflow](../chatgpt/een-pod-suite/references/profile-lookup.md).
 
-The agent exposes two read-only tools: supplied public URL reading and local form-limit checks. Use the skill's bundled 2024 taxonomy for keyword recommendations.
+The agent exposes four read-only tools: supplied URL reading, form limits, evidence checks and offline taxonomy search. Use the skill's bundled 2024 taxonomy for keyword recommendations.
+
+Use semantic search for candidate generation and review_profile_input for supplied evidence. Neither tool establishes independent review, eligibility or current data automatically. Read process-extensions.md for evidence ledger, consistent verdicts and extensions.

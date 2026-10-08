@@ -1,4 +1,4 @@
-# EEN POD Suite for Claude — v2.6
+# EEN POD Suite for Claude — v2.7
 
 This unified skill supports eligibility checks, BO/BR/TO/TR/RDR classification,
 drafting, title and summary revision, bundled taxonomy selection, deterministic
@@ -6,12 +6,12 @@ field-limit checks and independent quality review against PPQG v1.2.
 
 ## Install in Claude
 
-1. Download `dist/claude/een-pod-suite-claude-v2.6.zip` from this repository.
+1. Download `dist/claude/een-pod-suite-claude-v2.7.zip` from this repository.
 2. Enable Code execution and file creation in your Claude settings. Your
    organisation may also need to enable skills.
 3. Open Customize → Skills → + Create skill → Upload a skill.
 4. Upload the ZIP without repackaging it, then enable EEN POD Suite.
-5. Ask: “Which version of EEN POD Suite is installed?” Expect v2.6.
+5. Ask: “Which version of EEN POD Suite is installed?” Expect v2.7.
 
 The ZIP contains `een-pod-suite/SKILL.md` and its `references/` and `scripts/`
 directories. It omits OpenAI-specific agent metadata. Its short description is
@@ -58,3 +58,5 @@ Official guidance:
 - [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude)
 - [Creating custom skills](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills)
 - [Claude Code skills](https://code.claude.com/docs/en/skills)
+
+Version 2.7 includes evidence checks, interview/version/EoI workflows and offline concept-based taxonomy ranking. Use only actual available tools and report unperformed deterministic or independent review checks.

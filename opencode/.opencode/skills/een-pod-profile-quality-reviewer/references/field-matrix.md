@@ -104,7 +104,7 @@ RDR call details include:
 - Coordinator required (Yes/No): mandatory.
 - Deadline for EOIs: mandatory.
 - Deadline for Call: mandatory.
-- Submission/evaluation scheme: provide when relevant.
+- Submission/evaluation scheme: identify the actual stage in two-/multiple-stage submissions; use the applicable cut-off as the deadline in continuous submission schemes.
 - Anticipated project budget: useful.
 - Project duration in weeks: useful.
 - Web link to call: if applicable.
@@ -115,3 +115,11 @@ Leave enough time between EOI deadline and call deadline.
 ## SDG
 
 SDG is a mandatory field in v1.2. Select one or more applicable SDGs from the available list; choose **Not Relevant** if none is appropriate.
+
+## Date, country and media checks
+
+Use `scripts/profile_checks.py` for ISO dates and EoI/call ordering. Do not impose an invented universal preparation interval. Confirm current call information from an authoritative source supplied by the operator.
+
+Exclude the client's own country from restricted target lists; country choices must agree with the narrative. PPQG default dissemination covers all EEN countries. Sector groups are optional and must be relevant.
+
+PPQG v1.2 p31 describes jpg/jpeg/gif images, a maximum 4 MB per file and a video URL/title. Verify current controls before submission. Inspect visible media, filenames and metadata for identifiers only when files/tools are available; report unperformed checks. Media is optional.

@@ -1,4 +1,4 @@
-# EEN POD Suite v2.6 for OpenCode
+# EEN POD Suite v2.7 for OpenCode
 
 This project contains 8 modular Agent Skills under `.opencode/skills/`.
 
@@ -32,7 +32,7 @@ Use dissemination/query guidance when required.
 
 The UI and taxonomy data are treated as 2024 snapshots. Current live POD data takes precedence when verified.
 
-## v2.6 audit input
+## v2.7 audit input
 
 Existing-profile audits require an exact official profile detail URL supplied by the operator. Number/name discovery and identifier scanning were removed. The `een-pod-profile-lookup` module retains its directory name for compatibility but only reads supplied detail URLs.
 
@@ -43,3 +43,5 @@ The distribution now includes `.opencode/agents/een-pod-auditor.md`. Copy the `a
 ## Current audit input
 
 Use only the exact official profile detail URL supplied by the operator or supplied profile text. Taxonomy recommendations use the bundled 2024 snapshot.
+
+Version 2.7 supplies every module with the same common guidance and helpers. The workflow includes field/completeness/consistency checks before a separate review and adviser approval. The MCP server also exposes review_profile_input and search_taxonomy; it still requires an actual connection.

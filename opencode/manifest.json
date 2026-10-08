@@ -1,8 +1,8 @@
 {
   "suite": "EEN POD Suite",
-  "version": "2.6",
+  "version": "2.7",
   "platform": "OpenCode",
-  "generated": "2026-10-07",
+  "generated": "2026-10-08",
   "skills": [
     "een-pod-dissemination-queries",
     "een-pod-intake",
@@ -36,5 +36,11 @@
   "changes_v2_6": [
     "Add Claude unified skill distribution",
     "Synchronise and validate ChatGPT, OpenCode and Claude on every release"
+  ],
+  "changes_v2_7": [
+    "Repair YAML, retrieval error and evidence gates",
+    "Add completeness, dates, taxonomy validation and version comparison",
+    "Add evidence review, interview and EoI/partner-fit workflows",
+    "Add curated bilingual semantic taxonomy search"
   ]
 }

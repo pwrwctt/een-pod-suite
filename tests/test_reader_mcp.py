@@ -21,7 +21,7 @@ class ReaderTests(unittest.TestCase):
     def test_initialization_and_read_only_discovery(self):
         response=reader.rpc({'jsonrpc':'2.0','id':1,'method':'initialize','params':{'protocolVersion':'2025-03-26'}})
         self.assertEqual(response['result']['protocolVersion'],'2025-03-26')
-        self.assertEqual(len(reader.TOOLS),2)
+        self.assertEqual(len(reader.TOOLS),4)
         for tool in reader.TOOLS:
             self.assertTrue(tool['annotations']['readOnlyHint'])
             self.assertFalse(tool['annotations']['destructiveHint'])
@@ -42,7 +42,7 @@ class ReaderTests(unittest.TestCase):
         self.assertTrue(call('get_public_profile',{'name':'Tour operator'})['isError'])
 
     def test_arguments_cannot_supply_credentials_or_arbitrary_endpoints(self):
-        self.assertEqual({tool['name'] for tool in reader.TOOLS},{'get_public_profile','check_form_limits'})
+        self.assertEqual({tool['name'] for tool in reader.TOOLS},{'get_public_profile','check_form_limits','review_profile_input','search_taxonomy'})
         self.assertTrue(call('get_public_profile',{'reference':'x','base_url':'https://example.com'})['isError'])
         self.assertTrue(call('delete_profile',{'reference':'x'})['isError'])
 
@@ -63,14 +63,31 @@ class ReaderTests(unittest.TestCase):
         self.assertEqual(result.returncode,0,result.stderr)
         responses=[json.loads(line) for line in result.stdout.splitlines()]
         self.assertEqual([r['id'] for r in responses],[1,2,3])
-        self.assertEqual(len(responses[1]['result']['tools']),2)
+        self.assertEqual(len(responses[1]['result']['tools']),4)
         self.assertEqual(responses[2]['result']['structuredContent']['fields']['technical']['status'],'OVER LIMIT by 1')
+    def test_semantic_tool_returns_existing_codes_without_discovery(self):
+        result=call('search_taxonomy',{'kind':'technology','query':'sztuczna inteligencja'})
+        self.assertFalse(result['isError'])
+        self.assertIn('01003003',[x['code'] for x in result['structuredContent']['results']])
+    def test_review_tool_never_approves_empty_profile(self):
+        result=call('review_profile_input',{'profile':{'profile_type':'BO','fields':{}}})
+        self.assertFalse(result['isError'])
+        self.assertEqual(result['structuredContent']['verdict'],'REVIEW LIMITED')
 
     def test_http_requires_authentication_secret(self):
         env=dict(reader.os.environ);env.pop('EEN_AGENT_TOKEN',None)
         result=subprocess.run([sys.executable,str(SERVER),'--http'],env=env,text=True,capture_output=True,timeout=5)
         self.assertNotEqual(result.returncode,0)
         self.assertIn('requires EEN_AGENT_TOKEN',result.stderr)
+    def test_http_404_and_unknown_failures_are_tool_errors(self):
+        for status in ('HTTP ERROR','INSUFFICIENT CONTENT','UNEXPECTED FAILURE'):
+            with patch.object(reader.public,'read_profile',return_value={'status':status}):
+                self.assertTrue(call('get_public_profile',{'url':'https://een.ec.europa.eu/partnering-opportunities/example'})['isError'])
+    def test_partial_content_is_evidence_not_full_retrieval(self):
+        with patch.object(reader.public,'read_profile',return_value={'status':'PARTIAL CONTENT','extraction_complete':False}):
+            result=call('get_public_profile',{'url':'https://een.ec.europa.eu/partnering-opportunities/example'})
+            self.assertFalse(result['isError'])
+            self.assertFalse(result['structuredContent']['extraction_complete'])
 
 
 if __name__=='__main__': unittest.main()

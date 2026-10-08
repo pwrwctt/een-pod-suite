@@ -2,7 +2,9 @@
 
 Partnering Profile Quality Guidelines v1.2 remain the primary source for profile quality and mandatory content. The supplied BO/BR/TO/TR Cooperation Profile Templates are used only for operational form limits and available controls.
 
-## Confirmed limits for BO / BR / TO / TR
+## Template-era operational limits for BO / BR / TO / TR
+
+Read `references/source-provenance.md`. Original cooperation templates are not bundled. Treat 256/2000/4000 limits as provisional until the adviser confirms the current form or supplies originals; record CURRENT-VERSION CHECK. PPQG independently confirms the 500-character summary limit.
 
 | Field | Maximum characters |
 |---|---:|

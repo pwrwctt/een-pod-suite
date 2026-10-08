@@ -21,6 +21,8 @@ def load(name):
 
 public = load('profile_url')
 forms = load('form_readiness')
+checks = load('profile_checks')
+taxonomy = load('taxonomy_lookup')
 
 
 def schema(properties, required=()):
@@ -33,6 +35,12 @@ TOOLS = [
     {'name':'check_form_limits','description':'Count field characters and Market/Technology keywords for BO/BR/TO/TR. A length PASS is not a quality verdict or evidence that a mandatory field is complete.',
      'inputSchema':schema({'profile_type':{'type':'string','enum':['BO','BR','TO','TR']},'fields':{'type':'object','properties':{k:{'type':'string'} for k in ['title','summary','description','partner_role','advantages','technical']},'additionalProperties':False},'market_keywords':{'type':'array','items':{'type':'string'}},'technology_keywords':{'type':'array','items':{'type':'string'}}},['profile_type','fields'])}
 ]
+TOOLS.extend([
+    {'name':'review_profile_input', 'description':'Advisory completeness, supplied taxonomy and date checks. Reviewer flags must reflect real evidence, never automatic approval.',
+     'inputSchema':schema({'profile':{'type':'object'},'as_of':{'type':'string'}},['profile'])},
+    {'name':'search_taxonomy','description':'Rank bundled 2024 taxonomy candidates using exact codes or curated English/Polish concepts; no embeddings, no current-vocabulary claims.',
+     'inputSchema':schema({'kind':{'type':'string','enum':['technology','market','nace','sdg']},'query':{'type':'string'},'mode':{'type':'string','enum':['semantic','lexical']},'limit':{'type':'integer','minimum':1,'maximum':50}},['kind','query'])},
+])
 
 
 for tool in TOOLS:
@@ -64,6 +72,13 @@ def execute(name, arguments):
     validate(arguments,tool['inputSchema'])
     if name=='get_public_profile':
         return public.read_profile(arguments['url'],arguments.get('expected_reference'))
+    if name=='review_profile_input':
+        from datetime import date
+        return checks.review(arguments['profile'], date.fromisoformat(arguments['as_of']) if arguments.get('as_of') else None)
+    if name=='search_taxonomy':
+        return {'snapshot':'2024','method':arguments.get('mode','semantic'),'embedding_model':None,
+                'results':taxonomy.search(arguments['kind'],arguments['query'],mode=arguments.get('mode','semantic'),limit=arguments.get('limit',10)),
+                'scope':'Candidates only; verify against supplied profile evidence.'}
     limits={**forms.COMMON,**forms.PROFILE[arguments['profile_type']]}
     fields=arguments['fields']
     return {'profile_type':arguments['profile_type'],'fields':{key:{**forms.check(fields.get(key,''),limit),'populated':bool(fields.get(key,''))} for key,limit in limits.items()},'keywords':{kind:{'count':len(arguments.get(kind+'_keywords',[])),'limit':5,'status':'PASS' if len(arguments.get(kind+'_keywords',[]))<=5 else 'OVER LIMIT'} for kind in ('market','technology')},'scope':'Lengths and counts only; mandatory content and semantic quality require review.'}
@@ -94,7 +109,8 @@ def rpc(message):
     elif method=='tools/call':
         try:
             data=execute(params.get('name'),params.get('arguments',{}))
-            result={'content':[{'type':'text','text':json.dumps(data,ensure_ascii=False)}],'structuredContent':data,'isError':data.get('status') in ('ACCESS BLOCKED','NETWORK ERROR','UNRESOLVED','REFERENCE MISMATCH','INVALID INPUT','AMBIGUOUS')}
+            failed = params.get('name') == 'get_public_profile' and data.get('status') not in ('FOUND EXACT', 'PARTIAL CONTENT')
+            result={'content':[{'type':'text','text':json.dumps(data,ensure_ascii=False)}],'structuredContent':data,'isError':failed}
         except Exception as exc:
             result={'content':[{'type':'text','text':json.dumps({'status':'TOOL ERROR','reason':safe_error(exc)})}],'isError':True}
     else:

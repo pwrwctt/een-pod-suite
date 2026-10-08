@@ -53,7 +53,11 @@ Only for RDR.
 
 ## Quality review
 
-**Decision:** READY / READY AFTER MINOR EDITS / RETURN FOR REVISION
+**Decision:** READY / READY AFTER MINOR EDITS / RETURN FOR REVISION / REVIEW LIMITED
+
+**Review method and adviser confirmation:** record actual review.
+
+**Evidence ledger:** field → quotation → source/rule → severity → correction.
 
 Then:
 1. Blockers

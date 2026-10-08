@@ -1,0 +1,2 @@
+# Runtime helpers use the standard library; release validation needs a YAML parser.
+PyYAML>=6.0.2,<7

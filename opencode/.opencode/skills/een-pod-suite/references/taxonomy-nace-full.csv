@@ -1,0 +1,997 @@
+﻿Type,Code,Label,Level,Parent_1,Parent_1 level,Parent_2,Parent_2 level,Parent_3,Parent_3 level
+NACE Keyword,A,"Agriculture, forestry and fishing",1,,,,,,
+NACE Keyword,B,Mining and quarrying,1,,,,,,
+NACE Keyword,C,Manufacturing,1,,,,,,
+NACE Keyword,D,"Electricity, gas, steam and air conditioning supply",1,,,,,,
+NACE Keyword,E,"Water supply; sewerage, waste management and remediation activities",1,,,,,,
+NACE Keyword,F,Construction,1,,,,,,
+NACE Keyword,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,,,,,
+NACE Keyword,H,Transportation and storage,1,,,,,,
+NACE Keyword,I,Accommodation and food service activities,1,,,,,,
+NACE Keyword,J,Information and communication,1,,,,,,
+NACE Keyword,K,Financial and insurance activities,1,,,,,,
+NACE Keyword,L,Real estate activities,1,,,,,,
+NACE Keyword,M,"Professional, scientific and technical activities",1,,,,,,
+NACE Keyword,N,Administrative and support service activities,1,,,,,,
+NACE Keyword,O,Public administration and defence; compulsory social security,1,,,,,,
+NACE Keyword,P,Education,1,,,,,,
+NACE Keyword,Q,Human health and social work activities,1,,,,,,
+NACE Keyword,R,"Arts, entertainment and recreation",1,,,,,,
+NACE Keyword,S,Other service activities,1,,,,,,
+NACE Keyword,T,Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use,1,,,,,,
+NACE Keyword,U,Activities of extraterritorial organisations and bodies,1,,,,,,
+NACE Keyword,G.45,Wholesale and retail trade and repair of motor vehicles and motorcycles,2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,,,
+NACE Keyword,G.46,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,,,
+NACE Keyword,G.47,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,,,
+NACE Keyword,E.36,"Water collection, treatment and supply",2,"Water supply; sewerage, waste management and remediation activities",1,,,,
+NACE Keyword,E.37,Sewerage,2,"Water supply; sewerage, waste management and remediation activities",1,,,,
+NACE Keyword,E.38,"Waste collection, treatment and disposal activities; materials recovery",2,"Water supply; sewerage, waste management and remediation activities",1,,,,
+NACE Keyword,E.39,Remediation activities and other waste management services,2,"Water supply; sewerage, waste management and remediation activities",1,,,,
+NACE Keyword,H.49,Land transport and transport via pipelines,2,Transportation and storage,1,,,,
+NACE Keyword,H.50,Water transport,2,Transportation and storage,1,,,,
+NACE Keyword,H.51,Air transport,2,Transportation and storage,1,,,,
+NACE Keyword,H.52,Warehousing and support activities for transportation,2,Transportation and storage,1,,,,
+NACE Keyword,H.53,Postal and courier activities,2,Transportation and storage,1,,,,
+NACE Keyword,L.68,Real estate activities,2,Real estate activities,1,,,,
+NACE Keyword,O.84,Public administration and defence; compulsory social security,2,Public administration and defence; compulsory social security,1,,,,
+NACE Keyword,M.69,Legal and accounting activities,2,"Professional, scientific and technical activities",1,,,,
+NACE Keyword,M.70,Activities of head offices; management consultancy activities,2,"Professional, scientific and technical activities",1,,,,
+NACE Keyword,M.71,Architectural and engineering activities; technical testing and analysis,2,"Professional, scientific and technical activities",1,,,,
+NACE Keyword,M.72,Scientific research and development,2,"Professional, scientific and technical activities",1,,,,
+NACE Keyword,M.73,Advertising and market research,2,"Professional, scientific and technical activities",1,,,,
+NACE Keyword,M.74,"Other professional, scientific and technical activities",2,"Professional, scientific and technical activities",1,,,,
+NACE Keyword,M.75,Veterinary activities,2,"Professional, scientific and technical activities",1,,,,
+NACE Keyword,S.94,Activities of membership organisations,2,Other service activities,1,,,,
+NACE Keyword,S.95,Repair of computers and personal and household goods,2,Other service activities,1,,,,
+NACE Keyword,S.96,Other personal service activities,2,Other service activities,1,,,,
+NACE Keyword,B.05,Mining of coal and lignite,2,Mining and quarrying,1,,,,
+NACE Keyword,B.06,Extraction of crude petroleum and natural gas,2,Mining and quarrying,1,,,,
+NACE Keyword,B.07,Mining of metal ores,2,Mining and quarrying,1,,,,
+NACE Keyword,B.08,Other mining and quarrying,2,Mining and quarrying,1,,,,
+NACE Keyword,B.09,Mining support service activities,2,Mining and quarrying,1,,,,
+NACE Keyword,C.10,Manufacture of food products,2,Manufacturing,1,,,,
+NACE Keyword,C.11,Manufacture of beverages,2,Manufacturing,1,,,,
+NACE Keyword,C.12,Manufacture of tobacco products,2,Manufacturing,1,,,,
+NACE Keyword,C.13,Manufacture of textiles,2,Manufacturing,1,,,,
+NACE Keyword,C.14,Manufacture of wearing apparel,2,Manufacturing,1,,,,
+NACE Keyword,C.15,Manufacture of leather and related products,2,Manufacturing,1,,,,
+NACE Keyword,C.16,"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",2,Manufacturing,1,,,,
+NACE Keyword,C.17,Manufacture of paper and paper products,2,Manufacturing,1,,,,
+NACE Keyword,C.18,Printing and reproduction of recorded media,2,Manufacturing,1,,,,
+NACE Keyword,C.19,Manufacture of coke and refined petroleum products,2,Manufacturing,1,,,,
+NACE Keyword,C.20,Manufacture of chemicals and chemical products,2,Manufacturing,1,,,,
+NACE Keyword,C.21,Manufacture of basic pharmaceutical products and pharmaceutical preparations,2,Manufacturing,1,,,,
+NACE Keyword,C.22,Manufacture of rubber and plastic products,2,Manufacturing,1,,,,
+NACE Keyword,C.23,Manufacture of other non-metallic mineral products,2,Manufacturing,1,,,,
+NACE Keyword,C.24,Manufacture of basic metals,2,Manufacturing,1,,,,
+NACE Keyword,C.25,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1,,,,
+NACE Keyword,C.26,"Manufacture of computer, electronic and optical products",2,Manufacturing,1,,,,
+NACE Keyword,C.27,Manufacture of electrical equipment,2,Manufacturing,1,,,,
+NACE Keyword,C.28,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1,,,,
+NACE Keyword,C.29,"Manufacture of motor vehicles, trailers and semi-trailers",2,Manufacturing,1,,,,
+NACE Keyword,C.30,Manufacture of other transport equipment,2,Manufacturing,1,,,,
+NACE Keyword,C.31,Manufacture of furniture,2,Manufacturing,1,,,,
+NACE Keyword,C.32,Other manufacturing,2,Manufacturing,1,,,,
+NACE Keyword,C.33,Repair and installation of machinery and equipment,2,Manufacturing,1,,,,
+NACE Keyword,J.58,Publishing activities,2,Information and communication,1,,,,
+NACE Keyword,J.59,"Motion picture, video and television programme production, sound recording and music publishing activities",2,Information and communication,1,,,,
+NACE Keyword,J.60,Programming and broadcasting activities,2,Information and communication,1,,,,
+NACE Keyword,J.61,Telecommunications,2,Information and communication,1,,,,
+NACE Keyword,J.62,"Computer programming, consultancy and related activities",2,Information and communication,1,,,,
+NACE Keyword,J.63,Information service activities,2,Information and communication,1,,,,
+NACE Keyword,Q.86,Human health activities,2,Human health and social work activities,1,,,,
+NACE Keyword,Q.87,Residential care activities,2,Human health and social work activities,1,,,,
+NACE Keyword,Q.88,Social work activities without accommodation,2,Human health and social work activities,1,,,,
+NACE Keyword,K.64,"Financial service activities, except insurance and pension funding",2,Financial and insurance activities,1,,,,
+NACE Keyword,K.65,"Insurance, reinsurance and pension funding, except compulsory social security",2,Financial and insurance activities,1,,,,
+NACE Keyword,K.66,Activities auxiliary to financial services and insurance activities,2,Financial and insurance activities,1,,,,
+NACE Keyword,D.35,"Electricity, gas, steam and air conditioning supply",2,"Electricity, gas, steam and air conditioning supply",1,,,,
+NACE Keyword,P.85,Education,2,Education,1,,,,
+NACE Keyword,F.41,Construction of buildings,2,Construction,1,,,,
+NACE Keyword,F.42,Civil engineering,2,Construction,1,,,,
+NACE Keyword,F.43,Specialised construction activities,2,Construction,1,,,,
+NACE Keyword,R.90,"Creative, arts and entertainment activities",2,"Arts, entertainment and recreation",1,,,,
+NACE Keyword,R.91,"Libraries, archives, museums and other cultural activities",2,"Arts, entertainment and recreation",1,,,,
+NACE Keyword,R.92,Gambling and betting activities,2,"Arts, entertainment and recreation",1,,,,
+NACE Keyword,R.93,Sports activities and amusement and recreation activities,2,"Arts, entertainment and recreation",1,,,,
+NACE Keyword,A.01,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1,,,,
+NACE Keyword,A.02,Forestry and logging,2,"Agriculture, forestry and fishing",1,,,,
+NACE Keyword,A.03,Fishing and aquaculture,2,"Agriculture, forestry and fishing",1,,,,
+NACE Keyword,N.77,Rental and leasing activities,2,Administrative and support service activities,1,,,,
+NACE Keyword,N.78,Employment activities,2,Administrative and support service activities,1,,,,
+NACE Keyword,N.79,"Travel agency, tour operator reservation service and related activities",2,Administrative and support service activities,1,,,,
+NACE Keyword,N.80,Security and investigation activities,2,Administrative and support service activities,1,,,,
+NACE Keyword,N.81,Services to buildings and landscape activities,2,Administrative and support service activities,1,,,,
+NACE Keyword,N.82,"Office administrative, office support and other business support activities",2,Administrative and support service activities,1,,,,
+NACE Keyword,T.97,Activities of households as employers of domestic personnel,2,Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use,1,,,,
+NACE Keyword,T.98,Undifferentiated goods- and services-producing activities of private households for own use,2,Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use,1,,,,
+NACE Keyword,U.99,Activities of extraterritorial organisations and bodies,2,Activities of extraterritorial organisations and bodies,1,,,,
+NACE Keyword,I.55,Accommodation,2,Accommodation and food service activities,1,,,,
+NACE Keyword,I.56,Food and beverage service activities,2,Accommodation and food service activities,1,,,,
+NACE Keyword,G.46.1,Wholesale on a fee or contract basis,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,G.46.2,Wholesale of agricultural raw materials and live animals,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,G.46.3,"Wholesale of food, beverages and tobacco",3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,G.46.4,Wholesale of household goods,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,G.46.5,Wholesale of information and communication equipment,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,G.46.6,"Wholesale of other machinery, equipment and supplies",3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,G.46.7,Other specialised wholesale,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,G.46.9,Non-specialised wholesale trade,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,G.45.1,Sale of motor vehicles,3,Wholesale and retail trade and repair of motor vehicles and motorcycles,2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,G.45.2,Maintenance and repair of motor vehicles,3,Wholesale and retail trade and repair of motor vehicles and motorcycles,2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,G.45.3,Sale of motor vehicle parts and accessories,3,Wholesale and retail trade and repair of motor vehicles and motorcycles,2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,G.45.4,"Sale, maintenance and repair of motorcycles and related parts and accessories",3,Wholesale and retail trade and repair of motor vehicles and motorcycles,2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,H.50.1,Sea and coastal passenger water transport,3,Water transport,2,Transportation and storage,1,,
+NACE Keyword,H.50.2,Sea and coastal freight water transport,3,Water transport,2,Transportation and storage,1,,
+NACE Keyword,H.50.3,Inland passenger water transport,3,Water transport,2,Transportation and storage,1,,
+NACE Keyword,H.50.4,Inland freight water transport,3,Water transport,2,Transportation and storage,1,,
+NACE Keyword,E.36.0,"Water collection, treatment and supply",3,"Water collection, treatment and supply",2,"Water supply; sewerage, waste management and remediation activities",1,,
+NACE Keyword,E.38.1,Waste collection,3,"Waste collection, treatment and disposal activities; materials recovery",2,"Water supply; sewerage, waste management and remediation activities",1,,
+NACE Keyword,E.38.2,Waste treatment and disposal,3,"Waste collection, treatment and disposal activities; materials recovery",2,"Water supply; sewerage, waste management and remediation activities",1,,
+NACE Keyword,E.38.3,Materials recovery,3,"Waste collection, treatment and disposal activities; materials recovery",2,"Water supply; sewerage, waste management and remediation activities",1,,
+NACE Keyword,H.52.1,Warehousing and storage,3,Warehousing and support activities for transportation,2,Transportation and storage,1,,
+NACE Keyword,H.52.2,Support activities for transportation,3,Warehousing and support activities for transportation,2,Transportation and storage,1,,
+NACE Keyword,M.75.0,Veterinary activities,3,Veterinary activities,2,"Professional, scientific and technical activities",1,,
+NACE Keyword,T.98.1,Undifferentiated goods-producing activities of private households for own use,3,Undifferentiated goods- and services-producing activities of private households for own use,2,Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use,1,,
+NACE Keyword,T.98.2,Undifferentiated service-producing activities of private households for own use,3,Undifferentiated goods- and services-producing activities of private households for own use,2,Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use,1,,
+NACE Keyword,N.79.1,Travel agency and tour operator activities,3,"Travel agency, tour operator reservation service and related activities",2,Administrative and support service activities,1,,
+NACE Keyword,N.79.9,Other reservation service and related activities,3,"Travel agency, tour operator reservation service and related activities",2,Administrative and support service activities,1,,
+NACE Keyword,J.61.1,Wired telecommunications activities,3,Telecommunications,2,Information and communication,1,,
+NACE Keyword,J.61.2,Wireless telecommunications activities,3,Telecommunications,2,Information and communication,1,,
+NACE Keyword,J.61.3,Satellite telecommunications activities,3,Telecommunications,2,Information and communication,1,,
+NACE Keyword,J.61.9,Other telecommunications activities,3,Telecommunications,2,Information and communication,1,,
+NACE Keyword,R.93.1,Sports activities,3,Sports activities and amusement and recreation activities,2,"Arts, entertainment and recreation",1,,
+NACE Keyword,R.93.2,Amusement and recreation activities,3,Sports activities and amusement and recreation activities,2,"Arts, entertainment and recreation",1,,
+NACE Keyword,F.43.1,Demolition and site preparation,3,Specialised construction activities,2,Construction,1,,
+NACE Keyword,F.43.2,"Electrical, plumbing and other construction installation activities",3,Specialised construction activities,2,Construction,1,,
+NACE Keyword,F.43.3,Building completion and finishing,3,Specialised construction activities,2,Construction,1,,
+NACE Keyword,F.43.9,Other specialised construction activities,3,Specialised construction activities,2,Construction,1,,
+NACE Keyword,Q.88.1,Social work activities without accommodation for the elderly and disabled,3,Social work activities without accommodation,2,Human health and social work activities,1,,
+NACE Keyword,Q.88.9,Other social work activities without accommodation,3,Social work activities without accommodation,2,Human health and social work activities,1,,
+NACE Keyword,E.37.0,Sewerage,3,Sewerage,2,"Water supply; sewerage, waste management and remediation activities",1,,
+NACE Keyword,N.81.1,Combined facilities support activities,3,Services to buildings and landscape activities,2,Administrative and support service activities,1,,
+NACE Keyword,N.81.2,Cleaning activities,3,Services to buildings and landscape activities,2,Administrative and support service activities,1,,
+NACE Keyword,N.81.3,Landscape service activities,3,Services to buildings and landscape activities,2,Administrative and support service activities,1,,
+NACE Keyword,N.80.1,Private security activities,3,Security and investigation activities,2,Administrative and support service activities,1,,
+NACE Keyword,N.80.2,Security systems service activities,3,Security and investigation activities,2,Administrative and support service activities,1,,
+NACE Keyword,N.80.3,Investigation activities,3,Security and investigation activities,2,Administrative and support service activities,1,,
+NACE Keyword,M.72.1,Research and experimental development on natural sciences and engineering,3,Scientific research and development,2,"Professional, scientific and technical activities",1,,
+NACE Keyword,M.72.2,Research and experimental development on social sciences and humanities,3,Scientific research and development,2,"Professional, scientific and technical activities",1,,
+NACE Keyword,G.47.1,Retail sale in non-specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,G.47.2,"Retail sale of food, beverages and tobacco in specialised stores",3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,G.47.3,Retail sale of automotive fuel in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,G.47.4,Retail sale of information and communication equipment in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,G.47.5,Retail sale of other household equipment in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,G.47.6,Retail sale of cultural and recreation goods in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,G.47.7,Retail sale of other goods in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,G.47.8,Retail sale via stalls and markets,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,G.47.9,"Retail trade not in stores, stalls or markets",3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1,,
+NACE Keyword,Q.87.1,Residential nursing care activities,3,Residential care activities,2,Human health and social work activities,1,,
+NACE Keyword,Q.87.2,"Residential care activities for mental retardation, mental health and substance abuse",3,Residential care activities,2,Human health and social work activities,1,,
+NACE Keyword,Q.87.3,Residential care activities for the elderly and disabled,3,Residential care activities,2,Human health and social work activities,1,,
+NACE Keyword,Q.87.9,Other residential care activities,3,Residential care activities,2,Human health and social work activities,1,,
+NACE Keyword,S.95.1,Repair of computers and communication equipment,3,Repair of computers and personal and household goods,2,Other service activities,1,,
+NACE Keyword,S.95.2,Repair of personal and household goods,3,Repair of computers and personal and household goods,2,Other service activities,1,,
+NACE Keyword,C.33.1,"Repair of fabricated metal products, machinery and equipment",3,Repair and installation of machinery and equipment,2,Manufacturing,1,,
+NACE Keyword,C.33.2,Installation of industrial machinery and equipment,3,Repair and installation of machinery and equipment,2,Manufacturing,1,,
+NACE Keyword,N.77.1,Renting and leasing of motor vehicles,3,Rental and leasing activities,2,Administrative and support service activities,1,,
+NACE Keyword,N.77.2,Renting and leasing of personal and household goods,3,Rental and leasing activities,2,Administrative and support service activities,1,,
+NACE Keyword,N.77.3,"Renting and leasing of other machinery, equipment and tangible goods",3,Rental and leasing activities,2,Administrative and support service activities,1,,
+NACE Keyword,N.77.4,"Leasing of intellectual property and similar products, except copyrighted works",3,Rental and leasing activities,2,Administrative and support service activities,1,,
+NACE Keyword,E.39.0,Remediation activities and other waste management services,3,Remediation activities and other waste management services,2,"Water supply; sewerage, waste management and remediation activities",1,,
+NACE Keyword,L.68.1,Buying and selling of own real estate,3,Real estate activities,2,Real estate activities,1,,
+NACE Keyword,L.68.2,Renting and operating of own or leased real estate,3,Real estate activities,2,Real estate activities,1,,
+NACE Keyword,L.68.3,Real estate activities on a fee or contract basis,3,Real estate activities,2,Real estate activities,1,,
+NACE Keyword,J.58.1,"Publishing of books, periodicals and other publishing activities",3,Publishing activities,2,Information and communication,1,,
+NACE Keyword,J.58.2,Software publishing,3,Publishing activities,2,Information and communication,1,,
+NACE Keyword,O.84.1,Administration of the State and the economic and social policy of the community,3,Public administration and defence; compulsory social security,2,Public administration and defence; compulsory social security,1,,
+NACE Keyword,O.84.2,Provision of services to the community as a whole,3,Public administration and defence; compulsory social security,2,Public administration and defence; compulsory social security,1,,
+NACE Keyword,O.84.3,Compulsory social security activities,3,Public administration and defence; compulsory social security,2,Public administration and defence; compulsory social security,1,,
+NACE Keyword,J.60.1,Radio broadcasting,3,Programming and broadcasting activities,2,Information and communication,1,,
+NACE Keyword,J.60.2,Television programming and broadcasting activities,3,Programming and broadcasting activities,2,Information and communication,1,,
+NACE Keyword,C.18.1,Printing and service activities related to printing,3,Printing and reproduction of recorded media,2,Manufacturing,1,,
+NACE Keyword,C.18.2,Reproduction of recorded media,3,Printing and reproduction of recorded media,2,Manufacturing,1,,
+NACE Keyword,H.53.1,Postal activities under universal service obligation,3,Postal and courier activities,2,Transportation and storage,1,,
+NACE Keyword,H.53.2,Other postal and courier activities,3,Postal and courier activities,2,Transportation and storage,1,,
+NACE Keyword,M.74.1,Specialised design activities,3,"Other professional, scientific and technical activities",2,"Professional, scientific and technical activities",1,,
+NACE Keyword,M.74.2,Photographic activities,3,"Other professional, scientific and technical activities",2,"Professional, scientific and technical activities",1,,
+NACE Keyword,M.74.3,Translation and interpretation activities,3,"Other professional, scientific and technical activities",2,"Professional, scientific and technical activities",1,,
+NACE Keyword,M.74.9,"Other professional, scientific and technical activities n.e.c.",3,"Other professional, scientific and technical activities",2,"Professional, scientific and technical activities",1,,
+NACE Keyword,S.96.0,Other personal service activities,3,Other personal service activities,2,Other service activities,1,,
+NACE Keyword,B.08.1,"Quarrying of stone, sand and clay",3,Other mining and quarrying,2,Mining and quarrying,1,,
+NACE Keyword,B.08.9,Mining and quarrying n.e.c.,3,Other mining and quarrying,2,Mining and quarrying,1,,
+NACE Keyword,C.32.1,"Manufacture of jewellery, bijouterie and related articles",3,Other manufacturing,2,Manufacturing,1,,
+NACE Keyword,C.32.2,Manufacture of musical instruments,3,Other manufacturing,2,Manufacturing,1,,
+NACE Keyword,C.32.3,Manufacture of sports goods,3,Other manufacturing,2,Manufacturing,1,,
+NACE Keyword,C.32.4,Manufacture of games and toys,3,Other manufacturing,2,Manufacturing,1,,
+NACE Keyword,C.32.5,Manufacture of medical and dental instruments and supplies,3,Other manufacturing,2,Manufacturing,1,,
+NACE Keyword,C.32.9,Manufacturing n.e.c.,3,Other manufacturing,2,Manufacturing,1,,
+NACE Keyword,N.82.1,Office administrative and support activities,3,"Office administrative, office support and other business support activities",2,Administrative and support service activities,1,,
+NACE Keyword,N.82.2,Activities of call centres,3,"Office administrative, office support and other business support activities",2,Administrative and support service activities,1,,
+NACE Keyword,N.82.3,Organisation of conventions and trade shows,3,"Office administrative, office support and other business support activities",2,Administrative and support service activities,1,,
+NACE Keyword,N.82.9,Business support service activities n.e.c.,3,"Office administrative, office support and other business support activities",2,Administrative and support service activities,1,,
+NACE Keyword,J.59.1,"Motion picture, video and television programme activities",3,"Motion picture, video and television programme production, sound recording and music publishing activities",2,Information and communication,1,,
+NACE Keyword,J.59.2,Sound recording and music publishing activities,3,"Motion picture, video and television programme production, sound recording and music publishing activities",2,Information and communication,1,,
+NACE Keyword,B.09.1,Support activities for petroleum and natural gas extraction,3,Mining support service activities,2,Mining and quarrying,1,,
+NACE Keyword,B.09.9,Support activities for other mining and quarrying,3,Mining support service activities,2,Mining and quarrying,1,,
+NACE Keyword,B.07.1,Mining of iron ores,3,Mining of metal ores,2,Mining and quarrying,1,,
+NACE Keyword,B.07.2,Mining of non-ferrous metal ores,3,Mining of metal ores,2,Mining and quarrying,1,,
+NACE Keyword,B.05.1,Mining of hard coal,3,Mining of coal and lignite,2,Mining and quarrying,1,,
+NACE Keyword,B.05.2,Mining of lignite,3,Mining of coal and lignite,2,Mining and quarrying,1,,
+NACE Keyword,C.16.1,Sawmilling and planing of wood,3,"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",2,Manufacturing,1,,
+NACE Keyword,C.16.2,"Manufacture of products of wood, cork, straw and plaiting materials",3,"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",2,Manufacturing,1,,
+NACE Keyword,C.14.1,"Manufacture of wearing apparel, except fur apparel",3,Manufacture of wearing apparel,2,Manufacturing,1,,
+NACE Keyword,C.14.2,Manufacture of articles of fur,3,Manufacture of wearing apparel,2,Manufacturing,1,,
+NACE Keyword,C.14.3,Manufacture of knitted and crocheted apparel,3,Manufacture of wearing apparel,2,Manufacturing,1,,
+NACE Keyword,C.12.0,Manufacture of tobacco products,3,Manufacture of tobacco products,2,Manufacturing,1,,
+NACE Keyword,C.13.1,Preparation and spinning of textile fibres,3,Manufacture of textiles,2,Manufacturing,1,,
+NACE Keyword,C.13.2,Weaving of textiles,3,Manufacture of textiles,2,Manufacturing,1,,
+NACE Keyword,C.13.3,Finishing of textiles,3,Manufacture of textiles,2,Manufacturing,1,,
+NACE Keyword,C.13.9,Manufacture of other textiles,3,Manufacture of textiles,2,Manufacturing,1,,
+NACE Keyword,C.22.1,Manufacture of rubber products,3,Manufacture of rubber and plastic products,2,Manufacturing,1,,
+NACE Keyword,C.22.2,Manufacture of plastics products,3,Manufacture of rubber and plastic products,2,Manufacturing,1,,
+NACE Keyword,C.17.1,"Manufacture of pulp, paper and paperboard",3,Manufacture of paper and paper products,2,Manufacturing,1,,
+NACE Keyword,C.17.2,Manufacture of articles of paper and paperboard,3,Manufacture of paper and paper products,2,Manufacturing,1,,
+NACE Keyword,C.30.1,Building of ships and boats,3,Manufacture of other transport equipment,2,Manufacturing,1,,
+NACE Keyword,C.30.2,Manufacture of railway locomotives and rolling stock,3,Manufacture of other transport equipment,2,Manufacturing,1,,
+NACE Keyword,C.30.3,Manufacture of air and spacecraft and related machinery,3,Manufacture of other transport equipment,2,Manufacturing,1,,
+NACE Keyword,C.30.4,Manufacture of military fighting vehicles,3,Manufacture of other transport equipment,2,Manufacturing,1,,
+NACE Keyword,C.30.9,Manufacture of transport equipment n.e.c.,3,Manufacture of other transport equipment,2,Manufacturing,1,,
+NACE Keyword,C.23.1,Manufacture of glass and glass products,3,Manufacture of other non-metallic mineral products,2,Manufacturing,1,,
+NACE Keyword,C.23.2,Manufacture of refractory products,3,Manufacture of other non-metallic mineral products,2,Manufacturing,1,,
+NACE Keyword,C.23.3,Manufacture of clay building materials,3,Manufacture of other non-metallic mineral products,2,Manufacturing,1,,
+NACE Keyword,C.23.4,Manufacture of other porcelain and ceramic products,3,Manufacture of other non-metallic mineral products,2,Manufacturing,1,,
+NACE Keyword,C.23.5,"Manufacture of cement, lime and plaster",3,Manufacture of other non-metallic mineral products,2,Manufacturing,1,,
+NACE Keyword,C.23.6,"Manufacture of articles of concrete, cement and plaster",3,Manufacture of other non-metallic mineral products,2,Manufacturing,1,,
+NACE Keyword,C.23.7,"Cutting, shaping and finishing of stone",3,Manufacture of other non-metallic mineral products,2,Manufacturing,1,,
+NACE Keyword,C.23.9,Manufacture of abrasive products and non-metallic mineral products n.e.c.,3,Manufacture of other non-metallic mineral products,2,Manufacturing,1,,
+NACE Keyword,C.29.1,Manufacture of motor vehicles,3,"Manufacture of motor vehicles, trailers and semi-trailers",2,Manufacturing,1,,
+NACE Keyword,C.29.2,Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers,3,"Manufacture of motor vehicles, trailers and semi-trailers",2,Manufacturing,1,,
+NACE Keyword,C.29.3,Manufacture of parts and accessories for motor vehicles,3,"Manufacture of motor vehicles, trailers and semi-trailers",2,Manufacturing,1,,
+NACE Keyword,C.28.1,Manufacture of general-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1,,
+NACE Keyword,C.28.2,Manufacture of other general-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1,,
+NACE Keyword,C.28.3,Manufacture of agricultural and forestry machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1,,
+NACE Keyword,C.28.4,Manufacture of metal forming machinery and machine tools,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1,,
+NACE Keyword,C.28.9,Manufacture of other special-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1,,
+NACE Keyword,C.15.1,"Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur",3,Manufacture of leather and related products,2,Manufacturing,1,,
+NACE Keyword,C.15.2,Manufacture of footwear,3,Manufacture of leather and related products,2,Manufacturing,1,,
+NACE Keyword,C.31.0,Manufacture of furniture,3,Manufacture of furniture,2,Manufacturing,1,,
+NACE Keyword,C.10.1,Processing and preserving of meat and production of meat products,3,Manufacture of food products,2,Manufacturing,1,,
+NACE Keyword,C.10.2,"Processing and preserving of fish, crustaceans and molluscs",3,Manufacture of food products,2,Manufacturing,1,,
+NACE Keyword,C.10.3,Processing and preserving of fruit and vegetables,3,Manufacture of food products,2,Manufacturing,1,,
+NACE Keyword,C.10.4,Manufacture of vegetable and animal oils and fats,3,Manufacture of food products,2,Manufacturing,1,,
+NACE Keyword,C.10.5,Manufacture of dairy products,3,Manufacture of food products,2,Manufacturing,1,,
+NACE Keyword,C.10.6,"Manufacture of grain mill products, starches and starch products",3,Manufacture of food products,2,Manufacturing,1,,
+NACE Keyword,C.10.7,Manufacture of bakery and farinaceous products,3,Manufacture of food products,2,Manufacturing,1,,
+NACE Keyword,C.10.8,Manufacture of other food products,3,Manufacture of food products,2,Manufacturing,1,,
+NACE Keyword,C.10.9,Manufacture of prepared animal feeds,3,Manufacture of food products,2,Manufacturing,1,,
+NACE Keyword,C.25.1,Manufacture of structural metal products,3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1,,
+NACE Keyword,C.25.2,"Manufacture of tanks, reservoirs and containers of metal",3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1,,
+NACE Keyword,C.25.3,"Manufacture of steam generators, except central heating hot water boilers",3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1,,
+NACE Keyword,C.25.4,Manufacture of weapons and ammunition,3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1,,
+NACE Keyword,C.25.5,"Forging, pressing, stamping and roll-forming of metal; powder metallurgy",3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1,,
+NACE Keyword,C.25.6,Treatment and coating of metals; machining,3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1,,
+NACE Keyword,C.25.7,"Manufacture of cutlery, tools and general hardware",3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1,,
+NACE Keyword,C.25.9,Manufacture of other fabricated metal products,3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1,,
+NACE Keyword,C.27.1,"Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus",3,Manufacture of electrical equipment,2,Manufacturing,1,,
+NACE Keyword,C.27.2,Manufacture of batteries and accumulators,3,Manufacture of electrical equipment,2,Manufacturing,1,,
+NACE Keyword,C.27.3,Manufacture of wiring and wiring devices,3,Manufacture of electrical equipment,2,Manufacturing,1,,
+NACE Keyword,C.27.4,Manufacture of electric lighting equipment,3,Manufacture of electrical equipment,2,Manufacturing,1,,
+NACE Keyword,C.27.5,Manufacture of domestic appliances,3,Manufacture of electrical equipment,2,Manufacturing,1,,
+NACE Keyword,C.27.9,Manufacture of other electrical equipment,3,Manufacture of electrical equipment,2,Manufacturing,1,,
+NACE Keyword,C.26.1,Manufacture of electronic components and boards,3,"Manufacture of computer, electronic and optical products",2,Manufacturing,1,,
+NACE Keyword,C.26.2,Manufacture of computers and peripheral equipment,3,"Manufacture of computer, electronic and optical products",2,Manufacturing,1,,
+NACE Keyword,C.26.3,Manufacture of communication equipment,3,"Manufacture of computer, electronic and optical products",2,Manufacturing,1,,
+NACE Keyword,C.26.4,Manufacture of consumer electronics,3,"Manufacture of computer, electronic and optical products",2,Manufacturing,1,,
+NACE Keyword,C.26.5,"Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks",3,"Manufacture of computer, electronic and optical products",2,Manufacturing,1,,
+NACE Keyword,C.26.6,"Manufacture of irradiation, electromedical and electrotherapeutic equipment",3,"Manufacture of computer, electronic and optical products",2,Manufacturing,1,,
+NACE Keyword,C.26.7,Manufacture of optical instruments and photographic equipment,3,"Manufacture of computer, electronic and optical products",2,Manufacturing,1,,
+NACE Keyword,C.26.8,Manufacture of magnetic and optical media,3,"Manufacture of computer, electronic and optical products",2,Manufacturing,1,,
+NACE Keyword,C.19.1,Manufacture of coke oven products,3,Manufacture of coke and refined petroleum products,2,Manufacturing,1,,
+NACE Keyword,C.19.2,Manufacture of refined petroleum products,3,Manufacture of coke and refined petroleum products,2,Manufacturing,1,,
+NACE Keyword,C.20.1,"Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms",3,Manufacture of chemicals and chemical products,2,Manufacturing,1,,
+NACE Keyword,C.20.2,Manufacture of pesticides and other agrochemical products,3,Manufacture of chemicals and chemical products,2,Manufacturing,1,,
+NACE Keyword,C.20.3,"Manufacture of paints, varnishes and similar coatings, printing ink and mastics",3,Manufacture of chemicals and chemical products,2,Manufacturing,1,,
+NACE Keyword,C.20.4,"Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",3,Manufacture of chemicals and chemical products,2,Manufacturing,1,,
+NACE Keyword,C.20.5,Manufacture of other chemical products,3,Manufacture of chemicals and chemical products,2,Manufacturing,1,,
+NACE Keyword,C.20.6,Manufacture of man-made fibres,3,Manufacture of chemicals and chemical products,2,Manufacturing,1,,
+NACE Keyword,C.11.0,Manufacture of beverages,3,Manufacture of beverages,2,Manufacturing,1,,
+NACE Keyword,C.21.1,Manufacture of basic pharmaceutical products,3,Manufacture of basic pharmaceutical products and pharmaceutical preparations,2,Manufacturing,1,,
+NACE Keyword,C.21.2,Manufacture of pharmaceutical preparations,3,Manufacture of basic pharmaceutical products and pharmaceutical preparations,2,Manufacturing,1,,
+NACE Keyword,C.24.1,Manufacture of basic iron and steel and of ferro-alloys,3,Manufacture of basic metals,2,Manufacturing,1,,
+NACE Keyword,C.24.2,"Manufacture of tubes, pipes, hollow profiles and related fittings, of steel",3,Manufacture of basic metals,2,Manufacturing,1,,
+NACE Keyword,C.24.3,Manufacture of other products of first processing of steel,3,Manufacture of basic metals,2,Manufacturing,1,,
+NACE Keyword,C.24.4,Manufacture of basic precious and other non-ferrous metals,3,Manufacture of basic metals,2,Manufacturing,1,,
+NACE Keyword,C.24.5,Casting of metals,3,Manufacture of basic metals,2,Manufacturing,1,,
+NACE Keyword,R.91.0,"Libraries, archives, museums and other cultural activities",3,"Libraries, archives, museums and other cultural activities",2,"Arts, entertainment and recreation",1,,
+NACE Keyword,M.69.1,Legal activities,3,Legal and accounting activities,2,"Professional, scientific and technical activities",1,,
+NACE Keyword,M.69.2,"Accounting, bookkeeping and auditing activities; tax consultancy",3,Legal and accounting activities,2,"Professional, scientific and technical activities",1,,
+NACE Keyword,H.49.1,"Passenger rail transport, interurban",3,Land transport and transport via pipelines,2,Transportation and storage,1,,
+NACE Keyword,H.49.2,Freight rail transport,3,Land transport and transport via pipelines,2,Transportation and storage,1,,
+NACE Keyword,H.49.3,Other passenger land transport,3,Land transport and transport via pipelines,2,Transportation and storage,1,,
+NACE Keyword,H.49.4,Freight transport by road and removal services,3,Land transport and transport via pipelines,2,Transportation and storage,1,,
+NACE Keyword,H.49.5,Transport via pipeline,3,Land transport and transport via pipelines,2,Transportation and storage,1,,
+NACE Keyword,K.65.1,Insurance,3,"Insurance, reinsurance and pension funding, except compulsory social security",2,Financial and insurance activities,1,,
+NACE Keyword,K.65.2,Reinsurance,3,"Insurance, reinsurance and pension funding, except compulsory social security",2,Financial and insurance activities,1,,
+NACE Keyword,K.65.3,Pension funding,3,"Insurance, reinsurance and pension funding, except compulsory social security",2,Financial and insurance activities,1,,
+NACE Keyword,J.63.1,"Data processing, hosting and related activities; web portals",3,Information service activities,2,Information and communication,1,,
+NACE Keyword,J.63.9,Other information service activities,3,Information service activities,2,Information and communication,1,,
+NACE Keyword,Q.86.1,Hospital activities,3,Human health activities,2,Human health and social work activities,1,,
+NACE Keyword,Q.86.2,Medical and dental practice activities,3,Human health activities,2,Human health and social work activities,1,,
+NACE Keyword,Q.86.9,Other human health activities,3,Human health activities,2,Human health and social work activities,1,,
+NACE Keyword,R.92.0,Gambling and betting activities,3,Gambling and betting activities,2,"Arts, entertainment and recreation",1,,
+NACE Keyword,A.02.1,Silviculture and other forestry activities,3,Forestry and logging,2,"Agriculture, forestry and fishing",1,,
+NACE Keyword,A.02.2,Logging,3,Forestry and logging,2,"Agriculture, forestry and fishing",1,,
+NACE Keyword,A.02.3,Gathering of wild growing non-wood products,3,Forestry and logging,2,"Agriculture, forestry and fishing",1,,
+NACE Keyword,A.02.4,Support services to forestry,3,Forestry and logging,2,"Agriculture, forestry and fishing",1,,
+NACE Keyword,I.56.1,Restaurants and mobile food service activities,3,Food and beverage service activities,2,Accommodation and food service activities,1,,
+NACE Keyword,I.56.2,Event catering and other food service activities,3,Food and beverage service activities,2,Accommodation and food service activities,1,,
+NACE Keyword,I.56.3,Beverage serving activities,3,Food and beverage service activities,2,Accommodation and food service activities,1,,
+NACE Keyword,A.03.1,Fishing,3,Fishing and aquaculture,2,"Agriculture, forestry and fishing",1,,
+NACE Keyword,A.03.2,Aquaculture,3,Fishing and aquaculture,2,"Agriculture, forestry and fishing",1,,
+NACE Keyword,K.64.1,Monetary intermediation,3,"Financial service activities, except insurance and pension funding",2,Financial and insurance activities,1,,
+NACE Keyword,K.64.2,Activities of holding companies,3,"Financial service activities, except insurance and pension funding",2,Financial and insurance activities,1,,
+NACE Keyword,K.64.3,"Trusts, funds and similar financial entities",3,"Financial service activities, except insurance and pension funding",2,Financial and insurance activities,1,,
+NACE Keyword,K.64.9,"Other financial service activities, except insurance and pension funding",3,"Financial service activities, except insurance and pension funding",2,Financial and insurance activities,1,,
+NACE Keyword,B.06.1,Extraction of crude petroleum,3,Extraction of crude petroleum and natural gas,2,Mining and quarrying,1,,
+NACE Keyword,B.06.2,Extraction of natural gas,3,Extraction of crude petroleum and natural gas,2,Mining and quarrying,1,,
+NACE Keyword,N.78.1,Activities of employment placement agencies,3,Employment activities,2,Administrative and support service activities,1,,
+NACE Keyword,N.78.2,Temporary employment agency activities,3,Employment activities,2,Administrative and support service activities,1,,
+NACE Keyword,N.78.3,Other human resources provision,3,Employment activities,2,Administrative and support service activities,1,,
+NACE Keyword,D.35.1,"Electric power generation, transmission and distribution",3,"Electricity, gas, steam and air conditioning supply",2,"Electricity, gas, steam and air conditioning supply",1,,
+NACE Keyword,D.35.2,Manufacture of gas; distribution of gaseous fuels through mains,3,"Electricity, gas, steam and air conditioning supply",2,"Electricity, gas, steam and air conditioning supply",1,,
+NACE Keyword,D.35.3,Steam and air conditioning supply,3,"Electricity, gas, steam and air conditioning supply",2,"Electricity, gas, steam and air conditioning supply",1,,
+NACE Keyword,P.85.1,Pre-primary education,3,Education,2,Education,1,,
+NACE Keyword,P.85.2,Primary education,3,Education,2,Education,1,,
+NACE Keyword,P.85.3,Secondary education,3,Education,2,Education,1,,
+NACE Keyword,P.85.4,Higher education,3,Education,2,Education,1,,
+NACE Keyword,P.85.5,Other education,3,Education,2,Education,1,,
+NACE Keyword,P.85.6,Educational support activities,3,Education,2,Education,1,,
+NACE Keyword,A.01.1,Growing of non-perennial crops,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1,,
+NACE Keyword,A.01.2,Growing of perennial crops,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1,,
+NACE Keyword,A.01.3,Plant propagation,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1,,
+NACE Keyword,A.01.4,Animal production,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1,,
+NACE Keyword,A.01.5,Mixed farming,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1,,
+NACE Keyword,A.01.6,Support activities to agriculture and post-harvest crop activities,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1,,
+NACE Keyword,A.01.7,"Hunting, trapping and related service activities",3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1,,
+NACE Keyword,R.90.0,"Creative, arts and entertainment activities",3,"Creative, arts and entertainment activities",2,"Arts, entertainment and recreation",1,,
+NACE Keyword,F.41.1,Development of building projects,3,Construction of buildings,2,Construction,1,,
+NACE Keyword,F.41.2,Construction of residential and non-residential buildings,3,Construction of buildings,2,Construction,1,,
+NACE Keyword,J.62.0,"Computer programming, consultancy and related activities",3,"Computer programming, consultancy and related activities",2,Information and communication,1,,
+NACE Keyword,F.42.1,Construction of roads and railways,3,Civil engineering,2,Construction,1,,
+NACE Keyword,F.42.2,Construction of utility projects,3,Civil engineering,2,Construction,1,,
+NACE Keyword,F.42.9,Construction of other civil engineering projects,3,Civil engineering,2,Construction,1,,
+NACE Keyword,M.71.1,Architectural and engineering activities and related technical consultancy,3,Architectural and engineering activities; technical testing and analysis,2,"Professional, scientific and technical activities",1,,
+NACE Keyword,M.71.2,Technical testing and analysis,3,Architectural and engineering activities; technical testing and analysis,2,"Professional, scientific and technical activities",1,,
+NACE Keyword,H.51.1,Passenger air transport,3,Air transport,2,Transportation and storage,1,,
+NACE Keyword,H.51.2,Freight air transport and space transport,3,Air transport,2,Transportation and storage,1,,
+NACE Keyword,M.73.1,Advertising,3,Advertising and market research,2,"Professional, scientific and technical activities",1,,
+NACE Keyword,M.73.2,Market research and public opinion polling,3,Advertising and market research,2,"Professional, scientific and technical activities",1,,
+NACE Keyword,S.94.1,"Activities of business, employers and professional membership organisations",3,Activities of membership organisations,2,Other service activities,1,,
+NACE Keyword,S.94.2,Activities of trade unions,3,Activities of membership organisations,2,Other service activities,1,,
+NACE Keyword,S.94.9,Activities of other membership organisations,3,Activities of membership organisations,2,Other service activities,1,,
+NACE Keyword,T.97.0,Activities of households as employers of domestic personnel,3,Activities of households as employers of domestic personnel,2,Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use,1,,
+NACE Keyword,M.70.1,Activities of head offices,3,Activities of head offices; management consultancy activities,2,"Professional, scientific and technical activities",1,,
+NACE Keyword,M.70.2,Management consultancy activities,3,Activities of head offices; management consultancy activities,2,"Professional, scientific and technical activities",1,,
+NACE Keyword,U.99.0,Activities of extraterritorial organisations and bodies,3,Activities of extraterritorial organisations and bodies,2,Activities of extraterritorial organisations and bodies,1,,
+NACE Keyword,K.66.1,"Activities auxiliary to financial services, except insurance and pension funding",3,Activities auxiliary to financial services and insurance activities,2,Financial and insurance activities,1,,
+NACE Keyword,K.66.2,Activities auxiliary to insurance and pension funding,3,Activities auxiliary to financial services and insurance activities,2,Financial and insurance activities,1,,
+NACE Keyword,K.66.3,Fund management activities,3,Activities auxiliary to financial services and insurance activities,2,Financial and insurance activities,1,,
+NACE Keyword,I.55.1,Hotels and similar accommodation,3,Accommodation,2,Accommodation and food service activities,1,,
+NACE Keyword,I.55.2,Holiday and other short-stay accommodation,3,Accommodation,2,Accommodation and food service activities,1,,
+NACE Keyword,I.55.3,"Camping grounds, recreational vehicle parks and trailer parks",3,Accommodation,2,Accommodation and food service activities,1,,
+NACE Keyword,I.55.9,Other accommodation,3,Accommodation,2,Accommodation and food service activities,1,,
+NACE Keyword,J.61.2.0,Wireless telecommunications activities,4,Wireless telecommunications activities,3,Telecommunications,2,Information and communication,1
+NACE Keyword,J.61.1.0,Wired telecommunications activities,4,Wired telecommunications activities,3,Telecommunications,2,Information and communication,1
+NACE Keyword,G.46.1.1,"Agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods",4,Wholesale on a fee or contract basis,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.1.2,"Agents involved in the sale of fuels, ores, metals and industrial chemicals",4,Wholesale on a fee or contract basis,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.1.3,Agents involved in the sale of timber and building materials,4,Wholesale on a fee or contract basis,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.1.4,"Agents involved in the sale of machinery, industrial equipment, ships and aircraft",4,Wholesale on a fee or contract basis,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.1.5,"Agents involved in the sale of furniture, household goods, hardware and ironmongery",4,Wholesale on a fee or contract basis,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.1.6,"Agents involved in the sale of textiles, clothing, fur, footwear and leather goods",4,Wholesale on a fee or contract basis,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.1.7,"Agents involved in the sale of food, beverages and tobacco",4,Wholesale on a fee or contract basis,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.1.8,Agents specialised in the sale of other particular products,4,Wholesale on a fee or contract basis,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.1.9,Agents involved in the sale of a variety of goods,4,Wholesale on a fee or contract basis,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.6.1,"Wholesale of agricultural machinery, equipment and supplies",4,"Wholesale of other machinery, equipment and supplies",3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.6.2,Wholesale of machine tools,4,"Wholesale of other machinery, equipment and supplies",3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.6.3,"Wholesale of mining, construction and civil engineering machinery",4,"Wholesale of other machinery, equipment and supplies",3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.6.4,Wholesale of machinery for the textile industry and of sewing and knitting machines,4,"Wholesale of other machinery, equipment and supplies",3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.6.5,Wholesale of office furniture,4,"Wholesale of other machinery, equipment and supplies",3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.6.6,Wholesale of other office machinery and equipment,4,"Wholesale of other machinery, equipment and supplies",3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.6.9,Wholesale of other machinery and equipment,4,"Wholesale of other machinery, equipment and supplies",3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.5.1,"Wholesale of computers, computer peripheral equipment and software",4,Wholesale of information and communication equipment,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.5.2,Wholesale of electronic and telecommunications equipment and parts,4,Wholesale of information and communication equipment,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.4.1,Wholesale of textiles,4,Wholesale of household goods,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.4.2,Wholesale of clothing and footwear,4,Wholesale of household goods,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.4.3,Wholesale of electrical household appliances,4,Wholesale of household goods,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.4.4,Wholesale of china and glassware and cleaning materials,4,Wholesale of household goods,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.4.5,Wholesale of perfume and cosmetics,4,Wholesale of household goods,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.4.6,Wholesale of pharmaceutical goods,4,Wholesale of household goods,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.4.7,"Wholesale of furniture, carpets and lighting equipment",4,Wholesale of household goods,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.4.8,Wholesale of watches and jewellery,4,Wholesale of household goods,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.4.9,Wholesale of other household goods,4,Wholesale of household goods,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.3.1,Wholesale of fruit and vegetables,4,"Wholesale of food, beverages and tobacco",3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.3.2,Wholesale of meat and meat products,4,"Wholesale of food, beverages and tobacco",3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.3.3,"Wholesale of dairy products, eggs and edible oils and fats",4,"Wholesale of food, beverages and tobacco",3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.3.4,Wholesale of beverages,4,"Wholesale of food, beverages and tobacco",3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.3.5,Wholesale of tobacco products,4,"Wholesale of food, beverages and tobacco",3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.3.6,Wholesale of sugar and chocolate and sugar confectionery,4,"Wholesale of food, beverages and tobacco",3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.3.7,"Wholesale of coffee, tea, cocoa and spices",4,"Wholesale of food, beverages and tobacco",3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.3.8,"Wholesale of other food, including fish, crustaceans and molluscs",4,"Wholesale of food, beverages and tobacco",3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.3.9,"Non-specialised wholesale of food, beverages and tobacco",4,"Wholesale of food, beverages and tobacco",3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.2.1,"Wholesale of grain, unmanufactured tobacco, seeds and animal feeds",4,Wholesale of agricultural raw materials and live animals,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.2.2,Wholesale of flowers and plants,4,Wholesale of agricultural raw materials and live animals,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.2.3,Wholesale of live animals,4,Wholesale of agricultural raw materials and live animals,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.2.4,"Wholesale of hides, skins and leather",4,Wholesale of agricultural raw materials and live animals,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,C.13.2.0,Weaving of textiles,4,Weaving of textiles,3,Manufacture of textiles,2,Manufacturing,1
+NACE Keyword,E.36.0.0,"Water collection, treatment and supply",4,"Water collection, treatment and supply",3,"Water collection, treatment and supply",2,"Water supply; sewerage, waste management and remediation activities",1
+NACE Keyword,E.38.2.1,Treatment and disposal of non-hazardous waste,4,Waste treatment and disposal,3,"Waste collection, treatment and disposal activities; materials recovery",2,"Water supply; sewerage, waste management and remediation activities",1
+NACE Keyword,E.38.2.2,Treatment and disposal of hazardous waste,4,Waste treatment and disposal,3,"Waste collection, treatment and disposal activities; materials recovery",2,"Water supply; sewerage, waste management and remediation activities",1
+NACE Keyword,E.38.1.1,Collection of non-hazardous waste,4,Waste collection,3,"Waste collection, treatment and disposal activities; materials recovery",2,"Water supply; sewerage, waste management and remediation activities",1
+NACE Keyword,E.38.1.2,Collection of hazardous waste,4,Waste collection,3,"Waste collection, treatment and disposal activities; materials recovery",2,"Water supply; sewerage, waste management and remediation activities",1
+NACE Keyword,H.52.1.0,Warehousing and storage,4,Warehousing and storage,3,Warehousing and support activities for transportation,2,Transportation and storage,1
+NACE Keyword,M.75.0.0,Veterinary activities,4,Veterinary activities,3,Veterinary activities,2,"Professional, scientific and technical activities",1
+NACE Keyword,T.98.2.0,Undifferentiated service-producing activities of private households for own use,4,Undifferentiated service-producing activities of private households for own use,3,Undifferentiated goods- and services-producing activities of private households for own use,2,Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use,1
+NACE Keyword,T.98.1.0,Undifferentiated goods-producing activities of private households for own use,4,Undifferentiated goods-producing activities of private households for own use,3,Undifferentiated goods- and services-producing activities of private households for own use,2,Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use,1
+NACE Keyword,K.64.3.0,"Trusts, funds and similar financial entities",4,"Trusts, funds and similar financial entities",3,"Financial service activities, except insurance and pension funding",2,Financial and insurance activities,1
+NACE Keyword,C.25.6.1,Treatment and coating of metals,4,Treatment and coating of metals; machining,3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1
+NACE Keyword,C.25.6.2,Machining,4,Treatment and coating of metals; machining,3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1
+NACE Keyword,N.79.1.1,Travel agency activities,4,Travel agency and tour operator activities,3,"Travel agency, tour operator reservation service and related activities",2,Administrative and support service activities,1
+NACE Keyword,N.79.1.2,Tour operator activities,4,Travel agency and tour operator activities,3,"Travel agency, tour operator reservation service and related activities",2,Administrative and support service activities,1
+NACE Keyword,H.49.5.0,Transport via pipeline,4,Transport via pipeline,3,Land transport and transport via pipelines,2,Transportation and storage,1
+NACE Keyword,M.74.3.0,Translation and interpretation activities,4,Translation and interpretation activities,3,"Other professional, scientific and technical activities",2,"Professional, scientific and technical activities",1
+NACE Keyword,N.78.2.0,Temporary employment agency activities,4,Temporary employment agency activities,3,Employment activities,2,Administrative and support service activities,1
+NACE Keyword,J.60.2.0,Television programming and broadcasting activities,4,Television programming and broadcasting activities,3,Programming and broadcasting activities,2,Information and communication,1
+NACE Keyword,M.71.2.0,Technical testing and analysis,4,Technical testing and analysis,3,Architectural and engineering activities; technical testing and analysis,2,"Professional, scientific and technical activities",1
+NACE Keyword,C.15.1.1,Tanning and dressing of leather; dressing and dyeing of fur,4,"Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur",3,Manufacture of leather and related products,2,Manufacturing,1
+NACE Keyword,C.15.1.2,"Manufacture of luggage, handbags and the like, saddlery and harness",4,"Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur",3,Manufacture of leather and related products,2,Manufacturing,1
+NACE Keyword,A.02.4.0,Support services to forestry,4,Support services to forestry,3,Forestry and logging,2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.6.1,Support activities for crop production,4,Support activities to agriculture and post-harvest crop activities,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.6.2,Support activities for animal production,4,Support activities to agriculture and post-harvest crop activities,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.6.3,Post-harvest crop activities,4,Support activities to agriculture and post-harvest crop activities,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.6.4,Seed processing for propagation,4,Support activities to agriculture and post-harvest crop activities,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,H.52.2.1,Service activities incidental to land transportation,4,Support activities for transportation,3,Warehousing and support activities for transportation,2,Transportation and storage,1
+NACE Keyword,H.52.2.2,Service activities incidental to water transportation,4,Support activities for transportation,3,Warehousing and support activities for transportation,2,Transportation and storage,1
+NACE Keyword,H.52.2.3,Service activities incidental to air transportation,4,Support activities for transportation,3,Warehousing and support activities for transportation,2,Transportation and storage,1
+NACE Keyword,H.52.2.4,Cargo handling,4,Support activities for transportation,3,Warehousing and support activities for transportation,2,Transportation and storage,1
+NACE Keyword,H.52.2.9,Other transportation support activities,4,Support activities for transportation,3,Warehousing and support activities for transportation,2,Transportation and storage,1
+NACE Keyword,B.09.1.0,Support activities for petroleum and natural gas extraction,4,Support activities for petroleum and natural gas extraction,3,Mining support service activities,2,Mining and quarrying,1
+NACE Keyword,B.09.9.0,Support activities for other mining and quarrying,4,Support activities for other mining and quarrying,3,Mining support service activities,2,Mining and quarrying,1
+NACE Keyword,D.35.3.0,Steam and air conditioning supply,4,Steam and air conditioning supply,3,"Electricity, gas, steam and air conditioning supply",2,"Electricity, gas, steam and air conditioning supply",1
+NACE Keyword,R.93.1.1,Operation of sports facilities,4,Sports activities,3,Sports activities and amusement and recreation activities,2,"Arts, entertainment and recreation",1
+NACE Keyword,R.93.1.2,Activities of sport clubs,4,Sports activities,3,Sports activities and amusement and recreation activities,2,"Arts, entertainment and recreation",1
+NACE Keyword,R.93.1.3,Fitness facilities,4,Sports activities,3,Sports activities and amusement and recreation activities,2,"Arts, entertainment and recreation",1
+NACE Keyword,R.93.1.9,Other sports activities,4,Sports activities,3,Sports activities and amusement and recreation activities,2,"Arts, entertainment and recreation",1
+NACE Keyword,M.74.1.0,Specialised design activities,4,Specialised design activities,3,"Other professional, scientific and technical activities",2,"Professional, scientific and technical activities",1
+NACE Keyword,J.59.2.0,Sound recording and music publishing activities,4,Sound recording and music publishing activities,3,"Motion picture, video and television programme production, sound recording and music publishing activities",2,Information and communication,1
+NACE Keyword,J.58.2.1,Publishing of computer games,4,Software publishing,3,Publishing activities,2,Information and communication,1
+NACE Keyword,J.58.2.9,Other software publishing,4,Software publishing,3,Publishing activities,2,Information and communication,1
+NACE Keyword,Q.88.1.0,Social work activities without accommodation for the elderly and disabled,4,Social work activities without accommodation for the elderly and disabled,3,Social work activities without accommodation,2,Human health and social work activities,1
+NACE Keyword,A.02.1.0,Silviculture and other forestry activities,4,Silviculture and other forestry activities,3,Forestry and logging,2,"Agriculture, forestry and fishing",1
+NACE Keyword,E.37.0.0,Sewerage,4,Sewerage,3,Sewerage,2,"Water supply; sewerage, waste management and remediation activities",1
+NACE Keyword,N.80.2.0,Security systems service activities,4,Security systems service activities,3,Security and investigation activities,2,Administrative and support service activities,1
+NACE Keyword,P.85.3.1,General secondary education,4,Secondary education,3,Education,2,Education,1
+NACE Keyword,P.85.3.2,Technical and vocational secondary education,4,Secondary education,3,Education,2,Education,1
+NACE Keyword,H.50.1.0,Sea and coastal passenger water transport,4,Sea and coastal passenger water transport,3,Water transport,2,Transportation and storage,1
+NACE Keyword,H.50.2.0,Sea and coastal freight water transport,4,Sea and coastal freight water transport,3,Water transport,2,Transportation and storage,1
+NACE Keyword,C.16.1.0,Sawmilling and planing of wood,4,Sawmilling and planing of wood,3,"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",2,Manufacturing,1
+NACE Keyword,J.61.3.0,Satellite telecommunications activities,4,Satellite telecommunications activities,3,Telecommunications,2,Information and communication,1
+NACE Keyword,G.45.4.0,"Sale, maintenance and repair of motorcycles and related parts and accessories",4,"Sale, maintenance and repair of motorcycles and related parts and accessories",3,Wholesale and retail trade and repair of motor vehicles and motorcycles,2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.45.1.1,Sale of cars and light motor vehicles,4,Sale of motor vehicles,3,Wholesale and retail trade and repair of motor vehicles and motorcycles,2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.45.1.9,Sale of other motor vehicles,4,Sale of motor vehicles,3,Wholesale and retail trade and repair of motor vehicles and motorcycles,2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.45.3.1,Wholesale trade of motor vehicle parts and accessories,4,Sale of motor vehicle parts and accessories,3,Wholesale and retail trade and repair of motor vehicles and motorcycles,2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.45.3.2,Retail trade of motor vehicle parts and accessories,4,Sale of motor vehicle parts and accessories,3,Wholesale and retail trade and repair of motor vehicles and motorcycles,2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.9.1,Retail sale via mail order houses or via Internet,4,"Retail trade not in stores, stalls or markets",3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.9.9,"Other retail sale not in stores, stalls or markets",4,"Retail trade not in stores, stalls or markets",3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.8.1,"Retail sale via stalls and markets of food, beverages and tobacco products",4,Retail sale via stalls and markets,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.8.2,"Retail sale via stalls and markets of textiles, clothing and footwear",4,Retail sale via stalls and markets,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.8.9,Retail sale via stalls and markets of other goods,4,Retail sale via stalls and markets,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.5.1,Retail sale of textiles in specialised stores,4,Retail sale of other household equipment in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.5.2,"Retail sale of hardware, paints and glass in specialised stores",4,Retail sale of other household equipment in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.5.3,"Retail sale of carpets, rugs, wall and floor coverings in specialised stores",4,Retail sale of other household equipment in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.5.4,Retail sale of electrical household appliances in specialised stores,4,Retail sale of other household equipment in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.5.9,"Retail sale of furniture, lighting equipment and other household articles in specialised stores",4,Retail sale of other household equipment in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.7.1,Retail sale of clothing in specialised stores,4,Retail sale of other goods in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.7.2,Retail sale of footwear and leather goods in specialised stores,4,Retail sale of other goods in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.7.3,Dispensing chemist in specialised stores,4,Retail sale of other goods in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.7.4,Retail sale of medical and orthopaedic goods in specialised stores,4,Retail sale of other goods in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.7.5,Retail sale of cosmetic and toilet articles in specialised stores,4,Retail sale of other goods in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.7.6,"Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food in specialised stores",4,Retail sale of other goods in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.7.7,Retail sale of watches and jewellery in specialised stores,4,Retail sale of other goods in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.7.8,Other retail sale of new goods in specialised stores,4,Retail sale of other goods in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.7.9,Retail sale of second-hand goods in stores,4,Retail sale of other goods in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.4.1,"Retail sale of computers, peripheral units and software in specialised stores",4,Retail sale of information and communication equipment in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.4.2,Retail sale of telecommunications equipment in specialised stores,4,Retail sale of information and communication equipment in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.4.3,Retail sale of audio and video equipment in specialised stores,4,Retail sale of information and communication equipment in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.2.1,Retail sale of fruit and vegetables in specialised stores,4,"Retail sale of food, beverages and tobacco in specialised stores",3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.2.2,Retail sale of meat and meat products in specialised stores,4,"Retail sale of food, beverages and tobacco in specialised stores",3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.2.3,"Retail sale of fish, crustaceans and molluscs in specialised stores",4,"Retail sale of food, beverages and tobacco in specialised stores",3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.2.4,"Retail sale of bread, cakes, flour confectionery and sugar confectionery in specialised stores",4,"Retail sale of food, beverages and tobacco in specialised stores",3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.2.5,Retail sale of beverages in specialised stores,4,"Retail sale of food, beverages and tobacco in specialised stores",3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.2.6,Retail sale of tobacco products in specialised stores,4,"Retail sale of food, beverages and tobacco in specialised stores",3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.2.9,Other retail sale of food in specialised stores,4,"Retail sale of food, beverages and tobacco in specialised stores",3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.6.1,Retail sale of books in specialised stores,4,Retail sale of cultural and recreation goods in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.6.2,Retail sale of newspapers and stationery in specialised stores,4,Retail sale of cultural and recreation goods in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.6.3,Retail sale of music and video recordings in specialised stores,4,Retail sale of cultural and recreation goods in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.6.4,Retail sale of sporting equipment in specialised stores,4,Retail sale of cultural and recreation goods in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.6.5,Retail sale of games and toys in specialised stores,4,Retail sale of cultural and recreation goods in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.3.0,Retail sale of automotive fuel in specialised stores,4,Retail sale of automotive fuel in specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.1.1,"Retail sale in non-specialised stores with food, beverages or tobacco predominating",4,Retail sale in non-specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.47.1.9,Other retail sale in non-specialised stores,4,Retail sale in non-specialised stores,3,"Retail trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,I.56.1.0,Restaurants and mobile food service activities,4,Restaurants and mobile food service activities,3,Food and beverage service activities,2,Accommodation and food service activities,1
+NACE Keyword,Q.87.1.0,Residential nursing care activities,4,Residential nursing care activities,3,Residential care activities,2,Human health and social work activities,1
+NACE Keyword,Q.87.3.0,Residential care activities for the elderly and disabled,4,Residential care activities for the elderly and disabled,3,Residential care activities,2,Human health and social work activities,1
+NACE Keyword,Q.87.2.0,"Residential care activities for mental retardation, mental health and substance abuse",4,"Residential care activities for mental retardation, mental health and substance abuse",3,Residential care activities,2,Human health and social work activities,1
+NACE Keyword,M.72.2.0,Research and experimental development on social sciences and humanities,4,Research and experimental development on social sciences and humanities,3,Scientific research and development,2,"Professional, scientific and technical activities",1
+NACE Keyword,M.72.1.1,Research and experimental development on biotechnology,4,Research and experimental development on natural sciences and engineering,3,Scientific research and development,2,"Professional, scientific and technical activities",1
+NACE Keyword,M.72.1.9,Other research and experimental development on natural sciences and engineering,4,Research and experimental development on natural sciences and engineering,3,Scientific research and development,2,"Professional, scientific and technical activities",1
+NACE Keyword,C.18.2.0,Reproduction of recorded media,4,Reproduction of recorded media,3,Printing and reproduction of recorded media,2,Manufacturing,1
+NACE Keyword,S.95.2.1,Repair of consumer electronics,4,Repair of personal and household goods,3,Repair of computers and personal and household goods,2,Other service activities,1
+NACE Keyword,S.95.2.2,Repair of household appliances and home and garden equipment,4,Repair of personal and household goods,3,Repair of computers and personal and household goods,2,Other service activities,1
+NACE Keyword,S.95.2.3,Repair of footwear and leather goods,4,Repair of personal and household goods,3,Repair of computers and personal and household goods,2,Other service activities,1
+NACE Keyword,S.95.2.4,Repair of furniture and home furnishings,4,Repair of personal and household goods,3,Repair of computers and personal and household goods,2,Other service activities,1
+NACE Keyword,S.95.2.5,"Repair of watches, clocks and jewellery",4,Repair of personal and household goods,3,Repair of computers and personal and household goods,2,Other service activities,1
+NACE Keyword,S.95.2.9,Repair of other personal and household goods,4,Repair of personal and household goods,3,Repair of computers and personal and household goods,2,Other service activities,1
+NACE Keyword,C.33.1.1,Repair of fabricated metal products,4,"Repair of fabricated metal products, machinery and equipment",3,Repair and installation of machinery and equipment,2,Manufacturing,1
+NACE Keyword,C.33.1.2,Repair of machinery,4,"Repair of fabricated metal products, machinery and equipment",3,Repair and installation of machinery and equipment,2,Manufacturing,1
+NACE Keyword,C.33.1.3,Repair of electronic and optical equipment,4,"Repair of fabricated metal products, machinery and equipment",3,Repair and installation of machinery and equipment,2,Manufacturing,1
+NACE Keyword,C.33.1.4,Repair of electrical equipment,4,"Repair of fabricated metal products, machinery and equipment",3,Repair and installation of machinery and equipment,2,Manufacturing,1
+NACE Keyword,C.33.1.5,Repair and maintenance of ships and boats,4,"Repair of fabricated metal products, machinery and equipment",3,Repair and installation of machinery and equipment,2,Manufacturing,1
+NACE Keyword,C.33.1.6,Repair and maintenance of aircraft and spacecraft,4,"Repair of fabricated metal products, machinery and equipment",3,Repair and installation of machinery and equipment,2,Manufacturing,1
+NACE Keyword,C.33.1.7,Repair and maintenance of other transport equipment,4,"Repair of fabricated metal products, machinery and equipment",3,Repair and installation of machinery and equipment,2,Manufacturing,1
+NACE Keyword,C.33.1.9,Repair of other equipment,4,"Repair of fabricated metal products, machinery and equipment",3,Repair and installation of machinery and equipment,2,Manufacturing,1
+NACE Keyword,S.95.1.1,Repair of computers and peripheral equipment,4,Repair of computers and communication equipment,3,Repair of computers and personal and household goods,2,Other service activities,1
+NACE Keyword,S.95.1.2,Repair of communication equipment,4,Repair of computers and communication equipment,3,Repair of computers and personal and household goods,2,Other service activities,1
+NACE Keyword,L.68.2.0,Renting and operating of own or leased real estate,4,Renting and operating of own or leased real estate,3,Real estate activities,2,Real estate activities,1
+NACE Keyword,N.77.2.1,Renting and leasing of recreational and sports goods,4,Renting and leasing of personal and household goods,3,Rental and leasing activities,2,Administrative and support service activities,1
+NACE Keyword,N.77.2.2,Renting of video tapes and disks,4,Renting and leasing of personal and household goods,3,Rental and leasing activities,2,Administrative and support service activities,1
+NACE Keyword,N.77.2.9,Renting and leasing of other personal and household goods,4,Renting and leasing of personal and household goods,3,Rental and leasing activities,2,Administrative and support service activities,1
+NACE Keyword,N.77.3.1,Renting and leasing of agricultural machinery and equipment,4,"Renting and leasing of other machinery, equipment and tangible goods",3,Rental and leasing activities,2,Administrative and support service activities,1
+NACE Keyword,N.77.3.2,Renting and leasing of construction and civil engineering machinery and equipment,4,"Renting and leasing of other machinery, equipment and tangible goods",3,Rental and leasing activities,2,Administrative and support service activities,1
+NACE Keyword,N.77.3.3,Renting and leasing of office machinery and equipment (including computers),4,"Renting and leasing of other machinery, equipment and tangible goods",3,Rental and leasing activities,2,Administrative and support service activities,1
+NACE Keyword,N.77.3.4,Renting and leasing of water transport equipment,4,"Renting and leasing of other machinery, equipment and tangible goods",3,Rental and leasing activities,2,Administrative and support service activities,1
+NACE Keyword,N.77.3.5,Renting and leasing of air transport equipment,4,"Renting and leasing of other machinery, equipment and tangible goods",3,Rental and leasing activities,2,Administrative and support service activities,1
+NACE Keyword,N.77.3.9,"Renting and leasing of other machinery, equipment and tangible goods n.e.c.",4,"Renting and leasing of other machinery, equipment and tangible goods",3,Rental and leasing activities,2,Administrative and support service activities,1
+NACE Keyword,N.77.1.1,Renting and leasing of cars and light motor vehicles,4,Renting and leasing of motor vehicles,3,Rental and leasing activities,2,Administrative and support service activities,1
+NACE Keyword,N.77.1.2,Renting and leasing of trucks,4,Renting and leasing of motor vehicles,3,Rental and leasing activities,2,Administrative and support service activities,1
+NACE Keyword,E.39.0.0,Remediation activities and other waste management services,4,Remediation activities and other waste management services,3,Remediation activities and other waste management services,2,"Water supply; sewerage, waste management and remediation activities",1
+NACE Keyword,K.65.2.0,Reinsurance,4,Reinsurance,3,"Insurance, reinsurance and pension funding, except compulsory social security",2,Financial and insurance activities,1
+NACE Keyword,L.68.3.1,Real estate agencies,4,Real estate activities on a fee or contract basis,3,Real estate activities,2,Real estate activities,1
+NACE Keyword,L.68.3.2,Management of real estate on a fee or contract basis,4,Real estate activities on a fee or contract basis,3,Real estate activities,2,Real estate activities,1
+NACE Keyword,J.60.1.0,Radio broadcasting,4,Radio broadcasting,3,Programming and broadcasting activities,2,Information and communication,1
+NACE Keyword,B.08.1.1,"Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate",4,"Quarrying of stone, sand and clay",3,Other mining and quarrying,2,Mining and quarrying,1
+NACE Keyword,B.08.1.2,Operation of gravel and sand pits; mining of clays and kaolin,4,"Quarrying of stone, sand and clay",3,Other mining and quarrying,2,Mining and quarrying,1
+NACE Keyword,J.58.1.1,Book publishing,4,"Publishing of books, periodicals and other publishing activities",3,Publishing activities,2,Information and communication,1
+NACE Keyword,J.58.1.2,Publishing of directories and mailing lists,4,"Publishing of books, periodicals and other publishing activities",3,Publishing activities,2,Information and communication,1
+NACE Keyword,J.58.1.3,Publishing of newspapers,4,"Publishing of books, periodicals and other publishing activities",3,Publishing activities,2,Information and communication,1
+NACE Keyword,J.58.1.4,Publishing of journals and periodicals,4,"Publishing of books, periodicals and other publishing activities",3,Publishing activities,2,Information and communication,1
+NACE Keyword,J.58.1.9,Other publishing activities,4,"Publishing of books, periodicals and other publishing activities",3,Publishing activities,2,Information and communication,1
+NACE Keyword,O.84.2.1,Foreign affairs,4,Provision of services to the community as a whole,3,Public administration and defence; compulsory social security,2,Public administration and defence; compulsory social security,1
+NACE Keyword,O.84.2.2,Defence activities,4,Provision of services to the community as a whole,3,Public administration and defence; compulsory social security,2,Public administration and defence; compulsory social security,1
+NACE Keyword,O.84.2.3,Justice and judicial activities,4,Provision of services to the community as a whole,3,Public administration and defence; compulsory social security,2,Public administration and defence; compulsory social security,1
+NACE Keyword,O.84.2.4,Public order and safety activities,4,Provision of services to the community as a whole,3,Public administration and defence; compulsory social security,2,Public administration and defence; compulsory social security,1
+NACE Keyword,O.84.2.5,Fire service activities,4,Provision of services to the community as a whole,3,Public administration and defence; compulsory social security,2,Public administration and defence; compulsory social security,1
+NACE Keyword,C.10.1.1,Processing and preserving of meat,4,Processing and preserving of meat and production of meat products,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.10.1.2,Processing and preserving of poultry meat,4,Processing and preserving of meat and production of meat products,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.10.1.3,Production of meat and poultry meat products,4,Processing and preserving of meat and production of meat products,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.10.3.1,Processing and preserving of potatoes,4,Processing and preserving of fruit and vegetables,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.10.3.2,Manufacture of fruit and vegetable juice,4,Processing and preserving of fruit and vegetables,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.10.3.9,Other processing and preserving of fruit and vegetables,4,Processing and preserving of fruit and vegetables,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.10.2.0,"Processing and preserving of fish, crustaceans and molluscs",4,"Processing and preserving of fish, crustaceans and molluscs",3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,N.80.1.0,Private security activities,4,Private security activities,3,Security and investigation activities,2,Administrative and support service activities,1
+NACE Keyword,C.18.1.1,Printing of newspapers,4,Printing and service activities related to printing,3,Printing and reproduction of recorded media,2,Manufacturing,1
+NACE Keyword,C.18.1.2,Other printing,4,Printing and service activities related to printing,3,Printing and reproduction of recorded media,2,Manufacturing,1
+NACE Keyword,C.18.1.3,Pre-press and pre-media services,4,Printing and service activities related to printing,3,Printing and reproduction of recorded media,2,Manufacturing,1
+NACE Keyword,C.18.1.4,Binding and related services,4,Printing and service activities related to printing,3,Printing and reproduction of recorded media,2,Manufacturing,1
+NACE Keyword,P.85.2.0,Primary education,4,Primary education,3,Education,2,Education,1
+NACE Keyword,P.85.1.0,Pre-primary education,4,Pre-primary education,3,Education,2,Education,1
+NACE Keyword,C.13.1.0,Preparation and spinning of textile fibres,4,Preparation and spinning of textile fibres,3,Manufacture of textiles,2,Manufacturing,1
+NACE Keyword,H.53.1.0,Postal activities under universal service obligation,4,Postal activities under universal service obligation,3,Postal and courier activities,2,Transportation and storage,1
+NACE Keyword,A.01.3.0,Plant propagation,4,Plant propagation,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,M.74.2.0,Photographic activities,4,Photographic activities,3,"Other professional, scientific and technical activities",2,"Professional, scientific and technical activities",1
+NACE Keyword,K.65.3.0,Pension funding,4,Pension funding,3,"Insurance, reinsurance and pension funding, except compulsory social security",2,Financial and insurance activities,1
+NACE Keyword,H.49.1.0,"Passenger rail transport, interurban",4,"Passenger rail transport, interurban",3,Land transport and transport via pipelines,2,Transportation and storage,1
+NACE Keyword,H.51.1.0,Passenger air transport,4,Passenger air transport,3,Air transport,2,Transportation and storage,1
+NACE Keyword,J.61.9.0,Other telecommunications activities,4,Other telecommunications activities,3,Telecommunications,2,Information and communication,1
+NACE Keyword,G.46.7.1,"Wholesale of solid, liquid and gaseous fuels and related products",4,Other specialised wholesale,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.7.2,Wholesale of metals and metal ores,4,Other specialised wholesale,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.7.3,"Wholesale of wood, construction materials and sanitary equipment",4,Other specialised wholesale,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.7.4,"Wholesale of hardware, plumbing and heating equipment and supplies",4,Other specialised wholesale,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.7.5,Wholesale of chemical products,4,Other specialised wholesale,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.7.6,Wholesale of other intermediate products,4,Other specialised wholesale,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,G.46.7.7,Wholesale of waste and scrap,4,Other specialised wholesale,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,F.43.9.1,Roofing activities,4,Other specialised construction activities,3,Specialised construction activities,2,Construction,1
+NACE Keyword,F.43.9.9,Other specialised construction activities n.e.c.,4,Other specialised construction activities,3,Specialised construction activities,2,Construction,1
+NACE Keyword,Q.88.9.1,Child day-care activities,4,Other social work activities without accommodation,3,Social work activities without accommodation,2,Human health and social work activities,1
+NACE Keyword,Q.88.9.9,Other social work activities without accommodation n.e.c.,4,Other social work activities without accommodation,3,Social work activities without accommodation,2,Human health and social work activities,1
+NACE Keyword,Q.87.9.0,Other residential care activities,4,Other residential care activities,3,Residential care activities,2,Human health and social work activities,1
+NACE Keyword,N.79.9.0,Other reservation service and related activities,4,Other reservation service and related activities,3,"Travel agency, tour operator reservation service and related activities",2,Administrative and support service activities,1
+NACE Keyword,M.74.9.0,"Other professional, scientific and technical activities n.e.c.",4,"Other professional, scientific and technical activities n.e.c.",3,"Other professional, scientific and technical activities",2,"Professional, scientific and technical activities",1
+NACE Keyword,H.53.2.0,Other postal and courier activities,4,Other postal and courier activities,3,Postal and courier activities,2,Transportation and storage,1
+NACE Keyword,S.96.0.1,Washing and (dry-)cleaning of textile and fur products,4,Other personal service activities,3,Other personal service activities,2,Other service activities,1
+NACE Keyword,S.96.0.2,Hairdressing and other beauty treatment,4,Other personal service activities,3,Other personal service activities,2,Other service activities,1
+NACE Keyword,S.96.0.3,Funeral and related activities,4,Other personal service activities,3,Other personal service activities,2,Other service activities,1
+NACE Keyword,S.96.0.4,Physical well-being activities,4,Other personal service activities,3,Other personal service activities,2,Other service activities,1
+NACE Keyword,S.96.0.9,Other personal service activities n.e.c.,4,Other personal service activities,3,Other personal service activities,2,Other service activities,1
+NACE Keyword,H.49.3.1,Urban and suburban passenger land transport,4,Other passenger land transport,3,Land transport and transport via pipelines,2,Transportation and storage,1
+NACE Keyword,H.49.3.2,Taxi operation,4,Other passenger land transport,3,Land transport and transport via pipelines,2,Transportation and storage,1
+NACE Keyword,H.49.3.9,Other passenger land transport n.e.c.,4,Other passenger land transport,3,Land transport and transport via pipelines,2,Transportation and storage,1
+NACE Keyword,J.63.9.1,News agency activities,4,Other information service activities,3,Information service activities,2,Information and communication,1
+NACE Keyword,J.63.9.9,Other information service activities n.e.c.,4,Other information service activities,3,Information service activities,2,Information and communication,1
+NACE Keyword,N.78.3.0,Other human resources provision,4,Other human resources provision,3,Employment activities,2,Administrative and support service activities,1
+NACE Keyword,Q.86.9.0,Other human health activities,4,Other human health activities,3,Human health activities,2,Human health and social work activities,1
+NACE Keyword,K.64.9.1,Financial leasing,4,"Other financial service activities, except insurance and pension funding",3,"Financial service activities, except insurance and pension funding",2,Financial and insurance activities,1
+NACE Keyword,K.64.9.2,Other credit granting,4,"Other financial service activities, except insurance and pension funding",3,"Financial service activities, except insurance and pension funding",2,Financial and insurance activities,1
+NACE Keyword,K.64.9.9,"Other financial service activities, except insurance and pension funding n.e.c.",4,"Other financial service activities, except insurance and pension funding",3,"Financial service activities, except insurance and pension funding",2,Financial and insurance activities,1
+NACE Keyword,P.85.5.1,Sports and recreation education,4,Other education,3,Education,2,Education,1
+NACE Keyword,P.85.5.2,Cultural education,4,Other education,3,Education,2,Education,1
+NACE Keyword,P.85.5.3,Driving school activities,4,Other education,3,Education,2,Education,1
+NACE Keyword,P.85.5.9,Other education n.e.c.,4,Other education,3,Education,2,Education,1
+NACE Keyword,I.55.9.0,Other accommodation,4,Other accommodation,3,Accommodation,2,Accommodation and food service activities,1
+NACE Keyword,N.82.3.0,Organisation of conventions and trade shows,4,Organisation of conventions and trade shows,3,"Office administrative, office support and other business support activities",2,Administrative and support service activities,1
+NACE Keyword,N.82.1.1,Combined office administrative service activities,4,Office administrative and support activities,3,"Office administrative, office support and other business support activities",2,Administrative and support service activities,1
+NACE Keyword,N.82.1.9,"Photocopying, document preparation and other specialised office support activities",4,Office administrative and support activities,3,"Office administrative, office support and other business support activities",2,Administrative and support service activities,1
+NACE Keyword,G.46.9.0,Non-specialised wholesale trade,4,Non-specialised wholesale trade,3,"Wholesale trade, except of motor vehicles and motorcycles",2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,J.59.1.1,"Motion picture, video and television programme production activities",4,"Motion picture, video and television programme activities",3,"Motion picture, video and television programme production, sound recording and music publishing activities",2,Information and communication,1
+NACE Keyword,J.59.1.2,"Motion picture, video and television programme post-production activities",4,"Motion picture, video and television programme activities",3,"Motion picture, video and television programme production, sound recording and music publishing activities",2,Information and communication,1
+NACE Keyword,J.59.1.3,"Motion picture, video and television programme distribution activities",4,"Motion picture, video and television programme activities",3,"Motion picture, video and television programme production, sound recording and music publishing activities",2,Information and communication,1
+NACE Keyword,J.59.1.4,Motion picture projection activities,4,"Motion picture, video and television programme activities",3,"Motion picture, video and television programme production, sound recording and music publishing activities",2,Information and communication,1
+NACE Keyword,K.64.1.1,Central banking,4,Monetary intermediation,3,"Financial service activities, except insurance and pension funding",2,Financial and insurance activities,1
+NACE Keyword,K.64.1.9,Other monetary intermediation,4,Monetary intermediation,3,"Financial service activities, except insurance and pension funding",2,Financial and insurance activities,1
+NACE Keyword,A.01.5.0,Mixed farming,4,Mixed farming,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,B.07.2.1,Mining of uranium and thorium ores,4,Mining of non-ferrous metal ores,3,Mining of metal ores,2,Mining and quarrying,1
+NACE Keyword,B.07.2.9,Mining of other non-ferrous metal ores,4,Mining of non-ferrous metal ores,3,Mining of metal ores,2,Mining and quarrying,1
+NACE Keyword,B.05.2.0,Mining of lignite,4,Mining of lignite,3,Mining of coal and lignite,2,Mining and quarrying,1
+NACE Keyword,B.07.1.0,Mining of iron ores,4,Mining of iron ores,3,Mining of metal ores,2,Mining and quarrying,1
+NACE Keyword,B.05.1.0,Mining of hard coal,4,Mining of hard coal,3,Mining of coal and lignite,2,Mining and quarrying,1
+NACE Keyword,B.08.9.1,Mining of chemical and fertiliser minerals,4,Mining and quarrying n.e.c.,3,Other mining and quarrying,2,Mining and quarrying,1
+NACE Keyword,B.08.9.2,Extraction of peat,4,Mining and quarrying n.e.c.,3,Other mining and quarrying,2,Mining and quarrying,1
+NACE Keyword,B.08.9.3,Extraction of salt,4,Mining and quarrying n.e.c.,3,Other mining and quarrying,2,Mining and quarrying,1
+NACE Keyword,B.08.9.9,Other mining and quarrying n.e.c.,4,Mining and quarrying n.e.c.,3,Other mining and quarrying,2,Mining and quarrying,1
+NACE Keyword,Q.86.2.1,General medical practice activities,4,Medical and dental practice activities,3,Human health activities,2,Human health and social work activities,1
+NACE Keyword,Q.86.2.2,Specialist medical practice activities,4,Medical and dental practice activities,3,Human health activities,2,Human health and social work activities,1
+NACE Keyword,Q.86.2.3,Dental practice activities,4,Medical and dental practice activities,3,Human health activities,2,Human health and social work activities,1
+NACE Keyword,E.38.3.1,Dismantling of wrecks,4,Materials recovery,3,"Waste collection, treatment and disposal activities; materials recovery",2,"Water supply; sewerage, waste management and remediation activities",1
+NACE Keyword,E.38.3.2,Recovery of sorted materials,4,Materials recovery,3,"Waste collection, treatment and disposal activities; materials recovery",2,"Water supply; sewerage, waste management and remediation activities",1
+NACE Keyword,M.73.2.0,Market research and public opinion polling,4,Market research and public opinion polling,3,Advertising and market research,2,"Professional, scientific and technical activities",1
+NACE Keyword,C.32.9.1,Manufacture of brooms and brushes,4,Manufacturing n.e.c.,3,Other manufacturing,2,Manufacturing,1
+NACE Keyword,C.32.9.9,Other manufacturing n.e.c.,4,Manufacturing n.e.c.,3,Other manufacturing,2,Manufacturing,1
+NACE Keyword,C.27.3.1,Manufacture of fibre optic cables,4,Manufacture of wiring and wiring devices,3,Manufacture of electrical equipment,2,Manufacturing,1
+NACE Keyword,C.27.3.2,Manufacture of other electronic and electric wires and cables,4,Manufacture of wiring and wiring devices,3,Manufacture of electrical equipment,2,Manufacturing,1
+NACE Keyword,C.27.3.3,Manufacture of wiring devices,4,Manufacture of wiring and wiring devices,3,Manufacture of electrical equipment,2,Manufacturing,1
+NACE Keyword,C.14.1.1,Manufacture of leather clothes,4,"Manufacture of wearing apparel, except fur apparel",3,Manufacture of wearing apparel,2,Manufacturing,1
+NACE Keyword,C.14.1.2,Manufacture of workwear,4,"Manufacture of wearing apparel, except fur apparel",3,Manufacture of wearing apparel,2,Manufacturing,1
+NACE Keyword,C.14.1.3,Manufacture of other outerwear,4,"Manufacture of wearing apparel, except fur apparel",3,Manufacture of wearing apparel,2,Manufacturing,1
+NACE Keyword,C.14.1.4,Manufacture of underwear,4,"Manufacture of wearing apparel, except fur apparel",3,Manufacture of wearing apparel,2,Manufacturing,1
+NACE Keyword,C.14.1.9,Manufacture of other wearing apparel and accessories,4,"Manufacture of wearing apparel, except fur apparel",3,Manufacture of wearing apparel,2,Manufacturing,1
+NACE Keyword,C.25.4.0,Manufacture of weapons and ammunition,4,Manufacture of weapons and ammunition,3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1
+NACE Keyword,C.10.4.1,Manufacture of oils and fats,4,Manufacture of vegetable and animal oils and fats,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.10.4.2,Manufacture of margarine and similar edible fats,4,Manufacture of vegetable and animal oils and fats,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.24.2.0,"Manufacture of tubes, pipes, hollow profiles and related fittings, of steel",4,"Manufacture of tubes, pipes, hollow profiles and related fittings, of steel",3,Manufacture of basic metals,2,Manufacturing,1
+NACE Keyword,C.30.9.1,Manufacture of motorcycles,4,Manufacture of transport equipment n.e.c.,3,Manufacture of other transport equipment,2,Manufacturing,1
+NACE Keyword,C.30.9.2,Manufacture of bicycles and invalid carriages,4,Manufacture of transport equipment n.e.c.,3,Manufacture of other transport equipment,2,Manufacturing,1
+NACE Keyword,C.30.9.9,Manufacture of other transport equipment n.e.c.,4,Manufacture of transport equipment n.e.c.,3,Manufacture of other transport equipment,2,Manufacturing,1
+NACE Keyword,C.12.0.0,Manufacture of tobacco products,4,Manufacture of tobacco products,3,Manufacture of tobacco products,2,Manufacturing,1
+NACE Keyword,C.25.2.1,Manufacture of central heating radiators and boilers,4,"Manufacture of tanks, reservoirs and containers of metal",3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1
+NACE Keyword,C.25.2.9,"Manufacture of other tanks, reservoirs and containers of metal",4,"Manufacture of tanks, reservoirs and containers of metal",3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1
+NACE Keyword,C.25.1.1,Manufacture of metal structures and parts of structures,4,Manufacture of structural metal products,3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1
+NACE Keyword,C.25.1.2,Manufacture of doors and windows of metal,4,Manufacture of structural metal products,3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1
+NACE Keyword,C.25.3.0,"Manufacture of steam generators, except central heating hot water boilers",4,"Manufacture of steam generators, except central heating hot water boilers",3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1
+NACE Keyword,C.32.3.0,Manufacture of sports goods,4,Manufacture of sports goods,3,Other manufacturing,2,Manufacturing,1
+NACE Keyword,C.20.4.1,"Manufacture of soap and detergents, cleaning and polishing preparations",4,"Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",3,Manufacture of chemicals and chemical products,2,Manufacturing,1
+NACE Keyword,C.20.4.2,Manufacture of perfumes and toilet preparations,4,"Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",3,Manufacture of chemicals and chemical products,2,Manufacturing,1
+NACE Keyword,C.22.1.1,Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres,4,Manufacture of rubber products,3,Manufacture of rubber and plastic products,2,Manufacturing,1
+NACE Keyword,C.22.1.9,Manufacture of other rubber products,4,Manufacture of rubber products,3,Manufacture of rubber and plastic products,2,Manufacturing,1
+NACE Keyword,C.23.2.0,Manufacture of refractory products,4,Manufacture of refractory products,3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.19.2.0,Manufacture of refined petroleum products,4,Manufacture of refined petroleum products,3,Manufacture of coke and refined petroleum products,2,Manufacturing,1
+NACE Keyword,C.30.2.0,Manufacture of railway locomotives and rolling stock,4,Manufacture of railway locomotives and rolling stock,3,Manufacture of other transport equipment,2,Manufacturing,1
+NACE Keyword,C.17.1.1,Manufacture of pulp,4,"Manufacture of pulp, paper and paperboard",3,Manufacture of paper and paper products,2,Manufacturing,1
+NACE Keyword,C.17.1.2,Manufacture of paper and paperboard,4,"Manufacture of pulp, paper and paperboard",3,Manufacture of paper and paper products,2,Manufacturing,1
+NACE Keyword,C.16.2.1,Manufacture of veneer sheets and wood-based panels,4,"Manufacture of products of wood, cork, straw and plaiting materials",3,"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",2,Manufacturing,1
+NACE Keyword,C.16.2.2,Manufacture of assembled parquet floors,4,"Manufacture of products of wood, cork, straw and plaiting materials",3,"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",2,Manufacturing,1
+NACE Keyword,C.16.2.3,Manufacture of other builders´ carpentry and joinery,4,"Manufacture of products of wood, cork, straw and plaiting materials",3,"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",2,Manufacturing,1
+NACE Keyword,C.16.2.4,Manufacture of wooden containers,4,"Manufacture of products of wood, cork, straw and plaiting materials",3,"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",2,Manufacturing,1
+NACE Keyword,C.16.2.9,"Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials",4,"Manufacture of products of wood, cork, straw and plaiting materials",3,"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",2,Manufacturing,1
+NACE Keyword,C.10.9.1,Manufacture of prepared feeds for farm animals,4,Manufacture of prepared animal feeds,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.10.9.2,Manufacture of prepared pet foods,4,Manufacture of prepared animal feeds,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.22.2.1,"Manufacture of plastic plates, sheets, tubes and profiles",4,Manufacture of plastics products,3,Manufacture of rubber and plastic products,2,Manufacturing,1
+NACE Keyword,C.22.2.2,Manufacture of plastic packing goods,4,Manufacture of plastics products,3,Manufacture of rubber and plastic products,2,Manufacturing,1
+NACE Keyword,C.22.2.3,Manufacture of builders´ ware of plastic,4,Manufacture of plastics products,3,Manufacture of rubber and plastic products,2,Manufacturing,1
+NACE Keyword,C.22.2.9,Manufacture of other plastic products,4,Manufacture of plastics products,3,Manufacture of rubber and plastic products,2,Manufacturing,1
+NACE Keyword,C.21.2.0,Manufacture of pharmaceutical preparations,4,Manufacture of pharmaceutical preparations,3,Manufacture of basic pharmaceutical products and pharmaceutical preparations,2,Manufacturing,1
+NACE Keyword,C.20.2.0,Manufacture of pesticides and other agrochemical products,4,Manufacture of pesticides and other agrochemical products,3,Manufacture of chemicals and chemical products,2,Manufacturing,1
+NACE Keyword,C.29.3.1,Manufacture of electrical and electronic equipment for motor vehicles,4,Manufacture of parts and accessories for motor vehicles,3,"Manufacture of motor vehicles, trailers and semi-trailers",2,Manufacturing,1
+NACE Keyword,C.29.3.2,Manufacture of other parts and accessories for motor vehicles,4,Manufacture of parts and accessories for motor vehicles,3,"Manufacture of motor vehicles, trailers and semi-trailers",2,Manufacturing,1
+NACE Keyword,C.20.3.0,"Manufacture of paints, varnishes and similar coatings, printing ink and mastics",4,"Manufacture of paints, varnishes and similar coatings, printing ink and mastics",3,Manufacture of chemicals and chemical products,2,Manufacturing,1
+NACE Keyword,C.13.9.1,Manufacture of knitted and crocheted fabrics,4,Manufacture of other textiles,3,Manufacture of textiles,2,Manufacturing,1
+NACE Keyword,C.13.9.2,"Manufacture of made-up textile articles, except apparel",4,Manufacture of other textiles,3,Manufacture of textiles,2,Manufacturing,1
+NACE Keyword,C.13.9.3,Manufacture of carpets and rugs,4,Manufacture of other textiles,3,Manufacture of textiles,2,Manufacturing,1
+NACE Keyword,C.13.9.4,"Manufacture of cordage, rope, twine and netting",4,Manufacture of other textiles,3,Manufacture of textiles,2,Manufacturing,1
+NACE Keyword,C.13.9.5,"Manufacture of non-wovens and articles made from non-wovens, except apparel",4,Manufacture of other textiles,3,Manufacture of textiles,2,Manufacturing,1
+NACE Keyword,C.13.9.6,Manufacture of other technical and industrial textiles,4,Manufacture of other textiles,3,Manufacture of textiles,2,Manufacturing,1
+NACE Keyword,C.13.9.9,Manufacture of other textiles n.e.c.,4,Manufacture of other textiles,3,Manufacture of textiles,2,Manufacturing,1
+NACE Keyword,C.28.9.1,Manufacture of machinery for metallurgy,4,Manufacture of other special-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,C.28.9.2,"Manufacture of machinery for mining, quarrying and construction",4,Manufacture of other special-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,C.28.9.3,"Manufacture of machinery for food, beverage and tobacco processing",4,Manufacture of other special-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,C.28.9.4,"Manufacture of machinery for textile, apparel and leather production",4,Manufacture of other special-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,C.28.9.5,Manufacture of machinery for paper and paperboard production,4,Manufacture of other special-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,C.28.9.6,Manufacture of plastic and rubber machinery,4,Manufacture of other special-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,C.28.9.9,Manufacture of other special-purpose machinery n.e.c.,4,Manufacture of other special-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,C.24.3.1,Cold drawing of bars,4,Manufacture of other products of first processing of steel,3,Manufacture of basic metals,2,Manufacturing,1
+NACE Keyword,C.24.3.2,Cold rolling of narrow strip,4,Manufacture of other products of first processing of steel,3,Manufacture of basic metals,2,Manufacturing,1
+NACE Keyword,C.24.3.3,Cold forming or folding,4,Manufacture of other products of first processing of steel,3,Manufacture of basic metals,2,Manufacturing,1
+NACE Keyword,C.24.3.4,Cold drawing of wire,4,Manufacture of other products of first processing of steel,3,Manufacture of basic metals,2,Manufacturing,1
+NACE Keyword,C.23.4.1,Manufacture of ceramic household and ornamental articles,4,Manufacture of other porcelain and ceramic products,3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.23.4.2,Manufacture of ceramic sanitary fixtures,4,Manufacture of other porcelain and ceramic products,3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.23.4.3,Manufacture of ceramic insulators and insulating fittings,4,Manufacture of other porcelain and ceramic products,3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.23.4.4,Manufacture of other technical ceramic products,4,Manufacture of other porcelain and ceramic products,3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.23.4.9,Manufacture of other ceramic products,4,Manufacture of other porcelain and ceramic products,3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.28.2.1,"Manufacture of ovens, furnaces and furnace burners",4,Manufacture of other general-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,C.28.2.2,Manufacture of lifting and handling equipment,4,Manufacture of other general-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,C.28.2.3,Manufacture of office machinery and equipment (except computers and peripheral equipment),4,Manufacture of other general-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,C.28.2.4,Manufacture of power-driven hand tools,4,Manufacture of other general-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,C.28.2.5,Manufacture of non-domestic cooling and ventilation equipment,4,Manufacture of other general-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,C.28.2.9,Manufacture of other general-purpose machinery n.e.c.,4,Manufacture of other general-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,C.10.8.1,Manufacture of sugar,4,Manufacture of other food products,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.10.8.2,"Manufacture of cocoa, chocolate and sugar confectionery",4,Manufacture of other food products,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.10.8.3,Processing of tea and coffee,4,Manufacture of other food products,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.10.8.4,Manufacture of condiments and seasonings,4,Manufacture of other food products,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.10.8.5,Manufacture of prepared meals and dishes,4,Manufacture of other food products,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.10.8.6,Manufacture of homogenised food preparations and dietetic food,4,Manufacture of other food products,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.10.8.9,Manufacture of other food products n.e.c.,4,Manufacture of other food products,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.25.9.1,Manufacture of steel drums and similar containers,4,Manufacture of other fabricated metal products,3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1
+NACE Keyword,C.25.9.2,Manufacture of light metal packaging,4,Manufacture of other fabricated metal products,3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1
+NACE Keyword,C.25.9.3,"Manufacture of wire products, chain and springs",4,Manufacture of other fabricated metal products,3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1
+NACE Keyword,C.25.9.4,Manufacture of fasteners and screw machine products,4,Manufacture of other fabricated metal products,3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1
+NACE Keyword,C.25.9.9,Manufacture of other fabricated metal products n.e.c.,4,Manufacture of other fabricated metal products,3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1
+NACE Keyword,C.27.9.0,Manufacture of other electrical equipment,4,Manufacture of other electrical equipment,3,Manufacture of electrical equipment,2,Manufacturing,1
+NACE Keyword,C.20.5.1,Manufacture of explosives,4,Manufacture of other chemical products,3,Manufacture of chemicals and chemical products,2,Manufacturing,1
+NACE Keyword,C.20.5.2,Manufacture of glues,4,Manufacture of other chemical products,3,Manufacture of chemicals and chemical products,2,Manufacturing,1
+NACE Keyword,C.20.5.3,Manufacture of essential oils,4,Manufacture of other chemical products,3,Manufacture of chemicals and chemical products,2,Manufacturing,1
+NACE Keyword,C.20.5.9,Manufacture of other chemical products n.e.c.,4,Manufacture of other chemical products,3,Manufacture of chemicals and chemical products,2,Manufacturing,1
+NACE Keyword,C.26.7.0,Manufacture of optical instruments and photographic equipment,4,Manufacture of optical instruments and photographic equipment,3,"Manufacture of computer, electronic and optical products",2,Manufacturing,1
+NACE Keyword,C.32.2.0,Manufacture of musical instruments,4,Manufacture of musical instruments,3,Other manufacturing,2,Manufacturing,1
+NACE Keyword,C.29.1.0,Manufacture of motor vehicles,4,Manufacture of motor vehicles,3,"Manufacture of motor vehicles, trailers and semi-trailers",2,Manufacturing,1
+NACE Keyword,C.30.4.0,Manufacture of military fighting vehicles,4,Manufacture of military fighting vehicles,3,Manufacture of other transport equipment,2,Manufacturing,1
+NACE Keyword,C.28.4.1,Manufacture of metal forming machinery,4,Manufacture of metal forming machinery and machine tools,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,C.28.4.9,Manufacture of other machine tools,4,Manufacture of metal forming machinery and machine tools,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,C.32.5.0,Manufacture of medical and dental instruments and supplies,4,Manufacture of medical and dental instruments and supplies,3,Other manufacturing,2,Manufacturing,1
+NACE Keyword,C.20.6.0,Manufacture of man-made fibres,4,Manufacture of man-made fibres,3,Manufacture of chemicals and chemical products,2,Manufacturing,1
+NACE Keyword,C.26.8.0,Manufacture of magnetic and optical media,4,Manufacture of magnetic and optical media,3,"Manufacture of computer, electronic and optical products",2,Manufacturing,1
+NACE Keyword,C.14.3.1,Manufacture of knitted and crocheted hosiery,4,Manufacture of knitted and crocheted apparel,3,Manufacture of wearing apparel,2,Manufacturing,1
+NACE Keyword,C.14.3.9,Manufacture of other knitted and crocheted apparel,4,Manufacture of knitted and crocheted apparel,3,Manufacture of wearing apparel,2,Manufacturing,1
+NACE Keyword,C.32.1.1,Striking of coins,4,"Manufacture of jewellery, bijouterie and related articles",3,Other manufacturing,2,Manufacturing,1
+NACE Keyword,C.32.1.2,Manufacture of jewellery and related articles,4,"Manufacture of jewellery, bijouterie and related articles",3,Other manufacturing,2,Manufacturing,1
+NACE Keyword,C.32.1.3,Manufacture of imitation jewellery and related articles,4,"Manufacture of jewellery, bijouterie and related articles",3,Other manufacturing,2,Manufacturing,1
+NACE Keyword,C.26.6.0,"Manufacture of irradiation, electromedical and electrotherapeutic equipment",4,"Manufacture of irradiation, electromedical and electrotherapeutic equipment",3,"Manufacture of computer, electronic and optical products",2,Manufacturing,1
+NACE Keyword,C.26.5.1,"Manufacture of instruments and appliances for measuring, testing and navigation",4,"Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks",3,"Manufacture of computer, electronic and optical products",2,Manufacturing,1
+NACE Keyword,C.26.5.2,Manufacture of watches and clocks,4,"Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks",3,"Manufacture of computer, electronic and optical products",2,Manufacturing,1
+NACE Keyword,C.10.6.1,Manufacture of grain mill products,4,"Manufacture of grain mill products, starches and starch products",3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.10.6.2,Manufacture of starches and starch products,4,"Manufacture of grain mill products, starches and starch products",3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.23.1.1,Manufacture of flat glass,4,Manufacture of glass and glass products,3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.23.1.2,Shaping and processing of flat glass,4,Manufacture of glass and glass products,3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.23.1.3,Manufacture of hollow glass,4,Manufacture of glass and glass products,3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.23.1.4,Manufacture of glass fibres,4,Manufacture of glass and glass products,3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.23.1.9,"Manufacture and processing of other glass, including technical glassware",4,Manufacture of glass and glass products,3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.28.1.1,"Manufacture of engines and turbines, except aircraft, vehicle and cycle engines",4,Manufacture of general-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,C.28.1.2,Manufacture of fluid power equipment,4,Manufacture of general-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,C.28.1.3,Manufacture of other pumps and compressors,4,Manufacture of general-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,C.28.1.4,Manufacture of other taps and valves,4,Manufacture of general-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,C.28.1.5,"Manufacture of bearings, gears, gearing and driving elements",4,Manufacture of general-purpose machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,D.35.2.1,Manufacture of gas,4,Manufacture of gas; distribution of gaseous fuels through mains,3,"Electricity, gas, steam and air conditioning supply",2,"Electricity, gas, steam and air conditioning supply",1
+NACE Keyword,D.35.2.2,Distribution of gaseous fuels through mains,4,Manufacture of gas; distribution of gaseous fuels through mains,3,"Electricity, gas, steam and air conditioning supply",2,"Electricity, gas, steam and air conditioning supply",1
+NACE Keyword,D.35.2.3,Trade of gas through mains,4,Manufacture of gas; distribution of gaseous fuels through mains,3,"Electricity, gas, steam and air conditioning supply",2,"Electricity, gas, steam and air conditioning supply",1
+NACE Keyword,C.32.4.0,Manufacture of games and toys,4,Manufacture of games and toys,3,Other manufacturing,2,Manufacturing,1
+NACE Keyword,C.31.0.1,Manufacture of office and shop furniture,4,Manufacture of furniture,3,Manufacture of furniture,2,Manufacturing,1
+NACE Keyword,C.31.0.2,Manufacture of kitchen furniture,4,Manufacture of furniture,3,Manufacture of furniture,2,Manufacturing,1
+NACE Keyword,C.31.0.3,Manufacture of mattresses,4,Manufacture of furniture,3,Manufacture of furniture,2,Manufacturing,1
+NACE Keyword,C.31.0.9,Manufacture of other furniture,4,Manufacture of furniture,3,Manufacture of furniture,2,Manufacturing,1
+NACE Keyword,C.15.2.0,Manufacture of footwear,4,Manufacture of footwear,3,Manufacture of leather and related products,2,Manufacturing,1
+NACE Keyword,C.26.1.1,Manufacture of electronic components,4,Manufacture of electronic components and boards,3,"Manufacture of computer, electronic and optical products",2,Manufacturing,1
+NACE Keyword,C.26.1.2,Manufacture of loaded electronic boards,4,Manufacture of electronic components and boards,3,"Manufacture of computer, electronic and optical products",2,Manufacturing,1
+NACE Keyword,C.27.1.1,"Manufacture of electric motors, generators and transformers",4,"Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus",3,Manufacture of electrical equipment,2,Manufacturing,1
+NACE Keyword,C.27.1.2,Manufacture of electricity distribution and control apparatus,4,"Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus",3,Manufacture of electrical equipment,2,Manufacturing,1
+NACE Keyword,C.27.4.0,Manufacture of electric lighting equipment,4,Manufacture of electric lighting equipment,3,Manufacture of electrical equipment,2,Manufacturing,1
+NACE Keyword,C.27.5.1,Manufacture of electric domestic appliances,4,Manufacture of domestic appliances,3,Manufacture of electrical equipment,2,Manufacturing,1
+NACE Keyword,C.27.5.2,Manufacture of non-electric domestic appliances,4,Manufacture of domestic appliances,3,Manufacture of electrical equipment,2,Manufacturing,1
+NACE Keyword,C.10.5.1,Operation of dairies and cheese making,4,Manufacture of dairy products,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.10.5.2,Manufacture of ice cream,4,Manufacture of dairy products,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.25.7.1,Manufacture of cutlery,4,"Manufacture of cutlery, tools and general hardware",3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1
+NACE Keyword,C.25.7.2,Manufacture of locks and hinges,4,"Manufacture of cutlery, tools and general hardware",3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1
+NACE Keyword,C.25.7.3,Manufacture of tools,4,"Manufacture of cutlery, tools and general hardware",3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1
+NACE Keyword,C.26.4.0,Manufacture of consumer electronics,4,Manufacture of consumer electronics,3,"Manufacture of computer, electronic and optical products",2,Manufacturing,1
+NACE Keyword,C.26.2.0,Manufacture of computers and peripheral equipment,4,Manufacture of computers and peripheral equipment,3,"Manufacture of computer, electronic and optical products",2,Manufacturing,1
+NACE Keyword,C.26.3.0,Manufacture of communication equipment,4,Manufacture of communication equipment,3,"Manufacture of computer, electronic and optical products",2,Manufacturing,1
+NACE Keyword,C.19.1.0,Manufacture of coke oven products,4,Manufacture of coke oven products,3,Manufacture of coke and refined petroleum products,2,Manufacturing,1
+NACE Keyword,C.23.3.1,Manufacture of ceramic tiles and flags,4,Manufacture of clay building materials,3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.23.3.2,"Manufacture of bricks, tiles and construction products, in baked clay",4,Manufacture of clay building materials,3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.23.5.1,Manufacture of cement,4,"Manufacture of cement, lime and plaster",3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.23.5.2,Manufacture of lime and plaster,4,"Manufacture of cement, lime and plaster",3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.29.2.0,Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers,4,Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers,3,"Manufacture of motor vehicles, trailers and semi-trailers",2,Manufacturing,1
+NACE Keyword,C.11.0.1,"Distilling, rectifying and blending of spirits",4,Manufacture of beverages,3,Manufacture of beverages,2,Manufacturing,1
+NACE Keyword,C.11.0.2,Manufacture of wine from grape,4,Manufacture of beverages,3,Manufacture of beverages,2,Manufacturing,1
+NACE Keyword,C.11.0.3,Manufacture of cider and other fruit wines,4,Manufacture of beverages,3,Manufacture of beverages,2,Manufacturing,1
+NACE Keyword,C.11.0.4,Manufacture of other non-distilled fermented beverages,4,Manufacture of beverages,3,Manufacture of beverages,2,Manufacturing,1
+NACE Keyword,C.11.0.5,Manufacture of beer,4,Manufacture of beverages,3,Manufacture of beverages,2,Manufacturing,1
+NACE Keyword,C.11.0.6,Manufacture of malt,4,Manufacture of beverages,3,Manufacture of beverages,2,Manufacturing,1
+NACE Keyword,C.11.0.7,Manufacture of soft drinks; production of mineral waters and other bottled waters,4,Manufacture of beverages,3,Manufacture of beverages,2,Manufacturing,1
+NACE Keyword,C.27.2.0,Manufacture of batteries and accumulators,4,Manufacture of batteries and accumulators,3,Manufacture of electrical equipment,2,Manufacturing,1
+NACE Keyword,C.24.4.1,Precious metals production,4,Manufacture of basic precious and other non-ferrous metals,3,Manufacture of basic metals,2,Manufacturing,1
+NACE Keyword,C.24.4.2,Aluminium production,4,Manufacture of basic precious and other non-ferrous metals,3,Manufacture of basic metals,2,Manufacturing,1
+NACE Keyword,C.24.4.3,"Lead, zinc and tin production",4,Manufacture of basic precious and other non-ferrous metals,3,Manufacture of basic metals,2,Manufacturing,1
+NACE Keyword,C.24.4.4,Copper production,4,Manufacture of basic precious and other non-ferrous metals,3,Manufacture of basic metals,2,Manufacturing,1
+NACE Keyword,C.24.4.5,Other non-ferrous metal production,4,Manufacture of basic precious and other non-ferrous metals,3,Manufacture of basic metals,2,Manufacturing,1
+NACE Keyword,C.24.4.6,Processing of nuclear fuel,4,Manufacture of basic precious and other non-ferrous metals,3,Manufacture of basic metals,2,Manufacturing,1
+NACE Keyword,C.21.1.0,Manufacture of basic pharmaceutical products,4,Manufacture of basic pharmaceutical products,3,Manufacture of basic pharmaceutical products and pharmaceutical preparations,2,Manufacturing,1
+NACE Keyword,C.24.1.0,Manufacture of basic iron and steel and of ferro-alloys,4,Manufacture of basic iron and steel and of ferro-alloys,3,Manufacture of basic metals,2,Manufacturing,1
+NACE Keyword,C.20.1.1,Manufacture of industrial gases,4,"Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms",3,Manufacture of chemicals and chemical products,2,Manufacturing,1
+NACE Keyword,C.20.1.2,Manufacture of dyes and pigments,4,"Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms",3,Manufacture of chemicals and chemical products,2,Manufacturing,1
+NACE Keyword,C.20.1.3,Manufacture of other inorganic basic chemicals,4,"Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms",3,Manufacture of chemicals and chemical products,2,Manufacturing,1
+NACE Keyword,C.20.1.4,Manufacture of other organic basic chemicals,4,"Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms",3,Manufacture of chemicals and chemical products,2,Manufacturing,1
+NACE Keyword,C.20.1.5,Manufacture of fertilisers and nitrogen compounds,4,"Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms",3,Manufacture of chemicals and chemical products,2,Manufacturing,1
+NACE Keyword,C.20.1.6,Manufacture of plastics in primary forms,4,"Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms",3,Manufacture of chemicals and chemical products,2,Manufacturing,1
+NACE Keyword,C.20.1.7,Manufacture of synthetic rubber in primary forms,4,"Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms",3,Manufacture of chemicals and chemical products,2,Manufacturing,1
+NACE Keyword,C.10.7.1,Manufacture of bread; manufacture of fresh pastry goods and cakes,4,Manufacture of bakery and farinaceous products,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.10.7.2,Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes,4,Manufacture of bakery and farinaceous products,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.10.7.3,"Manufacture of macaroni, noodles, couscous and similar farinaceous products",4,Manufacture of bakery and farinaceous products,3,Manufacture of food products,2,Manufacturing,1
+NACE Keyword,C.17.2.1,Manufacture of corrugated paper and paperboard and of containers of paper and paperboard,4,Manufacture of articles of paper and paperboard,3,Manufacture of paper and paper products,2,Manufacturing,1
+NACE Keyword,C.17.2.2,Manufacture of household and sanitary goods and of toilet requisites,4,Manufacture of articles of paper and paperboard,3,Manufacture of paper and paper products,2,Manufacturing,1
+NACE Keyword,C.17.2.3,Manufacture of paper stationery,4,Manufacture of articles of paper and paperboard,3,Manufacture of paper and paper products,2,Manufacturing,1
+NACE Keyword,C.17.2.4,Manufacture of wallpaper,4,Manufacture of articles of paper and paperboard,3,Manufacture of paper and paper products,2,Manufacturing,1
+NACE Keyword,C.17.2.9,Manufacture of other articles of paper and paperboard,4,Manufacture of articles of paper and paperboard,3,Manufacture of paper and paper products,2,Manufacturing,1
+NACE Keyword,C.14.2.0,Manufacture of articles of fur,4,Manufacture of articles of fur,3,Manufacture of wearing apparel,2,Manufacturing,1
+NACE Keyword,C.23.6.1,Manufacture of concrete products for construction purposes,4,"Manufacture of articles of concrete, cement and plaster",3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.23.6.2,Manufacture of plaster products for construction purposes,4,"Manufacture of articles of concrete, cement and plaster",3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.23.6.3,Manufacture of ready-mixed concrete,4,"Manufacture of articles of concrete, cement and plaster",3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.23.6.4,Manufacture of mortars,4,"Manufacture of articles of concrete, cement and plaster",3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.23.6.5,Manufacture of fibre cement,4,"Manufacture of articles of concrete, cement and plaster",3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.23.6.9,"Manufacture of other articles of concrete, plaster and cement",4,"Manufacture of articles of concrete, cement and plaster",3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.30.3.0,Manufacture of air and spacecraft and related machinery,4,Manufacture of air and spacecraft and related machinery,3,Manufacture of other transport equipment,2,Manufacturing,1
+NACE Keyword,C.28.3.0,Manufacture of agricultural and forestry machinery,4,Manufacture of agricultural and forestry machinery,3,Manufacture of machinery and equipment n.e.c.,2,Manufacturing,1
+NACE Keyword,C.23.9.1,Production of abrasive products,4,Manufacture of abrasive products and non-metallic mineral products n.e.c.,3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,C.23.9.9,Manufacture of other non-metallic mineral products n.e.c.,4,Manufacture of abrasive products and non-metallic mineral products n.e.c.,3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,M.70.2.1,Public relations and communication activities,4,Management consultancy activities,3,Activities of head offices; management consultancy activities,2,"Professional, scientific and technical activities",1
+NACE Keyword,M.70.2.2,Business and other management consultancy activities,4,Management consultancy activities,3,Activities of head offices; management consultancy activities,2,"Professional, scientific and technical activities",1
+NACE Keyword,G.45.2.0,Maintenance and repair of motor vehicles,4,Maintenance and repair of motor vehicles,3,Wholesale and retail trade and repair of motor vehicles and motorcycles,2,Wholesale and retail trade; repair of motor vehicles and motorcycles,1
+NACE Keyword,A.02.2.0,Logging,4,Logging,3,Forestry and logging,2,"Agriculture, forestry and fishing",1
+NACE Keyword,R.91.0.1,Library and archives activities,4,"Libraries, archives, museums and other cultural activities",3,"Libraries, archives, museums and other cultural activities",2,"Arts, entertainment and recreation",1
+NACE Keyword,R.91.0.2,Museums activities,4,"Libraries, archives, museums and other cultural activities",3,"Libraries, archives, museums and other cultural activities",2,"Arts, entertainment and recreation",1
+NACE Keyword,R.91.0.3,Operation of historical sites and buildings and similar visitor attractions,4,"Libraries, archives, museums and other cultural activities",3,"Libraries, archives, museums and other cultural activities",2,"Arts, entertainment and recreation",1
+NACE Keyword,R.91.0.4,Botanical and zoological gardens and nature reserves activities,4,"Libraries, archives, museums and other cultural activities",3,"Libraries, archives, museums and other cultural activities",2,"Arts, entertainment and recreation",1
+NACE Keyword,M.69.1.0,Legal activities,4,Legal activities,3,Legal and accounting activities,2,"Professional, scientific and technical activities",1
+NACE Keyword,N.77.4.0,"Leasing of intellectual property and similar products, except copyrighted works",4,"Leasing of intellectual property and similar products, except copyrighted works",3,Rental and leasing activities,2,Administrative and support service activities,1
+NACE Keyword,N.81.3.0,Landscape service activities,4,Landscape service activities,3,Services to buildings and landscape activities,2,Administrative and support service activities,1
+NACE Keyword,N.80.3.0,Investigation activities,4,Investigation activities,3,Security and investigation activities,2,Administrative and support service activities,1
+NACE Keyword,K.65.1.1,Life insurance,4,Insurance,3,"Insurance, reinsurance and pension funding, except compulsory social security",2,Financial and insurance activities,1
+NACE Keyword,K.65.1.2,Non-life insurance,4,Insurance,3,"Insurance, reinsurance and pension funding, except compulsory social security",2,Financial and insurance activities,1
+NACE Keyword,C.33.2.0,Installation of industrial machinery and equipment,4,Installation of industrial machinery and equipment,3,Repair and installation of machinery and equipment,2,Manufacturing,1
+NACE Keyword,H.50.3.0,Inland passenger water transport,4,Inland passenger water transport,3,Water transport,2,Transportation and storage,1
+NACE Keyword,H.50.4.0,Inland freight water transport,4,Inland freight water transport,3,Water transport,2,Transportation and storage,1
+NACE Keyword,A.01.7.0,"Hunting, trapping and related service activities",4,"Hunting, trapping and related service activities",3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,I.55.1.0,Hotels and similar accommodation,4,Hotels and similar accommodation,3,Accommodation,2,Accommodation and food service activities,1
+NACE Keyword,Q.86.1.0,Hospital activities,4,Hospital activities,3,Human health activities,2,Human health and social work activities,1
+NACE Keyword,I.55.2.0,Holiday and other short-stay accommodation,4,Holiday and other short-stay accommodation,3,Accommodation,2,Accommodation and food service activities,1
+NACE Keyword,P.85.4.1,Post-secondary non-tertiary education,4,Higher education,3,Education,2,Education,1
+NACE Keyword,P.85.4.2,Tertiary education,4,Higher education,3,Education,2,Education,1
+NACE Keyword,A.01.2.1,Growing of grapes,4,Growing of perennial crops,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.2.2,Growing of tropical and subtropical fruits,4,Growing of perennial crops,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.2.3,Growing of citrus fruits,4,Growing of perennial crops,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.2.4,Growing of pome fruits and stone fruits,4,Growing of perennial crops,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.2.5,Growing of other tree and bush fruits and nuts,4,Growing of perennial crops,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.2.6,Growing of oleaginous fruits,4,Growing of perennial crops,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.2.7,Growing of beverage crops,4,Growing of perennial crops,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.2.8,"Growing of spices, aromatic, drug and pharmaceutical crops",4,Growing of perennial crops,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.2.9,Growing of other perennial crops,4,Growing of perennial crops,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.1.1,"Growing of cereals (except rice), leguminous crops and oil seeds",4,Growing of non-perennial crops,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.1.2,Growing of rice,4,Growing of non-perennial crops,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.1.3,"Growing of vegetables and melons, roots and tubers",4,Growing of non-perennial crops,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.1.4,Growing of sugar cane,4,Growing of non-perennial crops,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.1.5,Growing of tobacco,4,Growing of non-perennial crops,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.1.6,Growing of fibre crops,4,Growing of non-perennial crops,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.1.9,Growing of other non-perennial crops,4,Growing of non-perennial crops,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.02.3.0,Gathering of wild growing non-wood products,4,Gathering of wild growing non-wood products,3,Forestry and logging,2,"Agriculture, forestry and fishing",1
+NACE Keyword,R.92.0.0,Gambling and betting activities,4,Gambling and betting activities,3,Gambling and betting activities,2,"Arts, entertainment and recreation",1
+NACE Keyword,K.66.3.0,Fund management activities,4,Fund management activities,3,Activities auxiliary to financial services and insurance activities,2,Financial and insurance activities,1
+NACE Keyword,H.49.4.1,Freight transport by road,4,Freight transport by road and removal services,3,Land transport and transport via pipelines,2,Transportation and storage,1
+NACE Keyword,H.49.4.2,Removal services,4,Freight transport by road and removal services,3,Land transport and transport via pipelines,2,Transportation and storage,1
+NACE Keyword,H.49.2.0,Freight rail transport,4,Freight rail transport,3,Land transport and transport via pipelines,2,Transportation and storage,1
+NACE Keyword,H.51.2.1,Freight air transport,4,Freight air transport and space transport,3,Air transport,2,Transportation and storage,1
+NACE Keyword,H.51.2.2,Space transport,4,Freight air transport and space transport,3,Air transport,2,Transportation and storage,1
+NACE Keyword,C.25.5.0,"Forging, pressing, stamping and roll-forming of metal; powder metallurgy",4,"Forging, pressing, stamping and roll-forming of metal; powder metallurgy",3,"Manufacture of fabricated metal products, except machinery and equipment",2,Manufacturing,1
+NACE Keyword,A.03.1.1,Marine fishing,4,Fishing,3,Fishing and aquaculture,2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.03.1.2,Freshwater fishing,4,Fishing,3,Fishing and aquaculture,2,"Agriculture, forestry and fishing",1
+NACE Keyword,C.13.3.0,Finishing of textiles,4,Finishing of textiles,3,Manufacture of textiles,2,Manufacturing,1
+NACE Keyword,B.06.2.0,Extraction of natural gas,4,Extraction of natural gas,3,Extraction of crude petroleum and natural gas,2,Mining and quarrying,1
+NACE Keyword,B.06.1.0,Extraction of crude petroleum,4,Extraction of crude petroleum,3,Extraction of crude petroleum and natural gas,2,Mining and quarrying,1
+NACE Keyword,I.56.2.1,Event catering activities,4,Event catering and other food service activities,3,Food and beverage service activities,2,Accommodation and food service activities,1
+NACE Keyword,I.56.2.9,Other food service activities,4,Event catering and other food service activities,3,Food and beverage service activities,2,Accommodation and food service activities,1
+NACE Keyword,F.43.2.1,Electrical installation,4,"Electrical, plumbing and other construction installation activities",3,Specialised construction activities,2,Construction,1
+NACE Keyword,F.43.2.2,"Plumbing, heat and air conditioning installation",4,"Electrical, plumbing and other construction installation activities",3,Specialised construction activities,2,Construction,1
+NACE Keyword,F.43.2.9,Other construction installation,4,"Electrical, plumbing and other construction installation activities",3,Specialised construction activities,2,Construction,1
+NACE Keyword,D.35.1.1,Production of electricity,4,"Electric power generation, transmission and distribution",3,"Electricity, gas, steam and air conditioning supply",2,"Electricity, gas, steam and air conditioning supply",1
+NACE Keyword,D.35.1.2,Transmission of electricity,4,"Electric power generation, transmission and distribution",3,"Electricity, gas, steam and air conditioning supply",2,"Electricity, gas, steam and air conditioning supply",1
+NACE Keyword,D.35.1.3,Distribution of electricity,4,"Electric power generation, transmission and distribution",3,"Electricity, gas, steam and air conditioning supply",2,"Electricity, gas, steam and air conditioning supply",1
+NACE Keyword,D.35.1.4,Trade of electricity,4,"Electric power generation, transmission and distribution",3,"Electricity, gas, steam and air conditioning supply",2,"Electricity, gas, steam and air conditioning supply",1
+NACE Keyword,P.85.6.0,Educational support activities,4,Educational support activities,3,Education,2,Education,1
+NACE Keyword,F.41.1.0,Development of building projects,4,Development of building projects,3,Construction of buildings,2,Construction,1
+NACE Keyword,F.43.1.1,Demolition,4,Demolition and site preparation,3,Specialised construction activities,2,Construction,1
+NACE Keyword,F.43.1.2,Site preparation,4,Demolition and site preparation,3,Specialised construction activities,2,Construction,1
+NACE Keyword,F.43.1.3,Test drilling and boring,4,Demolition and site preparation,3,Specialised construction activities,2,Construction,1
+NACE Keyword,J.63.1.1,"Data processing, hosting and related activities",4,"Data processing, hosting and related activities; web portals",3,Information service activities,2,Information and communication,1
+NACE Keyword,J.63.1.2,Web portals,4,"Data processing, hosting and related activities; web portals",3,Information service activities,2,Information and communication,1
+NACE Keyword,C.23.7.0,"Cutting, shaping and finishing of stone",4,"Cutting, shaping and finishing of stone",3,Manufacture of other non-metallic mineral products,2,Manufacturing,1
+NACE Keyword,R.90.0.1,Performing arts,4,"Creative, arts and entertainment activities",3,"Creative, arts and entertainment activities",2,"Arts, entertainment and recreation",1
+NACE Keyword,R.90.0.2,Support activities to performing arts,4,"Creative, arts and entertainment activities",3,"Creative, arts and entertainment activities",2,"Arts, entertainment and recreation",1
+NACE Keyword,R.90.0.3,Artistic creation,4,"Creative, arts and entertainment activities",3,"Creative, arts and entertainment activities",2,"Arts, entertainment and recreation",1
+NACE Keyword,R.90.0.4,Operation of arts facilities,4,"Creative, arts and entertainment activities",3,"Creative, arts and entertainment activities",2,"Arts, entertainment and recreation",1
+NACE Keyword,F.42.2.1,Construction of utility projects for fluids,4,Construction of utility projects,3,Civil engineering,2,Construction,1
+NACE Keyword,F.42.2.2,Construction of utility projects for electricity and telecommunications,4,Construction of utility projects,3,Civil engineering,2,Construction,1
+NACE Keyword,F.42.1.1,Construction of roads and motorways,4,Construction of roads and railways,3,Civil engineering,2,Construction,1
+NACE Keyword,F.42.1.2,Construction of railways and underground railways,4,Construction of roads and railways,3,Civil engineering,2,Construction,1
+NACE Keyword,F.42.1.3,Construction of bridges and tunnels,4,Construction of roads and railways,3,Civil engineering,2,Construction,1
+NACE Keyword,F.41.2.0,Construction of residential and non-residential buildings,4,Construction of residential and non-residential buildings,3,Construction of buildings,2,Construction,1
+NACE Keyword,F.42.9.1,Construction of water projects,4,Construction of other civil engineering projects,3,Civil engineering,2,Construction,1
+NACE Keyword,F.42.9.9,Construction of other civil engineering projects n.e.c.,4,Construction of other civil engineering projects,3,Civil engineering,2,Construction,1
+NACE Keyword,J.62.0.1,Computer programming activities,4,"Computer programming, consultancy and related activities",3,"Computer programming, consultancy and related activities",2,Information and communication,1
+NACE Keyword,J.62.0.2,Computer consultancy activities,4,"Computer programming, consultancy and related activities",3,"Computer programming, consultancy and related activities",2,Information and communication,1
+NACE Keyword,J.62.0.3,Computer facilities management activities,4,"Computer programming, consultancy and related activities",3,"Computer programming, consultancy and related activities",2,Information and communication,1
+NACE Keyword,J.62.0.9,Other information technology and computer service activities,4,"Computer programming, consultancy and related activities",3,"Computer programming, consultancy and related activities",2,Information and communication,1
+NACE Keyword,O.84.3.0,Compulsory social security activities,4,Compulsory social security activities,3,Public administration and defence; compulsory social security,2,Public administration and defence; compulsory social security,1
+NACE Keyword,N.81.1.0,Combined facilities support activities,4,Combined facilities support activities,3,Services to buildings and landscape activities,2,Administrative and support service activities,1
+NACE Keyword,N.81.2.1,General cleaning of buildings,4,Cleaning activities,3,Services to buildings and landscape activities,2,Administrative and support service activities,1
+NACE Keyword,N.81.2.2,Other building and industrial cleaning activities,4,Cleaning activities,3,Services to buildings and landscape activities,2,Administrative and support service activities,1
+NACE Keyword,N.81.2.9,Other cleaning activities,4,Cleaning activities,3,Services to buildings and landscape activities,2,Administrative and support service activities,1
+NACE Keyword,C.24.5.1,Casting of iron,4,Casting of metals,3,Manufacture of basic metals,2,Manufacturing,1
+NACE Keyword,C.24.5.2,Casting of steel,4,Casting of metals,3,Manufacture of basic metals,2,Manufacturing,1
+NACE Keyword,C.24.5.3,Casting of light metals,4,Casting of metals,3,Manufacture of basic metals,2,Manufacturing,1
+NACE Keyword,C.24.5.4,Casting of other non-ferrous metals,4,Casting of metals,3,Manufacture of basic metals,2,Manufacturing,1
+NACE Keyword,I.55.3.0,"Camping grounds, recreational vehicle parks and trailer parks",4,"Camping grounds, recreational vehicle parks and trailer parks",3,Accommodation,2,Accommodation and food service activities,1
+NACE Keyword,L.68.1.0,Buying and selling of own real estate,4,Buying and selling of own real estate,3,Real estate activities,2,Real estate activities,1
+NACE Keyword,N.82.9.1,Activities of collection agencies and credit bureaus,4,Business support service activities n.e.c.,3,"Office administrative, office support and other business support activities",2,Administrative and support service activities,1
+NACE Keyword,N.82.9.2,Packaging activities,4,Business support service activities n.e.c.,3,"Office administrative, office support and other business support activities",2,Administrative and support service activities,1
+NACE Keyword,N.82.9.9,Other business support service activities n.e.c.,4,Business support service activities n.e.c.,3,"Office administrative, office support and other business support activities",2,Administrative and support service activities,1
+NACE Keyword,C.30.1.1,Building of ships and floating structures,4,Building of ships and boats,3,Manufacture of other transport equipment,2,Manufacturing,1
+NACE Keyword,C.30.1.2,Building of pleasure and sporting boats,4,Building of ships and boats,3,Manufacture of other transport equipment,2,Manufacturing,1
+NACE Keyword,F.43.3.1,Plastering,4,Building completion and finishing,3,Specialised construction activities,2,Construction,1
+NACE Keyword,F.43.3.2,Joinery installation,4,Building completion and finishing,3,Specialised construction activities,2,Construction,1
+NACE Keyword,F.43.3.3,Floor and wall covering,4,Building completion and finishing,3,Specialised construction activities,2,Construction,1
+NACE Keyword,F.43.3.4,Painting and glazing,4,Building completion and finishing,3,Specialised construction activities,2,Construction,1
+NACE Keyword,F.43.3.9,Other building completion and finishing,4,Building completion and finishing,3,Specialised construction activities,2,Construction,1
+NACE Keyword,I.56.3.0,Beverage serving activities,4,Beverage serving activities,3,Food and beverage service activities,2,Accommodation and food service activities,1
+NACE Keyword,M.71.1.1,Architectural activities,4,Architectural and engineering activities and related technical consultancy,3,Architectural and engineering activities; technical testing and analysis,2,"Professional, scientific and technical activities",1
+NACE Keyword,M.71.1.2,Engineering activities and related technical consultancy,4,Architectural and engineering activities and related technical consultancy,3,Architectural and engineering activities; technical testing and analysis,2,"Professional, scientific and technical activities",1
+NACE Keyword,A.03.2.1,Marine aquaculture,4,Aquaculture,3,Fishing and aquaculture,2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.03.2.2,Freshwater aquaculture,4,Aquaculture,3,Fishing and aquaculture,2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.4.1,Raising of dairy cattle,4,Animal production,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.4.2,Raising of other cattle and buffaloes,4,Animal production,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.4.3,Raising of horses and other equines,4,Animal production,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.4.4,Raising of camels and camelids,4,Animal production,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.4.5,Raising of sheep and goats,4,Animal production,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.4.6,Raising of swine/pigs,4,Animal production,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.4.7,Raising of poultry,4,Animal production,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,A.01.4.9,Raising of other animals,4,Animal production,3,"Crop and animal production, hunting and related service activities",2,"Agriculture, forestry and fishing",1
+NACE Keyword,R.93.2.1,Activities of amusement parks and theme parks,4,Amusement and recreation activities,3,Sports activities and amusement and recreation activities,2,"Arts, entertainment and recreation",1
+NACE Keyword,R.93.2.9,Other amusement and recreation activities,4,Amusement and recreation activities,3,Sports activities and amusement and recreation activities,2,"Arts, entertainment and recreation",1
+NACE Keyword,M.73.1.1,Advertising agencies,4,Advertising,3,Advertising and market research,2,"Professional, scientific and technical activities",1
+NACE Keyword,M.73.1.2,Media representation,4,Advertising,3,Advertising and market research,2,"Professional, scientific and technical activities",1
+NACE Keyword,O.84.1.1,General public administration activities,4,Administration of the State and the economic and social policy of the community,3,Public administration and defence; compulsory social security,2,Public administration and defence; compulsory social security,1
+NACE Keyword,O.84.1.2,"Regulation of the activities of providing health care, education, cultural services and other social services, except social security",4,Administration of the State and the economic and social policy of the community,3,Public administration and defence; compulsory social security,2,Public administration and defence; compulsory social security,1
+NACE Keyword,O.84.1.3,Regulation of and contribution to more efficient operation of businesses,4,Administration of the State and the economic and social policy of the community,3,Public administration and defence; compulsory social security,2,Public administration and defence; compulsory social security,1
+NACE Keyword,S.94.2.0,Activities of trade unions,4,Activities of trade unions,3,Activities of membership organisations,2,Other service activities,1
+NACE Keyword,S.94.9.1,Activities of religious organisations,4,Activities of other membership organisations,3,Activities of membership organisations,2,Other service activities,1
+NACE Keyword,S.94.9.2,Activities of political organisations,4,Activities of other membership organisations,3,Activities of membership organisations,2,Other service activities,1
+NACE Keyword,S.94.9.9,Activities of other membership organisations n.e.c.,4,Activities of other membership organisations,3,Activities of membership organisations,2,Other service activities,1
+NACE Keyword,T.97.0.0,Activities of households as employers of domestic personnel,4,Activities of households as employers of domestic personnel,3,Activities of households as employers of domestic personnel,2,Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use,1
+NACE Keyword,K.64.2.0,Activities of holding companies,4,Activities of holding companies,3,"Financial service activities, except insurance and pension funding",2,Financial and insurance activities,1
+NACE Keyword,M.70.1.0,Activities of head offices,4,Activities of head offices,3,Activities of head offices; management consultancy activities,2,"Professional, scientific and technical activities",1
+NACE Keyword,U.99.0.0,Activities of extraterritorial organisations and bodies,4,Activities of extraterritorial organisations and bodies,3,Activities of extraterritorial organisations and bodies,2,Activities of extraterritorial organisations and bodies,1
+NACE Keyword,N.78.1.0,Activities of employment placement agencies,4,Activities of employment placement agencies,3,Employment activities,2,Administrative and support service activities,1
+NACE Keyword,N.82.2.0,Activities of call centres,4,Activities of call centres,3,"Office administrative, office support and other business support activities",2,Administrative and support service activities,1
+NACE Keyword,S.94.1.1,Activities of business and employers membership organisations,4,"Activities of business, employers and professional membership organisations",3,Activities of membership organisations,2,Other service activities,1
+NACE Keyword,S.94.1.2,Activities of professional membership organisations,4,"Activities of business, employers and professional membership organisations",3,Activities of membership organisations,2,Other service activities,1
+NACE Keyword,K.66.2.1,Risk and damage evaluation,4,Activities auxiliary to insurance and pension funding,3,Activities auxiliary to financial services and insurance activities,2,Financial and insurance activities,1
+NACE Keyword,K.66.2.2,Activities of insurance agents and brokers,4,Activities auxiliary to insurance and pension funding,3,Activities auxiliary to financial services and insurance activities,2,Financial and insurance activities,1
+NACE Keyword,K.66.2.9,Other activities auxiliary to insurance and pension funding,4,Activities auxiliary to insurance and pension funding,3,Activities auxiliary to financial services and insurance activities,2,Financial and insurance activities,1
+NACE Keyword,K.66.1.1,Administration of financial markets,4,"Activities auxiliary to financial services, except insurance and pension funding",3,Activities auxiliary to financial services and insurance activities,2,Financial and insurance activities,1
+NACE Keyword,K.66.1.2,Security and commodity contracts brokerage,4,"Activities auxiliary to financial services, except insurance and pension funding",3,Activities auxiliary to financial services and insurance activities,2,Financial and insurance activities,1
+NACE Keyword,K.66.1.9,"Other activities auxiliary to financial services, except insurance and pension funding",4,"Activities auxiliary to financial services, except insurance and pension funding",3,Activities auxiliary to financial services and insurance activities,2,Financial and insurance activities,1
+NACE Keyword,M.69.2.0,"Accounting, bookkeeping and auditing activities; tax consultancy",4,"Accounting, bookkeeping and auditing activities; tax consultancy",3,Legal and accounting activities,2,"Professional, scientific and technical activities",1

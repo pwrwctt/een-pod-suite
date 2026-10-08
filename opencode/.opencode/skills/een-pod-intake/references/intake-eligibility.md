@@ -7,6 +7,7 @@ Source basis: Partnering Profile Quality Guidelines v1.2, sections 2.2–2.7 and
 Before drafting, establish the client type.
 
 - SMEs are the primary POD users.
+- PPQG v1.2 acknowledges that some technology transfers and licence agreements need not be long-term; do not reject a genuine transfer solely because its duration is short.
 - A large business (non-SME) may publish **BR** and **TR** only when the profile enables international activities for European SMEs.
 - A large business (non-SME) may not publish **BO** or **TO**.
 - Universities and research centres may publish any profile type.

@@ -1,7 +1,7 @@
 # Orchestrated workflow
 
 ## Complete profile
-Intake → Draft → Title/Summary → Keywords → Independent Review.
+Intake → Draft → Title/Summary → Keywords → Form/completeness/consistency checks → Separate review → Adviser approval.
 
 ## Narrow tasks
 - type/eligibility → intake only

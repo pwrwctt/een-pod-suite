@@ -4,7 +4,7 @@
 
 EEN POD Suite helps Enterprise Europe Network (EEN) advisers turn client information into structured cooperation profiles for the Partnering Opportunities Database (POD). It combines profile-writing guidance, eligibility checks, taxonomy references and deterministic field-limit checks in a reusable workflow.
 
-**Current version: 2.6** · [Changelog](CHANGELOG.md) · [Source policy](chatgpt/een-pod-suite/references/source-policy.md) · [Validation report](opencode/VALIDATION.md)
+**Current version: 2.7** · [Changelog](CHANGELOG.md) · [Source policy](chatgpt/een-pod-suite/references/source-policy.md) · [Validation report](opencode/VALIDATION.md)
 
 The repository provides unified skills for compatible ChatGPT and Claude environments and eight modular skills for OpenCode. Its Python helpers can also be run independently. The skills guide an AI assistant; the scripts perform supplied-URL reading, validation and offline taxonomy tasks. Final editorial review and submission remain with the adviser.
 
@@ -73,7 +73,7 @@ CHANGELOG.md                Release history
 
 ## Reader & Audit Agent
 
-The suite includes an agent contract and a runnable MCP server exposing two read-only tools: direct profile URL reading and field-limit checks. The skill supplies the audit rules; the host model uses those tools to collect evidence. See the [agent setup guide](agents/README.md) for local OpenCode/Codex configuration and remote ChatGPT requirements.
+The suite includes an agent contract and a runnable MCP server exposing four read-only tools: exact URL reading, field-limit checks, evidence/completeness checks and offline semantic taxonomy search. The skill supplies the audit rules; the host model uses those tools to collect evidence. See the [agent setup guide](agents/README.md) for local OpenCode/Codex configuration and remote ChatGPT requirements.
 
 The updated skill archive contains the agent instructions and server code. It does not create a live MCP connection: ChatGPT requires a hosted HTTPS endpoint and supported authentication. No tool modifies or publishes POD records.
 
@@ -92,11 +92,11 @@ If the repository is private, authenticate with a GitHub account authorised to a
 
 Use [dist/chatgpt/skill.zip](dist/chatgpt/skill.zip) with a ChatGPT environment that supports installing skills. Follow that environment's skill installation process; if it accepts unpacked skills, install the complete `chatgpt/een-pod-suite/` directory, preserving its `SKILL.md`, `references/`, `scripts/` and `agents/` contents.
 
-After installation, ask: **“Which version of EEN POD Suite is installed?”** The expected answer for this release is `EEN POD Suite v2.6`.
+After installation, ask: **“Which version of EEN POD Suite is installed?”** The expected answer for this release is `EEN POD Suite v2.7`.
 
 ### Claude skill
 
-Download [een-pod-suite-claude-v2.6.zip](dist/claude/een-pod-suite-claude-v2.6.zip). In Claude, enable **Code execution and file creation**, then open **Customize → Skills → + Create skill → Upload a skill** and upload this ZIP. Enable the skill and ask: **“Which version of EEN POD Suite is installed?”** The expected answer is `EEN POD Suite v2.6`. Organisation settings may control skill availability.
+Download [een-pod-suite-claude-v2.7.zip](dist/claude/een-pod-suite-claude-v2.7.zip). In Claude, enable **Code execution and file creation**, then open **Customize → Skills → + Create skill → Upload a skill** and upload this ZIP. Enable the skill and ask: **“Which version of EEN POD Suite is installed?”** The expected answer is `EEN POD Suite v2.7`. Organisation settings may control skill availability.
 
 For Claude Code, copy `claude/een-pod-suite/` into the project's `.claude/skills/een-pod-suite/` directory or your personal `~/.claude/skills/een-pod-suite/` directory. See [Claude installation and verification](claude/README.md).
 
@@ -106,7 +106,7 @@ The Claude package contains the same audit rules, source documents, taxonomy and
 
 Copy the contents of `opencode/.opencode/skills/` into your project's `.opencode/skills/` directory. Preserve each module's directory structure. If the project already has skills, merge the directories and review any name conflicts.
 
-Alternatively, extract [een-pod-suite-opencode-v2.6.zip](dist/opencode/een-pod-suite-opencode-v2.6.zip) and copy its `.opencode/` contents into the project.
+Alternatively, extract [een-pod-suite-opencode-v2.7.zip](dist/opencode/een-pod-suite-opencode-v2.7.zip) and copy its `.opencode/` contents into the project.
 
 | Skill | Responsibility |
 | --- | --- |
@@ -121,7 +121,7 @@ Alternatively, extract [een-pod-suite-opencode-v2.6.zip](dist/opencode/een-pod-s
 
 ### Standalone Python tools
 
-Use **Python 3.10 or later**. The included helpers, build script and automated tests use the Python standard library; no third-party packages are required.
+Use **Python 3.10 or later**. Runtime helpers use the Python standard library. Release validation and its tests require PyYAML; install `requirements-dev.txt` before development checks.
 
 ## Using the skills
 
@@ -172,7 +172,7 @@ python chatgpt/een-pod-suite/scripts/form_readiness.py BO \
   --partner-role "Describe the partner's expected responsibilities."
 ```
 
-The JSON output includes character counts, limits and `PASS` or `OVER LIMIT by N` results. The supplied BO/BR/TO/TR form guidance sets a 256-character title limit, a 500-character summary limit and 4,000-character limits for descriptions and partner roles. Additional 2,000-character limits apply to profile-specific fields. See the [field-limit reference](shared/references/form-schema.md) for applicability and optionality.
+The JSON output includes character counts, limits and `PASS` or `OVER LIMIT by N` results. PPQG confirms the 500-character summary limit. The template-era 256-character title and 4,000-character description/partner-role limits are provisional until the current form is confirmed. Additional 2,000-character limits apply to profile-specific fields. See the [field-limit reference](shared/references/form-schema.md) for applicability and optionality.
 
 ## Sources and scope
 
@@ -196,6 +196,8 @@ Taxonomy recommendations use the bundled 2024 CSVs. An authoritative newer sourc
 ## Development and validation
 
 ```bash
+python -m pip install -r requirements-dev.txt
+python scripts/sync_opencode.py
 python scripts/sync_claude.py
 python -m unittest discover -s tests -v
 python scripts/build.py
@@ -204,8 +206,8 @@ python scripts/build.py
 The build script checks skill front matter, referenced files, version consistency and the OpenCode module inventory before creating:
 
 - `dist/chatgpt/skill.zip`
-- `dist/claude/een-pod-suite-claude-v2.6.zip`
-- `dist/opencode/een-pod-suite-opencode-v2.6.zip`
+- `dist/claude/een-pod-suite-claude-v2.7.zip`
+- `dist/opencode/een-pod-suite-opencode-v2.7.zip`
 
 For additional editorial regression scenarios, see [docs/TEST-CASES.md](docs/TEST-CASES.md). The [validation report](opencode/VALIDATION.md) records which checks were actually performed.
 
@@ -214,3 +216,20 @@ Use [VERSION](VERSION) as the version source of truth and [CHANGELOG.md](CHANGEL
 ### Three-platform release policy
 
 Every future release must update **ChatGPT, OpenCode and Claude together** using the version in `VERSION`. The canonical unified instructions and resources live in `chatgpt/een-pod-suite/`; `scripts/sync_claude.py` generates the Claude variant. Apply relevant changes to every affected OpenCode module as well. Update all version references, the OpenCode manifest, documentation and changelog, then synchronise, test and build all three archives. The build rejects stale Claude content or mismatched platform versions. This policy is recorded in `AGENTS.md`.
+
+## v2.7 evidence checks and process extensions
+
+The workflow now includes field completeness, cross-field consistency, evidence quotations and rule provenance, explicit verdict gates, targeted client interviews, version comparison and EoI/partner-fit support. Public nonvisibility is distinct from missing draft input. A same-context self-review does not establish a separate colleague's approval.
+
+```bash
+python chatgpt/een-pod-suite/scripts/profile_checks.py profile.json --as-of 2026-10-08
+python chatgpt/een-pod-suite/scripts/profile_diff.py before.json after.json
+python chatgpt/een-pod-suite/scripts/taxonomy_lookup.py technology "oczyszczanie ścieków" --json
+python chatgpt/een-pod-suite/scripts/taxonomy_lookup.py market "01003" --mode lexical
+```
+
+Semantic search uses a curated English/Polish concept dictionary and label/hierarchy expansion. It runs offline without keys or model downloads; it is not embedding-based and does not cover arbitrary concepts or languages. Exact codes retain leading zeros. Recommendations remain candidates from the 2024 snapshot, with traceable reasons. SDG data contains labels only; no SDG codes are invented.
+
+Read [process extensions](chatgpt/een-pod-suite/references/process-extensions.md) for input contracts and [source provenance](chatgpt/een-pod-suite/references/source-provenance.md) for evidence limits. Original cooperation templates are not present, so the suite records a current-form confirmation check rather than claiming to have verified them.
+
+Tests cover all five profile types and deterministic helper/transport/packaging behaviour. [Platform evaluation scenarios](docs/PLATFORM-EVALUATION.md) distinguish these checks from live model behaviour and installation tests, which remain unverified.

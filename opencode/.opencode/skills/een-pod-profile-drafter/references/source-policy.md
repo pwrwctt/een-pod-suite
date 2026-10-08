@@ -7,3 +7,5 @@ For an existing-profile audit, require the operator-supplied exact official prof
 Use the bundled Technology, Market, NACE and SDG CSVs and taxonomy workbook as a 2024 snapshot. Identify snapshot-based keyword recommendations explicitly. Never present these files as automatically current, or invent a code or label. If the operator supplies a verified newer authoritative source, record its provenance and apply it where relevant.
 
 Do not infer that an internal field is missing because the public page does not show it. Review only retrieved or supplied evidence and state limitations. Keep client information within the authorised task.
+
+Read `references/source-provenance.md` for rule locations and provisional form-limit evidence. Do not represent absent templates or old UI rules as verified current sources.

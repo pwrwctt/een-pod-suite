@@ -4,7 +4,7 @@ Source basis: Partnering Profile Quality Guidelines v1.2, especially section 3.1
 
 There is no central quality review before publication in the workflow described by v1.2. Consortia should therefore establish a pre-publication quality-check and have drafts checked by an experienced colleague.
 
-Act as that independent second reviewer.
+Record the actual review method. One assistant switching roles is advisory self-review, not proof of a separate colleague's review. Final approval remains with the adviser. Read `references/process-extensions.md` for the evidence ledger and completeness/consistency gates.
 
 ## Severity
 
@@ -59,7 +59,9 @@ Check:
 
 ## Decision
 
-Return one:
+Return REVIEW LIMITED when evidence, semantic review, operational/current-form confirmation or independent review is incomplete. With sufficient evidence, any BLOCKER or unresolved MAJOR requires RETURN FOR REVISION. Only MINOR allows READY AFTER MINOR EDITS. READY requires no issues and adviser-confirmed gates. Public nonvisibility is not proof of an internal omission. Attach rule and quotation to each issue.
+
+Otherwise return one:
 - **READY**
 - **READY AFTER MINOR EDITS**
 - **RETURN FOR REVISION**

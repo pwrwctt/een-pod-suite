@@ -4,7 +4,7 @@ COMMON={"title":256,"summary":500,"description":4000,"partner_role":4000}
 PROFILE={"BO":{"advantages":2000},"BR":{"advantages":2000,"technical":2000},"TO":{"advantages":2000},"TR":{"advantages":2000,"technical":2000}}
 def check(text,limit):
     n=len(text or "")
-    return {"characters":n,"limit":limit,"status":"PASS" if n<=limit else f"OVER LIMIT by {n-limit}"}
+    return {"characters":n,"limit":limit,"status":"EMPTY: completeness not checked" if not (text or '').strip() else "PASS" if n<=limit else f"OVER LIMIT by {n-limit}"}
 def main():
     p=argparse.ArgumentParser()
     p.add_argument("profile_type",choices=["BO","BR","TO","TR"])

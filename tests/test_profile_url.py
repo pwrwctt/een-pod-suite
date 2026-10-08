@@ -11,7 +11,7 @@ REF='BOAL20261006010'
 
 class UrlTests(unittest.TestCase):
     def test_detail_url_is_the_only_requested_page(self):
-        page=m.PublicPage();page.feed('<div>POD Reference</div><div>'+REF+'</div><p>Public content</p>')
+        page=m.PublicPage();page.feed('<h1>Example title</h1><div>POD Reference</div><div>'+REF+'</div><h2>Summary</h2><p>Evidence</p><h2>Description</h2><p>Detailed evidence</p><h2>Expected role of partner</h2><p>Partner tasks</p>')
         with patch.object(m,'read_page',return_value=(URL,page)) as read:
             result=m.read_profile(URL)
             self.assertEqual(result['reference'],REF)
@@ -37,4 +37,18 @@ class UrlTests(unittest.TestCase):
     def test_copies_match(self):
         expected=(ROOT/'chatgpt/een-pod-suite/scripts/profile_url.py').read_bytes()
         for p in ROOT.glob('opencode/**/profile_url.py'):self.assertEqual(p.read_bytes(),expected)
+    def test_reference_without_content_is_not_success(self):
+        page=m.PublicPage();page.feed('<p>POD Reference '+REF+'</p>')
+        with patch.object(m,'read_page',return_value=(URL,page)):
+            result=m.read_profile(URL)
+            self.assertEqual(result['status'],'INSUFFICIENT CONTENT')
+            self.assertTrue(result['identity_verified'])
+            self.assertFalse(result['extraction_complete'])
+    def test_partial_page_preserves_scope_and_ignores_hidden_navigation(self):
+        page=m.PublicPage();page.feed('<nav>POD Reference BOXX20261006011</nav><p>POD Reference '+REF+'</p><h2>Description</h2><p>Visible facts</p><div hidden>Secret noise</div>')
+        with patch.object(m,'read_page',return_value=(URL,page)):
+            result=m.read_profile(URL)
+            self.assertEqual(result['status'],'PARTIAL CONTENT')
+            self.assertEqual(result['fields']['description'],'Visible facts')
+            self.assertNotIn('Secret noise',result['public_text'])
 if __name__=='__main__':unittest.main()

@@ -1,0 +1,449 @@
+﻿Type,Code,Label,Level,Parent_1,Parent_1 level,Parent_2,Parent_2 level,Selectable_by_PPQG_v1_2_rule
+Market Keyword,01,COMMUNICATIONS,1,,,,,NO
+Market Keyword,02,COMPUTER RELATED,1,,,,,NO
+Market Keyword,03,OTHER ELECTRONICS RELATED,1,,,,,NO
+Market Keyword,04,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,,,,,NO
+Market Keyword,05,MEDICAL/HEALTH RELATED,1,,,,,NO
+Market Keyword,06,ENERGY,1,,,,,NO
+Market Keyword,07,CONSUMER RELATED,1,,,,,NO
+Market Keyword,08,INDUSTRIAL PRODUCTS,1,,,,,NO
+Market Keyword,09,OTHER,1,,,,,NO
+Market Keyword,01001,Commercial Communications,2,COMMUNICATIONS,1,,,NO
+Market Keyword,01002,Telephone Related,2,COMMUNICATIONS,1,,,NO
+Market Keyword,01003,Facsimile Transmission,2,COMMUNICATIONS,1,,,YES
+Market Keyword,01004,Data Communications,2,COMMUNICATIONS,1,,,NO
+Market Keyword,01005,Satellite Microwave Communications,2,COMMUNICATIONS,1,,,NO
+Market Keyword,01006,Other Communications Related,2,COMMUNICATIONS,1,,,NO
+Market Keyword,02001,Computers,2,COMPUTER RELATED,1,,,NO
+Market Keyword,02002,Computer Graphics Related,2,COMPUTER RELATED,1,,,NO
+Market Keyword,02003,Specialised Turnkey Systems,2,COMPUTER RELATED,1,,,YES
+Market Keyword,02004,Scanning Related,2,COMPUTER RELATED,1,,,NO
+Market Keyword,02005,Peripherals,2,COMPUTER RELATED,1,,,NO
+Market Keyword,02006,Computer Services,2,COMPUTER RELATED,1,,,NO
+Market Keyword,02007,Computer Software,2,COMPUTER RELATED,1,,,NO
+Market Keyword,02008,Other Computer Related,2,COMPUTER RELATED,1,,,NO
+Market Keyword,07001,Leisure and Recreational Products and Services,2,CONSUMER RELATED,1,,,NO
+Market Keyword,07002,Retailing,2,CONSUMER RELATED,1,,,NO
+Market Keyword,07003,Food and Beverages,2,CONSUMER RELATED,1,,,NO
+Market Keyword,07004,Consumer Products,2,CONSUMER RELATED,1,,,NO
+Market Keyword,07005,Consumer Services,2,CONSUMER RELATED,1,,,NO
+Market Keyword,07006,Other Consumer Related (not elsewhere classified),2,CONSUMER RELATED,1,,,YES
+Market Keyword,06001,Oil and Gas Exploration and Production,2,ENERGY,1,,,NO
+Market Keyword,006002,Exploration Services,2,ENERGY,1,,,YES
+Market Keyword,06002,Power generation,2,ENERGY,1,,,NO
+Market Keyword,006003,Drilling and Support Services,2,ENERGY,1,,,YES
+Market Keyword,06003,Alternative Energy,2,ENERGY,1,,,NO
+Market Keyword,006004,"Oil and Gas Drilling, Exploration and Extraction Equipment",2,ENERGY,1,,,NO
+Market Keyword,06004,Enhanced Oil Recovery (EOI),2,ENERGY,1,,,NO
+Market Keyword,06005,Coal Related,2,ENERGY,1,,,NO
+Market Keyword,006006,Enhanced Oil Recovery/Heavy Oil/Shale,2,ENERGY,1,,,YES
+Market Keyword,06006,Energy Conservation Related,2,ENERGY,1,,,NO
+Market Keyword,06007,Other Energy,2,ENERGY,1,,,NO
+Market Keyword,06008,Energy Storage,2,ENERGY,1,,,YES
+Market Keyword,06009,Energy Distribution,2,ENERGY,1,,,YES
+Market Keyword,06010,Energy Supply and Retail,2,ENERGY,1,,,NO
+Market Keyword,06011,Energy for Transport,2,ENERGY,1,,,YES
+Market Keyword,04001,Recombinant DNA,2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,,,NO
+Market Keyword,04002,Monoclonal Antibodies and Hybridomas,2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,,,YES
+Market Keyword,04003,Gene Splicing and Manufacturing Equipment,2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,,,YES
+Market Keyword,04004,Other Genetic Engineering,2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,,,YES
+Market Keyword,04005,Biochemistry / Biophysics,2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,,,YES
+Market Keyword,04006,Cellular and Molecular Biology,2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,,,YES
+Market Keyword,04007,Enzymology/Protein Engineering/Fermentation,2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,,,YES
+Market Keyword,04008,Genetic Engineering,2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,,,YES
+Market Keyword,04009,"In vitro Testing, Trials",2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,,,YES
+Market Keyword,04010,Microbiology,2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,,,YES
+Market Keyword,04011,Molecular design,2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,,,YES
+Market Keyword,04012,Toxicology,2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,,,YES
+Market Keyword,04013,Stem cells and biobanks,2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,,,YES
+Market Keyword,04014,Bioinformatics,2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,,,YES
+Market Keyword,04015,"Gene Expression, Proteome Research",2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,,,YES
+Market Keyword,04016,Population genetics,2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,,,YES
+Market Keyword,04017,Micro- and Nanotechnology related to Biological sciences,2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,,,YES
+Market Keyword,08001,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,,,NO
+Market Keyword,08002,Industrial Automation,2,INDUSTRIAL PRODUCTS,1,,,NO
+Market Keyword,08003,Industrial Equipment and Machinery,2,INDUSTRIAL PRODUCTS,1,,,NO
+Market Keyword,08004,Pollution and Recycling Related,2,INDUSTRIAL PRODUCTS,1,,,NO
+Market Keyword,08005,Other Industrial Products (not elsewhere classified),2,INDUSTRIAL PRODUCTS,1,,,YES
+Market Keyword,08006,Industrial Services,2,INDUSTRIAL PRODUCTS,1,,,NO
+Market Keyword,05001,Diagnostic,2,MEDICAL/HEALTH RELATED,1,,,NO
+Market Keyword,05002,Medical imaging,2,MEDICAL/HEALTH RELATED,1,,,NO
+Market Keyword,05003,Therapeutic,2,MEDICAL/HEALTH RELATED,1,,,NO
+Market Keyword,05004,Medical equipment,2,MEDICAL/HEALTH RELATED,1,,,NO
+Market Keyword,05005,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,,,NO
+Market Keyword,05006,"Anatomy, Pathology, Immunology, Physiology",2,MEDICAL/HEALTH RELATED,1,,,YES
+Market Keyword,05007,Other Medical/Health Related,2,MEDICAL/HEALTH RELATED,1,,,NO
+Market Keyword,05008,Agro and Marine biotech,2,MEDICAL/HEALTH RELATED,1,,,NO
+Market Keyword,05009,Plant and animal health,2,MEDICAL/HEALTH RELATED,1,,,NO
+Market Keyword,05010,Welfare technologies,2,MEDICAL/HEALTH RELATED,1,,,NO
+Market Keyword,09001,Transportation,2,OTHER,1,,,NO
+Market Keyword,09002,"Finance, Insurance and Real Estate",2,OTHER,1,,,NO
+Market Keyword,09003,Services,2,OTHER,1,,,NO
+Market Keyword,09004,Manufacturing,2,OTHER,1,,,NO
+Market Keyword,09005,"Agriculture, Forestry, Fishing, Animal Husbandry & Related Products",2,OTHER,1,,,YES
+Market Keyword,09006,Mining (non-energy related),2,OTHER,1,,,YES
+Market Keyword,09007,Construction and Building Products,2,OTHER,1,,,NO
+Market Keyword,09008,Utilities and Related Firms,2,OTHER,1,,,NO
+Market Keyword,09009,Other (uncategorised),2,OTHER,1,,,NO
+Market Keyword,03001,Electronic Components,2,OTHER ELECTRONICS RELATED,1,,,NO
+Market Keyword,03002,Batteries,2,OTHER ELECTRONICS RELATED,1,,,YES
+Market Keyword,03003,Power Supplies,2,OTHER ELECTRONICS RELATED,1,,,YES
+Market Keyword,03004,Electronics Related Equipment,2,OTHER ELECTRONICS RELATED,1,,,NO
+Market Keyword,03005,Laser Related,2,OTHER ELECTRONICS RELATED,1,,,YES
+Market Keyword,03006,Fibre Optics,2,OTHER ELECTRONICS RELATED,1,,,YES
+Market Keyword,03007,Analytical and Scientific Instrumentation,2,OTHER ELECTRONICS RELATED,1,,,NO
+Market Keyword,03008,Other Electronics Related,2,OTHER ELECTRONICS RELATED,1,,,NO
+Market Keyword,05008001,Marine products,3,Agro and Marine biotech,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05008002,Food and feed ingredients,3,Agro and Marine biotech,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05008003,Marine oils,3,Agro and Marine biotech,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,06003001,Solar/thermal energy,3,Alternative Energy,2,ENERGY,1,YES
+Market Keyword,06003002,Photovoltaics,3,Alternative Energy,2,ENERGY,1,YES
+Market Keyword,06003003,Wind energy,3,Alternative Energy,2,ENERGY,1,YES
+Market Keyword,06003004,Marine energy,3,Alternative Energy,2,ENERGY,1,YES
+Market Keyword,06003005,Geothermal energy,3,Alternative Energy,2,ENERGY,1,YES
+Market Keyword,06003006,Combined heat and power (co-generation),3,Alternative Energy,2,ENERGY,1,YES
+Market Keyword,06003007,District heating,3,Alternative Energy,2,ENERGY,1,YES
+Market Keyword,06003008,Other alternative energy,3,Alternative Energy,2,ENERGY,1,YES
+Market Keyword,06003009,Biomass and Biofuels,3,Alternative Energy,2,ENERGY,1,YES
+Market Keyword,06003010,Distributed power and grid connection,3,Alternative Energy,2,ENERGY,1,YES
+Market Keyword,006005001,Solar energy,3,Alternative Energy,2,ENERGY,1,YES
+Market Keyword,006005002,Photovoltaic solar,3,Alternative Energy,2,ENERGY,1,YES
+Market Keyword,006005003,Other solar,3,Alternative Energy,2,ENERGY,1,YES
+Market Keyword,006005006,Co-generation,3,Alternative Energy,2,ENERGY,1,YES
+Market Keyword,006005007,Other alternative energy (including nuclear energy),3,Alternative Energy,2,ENERGY,1,YES
+Market Keyword,03007001,Chromatographs and related laboratory equipment,3,Analytical and Scientific Instrumentation,2,OTHER ELECTRONICS RELATED,1,YES
+Market Keyword,03007002,Other measuring devices,3,Analytical and Scientific Instrumentation,2,OTHER ELECTRONICS RELATED,1,YES
+Market Keyword,03007003,Other analytical and scientific instrumentation,3,Analytical and Scientific Instrumentation,2,OTHER ELECTRONICS RELATED,1,YES
+Market Keyword,08001001,Plastic fabricators,3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001002,Homogeneous injections/extrusions,3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001003,Non-homogeneous injections/extrusions,3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001004,Fibre-reinforced (plastic) composites,3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001005,Other fabricated plastics,3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001006,Processes for working with plastics,3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001007,Coatings and adhesives manufactures,3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001008,Membranes and membrane-based products,3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001009,Speciality/performance materials: producers and fabricators,3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001010,Semiconductor materials (e.g. silicon wafers),3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001011,III/V semiconductor materials (e.g. gallium arsenide),3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001012,Speciality metals (including processes for working with metals),3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001013,Ceramics,3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001014,Lubricants and functional fluids,3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001015,Other speciality materials,3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001016,Commodity chemicals and polymers,3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001017,Industrial chemicals,3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001018,Polymer (plastics) materials,3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001019,Speciality/performance chemicals,3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001020,Electronic chemicals,3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001021,Other speciality chemicals,3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001022,Agricultural chemicals,3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08001023,Other chemicals and materials (not elsewhere classified),3,Chemicals and Materials,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,05005001,Allergy research,3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005002,"Ophthalmology, ear, nose and throat diseases",3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005003,Endocrinology,3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005004,Gastroenterology,3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005005,Geriatrics,3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005006,Gynaecology,3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005007,Pulmonary medicine,3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005008,Internal medicine,3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005009,Paediatrics,3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005010,Cardiology,3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005011,Circulatory diseases,3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005012,Nephrology,3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005013,Emergency medicine,3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005014,Oncology,3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005015,Orthopaedics,3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005016,"Environmental Medicine, Social Medicine, Sports Medicine",3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005017,"Dentistry / Odontology, Stomatology",3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005018,"Medical Physics, Physiology",3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005019,'Surgery and Anaesthesiology,3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005020,Forensic Medicine,3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005021,Medical computer sciences,3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05005022,Other clinical medicine,3,Clinical Medicine,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,06005001,Coal mining,3,Coal Related,2,ENERGY,1,YES
+Market Keyword,06005002,Coal related equipment,3,Coal Related,2,ENERGY,1,YES
+Market Keyword,06005003,Other coal related,3,Coal Related,2,ENERGY,1,YES
+Market Keyword,01001001,Radio and TV broadcasting stations,3,Commercial Communications,2,COMMUNICATIONS,1,YES
+Market Keyword,01001002,CATV and pay TV systems,3,Commercial Communications,2,COMMUNICATIONS,1,YES
+Market Keyword,01001003,Radio and TV broadcasting and other related equipment,3,Commercial Communications,2,COMMUNICATIONS,1,YES
+Market Keyword,01001004,Other commercial communications,3,Commercial Communications,2,COMMUNICATIONS,1,YES
+Market Keyword,02002001,"CAD/CAM, CAE systems",3,Computer Graphics Related,2,COMPUTER RELATED,1,YES
+Market Keyword,02002002,Graphics systems,3,Computer Graphics Related,2,COMPUTER RELATED,1,YES
+Market Keyword,02002003,Graphics software,3,Computer Graphics Related,2,COMPUTER RELATED,1,YES
+Market Keyword,02002004,Graphics terminals,3,Computer Graphics Related,2,COMPUTER RELATED,1,YES
+Market Keyword,02002005,Graphics printers/plotters,3,Computer Graphics Related,2,COMPUTER RELATED,1,YES
+Market Keyword,02002006,Other graphics peripherals,3,Computer Graphics Related,2,COMPUTER RELATED,1,YES
+Market Keyword,02002007,Other computer graphics,3,Computer Graphics Related,2,COMPUTER RELATED,1,YES
+Market Keyword,02002008,3D,3,Computer Graphics Related,2,COMPUTER RELATED,1,YES
+Market Keyword,02006001,Time sharing films,3,Computer Services,2,COMPUTER RELATED,1,YES
+Market Keyword,02006002,Computer leasing and rentals,3,Computer Services,2,COMPUTER RELATED,1,YES
+Market Keyword,02006003,Computer training services,3,Computer Services,2,COMPUTER RELATED,1,YES
+Market Keyword,02006004,"Data processing, analysis and input services",3,Computer Services,2,COMPUTER RELATED,1,YES
+Market Keyword,02006005,Big data management,3,Computer Services,2,COMPUTER RELATED,1,YES
+Market Keyword,02006006,Computerised billing and accounting services,3,Computer Services,2,COMPUTER RELATED,1,YES
+Market Keyword,02006007,Databases and on-line information services,3,Computer Services,2,COMPUTER RELATED,1,YES
+Market Keyword,02006008,Data storage,3,Computer Services,2,COMPUTER RELATED,1,YES
+Market Keyword,02006009,Other computer services,3,Computer Services,2,COMPUTER RELATED,1,YES
+Market Keyword,02007001,Systems software,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007002,Database and file management,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007003,Operating systems and utilities,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007004,Program development tools/languages,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007005,Communications/networking,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007006,Other system software,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007007,Applications software,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007008,Business and office software,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007009,Home software,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007010,Education software,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007011,Manufacturing/industrial software,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007012,Medical/health software,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007013,Banks/financial institutions software,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007014,Other industry specific software,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007015,Integrated software,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007016,Artificial intelligence related software,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007017,Expert systems,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007018,Natural language,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007019,Computer-aided instructions,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007020,Artificial intelligence programming aids,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007021,Other Artificial intelligence related,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007022,Software services,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007023,Web semantics,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007024,Programming services/systems engineering,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007025,Consulting services,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007026,"Distribution, clearing house",3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007027,Other software services,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,02007028,Other software related,3,Computer Software,2,COMPUTER RELATED,1,YES
+Market Keyword,002001001,Mainframe and scientific computers,3,Computers,2,COMPUTER RELATED,1,YES
+Market Keyword,02001001,Mainframes,3,Computers,2,COMPUTER RELATED,1,YES
+Market Keyword,02001002,Scientific computers,3,Computers,2,COMPUTER RELATED,1,YES
+Market Keyword,02001003,Fail safe computers,3,Computers,2,COMPUTER RELATED,1,YES
+Market Keyword,02001004,Mini computers (small business),3,Computers,2,COMPUTER RELATED,1,YES
+Market Keyword,02001005,Mini and micro computers,3,Computers,2,COMPUTER RELATED,1,YES
+Market Keyword,02001006,Micro computers (personal and very small),3,Computers,2,COMPUTER RELATED,1,YES
+Market Keyword,02001007,Other mini and micro computers,3,Computers,2,COMPUTER RELATED,1,YES
+Market Keyword,09007001,Construction companies,3,Construction and Building Products,2,OTHER,1,YES
+Market Keyword,009007001,Construction,3,Construction and Building Products,2,OTHER,1,YES
+Market Keyword,09007002,"Manufacture of construction materials, components and systems",3,Construction and Building Products,2,OTHER,1,YES
+Market Keyword,009007002,Manufacture of building materials,3,Construction and Building Products,2,OTHER,1,YES
+Market Keyword,09007003,Distribution of building products and systems,3,Construction and Building Products,2,OTHER,1,YES
+Market Keyword,009007003,Manufacture of pre-fabricated buildings and systems,3,Construction and Building Products,2,OTHER,1,YES
+Market Keyword,09007004,Engineering and consulting services related to construction,3,Construction and Building Products,2,OTHER,1,YES
+Market Keyword,09007005,Facility management companies,3,Construction and Building Products,2,OTHER,1,YES
+Market Keyword,009007005,Construction services,3,Construction and Building Products,2,OTHER,1,YES
+Market Keyword,009007006,Other construction and building products related,3,Construction and Building Products,2,OTHER,1,YES
+Market Keyword,009,Other,3,Consumer Products,2,CONSUMER RELATED,1,YES
+Market Keyword,07004001,"Clothing, shoes and accessories (including jewellery)",3,Consumer Products,2,CONSUMER RELATED,1,YES
+Market Keyword,07004002,Health and beauty aids,3,Consumer Products,2,CONSUMER RELATED,1,YES
+Market Keyword,07004003,Home furnishing and housewares,3,Consumer Products,2,CONSUMER RELATED,1,YES
+Market Keyword,07004004,Housewares,3,Consumer Products,2,CONSUMER RELATED,1,YES
+Market Keyword,07004005,Furnishing and Furniture,3,Consumer Products,2,CONSUMER RELATED,1,YES
+Market Keyword,07004006,Garden and horticultural products,3,Consumer Products,2,CONSUMER RELATED,1,YES
+Market Keyword,07004007,Mobile homes,3,Consumer Products,2,CONSUMER RELATED,1,YES
+Market Keyword,07004008,Other consumer products,3,Consumer Products,2,CONSUMER RELATED,1,YES
+Market Keyword,007004008,Automobile parts,3,Consumer Products,2,CONSUMER RELATED,1,YES
+Market Keyword,07005001,Fast food restaurants,3,Consumer Services,2,CONSUMER RELATED,1,YES
+Market Keyword,07005002,Other restaurants,3,Consumer Services,2,CONSUMER RELATED,1,YES
+Market Keyword,07005003,Hotels and resorts,3,Consumer Services,2,CONSUMER RELATED,1,YES
+Market Keyword,07005004,Education and educational products and materials,3,Consumer Services,2,CONSUMER RELATED,1,YES
+Market Keyword,007005004,Auto repair shops,3,Consumer Services,2,CONSUMER RELATED,1,YES
+Market Keyword,07005005,Travel agencies and services,3,Consumer Services,2,CONSUMER RELATED,1,YES
+Market Keyword,07005006,Other consumer services (including photo processing),3,Consumer Services,2,CONSUMER RELATED,1,YES
+Market Keyword,01004001,Local area networks,3,Data Communications,2,COMMUNICATIONS,1,YES
+Market Keyword,01004002,Data communication components,3,Data Communications,2,COMMUNICATIONS,1,YES
+Market Keyword,01004003,Communications processors/network management,3,Data Communications,2,COMMUNICATIONS,1,YES
+Market Keyword,01004004,Protocol converters and emulators,3,Data Communications,2,COMMUNICATIONS,1,YES
+Market Keyword,01004005,Modems and multiplexers,3,Data Communications,2,COMMUNICATIONS,1,YES
+Market Keyword,01004006,Other data communication components,3,Data Communications,2,COMMUNICATIONS,1,YES
+Market Keyword,01004007,"Network test, monitoring and support equipment",3,Data Communications,2,COMMUNICATIONS,1,YES
+Market Keyword,01004008,Other data communications,3,Data Communications,2,COMMUNICATIONS,1,YES
+Market Keyword,05001001,Diagnostic services,3,Diagnostic,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,005001002,Medical imaging,3,Diagnostic,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05001002,In-vitro diagnostics,3,Diagnostic,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05001003,Differential diagnosis,3,Diagnostic,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05001004,Forensic science,3,Diagnostic,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05001005,Molecular diagnosis,3,Diagnostic,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05001006,Prenatal diagnostic,3,Diagnostic,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05001007,Other diagnostic,3,Diagnostic,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,005001008,Diagnostic test products and equipment,3,Diagnostic,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,03001001,Semiconductors,3,Electronic Components,2,OTHER ELECTRONICS RELATED,1,YES
+Market Keyword,03001002,Customised semiconductors,3,Electronic Components,2,OTHER ELECTRONICS RELATED,1,YES
+Market Keyword,03001003,Standard semiconductors,3,Electronic Components,2,OTHER ELECTRONICS RELATED,1,YES
+Market Keyword,03001004,Other semiconductors,3,Electronic Components,2,OTHER ELECTRONICS RELATED,1,YES
+Market Keyword,03001005,Microprocessors,3,Electronic Components,2,OTHER ELECTRONICS RELATED,1,YES
+Market Keyword,03001006,Controllers,3,Electronic Components,2,OTHER ELECTRONICS RELATED,1,YES
+Market Keyword,03001007,Circuit boards,3,Electronic Components,2,OTHER ELECTRONICS RELATED,1,YES
+Market Keyword,03001008,Display panels,3,Electronic Components,2,OTHER ELECTRONICS RELATED,1,YES
+Market Keyword,03001009,Other electronics related (including keyboards),3,Electronic Components,2,OTHER ELECTRONICS RELATED,1,YES
+Market Keyword,03004001,Semiconductor fabrication equipment and wafer products,3,Electronics Related Equipment,2,OTHER ELECTRONICS RELATED,1,YES
+Market Keyword,03004002,Components testing equipment,3,Electronics Related Equipment,2,OTHER ELECTRONICS RELATED,1,YES
+Market Keyword,03004003,Other electronics related equipment,3,Electronics Related Equipment,2,OTHER ELECTRONICS RELATED,1,YES
+Market Keyword,06006001,Thermal insulation,3,Energy Conservation Related,2,ENERGY,1,YES
+Market Keyword,06006002,Metering and monitoring,3,Energy Conservation Related,2,ENERGY,1,YES
+Market Keyword,06006003,Heat recovery,3,Energy Conservation Related,2,ENERGY,1,YES
+Market Keyword,06010001,Energy for private/domestic housing,3,Energy Supply and Retail,2,ENERGY,1,YES
+Market Keyword,06010002,Energy for the community/public sector,3,Energy Supply and Retail,2,ENERGY,1,YES
+Market Keyword,06010003,Energy for Industry,3,Energy Supply and Retail,2,ENERGY,1,YES
+Market Keyword,06004001,"Gas, liquid and chemical injection",3,Enhanced Oil Recovery (EOI),2,ENERGY,1,YES
+Market Keyword,06004002,Heavy oil / shales,3,Enhanced Oil Recovery (EOI),2,ENERGY,1,YES
+Market Keyword,06004003,Other Enhanced Oil Recovery (EOI),3,Enhanced Oil Recovery (EOI),2,ENERGY,1,YES
+Market Keyword,09002001,Insurance related,3,"Finance, Insurance and Real Estate",2,OTHER,1,YES
+Market Keyword,09002002,Real estate,3,"Finance, Insurance and Real Estate",2,OTHER,1,YES
+Market Keyword,09002003,Banking,3,"Finance, Insurance and Real Estate",2,OTHER,1,YES
+Market Keyword,09002004,Security and commodity brokers and services,3,"Finance, Insurance and Real Estate",2,OTHER,1,YES
+Market Keyword,09002005,Investment groups,3,"Finance, Insurance and Real Estate",2,OTHER,1,YES
+Market Keyword,09002006,"Other finance, insurance and real estate",3,"Finance, Insurance and Real Estate",2,OTHER,1,YES
+Market Keyword,07003001,Wine and liquors,3,Food and Beverages,2,CONSUMER RELATED,1,YES
+Market Keyword,07003002,Health food,3,Food and Beverages,2,CONSUMER RELATED,1,YES
+Market Keyword,07003003,Soft drinks and bottling plants,3,Food and Beverages,2,CONSUMER RELATED,1,YES
+Market Keyword,007003004,Food supplements/vitamins,3,Food and Beverages,2,CONSUMER RELATED,1,YES
+Market Keyword,007003005,General food products,3,Food and Beverages,2,CONSUMER RELATED,1,YES
+Market Keyword,007003006,Other food and beverages,3,Food and Beverages,2,CONSUMER RELATED,1,YES
+Market Keyword,08002001,Energy management,3,Industrial Automation,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08002002,Industrial measurement and sensing equipment,3,Industrial Automation,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08002003,Process control equipment and systems,3,Industrial Automation,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08002004,Robotics,3,Industrial Automation,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08002005,Machine vision software and systems,3,Industrial Automation,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08002006,Numeric and computerised control of machine tools,3,Industrial Automation,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08002007,Other industrial automation,3,Industrial Automation,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08003001,"Machine tools, other metal working equipment (excl. numeric control)",3,Industrial Equipment and Machinery,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08003002,"Hoists, cranes and conveyors",3,Industrial Equipment and Machinery,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08003003,Mining machinery,3,Industrial Equipment and Machinery,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08003004,Industrial trucks and tractors,3,Industrial Equipment and Machinery,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08003005,"Other industrial machinery for textile, paper & other industries",3,Industrial Equipment and Machinery,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08003006,Power transmission equipment (including generators & motors),3,Industrial Equipment and Machinery,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08003007,Other industrial equipment and machinery,3,Industrial Equipment and Machinery,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08006001,Process control and logistics,3,Industrial Services,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,07001001,"Movies, movie products and theatre operations",3,Leisure and Recreational Products and Services,2,CONSUMER RELATED,1,YES
+Market Keyword,07001002,Amusement and recreational facilities,3,Leisure and Recreational Products and Services,2,CONSUMER RELATED,1,YES
+Market Keyword,07001003,Toys and electronic games,3,Leisure and Recreational Products and Services,2,CONSUMER RELATED,1,YES
+Market Keyword,07001004,"Sporting goods, hobby equipment and athletics clothes",3,Leisure and Recreational Products and Services,2,CONSUMER RELATED,1,YES
+Market Keyword,07001005,Sport facilities (gyms and clubs),3,Leisure and Recreational Products and Services,2,CONSUMER RELATED,1,YES
+Market Keyword,07001006,"Music, records, production and instruments",3,Leisure and Recreational Products and Services,2,CONSUMER RELATED,1,YES
+Market Keyword,007001006,"TVs, radio, stereo equipment and consumer electronics",3,Leisure and Recreational Products and Services,2,CONSUMER RELATED,1,YES
+Market Keyword,07001007,Other leisure and recreational products and services,3,Leisure and Recreational Products and Services,2,CONSUMER RELATED,1,YES
+Market Keyword,09004001,Business products and supplies,3,Manufacturing,2,OTHER,1,YES
+Market Keyword,09004002,Office furniture and other professional furnishings,3,Manufacturing,2,OTHER,1,YES
+Market Keyword,09004003,Textiles (synthetic and natural),3,Manufacturing,2,OTHER,1,YES
+Market Keyword,09004004,"Hardware, plumbing supplies",3,Manufacturing,2,OTHER,1,YES
+Market Keyword,09004005,"Books, cards and other publishing",3,Manufacturing,2,OTHER,1,YES
+Market Keyword,09004006,Packing products and systems,3,Manufacturing,2,OTHER,1,YES
+Market Keyword,09004007,Printing and binding,3,Manufacturing,2,OTHER,1,YES
+Market Keyword,09004008,Other manufacturing (not elsewhere classified),3,Manufacturing,2,OTHER,1,YES
+Market Keyword,05004001,Electromedical and medical equipment,3,Medical equipment,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05004002,Rescue and emergency equipment,3,Medical equipment,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05004003,Laboratory equipment,3,Medical equipment,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05004004,Medical instruments,3,Medical equipment,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05004005,Diagnostic equipment,3,Medical equipment,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05004006,Surgical instrumentation and equipment,3,Medical equipment,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05002001,X-rays,3,Medical imaging,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05002002,CAT scanning,3,Medical imaging,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05002003,Ultrasound imaging,3,Medical imaging,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05002004,Nuclear imaging,3,Medical imaging,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05002005,Other medical imaging,3,Medical imaging,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,06001007,Other oil and gas,3,"Oil and Gas Drilling, Exploration and Extraction Equipment",2,ENERGY,1,YES
+Market Keyword,006004001,Drilling and extraction equipment,3,"Oil and Gas Drilling, Exploration and Extraction Equipment",2,ENERGY,1,YES
+Market Keyword,006004002,Drilling instrumentation,3,"Oil and Gas Drilling, Exploration and Extraction Equipment",2,ENERGY,1,YES
+Market Keyword,006004003,Exploration equipment instrumentation,3,"Oil and Gas Drilling, Exploration and Extraction Equipment",2,ENERGY,1,YES
+Market Keyword,06001001,Exploration services,3,Oil and Gas Exploration and Production,2,ENERGY,1,YES
+Market Keyword,06001002,Production services,3,Oil and Gas Exploration and Production,2,ENERGY,1,YES
+Market Keyword,06001003,"Drilling, completion and stimulation",3,Oil and Gas Exploration and Production,2,ENERGY,1,YES
+Market Keyword,06001004,Equipment and instrumentation,3,Oil and Gas Exploration and Production,2,ENERGY,1,YES
+Market Keyword,06001005,Storage and transportation,3,Oil and Gas Exploration and Production,2,ENERGY,1,YES
+Market Keyword,06001006,Chemicals and materials,3,Oil and Gas Exploration and Production,2,ENERGY,1,YES
+Market Keyword,09009001,Conglomerates and holding companies,3,Other (uncategorised),2,OTHER,1,YES
+Market Keyword,01006001,Defence communications,3,Other Communications Related,2,COMMUNICATIONS,1,YES
+Market Keyword,01006002,"Mobile communications, pagers and cellular radio",3,Other Communications Related,2,COMMUNICATIONS,1,YES
+Market Keyword,01006003,Streaming,3,Other Communications Related,2,COMMUNICATIONS,1,YES
+Market Keyword,01006004,Communications services,3,Other Communications Related,2,COMMUNICATIONS,1,YES
+Market Keyword,01006005,Other communications (not elsewhere classified),3,Other Communications Related,2,COMMUNICATIONS,1,YES
+Market Keyword,02008001,Voice synthesis,3,Other Computer Related,2,COMPUTER RELATED,1,YES
+Market Keyword,02008002,Voice recognition,3,Other Computer Related,2,COMPUTER RELATED,1,YES
+Market Keyword,03008001,Military electronics (excluding communications),3,Other Electronics Related,2,OTHER ELECTRONICS RELATED,1,YES
+Market Keyword,03008002,Copiers,3,Other Electronics Related,2,OTHER ELECTRONICS RELATED,1,YES
+Market Keyword,03008003,Calculators,3,Other Electronics Related,2,OTHER ELECTRONICS RELATED,1,YES
+Market Keyword,03008004,Other electronics related (including alarm systems),3,Other Electronics Related,2,OTHER ELECTRONICS RELATED,1,YES
+Market Keyword,06007001,Other energy production,3,Other Energy,2,ENERGY,1,YES
+Market Keyword,05007001,Disposable products,3,Other Medical/Health Related,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05007002,Pharmaceuticals/fine chemicals,3,Other Medical/Health Related,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05007003,Handicap aids,3,Other Medical/Health Related,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05007004,Monitoring equipment,3,Other Medical/Health Related,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05007005,Hospital and other institutional management,3,Other Medical/Health Related,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05007006,Computer-aided diagnosis and therapy,3,Other Medical/Health Related,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05007007,Other medical/health related (not elsewhere classified),3,Other Medical/Health Related,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,02005001,Terminals,3,Peripherals,2,COMPUTER RELATED,1,YES
+Market Keyword,02005002,Intelligent terminals,3,Peripherals,2,COMPUTER RELATED,1,YES
+Market Keyword,02005003,Portable terminals,3,Peripherals,2,COMPUTER RELATED,1,YES
+Market Keyword,02005004,Other terminals,3,Peripherals,2,COMPUTER RELATED,1,YES
+Market Keyword,02005005,Printers,3,Peripherals,2,COMPUTER RELATED,1,YES
+Market Keyword,02005006,Data I/O devices,3,Peripherals,2,COMPUTER RELATED,1,YES
+Market Keyword,02005007,Disk related memory devices,3,Peripherals,2,COMPUTER RELATED,1,YES
+Market Keyword,02005008,Floppy disks and drivers,3,Peripherals,2,COMPUTER RELATED,1,YES
+Market Keyword,02005009,Winchester disks and drives,3,Peripherals,2,COMPUTER RELATED,1,YES
+Market Keyword,02005010,Optical disks and drives,3,Peripherals,2,COMPUTER RELATED,1,YES
+Market Keyword,02005011,Other disk related,3,Peripherals,2,COMPUTER RELATED,1,YES
+Market Keyword,02005012,Tape related devices,3,Peripherals,2,COMPUTER RELATED,1,YES
+Market Keyword,02005013,Magnetic tapes,3,Peripherals,2,COMPUTER RELATED,1,YES
+Market Keyword,02005014,Tape heads and drives,3,Peripherals,2,COMPUTER RELATED,1,YES
+Market Keyword,02005015,Continuous tape backup systems,3,Peripherals,2,COMPUTER RELATED,1,YES
+Market Keyword,02005016,Other tape related devices,3,Peripherals,2,COMPUTER RELATED,1,YES
+Market Keyword,02005017,Other memory devices (excluding semiconductors),3,Peripherals,2,COMPUTER RELATED,1,YES
+Market Keyword,02005018,Other peripherals (not elsewhere classified),3,Peripherals,2,COMPUTER RELATED,1,YES
+Market Keyword,05009001,Food & feed ingredients,3,Plant and animal health,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05009002,Fish health,3,Plant and animal health,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05009003,Animal health,3,Plant and animal health,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05009004,Plant health,3,Plant and animal health,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,08004001,Air filters and air purification and monitoring equipment,3,Pollution and Recycling Related,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08004002,Chemical and solid material recycling,3,Pollution and Recycling Related,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08004003,Water treatment equipment and waste disposal systems,3,Pollution and Recycling Related,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,08004004,Other pollution and recycling related,3,Pollution and Recycling Related,2,INDUSTRIAL PRODUCTS,1,YES
+Market Keyword,06002001,"Oil, gas and coal",3,Power generation,2,ENERGY,1,YES
+Market Keyword,06002002,Nuclear,3,Power generation,2,ENERGY,1,YES
+Market Keyword,06002003,Power grid and distribution,3,Power generation,2,ENERGY,1,YES
+Market Keyword,06002004,Hydro-electric,3,Power generation,2,ENERGY,1,YES
+Market Keyword,04001001,Agricultural genetic engineering applications,3,Recombinant DNA,2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,YES
+Market Keyword,04001002,Industrial genetic engineering applications,3,Recombinant DNA,2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,YES
+Market Keyword,04001003,Medical genetic engineering applications,3,Recombinant DNA,2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,YES
+Market Keyword,04001004,Other recombinant DNA,3,Recombinant DNA,2,GENETIC ENGINEERING/MOLECULAR BIOLOGY,1,YES
+Market Keyword,07002001,Drug stores,3,Retailing,2,CONSUMER RELATED,1,YES
+Market Keyword,07002002,Clothing and shoe stores,3,Retailing,2,CONSUMER RELATED,1,YES
+Market Keyword,07002003,Discount stores,3,Retailing,2,CONSUMER RELATED,1,YES
+Market Keyword,07002004,Computer stores,3,Retailing,2,CONSUMER RELATED,1,YES
+Market Keyword,07002005,Other retailing,3,Retailing,2,CONSUMER RELATED,1,YES
+Market Keyword,01005001,Satellite services/carriers/operators,3,Satellite Microwave Communications,2,COMMUNICATIONS,1,YES
+Market Keyword,01005002,Satellite ground (and others) equipment,3,Satellite Microwave Communications,2,COMMUNICATIONS,1,YES
+Market Keyword,01005003,Microwave service facilities,3,Satellite Microwave Communications,2,COMMUNICATIONS,1,YES
+Market Keyword,01005004,Microwave and satellite components,3,Satellite Microwave Communications,2,COMMUNICATIONS,1,YES
+Market Keyword,01005005,Other satellite/microwave,3,Satellite Microwave Communications,2,COMMUNICATIONS,1,YES
+Market Keyword,02004001,OCR (optical character recognition),3,Scanning Related,2,COMPUTER RELATED,1,YES
+Market Keyword,02004002,OBR (optical bar recognition),3,Scanning Related,2,COMPUTER RELATED,1,YES
+Market Keyword,02004003,MICR (magnetic ink character recognition),3,Scanning Related,2,COMPUTER RELATED,1,YES
+Market Keyword,02004004,"Other scanning related (incl.  image processing, ...)",3,Scanning Related,2,COMPUTER RELATED,1,YES
+Market Keyword,09003001,Engineering services,3,Services,2,OTHER,1,YES
+Market Keyword,09003002,Advertising and public relations,3,Services,2,OTHER,1,YES
+Market Keyword,09003003,Leasing (not elsewhere classified),3,Services,2,OTHER,1,YES
+Market Keyword,09003004,"Distributors, imports and wholesalers",3,Services,2,OTHER,1,YES
+Market Keyword,09003005,Consulting services,3,Services,2,OTHER,1,YES
+Market Keyword,09003006,Media related services,3,Services,2,OTHER,1,YES
+Market Keyword,09003007,Other services (not elsewhere classified),3,Services,2,OTHER,1,YES
+Market Keyword,01002001,Long distance telephone services,3,Telephone Related,2,COMMUNICATIONS,1,YES
+Market Keyword,01002002,Telephone interconnect and other equipment,3,Telephone Related,2,COMMUNICATIONS,1,YES
+Market Keyword,01002003,"Message forwarding, queuing and answering systems",3,Telephone Related,2,COMMUNICATIONS,1,YES
+Market Keyword,01002004,Other telephone related,3,Telephone Related,2,COMMUNICATIONS,1,YES
+Market Keyword,05003001,Therapeutic services,3,Therapeutic,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05003002,Surgical instrumentation and equipment,3,Therapeutic,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05003003,Surgical implants,3,Therapeutic,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05003004,Pacemakers and artificial organs,3,Therapeutic,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05003005,Drug delivery and other equipment,3,Therapeutic,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05003006,Other therapeutic (including defibrillators),3,Therapeutic,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,09001001,Airlines,3,Transportation,2,OTHER,1,YES
+Market Keyword,09001002,Trucking,3,Transportation,2,OTHER,1,YES
+Market Keyword,09001003,"Leasing of railcars, buses, cars, etc.",3,Transportation,2,OTHER,1,YES
+Market Keyword,09001004,Mail and package shipment,3,Transportation,2,OTHER,1,YES
+Market Keyword,09001005,"Motor vehicles, transportation equipment and parts",3,Transportation,2,OTHER,1,YES
+Market Keyword,09001006,Airfield and other transportation services,3,Transportation,2,OTHER,1,YES
+Market Keyword,09001007,Other transportation,3,Transportation,2,OTHER,1,YES
+Market Keyword,09008001,Electric companies,3,Utilities and Related Firms,2,OTHER,1,YES
+Market Keyword,09008002,"Water, sewerage, chemical and solid waste treatment plants",3,Utilities and Related Firms,2,OTHER,1,YES
+Market Keyword,09008003,Gas transmission and distribution,3,Utilities and Related Firms,2,OTHER,1,YES
+Market Keyword,09008004,Other utilities and related firms,3,Utilities and Related Firms,2,OTHER,1,YES
+Market Keyword,05010001,Safety for the elderly,3,Welfare technologies,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05010002,Cognitive aid,3,Welfare technologies,2,MEDICAL/HEALTH RELATED,1,YES
+Market Keyword,05010003,Patient rehabilitation & training,3,Welfare technologies,2,MEDICAL/HEALTH RELATED,1,YES

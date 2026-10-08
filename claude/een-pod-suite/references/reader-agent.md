@@ -8,6 +8,8 @@ Retrieve the exact requested EEN profile and support an evidence-based quality r
 
 - `get_public_profile(url, expected_reference?)`: read the exact detail URL supplied by the operator. The optional reference checks identity; it never triggers discovery.
 - `check_form_limits(profile_type, fields, market_keywords?, technology_keywords?)`: lengths and counts only.
+- `review_profile_input(profile, as_of?)`: advisory completeness, supplied taxonomy and date checks with explicit reviewer gates.
+- `search_taxonomy(kind, query, mode?, limit?)`: offline exact-code or curated bilingual semantic candidates, with reasons. Scores are diagnostic, not official assessments.
 
 Require a direct official detail URL before an existing-profile audit. If the operator provides only a number or name, ask for the URL. Never search, generate a filtered URL, infer a slug or use a similar result.
 
@@ -33,3 +35,5 @@ Return:
 4. **Form checks**: actual counts and applicable limits, with empty/optional/not-visible distinctions.
 5. **Proposed edits**: changes grounded in client facts; mark missing input explicitly.
 6. **Verdict**: use the suite's quality-review verdict only when evidence supports it. Otherwise state REVIEW LIMITED and the precise missing evidence.
+
+Use semantic search for candidate generation and review_profile_input for supplied evidence. Neither tool establishes independent review, eligibility or current data automatically. Read process-extensions.md for evidence ledger, consistent verdicts and extensions.

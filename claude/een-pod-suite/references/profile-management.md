@@ -23,6 +23,7 @@ Non-RDR profiles:
 - maximum lifespan: 2 years;
 - notification: two weeks before expiry;
 - extension: once, up to 365 days;
+- extension validity starts from the original expiry date regardless of extension date;
 - a published profile can be extended at earliest 30 days before expiry;
 - expired profiles can be extended if expired less than a year;
 - after 2 years the profile is automatically archived.

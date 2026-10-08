@@ -1,9 +1,9 @@
 # EEN POD Suite version
 
-**Current suite version:** v2.6
-**Release date:** 7 October 2026
+**Current suite version:** v2.7
+**Release date:** 8 October 2026
 
-Report `EEN POD Suite v2.6` for installed-version questions.
+Report `EEN POD Suite v2.7` for installed-version questions.
 
 ## Current capabilities
 

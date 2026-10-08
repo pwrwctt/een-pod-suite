@@ -66,3 +66,7 @@ If none applies, use `Not relevant`.
 ## Version warning
 
 The bundled workbook and CSVs are 2024 snapshots. State this provenance and verify current values against an authoritative source supplied by the operator when currency matters.
+
+## Semantic search and verification
+
+Use `scripts/taxonomy_lookup.py` (default semantic mode) for curated bilingual concept expansion or exact code lookup. Use --mode lexical to compare and --json for reasons. No embedding model is used; unknown concepts need manual review. Verify codes/labels, selectable levels, duplicates and counts with `scripts/profile_checks.py`. Retrieval scores do not establish relevance.

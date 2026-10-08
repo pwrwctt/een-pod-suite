@@ -1,0 +1,37 @@
+{
+  "sources": [
+    {
+      "file": "source-EEN_Glossary_2024_v3.pdf",
+      "sha256": "69cdf133a62151f9cad390dd42eb430cb74791712a7b6205b66be2bd7f09c3a4",
+      "currency": "Bundled 2024 source; not verified current"
+    },
+    {
+      "file": "source-POD_Taxonomies_2024.xlsx",
+      "sha256": "94c51abda11f0ee1a930edcd1cb88eecc9be82947f4c1636d6d07c59420b783b",
+      "currency": "Bundled 2024 source; not verified current"
+    },
+    {
+      "file": "source-Partnering_Profile_Quality_Guidelines_v1.2.pdf",
+      "sha256": "1527ef84e11423675422a0e5fae70af8dcff086274c7403c74cc826638a38116",
+      "currency": "Bundled 2024 source; not verified current"
+    },
+    {
+      "file": "source-Queries_User_Guide_2024-12-13.pdf",
+      "sha256": "a7d7d2afeff3f7a6a5a8d8fc4ae241c1ff77d7bd5c6d364ee8b67cfccad89fbd",
+      "currency": "Bundled 2024 source; not verified current"
+    },
+    {
+      "file": "source-policy.md",
+      "sha256": "7a7c2af310884a1b821cfc35e2751c9d9224cdc7e5fa3634ec015a71a3319d2f",
+      "currency": "Bundled 2024 source; not verified current"
+    },
+    {
+      "file": "source-provenance.md",
+      "sha256": "51c52de7b9fca786798af5659790b12d7870dac535be116560ce450a2f3284f1",
+      "currency": "Bundled 2024 source; not verified current"
+    }
+  ],
+  "unbundled": [
+    "Original cooperation templates; current-form confirmation required"
+  ]
+}

@@ -3,6 +3,7 @@
 from pathlib import Path
 import re
 import shutil
+import json
 
 ROOT = Path(__file__).resolve().parents[1]
 DESCRIPTION = ('Prepare and audit EEN partnering profiles: eligibility, drafting, taxonomy, '
@@ -31,7 +32,7 @@ def expected_files():
             continue
         data = path.read_bytes()
         if relative.as_posix() == 'SKILL.md':
-            content = re.sub(r'^description:.*$', 'description: ' + DESCRIPTION,
+            content = re.sub(r'^description:.*$', lambda _: 'description: ' + json.dumps(DESCRIPTION),
                              data.decode(), count=1, flags=re.MULTILINE)
             content = content.replace('## Route the task', RUNTIME + '\n## Route the task', 1)
             data = content.encode()
