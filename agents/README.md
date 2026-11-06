@@ -1,4 +1,4 @@
-# EEN POD Reader & Audit Agent — v2.7
+# EEN POD Reader & Audit Agent — v2.8
 
 ## Tools
 
@@ -38,6 +38,13 @@ python scripts/build.py
 
 See [the agent contract](../chatgpt/een-pod-suite/references/reader-agent.md) and [the URL-only audit workflow](../chatgpt/een-pod-suite/references/profile-lookup.md).
 
-The agent exposes four read-only tools: supplied URL reading, form limits, evidence checks and offline taxonomy search. Use the skill's bundled 2024 taxonomy for keyword recommendations.
+The agent exposes six read-only tools: supplied URL reading, form limits, evidence checks and offline taxonomy search. Use the skill's bundled 2024 taxonomy for keyword recommendations.
 
 Use semantic search for candidate generation and review_profile_input for supplied evidence. Neither tool establishes independent review, eligibility or current data automatically. Read process-extensions.md for evidence ledger, consistent verdicts and extensions.
+
+## BO pilot tools
+
+- score_business_offer(profile, mode?, evaluated_on?): local BO score and bounds, evidence and draft recommendations.
+- compare_bo_scores(before, after): matching-profile, same-model comparison of saved scoring runs.
+
+Read the suite's bo-quality-scoring reference. These tools never flag a profile, notify an owner or create a reminder. No implicit official EISMEA assessment is claimed.

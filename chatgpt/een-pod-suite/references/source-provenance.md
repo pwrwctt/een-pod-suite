@@ -27,3 +27,7 @@ confirmed source rules may be invented.
 Workbook/CSV vocabulary is a 2024 snapshot. An operator-supplied authoritative
 newer source may supersede it with provenance. UI/renewal/media procedures are
 historical guidance, not verified current behaviour.
+
+## BO quality pilot, source snapshot 2026-09-29
+
+The operator supplied the scoring text now recorded in `references/source-BO_Quality_Scoring_Model_2026-09-29.md`. Weights/ranges/bands come from that text; regex, normalisation, marketing counts and country terms are declared local interpretations in `references/bo-scoring-model.json`. The original SQL/full dictionaries are unavailable. A source snapshot date is not evidence that bundled taxonomy or UI limits were updated. Expert calibration and internal-tool equivalence remain unverified.

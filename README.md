@@ -4,7 +4,7 @@
 
 EEN POD Suite helps Enterprise Europe Network (EEN) advisers turn client information into structured cooperation profiles for the Partnering Opportunities Database (POD). It combines profile-writing guidance, eligibility checks, taxonomy references and deterministic field-limit checks in a reusable workflow.
 
-**Current version: 2.7** · [Changelog](CHANGELOG.md) · [Source policy](chatgpt/een-pod-suite/references/source-policy.md) · [Validation report](opencode/VALIDATION.md)
+**Current version: 2.8** · [Changelog](CHANGELOG.md) · [Source policy](chatgpt/een-pod-suite/references/source-policy.md) · [Validation report](opencode/VALIDATION.md)
 
 **New to the suite?** Read the [quick start guide in Polish](QUICKSTART-PL.md) for capabilities, required input and example requests.
 
@@ -75,7 +75,7 @@ CHANGELOG.md                Release history
 
 ## Reader & Audit Agent
 
-The suite includes an agent contract and a runnable MCP server exposing four read-only tools: exact URL reading, field-limit checks, evidence/completeness checks and offline semantic taxonomy search. The skill supplies the audit rules; the host model uses those tools to collect evidence. See the [agent setup guide](agents/README.md) for local OpenCode/Codex configuration and remote ChatGPT requirements.
+The suite includes an agent contract and a runnable MCP server exposing six read-only tools: exact URL reading, field-limit checks, evidence/completeness checks, offline semantic taxonomy search, BO pilot scoring and saved-run comparison. The skill supplies the audit rules; the host model uses those tools to collect evidence. See the [agent setup guide](agents/README.md) for local OpenCode/Codex configuration and remote ChatGPT requirements.
 
 The updated skill archive contains the agent instructions and server code. It does not create a live MCP connection: ChatGPT requires a hosted HTTPS endpoint and supported authentication. No tool modifies or publishes POD records.
 
@@ -94,11 +94,11 @@ If the repository is private, authenticate with a GitHub account authorised to a
 
 Use [dist/chatgpt/skill.zip](dist/chatgpt/skill.zip) with a ChatGPT environment that supports installing skills. Follow that environment's skill installation process; if it accepts unpacked skills, install the complete `chatgpt/een-pod-suite/` directory, preserving its `SKILL.md`, `references/`, `scripts/` and `agents/` contents.
 
-After installation, ask: **“Which version of EEN POD Suite is installed?”** The expected answer for this release is `EEN POD Suite v2.7`.
+After installation, ask: **“Which version of EEN POD Suite is installed?”** The expected answer for this release is `EEN POD Suite v2.8`.
 
 ### Claude skill
 
-Download [een-pod-suite-claude-v2.7.zip](dist/claude/een-pod-suite-claude-v2.7.zip). In Claude, enable **Code execution and file creation**, then open **Customize → Skills → + Create skill → Upload a skill** and upload this ZIP. Enable the skill and ask: **“Which version of EEN POD Suite is installed?”** The expected answer is `EEN POD Suite v2.7`. Organisation settings may control skill availability.
+Download [een-pod-suite-claude-v2.8.zip](dist/claude/een-pod-suite-claude-v2.8.zip). In Claude, enable **Code execution and file creation**, then open **Customize → Skills → + Create skill → Upload a skill** and upload this ZIP. Enable the skill and ask: **“Which version of EEN POD Suite is installed?”** The expected answer is `EEN POD Suite v2.8`. Organisation settings may control skill availability.
 
 For Claude Code, copy `claude/een-pod-suite/` into the project's `.claude/skills/een-pod-suite/` directory or your personal `~/.claude/skills/een-pod-suite/` directory. See [Claude installation and verification](claude/README.md).
 
@@ -108,7 +108,7 @@ The Claude package contains the same audit rules, source documents, taxonomy and
 
 Copy the contents of `opencode/.opencode/skills/` into your project's `.opencode/skills/` directory. Preserve each module's directory structure. If the project already has skills, merge the directories and review any name conflicts.
 
-Alternatively, extract [een-pod-suite-opencode-v2.7.zip](dist/opencode/een-pod-suite-opencode-v2.7.zip) and copy its `.opencode/` contents into the project.
+Alternatively, extract [een-pod-suite-opencode-v2.8.zip](dist/opencode/een-pod-suite-opencode-v2.8.zip) and copy its `.opencode/` contents into the project.
 
 | Skill | Responsibility |
 | --- | --- |
@@ -208,8 +208,8 @@ python scripts/build.py
 The build script checks skill front matter, referenced files, version consistency and the OpenCode module inventory before creating:
 
 - `dist/chatgpt/skill.zip`
-- `dist/claude/een-pod-suite-claude-v2.7.zip`
-- `dist/opencode/een-pod-suite-opencode-v2.7.zip`
+- `dist/claude/een-pod-suite-claude-v2.8.zip`
+- `dist/opencode/een-pod-suite-opencode-v2.8.zip`
 
 For additional editorial regression scenarios, see [docs/TEST-CASES.md](docs/TEST-CASES.md). The [validation report](opencode/VALIDATION.md) records which checks were actually performed.
 
@@ -219,7 +219,7 @@ Use [VERSION](VERSION) as the version source of truth and [CHANGELOG.md](CHANGEL
 
 Every future release must update **ChatGPT, OpenCode and Claude together** using the version in `VERSION`. The canonical unified instructions and resources live in `chatgpt/een-pod-suite/`; `scripts/sync_claude.py` generates the Claude variant. Apply relevant changes to every affected OpenCode module as well. Update all version references, the OpenCode manifest, documentation and changelog, then synchronise, test and build all three archives. The build rejects stale Claude content or mismatched platform versions. This policy is recorded in `AGENTS.md`.
 
-## v2.7 evidence checks and process extensions
+## v2.8 evidence checks and process extensions
 
 The workflow now includes field completeness, cross-field consistency, evidence quotations and rule provenance, explicit verdict gates, targeted client interviews, version comparison and EoI/partner-fit support. Public nonvisibility is distinct from missing draft input. A same-context self-review does not establish a separate colleague's approval.
 
@@ -235,3 +235,34 @@ Semantic search uses a curated English/Polish concept dictionary and label/hiera
 Read [process extensions](chatgpt/een-pod-suite/references/process-extensions.md) for input contracts and [source provenance](chatgpt/een-pod-suite/references/source-provenance.md) for evidence limits. Original cooperation templates are not present, so the suite records a current-form confirmation check rather than claiming to have verified them.
 
 Tests cover all five profile types and deterministic helper/transport/packaging behaviour. [Platform evaluation scenarios](docs/PLATFORM-EVALUATION.md) distinguish these checks from live model behaviour and installation tests, which remain unverified.
+
+## v2.8 BO pilot-derived scoring
+
+The suite adds the operator-supplied published-BO scoring model (production
+snapshot 2026-09-29): eight +1 criteria, four -1 penalties and bands Poor/Weak/
+Fair/Good/Excellent. Missing public data produces score bounds rather than
+invented empty fields. Points, semantic PPQG findings and readiness remain separate.
+
+```bash
+python chatgpt/een-pod-suite/scripts/bo_quality_score.py score docs/examples/bo-scoring-input.json --mode simulation
+python chatgpt/een-pod-suite/scripts/bo_quality_score.py score published-profile.json --evaluated-on 2026-11-06 > baseline.json
+python chatgpt/een-pod-suite/scripts/bo_quality_score.py compare baseline.json followup.json
+```
+
+The first input is a synthetic DRAFT example and explicitly uses simulation.
+For a real baseline supply verified BO/PUBLISHED metadata, original fields,
+origin country and explicit profile identity. Saved results include input
+snapshots, implementation/dictionary hashes and a two-calendar-month follow-up
+date. A changed model requires rescoring both snapshots with one implementation.
+
+Read [BO scoring and remediation](chatgpt/een-pod-suite/references/bo-quality-scoring.md)
+and [declared model rules](chatgpt/een-pod-suite/references/bo-scoring-model.json).
+The source SQL, full marketing lexicon and country table were not supplied.
+Keyword matching/normalisation are documented local interpretations; no exact
+internal EISMEA result is claimed. A Poor score alone does not prove a PPQG
+violation. All flag comments, notifications and clinic invitations are drafts.
+No reminder is scheduled. Other profile types and Achievements await their own models.
+
+GitHub Actions validates all three source distributions and builds their ZIPs
+on a release branch before promotion to main. Host UI installation, expert
+calibration and live EEN access remain separate unverified checks.

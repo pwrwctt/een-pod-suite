@@ -1,8 +1,8 @@
 {
   "suite": "EEN POD Suite",
-  "version": "2.7",
+  "version": "2.8",
   "platform": "OpenCode",
-  "generated": "2026-10-08",
+  "generated": "2026-11-06",
   "skills": [
     "een-pod-dissemination-queries",
     "een-pod-intake",
@@ -42,5 +42,10 @@
     "Add completeness, dates, taxonomy validation and version comparison",
     "Add evidence review, interview and EoI/partner-fit workflows",
     "Add curated bilingual semantic taxonomy search"
+  ],
+  "changes_v2_8": [
+    "Pilot-derived BO scoring with explicit local interpretations",
+    "Missing-data bounds, draft recommendations and same-model follow-up",
+    "Three-platform release validation in GitHub Actions"
   ]
 }

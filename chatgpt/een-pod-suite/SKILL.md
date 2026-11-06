@@ -5,13 +5,16 @@ description: Enterprise Europe Network POD assistance for eligibility, BO/BR/TO/
 
 # EEN POD Suite
 
-**Installed suite version: v2.7.** For any version question, read `references/version.md` and report that value.
+**Installed suite version: v2.8.** For any version question, read `references/version.md` and report that value.
 
 Read `references/source-policy.md` whenever currency/version matters.
 
 For the read-only Reader & Audit Agent, read `references/reader-agent.md`. Connected MCP tools retrieve data; the skill supplies audit rules. Installation alone does not establish a working MCP connection.
 
 ## Route the task
+
+- For pilot-derived BO points, bands, remediation drafts or two-month comparison: read `references/bo-quality-scoring.md` and use `scripts/bo_quality_score.py` or the connected score_business_offer / compare_bo_scores tools. Keep points separate from PPQG findings and submission readiness. Unknown public fields are not empty; use score bounds. Score other profile types and Achievements only when their own models are supplied.
+
 
 - For evidence-led audits, completeness, consistency, client interviews, version comparison, partner-fit assessment or EoI drafts: read `references/process-extensions.md` and `references/source-provenance.md`. Use `scripts/profile_checks.py` and `scripts/profile_diff.py` when applicable.
 - For taxonomy queries, use `scripts/taxonomy_lookup.py` in semantic mode for curated English/Polish concept expansion; inspect reasons and verify codes.
@@ -75,3 +78,5 @@ Do not call a profile submission-ready merely because the writing is polished. R
 - sufficient evidence, confirmed form limits/operational work and actual review method.
 
 Explicit user instructions take priority over workflow preferences; never invent facts or source verification. Exclude the client’s own country from restricted target lists. Preserve uncertainty about provisional form limits and incomplete public evidence.
+
+For a full audit of an identified published BO, include the pilot-derived score as a separate section by default, unless the user asks for a narrower task. Missing metadata/data limits the scoring scope, not the ability to report supported PPQG findings.

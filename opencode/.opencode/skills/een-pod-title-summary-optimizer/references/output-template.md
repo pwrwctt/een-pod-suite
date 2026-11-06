@@ -70,3 +70,14 @@ Then:
 ## Source provenance
 
 For an existing-profile audit, record the supplied detail URL, displayed POD Reference and which fields were visible. Identify taxonomy recommendations as based on the bundled 2024 snapshot or an authoritative newer source supplied by the operator.
+
+## BO pilot-derived score (only where applicable)
+
+**Scope:** published BO / unverified scope / explicit simulation.
+**Model:** ID, local implementation version and equivalence limitation.
+**Evidence:** P1–P8 and N1–N4, values/counts/terms and unknowns.
+**Result:** exact score/band or conservative range and possible bands.
+**Separate PPQG audit:** semantic findings and confirmed non-compliance.
+**Adviser drafts:** correction list, owner message, flag comment/clinic topics where applicable.
+**Follow-up:** baseline, two-month date, version/hash and criterion comparison.
+Never replace a limited audit with a falsely complete point result.

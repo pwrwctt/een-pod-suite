@@ -1,0 +1,117 @@
+{
+  "id": "BO-PILOT-2026-09-29",
+  "implementation_version": "local-interpretation-1.0.0",
+  "source": "Business Offer (BO) Quality Scoring Model — text supplied by operator",
+  "source_snapshot": "2026-09-29",
+  "guideline": "PPQG v1.2, September 2024",
+  "scope": {
+    "profile_type": "BO",
+    "profile_status": "PUBLISHED",
+    "exclude_known_test_profiles": true
+  },
+  "source_weights": {
+    "positive": 1,
+    "penalty": -1
+  },
+  "criteria": {
+    "P1": "Agreement mentioned in title AND description",
+    "P2": "Title 40–256 characters and not ALL CAPS",
+    "P3": "Summary 250–500 characters; not copied from title or description opening",
+    "P4": "Origin-country name/demonym in summary AND description",
+    "P5": "Description 800–4000 characters",
+    "P6": "Advantages at least 200 characters AND containing digits",
+    "P7": "Partner role at least 300 characters",
+    "P8": "All selected structured agreements mentioned in summary, description AND partner role",
+    "N1": "we/our/us/you/your in profile text",
+    "N2": "At least 3 marketing terms",
+    "N3": "ALL CAPS title",
+    "N4": "Summary/title share first 40 characters"
+  },
+  "bands": [
+    {
+      "min": -4,
+      "max": 1,
+      "band": "Poor"
+    },
+    {
+      "min": 2,
+      "max": 3,
+      "band": "Weak"
+    },
+    {
+      "min": 4,
+      "max": 5,
+      "band": "Fair"
+    },
+    {
+      "min": 6,
+      "max": 7,
+      "band": "Good"
+    },
+    {
+      "min": 8,
+      "max": 8,
+      "band": "Excellent"
+    }
+  ],
+  "local_interpretations": {
+    "P1": "Each field needs any one permitted agreement; need not be the same agreement. Semantic consistency remains a separate audit.",
+    "P3": "Casefold and collapse whitespace. Copy if summary equals title or normalised description starts with entire normalised summary.",
+    "P4": "Use bundled, non-official country dictionary or explicitly supplied country_terms; unknown origin/terms leave criterion unresolved.",
+    "P8": "All selected structured agreement names must be recognised; their agreement keyword/phrase must occur in all three text fields. This is not a semantic check.",
+    "N1": "Case-insensitive Unicode word boundaries across title, summary, description, advantages and partner_role. Quotes and US can cause false positives.",
+    "N2": "Count distinct entries in the illustrative source list, not repeated occurrences. The source list is not complete. Aliases cover spacing/hyphens only.",
+    "N3": "Python str.isupper; at least one cased letter, numbers/punctuation ignored.",
+    "N4": "Case-sensitive comparison of first 40 Unicode characters of both raw fields; both must contain at least 40 characters.",
+    "lengths": "Unicode code points in original field strings; no HTML or whitespace normalisation for lengths.",
+    "missing": "Absent/None/not_visible is unknown; present empty string/list is observed empty. Unknowns produce conservative score bounds.",
+    "equivalence": "Local documented interpretation; source SQL, full marketing lexicon and country table were not supplied. No claim of exact reproduction of EISMEA internal results."
+  },
+  "agreements": {
+    "Commercial agreement": [
+      "commercial agreement",
+      "commercial"
+    ],
+    "Outsourcing agreement": [
+      "outsourcing agreement",
+      "outsourcing"
+    ],
+    "Supplier agreement": [
+      "supplier agreement",
+      "supplier"
+    ],
+    "Investment agreement": [
+      "investment agreement",
+      "investment"
+    ]
+  },
+  "marketing_terms": {
+    "unique": [
+      "unique"
+    ],
+    "innovative": [
+      "innovative"
+    ],
+    "best": [
+      "best"
+    ],
+    "high quality": [
+      "high quality",
+      "high-quality"
+    ],
+    "reliable": [
+      "reliable"
+    ],
+    "cutting-edge": [
+      "cutting-edge",
+      "cutting edge"
+    ],
+    "leading": [
+      "leading"
+    ],
+    "state of the art": [
+      "state of the art",
+      "state-of-the-art"
+    ]
+  }
+}

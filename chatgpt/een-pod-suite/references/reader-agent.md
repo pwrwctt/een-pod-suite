@@ -37,3 +37,10 @@ Return:
 6. **Verdict**: use the suite's quality-review verdict only when evidence supports it. Otherwise state REVIEW LIMITED and the precise missing evidence.
 
 Use semantic search for candidate generation and review_profile_input for supplied evidence. Neither tool establishes independent review, eligibility or current data automatically. Read process-extensions.md for evidence ledger, consistent verdicts and extensions.
+
+## BO pilot tools
+
+- score_business_offer(profile, mode?, evaluated_on?): local BO score and bounds, evidence and draft recommendations.
+- compare_bo_scores(before, after): matching-profile, same-model comparison of saved scoring runs.
+
+Read the suite's bo-quality-scoring reference. These tools never flag a profile, notify an owner or create a reminder. No implicit official EISMEA assessment is claimed.

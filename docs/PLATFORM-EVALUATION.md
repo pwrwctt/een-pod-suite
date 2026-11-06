@@ -1,4 +1,4 @@
-# Platform evaluation — v2.7
+# Platform evaluation — v2.8
 
 Automated tests validate syntax, resource parity, deterministic helper outputs,
 synthetic profile cases and local stdio MCP transport. These checks do not prove
@@ -7,7 +7,7 @@ passed without an actual observed run.
 
 | Scenario | Expected behaviour |
 | --- | --- |
-| Installed version | v2.7 on all three platforms |
+| Installed version | v2.8 on all three platforms |
 | BO: direct customer acquisition only | Reject profile purpose; do not reword it into an eligible partnership |
 | BR: missing acceptance criteria | Ask targeted questions; no fabricated technical field |
 | TO: missing maturity/IPR | Report required input and avoid READY |
@@ -40,3 +40,5 @@ reviewer rubric; do not mark a host scenario passed merely because the same rule
 appears in instructions. Use supplied authoritative current sources to confirm
 form limits or taxonomy currency rather than representing historical sources as
 live checks.
+
+BO pilot host scenarios: compare exact points against the deterministic helper, inspect unknown bounds and all twelve criteria, test false-positive US/quoted pronouns, preserve local-interpretation labels, and keep semantic findings/readiness separate. Verify no flag, notification or reminder was actually created. Expert calibration and internal SQL parity remain NOT VERIFIED until actually observed.

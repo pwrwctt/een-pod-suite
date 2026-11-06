@@ -78,3 +78,7 @@ language. Inspect JSON reasons and use alternative terms/manual CSV review for
 unknown concepts. Scores are diagnostic, not official scores or probabilities.
 Verify codes/labels with `scripts/profile_checks.py`, tie each choice to profile
 evidence, remove duplicates and enforce maximum five Market/Technology keywords.
+
+## BO pilot and two-month follow-up
+
+For BO scoring, remediation and saved-run comparison read `references/bo-quality-scoring.md`; use `scripts/bo_quality_score.py`. Keep point categories, semantic findings and readiness separate. Draft notifications/flag comments only; no sending or POD modification. Follow-up is two calendar months from the agreed baseline, and changed models require rescoring both snapshots with one version.

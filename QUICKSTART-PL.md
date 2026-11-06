@@ -60,3 +60,18 @@ nie uruchamia. Podaj dokładny link, nie sam numer lub nazwę. Gdy odczyt się n
 powiedzie, dostarcz treść lub eksport HTML tego samego profilu. Taksonomia
 pochodzi z 2024 r., a część limitów formularza wymaga potwierdzenia w aktualnym
 POD. Skill oznacza te ograniczenia i nie uzupełnia braków wymyślonymi faktami.
+
+## Punktacja BO w wersji 2.8
+
+Poproś: **„Oceń ten opublikowany profil BO według modelu pilotażu 2026.
+Pokaż punkty P1–P8 i kary N1–N4, uzasadnij je i osobno wykonaj audyt PPQG:
+[link lub treść oraz potwierdzony status i kraj]”.**
+
+Wynik wynosi od −4 do 8: Poor (−4–1), Weak (2–3), Fair (4–5), Good (6–7),
+Excellent (8). To lokalne obliczenie według jawnej interpretacji modelu,
+nie wynik wewnętrznego narzędzia EISMEA ani zgoda na publikację. Brakujące
+pola dają przedział wyniku. Dla szkicu poproś wyraźnie o symulację.
+
+Skill przygotuje poprawki i projekty komentarzy/powiadomień, a zapisane oceny
+porówna po dwóch miesiącach. Nie flaguje profilu, nie wysyła wiadomości i nie
+ustawia przypomnienia. Punktacji BO nie stosuje do innych typów i Achievements.

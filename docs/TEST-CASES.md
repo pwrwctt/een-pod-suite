@@ -1,6 +1,6 @@
 # Regression test cases
 
-1. Version query -> `EEN POD Suite v2.7`.
+1. Version query -> `EEN POD Suite v2.8`.
 2. Existing-profile audit with only a number/name -> request the exact detail URL; do not discover the profile.
 3. BO title 257 chars -> OVER LIMIT by 1.
 4. Short Summary 501 chars -> OVER LIMIT by 1.
@@ -22,3 +22,8 @@
 18. Polish semantic query -> genuine bundled codes with traceable concept reasons; unsupported concept -> no fabricated code.
 19. RDR inverted/expired dates -> issue; preparation interval has no invented universal minimum.
 20. Apply the host rubric in PLATFORM-EVALUATION.md and record actual runs separately from helper tests.
+
+21. Test BO pilot length and band boundaries, distinct marketing terms, N3/P2 and N4/P3 double effects, missing vs empty data, scope and excluded tests.
+22. Compare same-profile/same-model baselines, month-end follow-up and changed-model rejection.
+23. Excellent does not replace the semantic audit; Poor does not automatically establish a flaggable rule violation.
+24. Simulation, unverified publication and incomplete evidence never trigger operational actions.

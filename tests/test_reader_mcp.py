@@ -21,7 +21,7 @@ class ReaderTests(unittest.TestCase):
     def test_initialization_and_read_only_discovery(self):
         response=reader.rpc({'jsonrpc':'2.0','id':1,'method':'initialize','params':{'protocolVersion':'2025-03-26'}})
         self.assertEqual(response['result']['protocolVersion'],'2025-03-26')
-        self.assertEqual(len(reader.TOOLS),4)
+        self.assertEqual(len(reader.TOOLS),6)
         for tool in reader.TOOLS:
             self.assertTrue(tool['annotations']['readOnlyHint'])
             self.assertFalse(tool['annotations']['destructiveHint'])
@@ -42,7 +42,7 @@ class ReaderTests(unittest.TestCase):
         self.assertTrue(call('get_public_profile',{'name':'Tour operator'})['isError'])
 
     def test_arguments_cannot_supply_credentials_or_arbitrary_endpoints(self):
-        self.assertEqual({tool['name'] for tool in reader.TOOLS},{'get_public_profile','check_form_limits','review_profile_input','search_taxonomy'})
+        self.assertEqual({tool['name'] for tool in reader.TOOLS},{'get_public_profile','check_form_limits','review_profile_input','search_taxonomy','score_business_offer','compare_bo_scores'})
         self.assertTrue(call('get_public_profile',{'reference':'x','base_url':'https://example.com'})['isError'])
         self.assertTrue(call('delete_profile',{'reference':'x'})['isError'])
 
@@ -63,7 +63,7 @@ class ReaderTests(unittest.TestCase):
         self.assertEqual(result.returncode,0,result.stderr)
         responses=[json.loads(line) for line in result.stdout.splitlines()]
         self.assertEqual([r['id'] for r in responses],[1,2,3])
-        self.assertEqual(len(responses[1]['result']['tools']),4)
+        self.assertEqual(len(responses[1]['result']['tools']),6)
         self.assertEqual(responses[2]['result']['structuredContent']['fields']['technical']['status'],'OVER LIMIT by 1')
     def test_semantic_tool_returns_existing_codes_without_discovery(self):
         result=call('search_taxonomy',{'kind':'technology','query':'sztuczna inteligencja'})
@@ -91,3 +91,14 @@ class ReaderTests(unittest.TestCase):
 
 
 if __name__=='__main__': unittest.main()
+
+class BoToolTests(unittest.TestCase):
+    def test_bo_score_tool_preserves_unknown_data_and_never_sends_actions(self):
+        result=call('score_business_offer',{'profile':{'profile_type':'BO','profile_status':'PUBLISHED','fields':{}},'evaluated_on':'2026-11-06'})
+        self.assertFalse(result['isError'])
+        value=result['structuredContent']
+        self.assertIsNone(value['score'])
+        self.assertEqual(value['score_range'],{'min':-4,'max':8})
+        self.assertFalse(value['recommended_actions']['automatic_action'])
+    def test_invalid_bo_compare_is_tool_error(self):
+        self.assertTrue(call('compare_bo_scores',{'before':{},'after':{}})['isError'])

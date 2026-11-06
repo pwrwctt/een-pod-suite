@@ -1,10 +1,7 @@
-# Validation report — EEN POD Suite v2.7
+# Validation report — EEN POD Suite v2.8
 
-- 42 automated tests passed, covering YAML, nested resource paths, five profile types, verdict gates, URL/error handling, taxonomy validity, bilingual semantic ranking and local stdio MCP.
-- All three distributions and eight OpenCode modules pass structural checks and shared-resource parity validation.
-- Reader exposes four read-only tools: exact public URL reading, lengths, supplied evidence checks and offline taxonomy search.
-- Twenty synthetic five-type fixture cases test confirmed and BLOCKER/MAJOR/MINOR gates; flags represent supplied adviser confirmation, not inferred model approval.
-- Source hashes and archive integrity were verified. Missing original templates remain an explicit provenance/current-form limitation.
-- No restricted service integration or number/name profile discovery is included.
+Release candidate: deterministic tests and all three archive builds must pass in the linked GitHub Actions release-validation run before main promotion. See repository Actions for the observed result; this document does not pre-assert an unobserved pass.
 
-Host UI installation, model behaviour scenarios, live public-page retrieval and remote MCP interoperability were not executed here. See ../docs/PLATFORM-EVALUATION.md. Semantic ranking uses curated concepts, not embeddings.
+Coverage includes original URL/transport/parity checks and new BO thresholds, scope exclusions, all twelve criteria, missing-data bounds, double effects, distinct marketing counts, calendar-month follow-up and same-model comparison. ZIP content is checked against source files after building.
+
+Source SQL/full dictionaries, expert calibration, host UI installation, live EEN access and remote MCP interoperability remain NOT VERIFIED. BO scoring is a local interpretation; other profiles and Achievements have no pilot model here. Original form templates remain unavailable.

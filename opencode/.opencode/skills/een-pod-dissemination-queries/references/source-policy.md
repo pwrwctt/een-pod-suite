@@ -9,3 +9,5 @@ Use the bundled Technology, Market, NACE and SDG CSVs and taxonomy workbook as a
 Do not infer that an internal field is missing because the public page does not show it. Review only retrieved or supplied evidence and state limitations. Keep client information within the authorised task.
 
 Read `references/source-provenance.md` for rule locations and provisional form-limit evidence. Do not represent absent templates or old UI rules as verified current sources.
+
+The operator-supplied 2026 BO pilot scoring model supplements, rather than replaces, PPQG. Read `references/bo-quality-scoring.md`. Use versioned local interpretation and provenance; do not claim equivalence to unprovided SQL or extrapolate BO points to other profiles/Achievements.

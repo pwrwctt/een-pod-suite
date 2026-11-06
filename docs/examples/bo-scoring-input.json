@@ -1,0 +1,16 @@
+{
+  "profile_type": "BO",
+  "profile_status": "DRAFT",
+  "reference": "SYNTHETIC-EXAMPLE-NOT-A-PUBLISHED-PROFILE",
+  "country": "PL",
+  "fields": {
+    "title": "Polish manufacturer seeks a commercial agreement for equipment distribution",
+    "summary": "Supply the original summary text here.",
+    "description": "Supply the original description here.",
+    "advantages": "Supply evidence of advantages here.",
+    "partner_role": "Describe concrete partner tasks here.",
+    "partnership_types": [
+      "Commercial agreement"
+    ]
+  }
+}

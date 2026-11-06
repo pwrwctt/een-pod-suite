@@ -1,5 +1,14 @@
 # Changelog
 
+## v2.8 — 2026-11-06
+
+- Added the operator-supplied BO pilot model, explicit local matching interpretations and country terms.
+- Added twelve evidence-backed criteria, score bounds for unavailable data, scope/test exclusions and draft-only remediation.
+- Added versioned baseline snapshots, calendar-month follow-up and same-identity/model comparison.
+- Kept pilot points, semantic PPQG audit and readiness separate; other profiles/Achievements await their own models.
+- Added read-only MCP score/comparison tools, regression tests, examples and a three-platform release-validation workflow.
+- Updated ChatGPT, Claude and all OpenCode modules together.
+
 ## v2.7 — 2026-10-08
 
 - Fixed Claude YAML generation and added real YAML, nested-reference and common-content release validation.

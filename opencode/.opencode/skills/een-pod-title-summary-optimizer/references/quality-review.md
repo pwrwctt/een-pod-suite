@@ -2,7 +2,7 @@
 
 Source basis: Partnering Profile Quality Guidelines v1.2, especially section 3.1 quality-check note and sections 4–6.
 
-There is no central quality review before publication in the workflow described by v1.2. Consortia should therefore establish a pre-publication quality-check and have drafts checked by an experienced colleague.
+The historical v1.2 workflow describes no central pre-publication quality review. The coordinator's 2026 pilot adds checks of published BO profiles; do not present the historical statement as a description of all current review activity. Consortia should therefore establish a pre-publication quality-check and have drafts checked by an experienced colleague.
 
 Record the actual review method. One assistant switching roles is advisory self-review, not proof of a separate colleague's review. Final approval remains with the adviser. Read `references/process-extensions.md` for the evidence ledger and completeness/consistency gates.
 
@@ -68,9 +68,13 @@ Otherwise return one:
 
 A polished style does not compensate for a weak cooperation proposition.
 
+## Pilot-derived BO score
+
+Read `references/bo-quality-scoring.md`. When requested or relevant to the 2026 BO pilot, calculate the supplied source model using `scripts/bo_quality_score.py`; display its implementation version, bounds and limitations. It is separate from the PPQG audit, not an official internal-tool result or submission approval. Do not equate a lost point with confirmed non-compliance. Scoring minima are not new mandatory PPQG requirements. Keep semantic checks excluded from SQL in a separate evidence section.
+
 ## Optional internal score
 
 If the user asks for a score, label it:
 `Internal diagnostic score — not an official EEN/EISMEA threshold.`
 
-Do not imply any official numeric acceptance threshold.
+Do not invent numeric acceptance thresholds. The documented bands of the supplied BO pilot may be reported as pilot-derived categories, not general EEN acceptance thresholds.

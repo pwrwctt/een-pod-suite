@@ -1,0 +1,252 @@
+{
+  "version": "local-1.0",
+  "provenance": "Local English country/demonym dictionary, not the pilot SQL table.",
+  "countries": {
+    "AL": [
+      "Albania",
+      "Albanian"
+    ],
+    "AM": [
+      "Armenia",
+      "Armenian"
+    ],
+    "AT": [
+      "Austria",
+      "Austrian"
+    ],
+    "AZ": [
+      "Azerbaijan",
+      "Azerbaijani"
+    ],
+    "BA": [
+      "Bosnia and Herzegovina",
+      "Bosnian"
+    ],
+    "BE": [
+      "Belgium",
+      "Belgian"
+    ],
+    "BG": [
+      "Bulgaria",
+      "Bulgarian"
+    ],
+    "BR": [
+      "Brazil",
+      "Brazilian"
+    ],
+    "CA": [
+      "Canada",
+      "Canadian"
+    ],
+    "CH": [
+      "Switzerland",
+      "Swiss"
+    ],
+    "CL": [
+      "Chile",
+      "Chilean"
+    ],
+    "CN": [
+      "China",
+      "Chinese"
+    ],
+    "CY": [
+      "Cyprus",
+      "Cypriot"
+    ],
+    "CZ": [
+      "Czechia",
+      "Czech",
+      "Czech Republic"
+    ],
+    "DE": [
+      "Germany",
+      "German"
+    ],
+    "DK": [
+      "Denmark",
+      "Danish"
+    ],
+    "EE": [
+      "Estonia",
+      "Estonian"
+    ],
+    "EG": [
+      "Egypt",
+      "Egyptian"
+    ],
+    "ES": [
+      "Spain",
+      "Spanish"
+    ],
+    "FI": [
+      "Finland",
+      "Finnish"
+    ],
+    "FR": [
+      "France",
+      "French"
+    ],
+    "GB": [
+      "United Kingdom",
+      "British",
+      "UK"
+    ],
+    "GE": [
+      "Georgia",
+      "Georgian"
+    ],
+    "GR": [
+      "Greece",
+      "Greek"
+    ],
+    "HR": [
+      "Croatia",
+      "Croatian"
+    ],
+    "HU": [
+      "Hungary",
+      "Hungarian"
+    ],
+    "ID": [
+      "Indonesia",
+      "Indonesian"
+    ],
+    "IE": [
+      "Ireland",
+      "Irish"
+    ],
+    "IL": [
+      "Israel",
+      "Israeli"
+    ],
+    "IN": [
+      "India",
+      "Indian"
+    ],
+    "IS": [
+      "Iceland",
+      "Icelandic"
+    ],
+    "IT": [
+      "Italy",
+      "Italian"
+    ],
+    "JP": [
+      "Japan",
+      "Japanese"
+    ],
+    "KR": [
+      "South Korea",
+      "Korean",
+      "Republic of Korea"
+    ],
+    "LT": [
+      "Lithuania",
+      "Lithuanian"
+    ],
+    "LU": [
+      "Luxembourg",
+      "Luxembourgish"
+    ],
+    "LV": [
+      "Latvia",
+      "Latvian"
+    ],
+    "MA": [
+      "Morocco",
+      "Moroccan"
+    ],
+    "MD": [
+      "Moldova",
+      "Moldovan"
+    ],
+    "ME": [
+      "Montenegro",
+      "Montenegrin"
+    ],
+    "MK": [
+      "North Macedonia",
+      "Macedonian"
+    ],
+    "MT": [
+      "Malta",
+      "Maltese"
+    ],
+    "MX": [
+      "Mexico",
+      "Mexican"
+    ],
+    "NL": [
+      "Netherlands",
+      "Dutch",
+      "The Netherlands"
+    ],
+    "NO": [
+      "Norway",
+      "Norwegian"
+    ],
+    "NZ": [
+      "New Zealand",
+      "New Zealand"
+    ],
+    "PL": [
+      "Poland",
+      "Polish"
+    ],
+    "PT": [
+      "Portugal",
+      "Portuguese"
+    ],
+    "RO": [
+      "Romania",
+      "Romanian"
+    ],
+    "RS": [
+      "Serbia",
+      "Serbian"
+    ],
+    "SE": [
+      "Sweden",
+      "Swedish"
+    ],
+    "SG": [
+      "Singapore",
+      "Singaporean"
+    ],
+    "SI": [
+      "Slovenia",
+      "Slovenian"
+    ],
+    "SK": [
+      "Slovakia",
+      "Slovak"
+    ],
+    "TN": [
+      "Tunisia",
+      "Tunisian"
+    ],
+    "TR": [
+      "Türkiye",
+      "Turkish",
+      "Turkey"
+    ],
+    "TW": [
+      "Taiwan",
+      "Taiwanese"
+    ],
+    "UA": [
+      "Ukraine",
+      "Ukrainian"
+    ],
+    "US": [
+      "United States",
+      "American",
+      "United States of America"
+    ],
+    "VN": [
+      "Vietnam",
+      "Vietnamese"
+    ]
+  }
+}
