@@ -174,6 +174,11 @@ class ScoreTests(unittest.TestCase):
     def test_pronoun_boundaries(self):
         profile=example()
         self.assertFalse(self.score(profile)['criteria']['N1']['value'])
+        profile['fields']['advantages']+=' Business opportunities are described.'
+        self.assertFalse(self.score(profile)['criteria']['N1']['value'])
+        profile['fields']['advantages']+=' The US market is mentioned.'
+        self.assertTrue(self.score(profile)['criteria']['N1']['value'])
+        profile=example()
         profile['fields']['advantages']+=' We can document this.'
         self.assertTrue(self.score(profile)['criteria']['N1']['value'])
 
